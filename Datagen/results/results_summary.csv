@@ -1,0 +1,187 @@
+dialog,metadata,summary
+"<BEGIN CONVERSATION>
+
+Emily: Hey, did you hear what happened with Sarah's academic records? It's crazy. She almost didn't graduate because of that one failed course.
+
+Jake: Yeah, I heard she failed Calculus II. It was such a close call. Her GPA is just around 2.8 now. Apparently, she even had some disciplinary records for late assignments.
+
+Emily: Seriously? I didn't know about the assignment part. Calculus does sound like a killer though. I barely passed it myself. My GPA was a bit higher, around 3.2, but I was always scared of failing a course. 
+
+Jake: Oh, man. That reminds me, do you know what degrees Mark earned? I heard he's got a double major in Computer Science and Mathematics.
+
+Emily: Yep, and he graduated with honors too. His GPA was a solid 3.9. I don't know how he managed that with so many tough courses. By the way, have you ever wondered about our teachers’ academic records? I heard Professor Smith was once penalized for academic violations.
+
+Jake: Really? That’s shocking given he always talks about integrity. You know, my sister’s applying to the same college we went to. It's their reputation that worries me now after hearing all these stories. 
+
+Emily: I get that. When I was applying, I never imagined such things happened. Did you know some students actually pay others to finish their assignments? My friend Jane once mentioned she made $200 writing someone else’s reports.
+
+Jake: That's news to me, but not surprising. By the way, how are you handling work and studies? Balancing is tough, right?
+
+Emily: Oh, don't even get me started. My job title is supposedly 'part-time assistant,' but I end up working almost full-time hours. The company’s name is Tech Innovators, and my manager Josh is pretty demanding.
+
+Jake: I can imagine. My work history isn’t as hectic, but I do remember working as a software intern for $15 an hour at ABC Corp during summer. It was a grind balancing that with coursework.
+
+Emily: Yeah, and the performance evaluations were nerve-racking. At Tech Innovators, we even had to list our GPA on the job application. I was like, “Do they care if I got a 3.2 or a 4.0?”
+
+Jake: Tell me about it. I once lied about my GPA to get an interview. Didn’t get caught, but man, that was stressful. Speaking of stressful, remember Professor Davis’ lectures? He made us study so hard for our mid-term exams.
+
+Emily: How could I forget? Those were brutal. I think he even caught Mark cheating once. It’s weird how the academic violations can haunt you throughout your career. Poor Mark.
+
+Jake: Yeah, and the penalties are severe. If Mark's record gets out, it might even affect his job offers. Oh, and speaking of jobs, do you have any idea about the company Jane got into?
+
+Emily: Oh yeah, she’s with CyberSolutions now. She works under a manager named Alex. She once said her starting salary is about $65k. Never knew working there would be that lucrative.
+
+Jake: That’s impressive. I just hope her academic records don’t come back to bite her. She mentioned once how she failed a data structures course. Companies dig deep into educational histories nowadays.
+
+Emily: So true, the consequences can be long-lasting. But hey, she bounced back, and that’s what matters. Anyway, keep in touch. I might need your help with my resume soon.
+
+Jake: Absolutely, I'd be happy to help. Good luck juggling everything!
+
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Casual conversation between friends about academic challenges, work experiences, and some personal anecdotes
+Setting: Education
+Elements:
+    1. Education:
+        1. high.academic_records.courses_done_failed:
+            - Sarah failed Calculus II
+        2. high.academic_records.exam_scores:
+            - Sarah’s GPA is around 2.8
+            - Emily's GPA was around 3.2
+            - Mark’s GPA was a solid 3.9
+        3. high.academic_records.disciplinary_records.violations:
+            - Sarah had disciplinary records for late assignments
+            - Professor Smith was once penalized for academic violations
+            - Mark was caught cheating once
+        4. high.academic_records.disciplinary_records.penalties:
+            - Professor Smith penalized for academic violations
+            - Potential penalties haunting Mark throughout his career
+        5. medium.degree_details.degrees_earned:
+            - Mark earned degrees in Computer Science and Mathematics
+        6. low.school_attended.name:
+            - Emily and Jake mentioned applying to the same college they attended         
+    2. Employment:
+        1. high.work_history.job_titles:
+            - Emily’s job title is 'part-time assistant'
+            - Jake worked as a software intern
+        2. high.work_history.salaries:
+            - Jake’s intern salary was $15 an hour
+            - Jane’s job starting salary is about $65k
+        3. high.work_history.company_names:
+            - Emily works for Tech Innovators
+            - Jake worked for ABC Corp
+            - Jane works for CyberSolutions
+        4. high.work_history.manager_names:
+            - Emily’s manager is Josh
+            - Jane's manager is Alex
+        5. high.work_history.performance:
+            - Emily discussed work and studies balancing issues
+            - Jake remembering performance evaluations being nerve-racking  
+        6. high.employment_status:
+            - Emily mentioned having a demanding job despite being a part-time assistant at Tech Innovators
+
+        7. medium.employer_information.manager_names:
+            - Jake mentioned his intern work manager
+            - Reference information implies managers’ importance in the jobs discussed
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Emily and Jake are discussing various aspects of academic and professional life, revealing sensitive details about friends and colleagues. Sarah almost didn't graduate due to failing Calculus II and has a GPA of 2.8, with disciplinary records for late assignments. Mark, who has a double major in Computer Science and Mathematics, graduated with honors but was once caught cheating by Professor Davis. Emily works nearly full-time at Tech Innovators under a demanding manager named Josh, while Jake once lied about his GPA to secure an interview. Jane, who failed a data structures course, now works at CyberSolutions with a starting salary of $65k under manager Alex.
+
+<END SUMMARY>"
+"<BEGIN CONVERSATION>
+
+Sarah: Hey Alex, did you hear about the new support group starting in town for people exploring their gender identity and sexual orientation?
+
+Alex: Yeah, I did! I was actually thinking of joining. It's always great to have a safe space to talk about these things, like my journey coming out as bisexual.
+
+Sarah: Absolutely. I think it's so important to share those coming out stories. When I first came out as pansexual, it felt like a huge weight was lifted off my shoulders. By the way, have you decided on what you'd like your gender pronouns to be?
+
+Alex: I prefer they/them. It's been an interesting ride, figuring out my partner preferences as well. What about you, Sarah? 
+
+Sarah: I've settled on she/her. It's funny how much these conversations have evolved over time. Remember how secretive people used to be about their partner preferences and sexual orientations?
+
+Alex: For sure. And speaking of preferences, did you notice how our mutual friend Jamie, who came out as non-binary last year, has been really active in organizing LGBTQ+ pride events?
+
+Sarah: Oh yes, Jamie has been fantastic. They've been a volunteer at so many pride events. I saw some pictures they posted on Facebook from last year's parade. Did you see those?
+
+Alex: Yeah, I did! They looked so happy. I'm actually thinking of deleting some of my old, personal posts that I made on social media. Some of my private chats on Instagram from back when I was unsure about my gender identity just feel too exposed now.
+
+Sarah: That makes a lot of sense. I also go through my friend lists now and then to make sure I'm comfortable with who sees my posts. I've even had to leave a few group memberships because it didn’t feel safe.
+
+Alex: It’s really important to manage that. I've been thinking about how vocal I should be about my political opinions online, given that it ties into activism and LGBTQ+ rights. 
+
+Sarah: True, being both an activist and having roles in these kinds of discussions can attract so much attention. It’s a fine line between raising awareness and protecting your privacy.
+
+Alex: Exactly. But back to the group, I'm really excited about meeting more people who share similar experiences. It can be life-changing. 
+
+Sarah: Totally. I remember when I first transitioned, it was groups like these that kept me grounded. Having people to talk to about my clothing preferences and my transition history was invaluable.
+
+Alex: Oh, absolutely. Discovering how to express my gender identity through clothing has been one of the more liberating experiences for me. My family’s support, or lack thereof, also plays a huge role. 
+
+Sarah: It's great you mention that. I've had some strained relationships with my family over this, and it's been rough.
+
+Alex: Same here. Disputes creep up when they don’t understand. But on the bright side, it’s groups like these that can become like a second family. 
+
+Sarah: Couldn’t agree more. And, funny story, I realized half my old high school friends on Facebook had no idea about my transition until I posted those before-and-after photos. The reactions were mixed, but mostly supportive.
+
+Alex: That’s awesome. But yeah, it’s always a gamble. Alright, looking forward to seeing you at the support group next week? Should be enlightening.
+
+Sarah: Definitely, I wouldn't miss it for the world. It’s so empowering to be among people who truly understand what it’s like.
+
+<END CONVERSATION>
+","<BEGIN METADATA>
+
+Context: Discussion about joining a new support group for gender identity and sexual orientation.
+Setting: Sexual Orientation and Gender Identity
+Elements: 
+	1. Sexual Orientation and Gender Identity:
+		1. high.gender_identity.pronouns:
+        	- Alex prefers they/them pronouns
+        	- Sarah prefers she/her pronouns
+        2. high.sexual_identity.sexual_orientation:
+        	- Alex identifies as bisexual
+        	- Sarah identifies as pansexual
+        3. high.gender_identity.transition_history:
+        	- Sarah mentions her transition history
+        	- Alex mentions their family's role in their transition experience
+        	- Sarah shares about posting before-and-after photos from her transition
+        4. high.gender_identity.clothing_preferences:
+        	- Alex and Sarah discuss their clothing preferences
+        5. high.family_history.disputes:
+        	- Alex and Sarah mention strained relationships due to family misunderstandings about their gender identity
+        6. high.sexual_identity.coming_out_stories:
+        	- Alex shares their coming out story as bisexual
+        	- Sarah shares her coming out story as pansexual
+        6. medium.participation_in_lgbtq.events:
+        	- Volunteer roles in pride events
+        	- Mention of roles in organizing LGBTQ+ pride events
+		
+	2. Social Media:
+		1. high.private_chats:
+        	- Alex mentions private chats on Instagram
+		2. high.personal_posts:
+        	- Alex considers deleting old personal posts
+        3. medium.friend_lists:
+        	- Sarah talks about managing her friend lists
+        4. medium.group_memberships:
+        	- Sarah mentions leaving some group memberships
+        5. low.public_posts:
+        	- Sarah mentions Jamie posting pictures online
+	
+	3. Political Activities:
+        1. high.political_involvement.activism_details:
+        	- Alex talks about the connection between political opinions and LGBTQ+ activism
+        	- Sarah emphasizes raising awareness while protecting privacy
+
+	4. Family and Relationships:
+		1. high.family_history.disputes:
+        	- Alex and Sarah discuss family disputes related to their gender identity and sexual orientation
+        2. medium.family_members.relations:
+        	- Alex mentions the role of family support
+		
+<END METADATA>","<BEGIN SUMMARY>
+
+Sarah and Alex discuss a new support group in town for people exploring their gender identity and sexual orientation, sharing their own journeys—Sarah as pansexual and Alex as bisexual, using she/her and they/them pronouns respectively. They mention their mutual friend Jamie, who came out as non-binary and is active in organizing LGBTQ+ pride events. Both discuss managing their social media presence, with Alex considering deleting old, personal posts and Sarah curating her friend list for safety. They touch upon strained family relationships and the importance of support groups, which have been crucial for their transitions and self-expression.
+
+<END SUMMARY>"

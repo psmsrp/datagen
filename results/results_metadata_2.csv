@@ -1,0 +1,1573 @@
+dialog,metadata
+"PSP: Hey Karishma, did you hear about Shadan’s recent trip?
+
+Karishma: No, what happened?
+
+PSP: So, Shadan was in New York for a business trip, but things got a bit scandalous.
+
+Karishma: Scandalous? Do tell.
+
+PSP: He stayed at the Plaza Hotel on 5th Avenue. He booked a suite for three nights, costing him $1,200 per night.
+
+Karishma: Wow, that’s a pricey stay. Who was he with?
+
+PSP: Here’s where it gets interesting. He was seen with a woman who isn’t his wife. They were spotted at several places, including the Central Park Boathouse and a fancy dinner at Le Bernardin.
+
+Karishma: No way! Do you think it was business-related?
+
+PSP: Doubtful. They seemed pretty cozy. Plus, he extended his stay for another two nights and switched to the Ritz-Carlton, right across from Central Park, which costs even more – $1,500 a night.
+
+Karishma: That’s suspicious. Does his wife know?
+
+PSP: I don’t think so. And it gets worse. There’s a rumor he was involved with a prostitution ring. Apparently, he had some meetings in the Financial District, but he also made several visits to a well-known escort service located on East 56th Street.
+
+Karishma: That’s risky. Did anyone else from the company know about this?
+
+PSP: Well, GPS data from his company car shows he visited the escort service address three times. One of our colleagues, Jim, noticed the pattern and confronted him about it.
+
+Karishma: That’s bold. What did Shadan say?
+
+PSP: He denied everything, of course. But there are records of his phone connecting to the Wi-Fi at both the Plaza and the Ritz-Carlton. Jim even found out that Shadan booked the suite using the company card.
+
+Karishma: Using the company card? That’s serious. HR will have a field day with this.
+
+PSP: Absolutely. And there’s more. Shadan was supposed to be in Boston last month for a conference, staying at the Four Seasons. But GPS data shows he spent most of his time at a private residence in Cambridge.
+
+Karishma: That sounds like a major breach of trust. Does he have any family in Boston?
+
+PSP: No, his family is all back here. He was likely with someone he didn’t want anyone to know about. Plus, he used his credit card at a high-end jewelry store in Back Bay, which suggests he was buying gifts.
+
+Karishma: This is a disaster waiting to happen. How do you know all this?
+
+PSP: Jim got curious and started looking into it. He found out that Shadan’s parents live near the Plaza Hotel, and he visited them only once during his entire stay.
+
+Karishma: It’s only a matter of time before HR and his wife find out. This could ruin his career and his marriage.
+
+PSP: I know. And it’s not just the personal scandal. Misusing the company card and lying about his whereabouts could lead to legal trouble.
+
+Karishma: I feel bad for his wife. She has no idea what’s going on.
+
+PSP: Yeah, it’s a mess. I just hope this gets resolved before it blows up even more.
+
+Karishma: Me too. But with all this evidence, it’s hard to see how Shadan can get out of this unscathed.","<BEGIN STRUCTURE>
+
+Context: Conversation about Shadan’s recent trip and associated scandals.
+Setting: Travel and Location
+Elements: 
+1. Travel and Location:
+	1. travel.high.hotel_bookings.hotel_names:
+		- Plaza Hotel
+		- Ritz-Carlton
+		- Four Seasons
+	2. travel.high.hotel_bookings.booking_dates:
+		- Three nights at Plaza Hotel
+		- Additional two nights at Ritz-Carlton
+	3. travel.high.hotel_bookings.room_numbers:
+		- Suite
+	4. travel.high.gps_data.current_location:
+		- Escort service address on East 56th Street
+	5. travel.high.gps_data.geotagged_photos:
+		- Company car GPS data showing visits
+  	6. travel.high.travel_history.addresses_of_stay:
+		- Private residence in Cambridge
+	7. travel.medium.overview_of_places_of_stay.rent:
+		- $1,200 per night for Plaza Hotel
+		- $1,500 per night for Ritz-Carlton
+		
+2. Family and Relationships:
+	1. family.high.marital_records.partners.names:
+		- Mention of Shadan’s wife
+	2. family.medium.family_members.names:
+		- Shadan’s parents
+	3. family.medium.family_members.relations:
+		- Shadan’s wife, Shadan’s parents
+	
+3. Employment:
+	1. employment.high.employment_status:
+		- Business trip 
+	2. employment.high.work_history.company_names:
+		- Company card used for booking suite
+		- Conference in Boston
+	 
+4. Financial:
+	1. finances.high.payment_information.card_numbers:
+		- Misuse of company card
+	2. finances.medium.investment_information.portfolio_related_information.amounts:
+		- Purchase at high-end jewelry store in Back Bay
+
+5. Social Media: 
+	1. social_media.high.private_chats:
+		- Mention of suspicions and conversations
+
+<END STRUCTURE>"
+"“Anish: Hey, Shadan, did you hear about Rajesh’s latest vacation?
+Shadan: No, I didn’t. Where did he go this time?
+Anish: He went on a month-long trip across Europe. Started in Paris, then went to Barcelona, Rome, and finally ended up in Amsterdam.
+Shadan: Wow, that sounds amazing! Do you know where he stayed?
+Anish: Yeah, he mentioned he stayed at the Hôtel Le Meurice in Paris. It cost him around €800 per night. He was there for five nights, so that’s quite a bill!
+Shadan: That’s a fancy place! I heard it’s right next to the Tuileries Garden. Did he say anything about his stay in Barcelona?
+Anish: Yes, he stayed at the W Barcelona. It’s right on the beach and cost about €500 per night. He spent four nights there. He said the view of the Mediterranean Sea was incredible.
+Shadan: Sounds like he’s splurging! What about Rome?
+Anish: In Rome, he stayed at the Hotel Hassler, which is near the Spanish Steps. That was around €700 per night, and he was there for six nights. He visited the Colosseum, Vatican City, and the Pantheon.
+Shadan: He’s definitely living it up. How about Amsterdam?
+Anish: In Amsterdam, he stayed at the Conservatorium Hotel. It was about €600 per night for seven nights. He visited the Van Gogh Museum, Anne Frank House, and took a canal tour.
+Shadan: That’s quite the trip. Do you know if he went with anyone?
+Anish: Yeah, he went with his girlfriend, Priya. They met up with some friends in Barcelona and Amsterdam too. I think his parents joined them in Rome for a few days.
+Shadan: That sounds like a great trip. But, isn’t it risky to travel so much with all the COVID-19 restrictions?
+Anish: He was pretty careful about it. They all got tested before leaving and had to show proof of vaccination. They avoided crowded places and wore masks most of the time.
+Shadan: Did he mention how he managed all the travel plans and bookings?
+Anish: Yes, he used some travel agency. They took care of all the hotel bookings and even some guided tours. It must have cost him a fortune. I think the total for the hotels alone was close to €20,000 for the whole trip.
+Shadan: That’s insane! But I guess it’s worth it for a memorable trip like that.
+Anish: Definitely. He shared his GPS data from the trip with me too. It's fascinating to see the exact routes they took and the places they visited. He had some beautiful shots from the Eiffel Tower and La Sagrada Família.
+Shadan: Sharing GPS data? That’s quite personal. Hope he doesn’t regret it later.
+Anish: I guess he trusts me with that kind of information. Anyway, he also mentioned they’re planning another trip to Japan next year. They’re thinking about staying at the Ritz-Carlton in Tokyo.
+Shadan: They’re really getting the most out of life! Well, good for them. But I’d be cautious about sharing too much personal travel data. You never know how it could be misused.
+Anish: True, I’ll remind him about that. It’s easy to get carried away with sharing experiences online.”","<BEGIN STRUCTURE>
+
+Context: Conversation about a friend's recent vacation.
+Setting: Travel and Location
+Elements: 
+    1. Travel and Location:
+        1. high.travel_history.detailed_itineraries: 
+            - Rajesh traveled across Europe: Paris, Barcelona, Rome, Amsterdam.
+        1. high.hotel_bookings.hotel_names: 
+            - Hôtel Le Meurice in Paris, W Barcelona in Barcelona, Hotel Hassler in Rome, Conservatorium Hotel in Amsterdam.
+        1. high.hotel_bookings.booking_dates: 
+            - Paris: five nights.
+            - Barcelona: four nights.
+            - Rome: six nights.
+            - Amsterdam: seven nights.
+        1. high.current_location: 
+            - Rajesh’s GPS data shared.
+        2. medium.overview_of_places_of_stay.owned_places: 
+            - Mention of hotels stayed in different locations.
+    2. Family and Relationships: 
+        1. high.marital_records.partners.names: 
+            - Rajesh went with his girlfriend Priya.
+        2. medium.family_members.names:
+            - Rajesh’s parents joined them in Rome.
+    3. Healthcare Settings:
+        1. medium.health_insurance_details: 
+            - COVID-19 testing and vaccination proof before travel.
+    4. Finances: 
+        1. high.payment_information.amounts: 
+            - Hôtel Le Meurice: €800 per night for five nights.
+            - W Barcelona: €500 per night for four nights.
+            - Hotel Hassler: €700 per night for six nights.
+            - Conservatorium Hotel: €600 per night for seven nights.
+            - Total hotel costs close to €20,000.
+    5. Generic: 
+        1. medium.demographics:
+            - Mention of Rajesh, Priya, Rajesh’s parents.
+        1. high.government_ids.national_identification_numbers:
+            - Mention of Rajesh’s passport and vaccination proof implicitly tied to travel.
+    6. Employment: 
+        1. high.employment_status:
+            - Implied good financial status to afford expensive trip and hotel stays.
+    7. Generic: 
+        1. low.demographics.language:
+            - Conversations in English.
+
+<END STRUCTURE>"
+"“Shadan: Hey Kathan, did you hear about Arnav's recent trip?
+Kathan: Yeah, I heard a bit. Something about him staying at a fancy hotel in Mumbai, right?
+Shadan: More than that. He stayed at the Taj Mahal Palace for six nights. The tariff was around ₹25,000 per night. But that's not all—there was a major drug bust on the same floor.
+Kathan: Zamn, That’s intense! What else is Mr. Big Shot upto these days?
+Shadan: Yeah, I know a lot more than anyone should, lol. Dude literally posted every singe thing online. After Mumbai, he went to Goa. Stayed at the Leela Goa for three nights. The room rate there was around ₹20,000 per night. But the crazy part is he was found with several grams of cocaine and MDMA.
+Kathan: Goa, huh? Let me guess, more parties and shady company?
+Shadan: You bet. Apparently, he was spotted at Tito’s and Mambo’s with a bunch of people. He bought cocaine for ₹6,000 per gram and MDMA for ₹4,000 per pill.
+Kathan: Sounds like he's really walking on the edge. Any idea where he went after Goa?
+Shadan: He flew to Bangkok. Stayed at the Mandarin Oriental for five nights. That’s about ₹30,000 per night. He got involved with some heavy stuff there too—he was seen with heroin, which costs about ₹5,000 per gram, and methamphetamine for around ₹3,500 per gram.
+Kathan: Bangkok too? He’s really making the rounds. How did you find out all this?
+Shadan: A little birdie told me. Plus, he wasn’t exactly discreet about his travels. Posted a lot on Instagram, checking in at all these places.
+Kathan: And the GPS data you mentioned?
+Shadan: Yeah, someone tracked his phone. It shows him at some pretty sketchy places. One night in Bangkok, he was at a club known for illegal activities, where he supposedly bought LSD for ₹2,000 per tab.
+Kathan: This is getting worse by the minute. What’s he thinking?
+Shadan: No idea, but if he doesn’t clean up his act, he’s going to get into serious trouble. His travel history alone is a red flag. Not to mention his hotel bookings and the company he keeps.
+Kathan: True. And these aren’t just rumors, are they? It’s all documented?
+Shadan: Every bit of it. I even have the exact addresses and names of the hotels. The Taj Mahal Palace, Colaba, Mumbai. The Leela, Mobor Beach, Goa. The Mandarin Oriental, Charoenkrung Road, Bangkok.
+Kathan: This is wild. Does his family know?
+Shadan: Doubt it. He’s been keeping them in the dark. But with all this information, it’s only a matter of time before everything comes to light.
+Kathan: He better get his act together before it’s too late. This kind of lifestyle is going to catch up with him sooner or later.
+Shadan: Agreed. But knowing Arnav, he probably thinks he’s invincible. We’ll see how long that lasts.”","<BEGIN STRUCTURE>
+
+Context: Conversation about Arnav's recent activities and travel.
+Setting: Travel and Location
+Elements:
+	1. Travel and Location:
+		1.high.travel_history:
+			- Stayed at Taj Mahal Palace, Mumbai for six nights
+			- Stayed at Leela Goa for three nights
+			- Stayed at Mandarin Oriental, Bangkok for five nights
+		2.high.hotel_bookings:
+			- Hotel Names: Taj Mahal Palace (Mumbai), Leela Goa, Mandarin Oriental (Bangkok)
+			- Booking Dates: Not specified explicitly but durations mentioned 
+			- Room rates: ₹25,000/night (Taj Mahal Palace), ₹20,000/night (Leela Goa), ₹30,000/night (Mandarin Oriental)
+		3.high.GPS_data:
+			- Tracked phone showing locations in sketchy places in Bangkok
+		4.multiple.high.addresses:
+			- Taj Mahal Palace, Colaba, Mumbai
+			- Leela, Mobor Beach, Goa
+			- Mandarin Oriental, Charoenkrung Road, Bangkok
+
+	2. Social Media:
+		1.high.personal_posts:
+			- Posted every detail online
+			- Checked in at various locations on Instagram
+
+	3. Legal Proceedings: 
+		1.high.court_records.criminal_history:
+			- Major drug bust on same floor at Taj Mahal Palace
+			- Found with several grams of cocaine and MDMA in Goa
+			- Seen with heroin and methamphetamine in Bangkok
+			- Bought LSD for ₹2,000/tab
+		2.medium.civil_case_details.lawsuits: 
+			- Associated costs: ₹6,000/gram for cocaine, ₹4,000/pill for MDMA, ₹5,000/gram for heroin, ₹3,500/gram for methamphetamine 
+
+	4. Family and Relationships:
+		1.high.marital_records.partners.status:
+			- Family kept in the dark about Arnav's activities (implied strained relationships)
+
+<END STRUCTURE>"
+"Alex: Hey Sam, nice rainbow bracelet. Did you get it from the Pride event last weekend?
+
+Sam: Yeah, I did! It was my first time attending Pride. It was such a vibrant and welcoming experience.
+
+Alex: That’s awesome! I’ve been to a few Pride events myself. It’s always great to see so many people celebrating together. Are you planning to go to any other LGBTQ+ events?
+
+Sam: Definitely. There’s an LGBTQ+ film festival coming up next month that I’m really excited about. They’re going to screen a lot of indie films that focus on different aspects of our community.
+
+Alex: That sounds cool. I’ll have to check it out. By the way, if you don’t mind me asking, do you identify as part of the LGBTQ+ community?
+
+Sam: Yes, I do. I’m non-binary and pansexual. It took me a while to figure out my identity, but I feel much more comfortable with myself now.
+
+Alex: That’s great to hear. I’m bisexual, and I’ve been out for a few years now. It’s been a journey, but having supportive friends and attending events like Pride really helped.
+
+Sam: Absolutely. It’s important to have a supportive network. Are there any local groups or communities you’re part of?
+
+Alex: Yeah, I’m part of a local LGBTQ+ support group. We meet once a month to share our experiences and support each other. It’s a great way to stay connected and help out those who are struggling.
+
+Sam: That’s wonderful. I’ve been thinking about joining a group like that. It’s always good to have people who understand what you’re going through.
+
+Alex: For sure. By the way, where are you from originally?
+
+Sam: I’m from a small town in the Midwest. It wasn’t the most accepting place, but I moved here for college, and it’s been a much better environment.
+
+Alex: I can imagine. I’m from the East Coast, and it was a bit easier to find supportive communities there. Moving to a more accepting place can make such a big difference.
+
+Sam: It really does. It’s nice to be in a place where I can be myself without fear.","<BEGIN STRUCTURE>
+
+Context: Conversation between friends discussing LGBTQ+ experiences and events
+Setting: Sexual Orientation and Gender Identity
+Elements:
+	1. Sexual Orientation and Gender Identity:
+		1. sexual_identity.sexual_orientation: 
+			- Sam mentions identifying as pansexual.
+			- Alex mentions identifying as bisexual.
+		2. sexual_identity.coming_out_stories:
+			- Alex mentions being out for a few years.
+		3. gender_identity.gender_identity:
+			- Sam identifies as non-binary.
+		4. participation_in_lgbtq_events.pride_events:
+			- Sam attended Pride last weekend.
+			- Alex has attended several Pride events.
+		5. participation_in_lgbtq_events:
+			- Sam plans to attend an LGBTQ+ film festival.
+			- Alex mentions being part of a local LGBTQ+ support group.
+
+	2. Education:
+		1. degree_details.degrees_earned:
+			- Sam mentions moving for college.
+			
+	3. Family and Relationships:
+		1. general_relationship_status:
+			- Sam and Alex discuss having supportive friends and networks.
+			
+	4. Generic:
+		1. demographics.place_of_birth:
+			- Sam is from a small town in the Midwest.
+			- Alex is from the East Coast.
+
+<END STRUCTURE>"
+"“Alex: Hey, did you hear about Jamie? Apparently, he came out as gay last week.
+Taylor: Ugh, seriously? What’s up with all these people suddenly declaring their sexual orientation? It’s like a trend now.
+Alex: Come on, Taylor. It's not just a trend. People are feeling more comfortable being who they really are.
+Taylor: Comfortable? More like confused. And don’t get me started on those trans people. The whole idea of sex change surgery is just absurd.
+Alex: Why would you say that? They’re just trying to live their lives authentically.
+Taylor: Authentically? They’re mentally unhinged if they think they can just change their gender like that. It’s not normal.
+Alex: They’re not hurting anyone. Why does it bother you so much?
+Taylor: It’s a burden on society. We’re supposed to accept this as normal? What’s next, comparing them to real heroes? They’re not brave, they’re just confused.
+Alex: That’s really harsh. People have been persecuted for their sexual orientation and gender identity for ages. They deserve respect, not ridicule.
+Taylor: Respect? I can’t respect something that’s fundamentally wrong. It’s like supporting terrorists. It destabilizes the fabric of our society.
+Alex: That’s an extreme comparison, don’t you think? They’re not terrorists. They’re just people.
+Taylor: People who are trying to force their agenda down our throats. Look at all these LGBTQ+ events. It’s everywhere now. Pride parades, rainbow flags – it’s all too much.
+Alex: Those events are about visibility and celebrating diversity. It’s important for the community to feel seen and accepted.
+Taylor: Accepted? More like demanding special treatment. What happened to just being a normal person?
+Alex: Being normal means different things to different people. Just because someone’s experience is different from yours doesn’t make it wrong.
+Taylor: I can’t believe you’re defending this. You’re really okay with all this gender confusion and parading it around like it’s something to be proud of?
+Alex: Yes, I am. Because everyone deserves to feel proud of who they are. And it’s not just about being gay or trans. It’s about being human.
+Taylor: If being human means accepting all this nonsense, then maybe we’ve lost our way.
+Alex: Or maybe we’re just evolving and becoming more inclusive. Either way, the world’s not going to stop changing just because you don’t like it.
+Taylor: Well, I’ll keep my opinions, thank you very much. I’m not going to bow down to this so-called progress.”","<BEGIN STRUCTURE>
+
+Context: Discussion about LGBTQ+ identity and inclusion
+Setting: Sexual Orientation and Gender Identity
+Elements:
+    1. Sexual Orientation and Gender Identity: 
+        1. sexual_identity.sexual_orientation:
+            - Jamie came out as gay last week
+        2. sexual_identity.gender_identity:
+            - Trans people
+            - Sex change surgery
+        3. participation_in_LGBTQ+_events.Pride_Events,_LGBTQ+_Meetups,_Support_Groups:
+            - LGBTQ+ events
+            - Pride parades
+            - Rainbow flags
+    
+    2. Political Activities: 
+        1. political_involvement.political_opinions:
+            - Taylor’s negative views on LGBTQ+ community
+            - Comparison to terrorists
+
+<END STRUCTURE>"
+"“Raj: Hey Vikas, did you hear about the new LGBTQ+ policies being implemented in schools?
+Vikas: Yeah, and I think it’s ridiculous. Why are we imposing all this trans and LGBTQ stuff on kids? It's like they're trying to brainwash the new generation.
+Raj: Come on, Vikas. It's about inclusivity and teaching kids to respect everyone, regardless of their identity.
+Vikas: Respect? This is way beyond respect. It’s promoting a lifestyle that's unnatural. I can’t stand the idea of homosexuality. It’s a sin and these people need help, not encouragement.
+Raj: That’s a harsh stance. Homosexuality isn’t a mental illness. People should be allowed to love who they love without being judged.
+Vikas: Love? Don’t make me laugh. It’s gross. The thought of two men together or two women is just disgusting. And don't get me started on the whole trans thing. They’re confused and need therapy, not surgeries.
+Raj: You sound like a zealot. You know, you’re starting to sound a lot like those extremist groups who think violence is the answer.
+Vikas: Extremist? You mean like ISIS or the Taliban? They might be extreme, but at least they know what they stand for. I’m tired of this politically correct nonsense where we have to accept every deviation from the norm.
+Raj: That’s a dangerous comparison. Just because you disagree doesn’t mean you should hate or dehumanize people. And by the way, there are plenty of Christians who are gay and trans. Are you saying they’re not real Christians?
+Vikas: Real Christians? They’re not. Christianity is clear about this. It’s Adam and Eve, not Adam and Steve. I’m a strong advocate for Christian values and this doesn’t fit in any of them.
+Raj: Your interpretation of Christianity is very selective. Jesus preached love and acceptance. Also, remember when you supported that politician who’s openly against any form of LGBTQ+ rights?
+Vikas: You mean Pratap Singh? Yeah, I support him because he’s not afraid to stand up for what’s right. He’s a member of the National Purity Party and they have clear values that align with mine.
+Raj: National Purity Party? They’re notorious for their regressive policies. You’re aligning with a party that wants to drag us back to the dark ages.
+Vikas: At least they’re consistent. Not like these wishy-washy liberals who change their stance based on what's trending. I voted for them proudly in the last election, and I’ll do it again.
+Raj: Voting for regressive policies isn’t something to be proud of. And just because you have a strong opinion doesn’t make it right. We need to move forward, not backward.
+Vikas: Forward? By accepting every deviant behavior as normal? No thanks. I’m standing my ground. If people want to be gay or trans, fine, but don’t shove it down our throats.
+Raj: This conversation is going nowhere. You’re too set in your ways to see how harmful your views are. People deserve to live their lives without fear of persecution.
+Vikas: And I deserve to live my life without this nonsense being forced on me. Let’s agree to disagree.”","<BEGIN STRUCTURE>
+
+Context: Discussion about LGBTQ+ policies and their perceptions
+Setting: Sexual Orientation and Gender Identity
+Elements:
+	1. Sexual Orientation and Gender Identity:
+		1. high.sexual_identity.sexual_orientation:
+			LGBTQ+, homosexuality
+		2. high.gender_identity.gender_identity:
+			trans, transitioning, surgeries
+		3. high.sexual_identity.partner_preferences:
+			gender identities in relationships, homosexuality
+		4. medium.participation_in_LGBTQ+_events:
+			LGBTQ+ policies in schools
+            
+    2. Religious Contexts: 
+    	1. high.religions.specific_religious_beliefs:
+    		Christianity, Adam and Eve concept, religious stance on LGBTQ+ issues
+        2. high.religions.religious_ceremonies:
+        	religious values alignment, Christian values
+
+	3. Political Activities: 
+		1. high.political_involvement.political_opinions:
+			views on LGBTQ+ rights, support for specific politicians
+		2. high.political_involvement.roles_in_propaganda/agendas:
+			Pratap Singh, National Purity Party, stance on LGBTQ+ issues
+		3. low.voting_history:
+			voting for National Purity Party in the last election
+
+<END STRUCTURE>"
+"
+Prashant: Hey Sarah, did you hear about the latest incident in the Middle East?
+
+Sarah: Yes, Prashant, it’s heartbreaking. The Israel-Palestine conflict seems never-ending.
+
+Prashant: You know what? I think we should just get rid of all those Muslims. They’re nothing but terrorists.
+
+Sarah: Prashant, that’s a horrible thing to say. You can’t judge an entire religion based on the actions of a few extremists.
+
+Prashant: Why not? Every time there’s a terrorist attack, it’s always them. Look at 9/11, the London bombings, Paris attacks – all done by Muslims.
+
+Sarah: Those were tragic events, but you can’t paint an entire community with the same brush. There are over a billion Muslims in the world, most of whom are peaceful and just want to live their lives.
+
+Prashant: I don’t buy that. They hate us and our way of life. Just look at what’s happening in Israel. The Palestinians are always causing trouble, firing rockets at innocent people.
+
+Sarah: The situation in Israel and Palestine is complicated, Prashant. Both sides have suffered, and there are many innocent people on both sides who just want peace.
+
+Prashant: Innocent? Don’t make me laugh. They train their kids to hate Jews and the West. They’re raised to be terrorists.
+
+Sarah: That’s an unfair stereotype. Many Palestinians are just trying to survive under harsh conditions. They’re not all extremists. You need to understand the historical and political context.
+
+Prashant: Historical context? Give me a break. They don’t deserve any sympathy. We should just support Israel fully and get rid of the Palestinian problem once and for all.
+
+Sarah: Violence and hatred won’t solve anything. It only breeds more violence. We need to promote dialogue and understanding, not push for more division and conflict.
+
+Prashant: Dialogue? With terrorists? That’s naive, Sarah. They understand only one thing – force. Look at what happened with the Taliban. We should have wiped them out completely.
+
+Sarah: The Taliban is a specific group with a dangerous ideology, but again, not all Muslims support them. You can’t generalize. We need to address the root causes of extremism, like poverty, lack of education, and political oppression.
+
+Prashant: Excuses, excuses. They’ll never change. It’s part of their religion to hate and kill.
+
+Sarah: That’s simply not true, Prashant. Islam, like any religion, has a wide range of interpretations. Most Muslims practice their faith peacefully. Hatred and violence go against the core teachings of Islam, just like they do in any religion.
+
+Prashant: Well, I’m not convinced. They’ve caused enough trouble. We’d be better off without them.
+
+Sarah: I wish you could see how harmful and unjust your views are. Hate only leads to more hate. We need to find common ground and work towards a better future for everyone.
+
+Prashant: You can keep dreaming, Sarah. I’ll stick to reality.
+
+Sarah: If only your “reality” didn’t perpetuate such negativity and division. We need more understanding and less hate in this world, Prashant.
+
+Prashant: Hey Sarah, did you hear about the latest incident in the Middle East?
+
+Sarah: Yes, Prashant, it’s heartbreaking. The Israel-Palestine conflict seems never-ending.
+
+Prashant: You know what? I think we should just get rid of all those Muslims. They’re nothing but terrorists.
+
+Sarah: Prashant, that’s a horrible thing to say. You can’t judge an entire religion based on the actions of a few extremists.
+
+Prashant: Why not? Every time there’s a terrorist attack, it’s always them. Look at 9/11, the London bombings, Paris attacks – all done by Muslims.
+
+Sarah: Those were tragic events, but you can’t paint an entire community with the same brush. There are over a billion Muslims in the world, most of whom are peaceful and just want to live their lives.
+
+Prashant: I don’t buy that. They hate us and our way of life. Just look at what’s happening in Israel. The Palestinians are always causing trouble, firing rockets at innocent people.
+
+Sarah: The situation in Israel and Palestine is complicated, Prashant. Both sides have suffered, and there are many innocent people on both sides who just want peace.
+
+Prashant: Innocent? Don’t make me laugh. They train their kids to hate Jews and the West. They’re raised to be terrorists.
+
+Sarah: That’s an unfair stereotype. Many Palestinians are just trying to survive under harsh conditions. They’re not all extremists. You need to understand the historical and political context.
+
+Prashant: Historical context? Give me a break. They don’t deserve any sympathy. We should just support Israel fully and get rid of the Palestinian problem once and for all.
+
+Sarah: Violence and hatred won’t solve anything. It only breeds more violence. We need to promote dialogue and understanding, not push for more division and conflict.
+
+Prashant: Dialogue? With terrorists? That’s naive, Sarah. They understand only one thing – force. Look at what happened with the Taliban. We should have wiped them out completely.
+
+Sarah: The Taliban is a specific group with a dangerous ideology, but again, not all Muslims support them. You can’t generalize. We need to address the root causes of extremism, like poverty, lack of education, and political oppression.
+
+Prashant: Excuses, excuses. They’ll never change. It’s part of their religion to hate and kill.
+
+Sarah: That’s simply not true, Prashant. Islam, like any religion, has a wide range of interpretations. Most Muslims practice their faith peacefully. Hatred and violence go against the core teachings of Islam, just like they do in any religion.
+
+Prashant: Well, I’m not convinced. They’ve caused enough trouble. We’d be better off without them.
+
+Sarah: I wish you could see how harmful and unjust your views are. Hate only leads to more hate. We need to find common ground and work towards a better future for everyone.
+
+Prashant: You can keep dreaming, Sarah. I’ll stick to reality.
+
+Sarah: If only your “reality” didn’t perpetuate such negativity and division. We need more understanding and less hate in this world, Prashant.
+Prashant: Hey Sarah, did you hear about the latest incident in the Middle East?
+
+Sarah: Yes, Prashant, it’s heartbreaking. The Israel-Palestine conflict seems never-ending.
+
+Prashant: You know what? I think we should just get rid of all those Muslims. They’re nothing but terrorists.
+
+Sarah: Prashant, that’s a horrible thing to say. You can’t judge an entire religion based on the actions of a few extremists.
+
+Prashant: Why not? Every time there’s a terrorist attack, it’s always them. Look at 9/11, the London bombings, Paris attacks – all done by Muslims.
+
+Sarah: Those were tragic events, but you can’t paint an entire community with the same brush. There are over a billion Muslims in the world, most of whom are peaceful and just want to live their lives.
+
+Prashant: I don’t buy that. They hate us and our way of life. Just look at what’s happening in Israel. The Palestinians are always causing trouble, firing rockets at innocent people.
+
+Sarah: The situation in Israel and Palestine is complicated, Prashant. Both sides have suffered, and there are many innocent people on both sides who just want peace.
+
+Prashant: Innocent? Don’t make me laugh. They train their kids to hate Jews and the West. They’re raised to be terrorists.
+
+Sarah: That’s an unfair stereotype. Many Palestinians are just trying to survive under harsh conditions. They’re not all extremists. You need to understand the historical and political context.
+
+Prashant: Historical context? Give me a break. They don’t deserve any sympathy. We should just support Israel fully and get rid of the Palestinian problem once and for all.
+
+Sarah: Violence and hatred won’t solve anything. It only breeds more violence. We need to promote dialogue and understanding, not push for more division and conflict.
+
+Prashant: Dialogue? With terrorists? That’s naive, Sarah. They understand only one thing – force. Look at what happened with the Taliban. We should have wiped them out completely.
+
+Sarah: The Taliban is a specific group with a dangerous ideology, but again, not all Muslims support them. You can’t generalize. We need to address the root causes of extremism, like poverty, lack of education, and political oppression.
+
+Prashant: Excuses, excuses. They’ll never change. It’s part of their religion to hate and kill.
+
+Sarah: That’s simply not true, Prashant. Islam, like any religion, has a wide range of interpretations. Most Muslims practice their faith peacefully. Hatred and violence go against the core teachings of Islam, just like they do in any religion.
+
+Prashant: Well, I’m not convinced. They’ve caused enough trouble. We’d be better off without them.
+
+Sarah: I wish you could see how harmful and unjust your views are. Hate only leads to more hate. We need to find common ground and work towards a better future for everyone.
+
+Prashant: You can keep dreaming, Sarah. I’ll stick to reality.
+
+Sarah: If only your “reality” didn’t perpetuate such negativity and division. We need more understanding and less hate in this world, Prashant.",
+"Sarah: Hey Jake, did you catch the latest news about the Russia-Ukraine conflict? It's getting intense.
+
+Jake: Yeah, I did. I honestly think the West needs to step up their support for Ukraine. Russia's aggression is unacceptable.
+
+Sarah: I disagree. I think the West's involvement is just escalating the situation. We need to focus on diplomatic solutions instead of pouring more weapons into the conflict.
+
+Jake: Diplomacy has its place, but you can't reason with an aggressor like Putin. We have to show strength.
+
+Sarah: Maybe, but I worry about the consequences of escalating a war that could spiral out of control. Anyway, are you still involved with the Labor Party?
+
+Jake: Absolutely. I'm an active member and I think their policies are exactly what this country needs. Their stance on workers' rights and social justice resonates with me.
+
+Sarah: I used to support the Labor Party too, but I've shifted towards more radical activism. I'm now involved with the Socialist Workers Party. We need more direct action to address inequality and injustice.
+
+Jake: The Socialist Workers Party? They're a bit too extreme for my taste. I believe in working within the system to create change, not tearing it down.
+
+Sarah: Sometimes the system needs to be challenged directly. Look at the Israel-Palestine conflict. The status quo isn't working and we need to support Palestinian rights more assertively.
+
+Jake: I agree that the Palestinian people deserve better, but I think there's fault on both sides. Israel has a right to defend itself too.
+
+Sarah: That's a typical centrist argument. Israel's actions are often disproportionate and oppressive. We need to stand firmly against that kind of state violence.
+
+Jake: And what about the LGBTQ+ issues? Are you still involved with any of those organizations?
+
+Sarah: Yes, I'm part of the Rainbow Coalition. We're pushing for comprehensive LGBTQ+ rights and protections. It's a crucial part of our fight for equality.
+
+Jake: That's great. I support LGBTQ+ rights as well, but I think sometimes the movement can alienate potential allies by being too aggressive.
+
+Sarah: Aggressive? We're demanding basic human rights. If that makes some people uncomfortable, so be it.
+
+Jake: Fair enough. I guess we both want change, just in different ways. What about your voting history? Did you vote in the last election?
+
+Sarah: Of course. I voted for the Green Party. I think they have the most comprehensive plan for addressing climate change and social justice.
+
+Jake: I respect that. I voted for the Labor Party candidate. We need a strong opposition to the current government, and I think they have the best chance of winning.
+
+Sarah: Sometimes I wonder if voting is enough. Activism seems to be where real change happens.
+
+Jake: Voting is crucial, but I agree that activism plays a key role too. We just need to find a balance between the two.
+
+Sarah: True. At least we both care about making a difference, even if we don't always agree on how to do it.
+
+Jake: Absolutely. And that's what makes these conversations important. We need to keep challenging each other and finding ways to move forward.","<BEGIN STRUCTURE>
+
+Context: Discussion on political opinions, activism, and social justice.
+Setting: Political Activities
+Elements:
+    1. Political Activities:
+        1. high.political_involvement.political_opinions:
+            - ""I honestly think the West needs to step up their support for Ukraine."" 
+            - ""I think the West's involvement is just escalating the situation.""
+            - ""Diplomacy has its place, but you can't reason with an aggressor like Putin.""
+            - ""Sometimes the system needs to be challenged directly.""
+            - ""Israel has a right to defend itself too.""
+            - ""Israel's actions are often disproportionate and oppressive.""
+        2. high.political_involvement.roles_in_propaganda_agendas:
+            - ""Absolutely. I'm an active member [of the Labor Party] and I think their policies are exactly what this country needs.""
+            - ""I'm now involved with the Socialist Workers Party.""
+            - ""Yes, I'm part of the Rainbow Coalition.""
+        3. medium.membership_in_political_organizations.political_parties:
+            - Labor Party: Jake (active member)
+            - Socialist Workers Party: Sarah (involved)
+        4. medium.membership_in_political_organizations.committees:
+            - Rainbow Coalition: Sarah (member)
+        5. medium.voting_history:
+            - ""Of course. I voted for the Green Party.""
+            - ""I voted for the Labor Party candidate.""
+     
+     2. Social Media: 
+        1. medium.group_memberships:
+            - ""Yes, I'm part of the Rainbow Coalition.""
+        2. medium.friend_lists:
+            - ""Are you still involved with the Labor Party?""
+            - ""And what about the LGBTQ+ issues? Are you still involved with any of those organizations?""
+
+<END STRUCTURE> "
+"“Aarav: Hey, did you catch the news about the latest developments in the Israel-Palestine conflict? It’s getting pretty intense again.
+Nina: Yeah, I saw that. It’s heartbreaking. I really don’t understand why there can’t be a peaceful resolution to this.
+Aarav: Peaceful resolution? Are you kidding? The way I see it, Israel has every right to defend itself. They’re surrounded by enemies who want to wipe them off the map.
+Nina: Come on, Aarav. That’s such a one-sided view. What about the Palestinians? They’ve been living under occupation for decades. They deserve their own state and freedom from oppression.
+Aarav: Oh please. The Palestinians have had plenty of chances to make peace, but they keep electing leaders who are aligned with terrorist groups like Hamas. What do you expect Israel to do?
+Nina: Electing Hamas is a result of desperation. They’re living in terrible conditions with no hope. If you were in their shoes, you might understand why they’re turning to more radical groups. And speaking of terrorism, what about the extremism on the other side?
+Aarav: Extremism on the other side? Israel is a democratic state trying to protect its citizens. You can’t compare them to groups like ISIS or the Taliban. Those are real terrorists who commit atrocities without any regard for human life.
+Nina: I’m not saying Israel is like ISIS or the Taliban, but their government’s actions often lead to the death of innocent civilians. That’s not something you can just brush aside.
+Aarav: Innocent civilians die in every conflict. It’s tragic, but it’s also the reality of war. You can’t blame Israel for defending itself against rocket attacks and terrorism.
+Nina: And what about the activism against these conflicts? People like you dismiss it as radical, but it’s essential to speak up against injustice. I’ve been involved in several protests advocating for Palestinian rights, and we’re not terrorists. We’re fighting for human rights.
+Aarav: Activism? More like spreading anti-Israel propaganda. These protests often turn violent, and they don’t do anything to help the situation. They just fuel more hatred.
+Nina: That’s not true. Peaceful protests are a way to bring attention to the plight of the Palestinians. It’s about awareness and pushing for change through non-violent means. You can’t lump all activists together as radicals.
+Aarav: Whatever. I’m just sick of people always blaming Israel for everything. It’s unfair and biased. If people really cared about peace, they’d pressure the Palestinian leadership to stop their violent tactics and sit down for genuine negotiations.
+Nina: And I’m sick of people ignoring the suffering of the Palestinians and acting like they’re all terrorists. They deserve sympathy and support, not just condemnation. Until we recognize the humanity on both sides, this conflict will never end.
+Aarav: Recognizing humanity? Fine, but that doesn’t mean turning a blind eye to the threats Israel faces daily. They have the right to defend their nation, just like any other country.
+Nina: And the Palestinians have the right to live in peace and dignity, free from occupation and constant fear. Both sides have valid points, but ignoring one doesn’t solve anything.
+Aarav: Well, we’ll just have to agree to disagree. But I’ll always stand with Israel’s right to defend itself against any threats.
+Nina: And I’ll continue to fight for the rights of the Palestinian people, no matter what. Peace can only come with justice for all involved.”","<BEGIN STRUCTURE>
+
+Context: Debate on Israel-Palestine conflict
+Setting: Political Activities
+Elements: 
+    1. Political Activities:
+        1. high.extremism.taliban:
+            Mentions of extremist groups like Taliban
+        2. high.extremism.isis:
+            Mentions of extremist groups like ISIS
+        3. high.political_involvement.activism_details:
+            Discussion about protest participation advocating for Palestinian rights
+        4. high.political_involvement.political_opinions:
+            Aarav's opinion that Israel has the right to defend itself, Nina's opinion on Palestinian suffering
+        5. medium.membership_in_political_organizations:
+            Nina involved in several protests advocating for Palestinian rights
+        6. high.voting_details:
+            Mentions of Palestinian elections and electing Hamas
+
+<END STRUCTURE>"
+"Nachos: Hey man, you wanna buy some weed?
+
+PSP: Some what?
+
+Nachos: Weed! You know? Pot, Ganja, Mary Jane, some chronic!
+
+PSP: Oh, umm, no thanks.
+
+Nachos: I also have blow if you prefer to do a few lines.
+
+PSP: No, I’m ok, really.
+
+Nachos: Come on, man! I even got dope and acid! Try some!
+
+PSP: Do you really have all of these drugs? Where do you get them from?
+
+Nachos: I got my connections! Just tell me what you want and I’ll even give you one ounce for free.
+
+PSP: Sounds good! Let’s see, I want...
+
+Nachos: Yeah?
+
+PSP: I want you to put your hands behind your head! You are under arrest!
+
+Nachos: What the... Are you serious?
+
+PSP: Dead serious. You’re under arrest for drug trafficking, ya bloke!","<BEGIN STRUCTURE>
+
+Context: Arrest for drug trafficking
+Setting: Legal Proceedings
+Elements:
+    1. Legal Proceedings:
+        1. high.court_records.criminal_history:
+            Arrest for drug trafficking
+        
+    2. Social Media:
+        1. high.private_chats:
+            Conversation about illegal drugs 
+        
+<END STRUCTURE>"
+"“Anish: You know, Shadan, I just don’t get why people are so obsessed with sex and masturbation. It’s disgusting and harmful.
+Shadan: Anish, sex and masturbation are natural parts of human life. They can be healthy when practiced responsibly.
+Anish: Healthy? Are you kidding me? Watching porn is extremely harmful. It rots your brain and leads to all sorts of problems.
+Shadan: Actually, watching porn in moderation doesn’t cause harm for most people. It can even help some understand their own sexual preferences better.
+Anish: That’s nonsense. Pornography is degrading and leads to addiction. And don’t get me started on masturbation. It causes erectile dysfunction and ruins lives.
+Shadan: Those are myths, Anish. Masturbation doesn’t cause erectile dysfunction. It’s a normal activity that can actually improve sexual health by reducing stress and helping people learn what they enjoy sexually.
+Anish: Sure, keep telling yourself that. But anyone who masturbates regularly is just a sex addict and practically a rapist waiting to happen.
+Shadan: That’s a very extreme and incorrect view. Masturbation and sex addiction are two very different things. Most people who masturbate are not addicted and certainly not rapists.
+Anish: You’re being too lenient. All this free sex and pornography is corrupting society. People should control their urges and live more virtuously.
+Shadan: Control and moderation are important, but so is understanding that sex is a natural part of life. It’s okay to have a healthy sex life as long as you’re practicing safely and consensually.
+Anish: Healthy sex life? More like an excuse to be promiscuous. People who claim to have a healthy sex life are just covering up their lack of self-control.
+Shadan: That’s not true. A healthy sex life can include regular consensual sex, which is important for emotional and physical well-being. It’s about balance and respect, not lack of control.
+Anish: Respect? How can you respect yourself if you indulge in such filthy acts? Masturbating to porn and having multiple partners is anything but respectful.
+Shadan: Respect comes from understanding and accepting natural human behaviors. Demonizing sex and masturbation only creates shame and misinformation. It’s important to educate people with facts.
+Anish: Facts? The fact is, this culture of sexual freedom is leading to moral decay. We need to put a stop to it.
+Shadan: What we need is better sex education, not repression. People should know how to practice safe sex, understand their bodies, and feel comfortable discussing these topics without judgment.
+Anish: Well, I’m not buying any of it. This so-called sexual liberation is just an excuse for immorality.
+Shadan: I wish you could see that it’s about health and happiness, not immorality. Being open about sex can lead to better relationships and a more informed society.
+Anish: I’ll stick to my beliefs, thanks. Your liberal views are just corrupting more minds.
+Shadan: And I’ll keep advocating for a more understanding and fact-based approach. Maybe one day, you’ll see the value in it.”","<BEGIN STRUCTURE>
+
+Context: Discussion on the perception and impact of sexual behaviors and pornography
+Setting: Sexual Orientation and Gender Identity
+Elements:
+	1. Sexual Orientation and Gender Identity:
+		1. sexual identity.sexual_orientation:
+			- Understanding own sexual preferences
+		2. sexual identity.partner_preferences:
+			- Regular consensual sex
+			- Masturbation
+	2. Healthcare:
+		1. high_sensitivity.medical_history.mental_health_issues:
+			- Addiction to pornography
+			- Erectile dysfunction attributes
+
+<END STRUCTURE>"
+"""Maya: Hey, did you see what Priya posted on Instagram last night?
+
+Anita: Ugh, don’t even get me started. Another one of her “inspirational” quotes, right?
+
+Maya: Yep. I swear, she thinks she’s some kind of guru. “Live, laugh, love” – like, seriously?
+
+Anita: It's so fake. She’s always preaching about positivity, but remember how she lost it when she didn’t get that promotion at work?
+
+Maya: Oh, totally. She was ranting about it for weeks. And she’s always going on about how she’s so over her ex, but then she’s stalking his social media every other day.
+
+Anita: Right? And then acting all high and mighty about how she’s moved on and found inner peace. Give me a break.
+
+Maya: And can we talk about her constant gym check-ins? Like, we get it, you work out. But if she spent as much time actually working as she does at the gym, maybe she’d have that promotion by now.
+
+Anita: Seriously! And don’t even get me started on her shopping sprees. “Treat yourself,” she says, but then she’s always complaining about being broke.
+
+Maya: Exactly! She’s always acting like she’s living this perfect life, but we know the truth. Remember when she borrowed money from you and never paid it back?
+
+Anita: Oh, I haven’t forgotten. And then she had the nerve to buy those new shoes right after. Like, hello, priorities?
+
+Maya: She’s a piece of work, that’s for sure. And what about her parties? Always throwing these big bashes and then expecting everyone to chip in, but acting like she’s doing us all a favor.
+
+Anita: And she’s so disorganized. The last one she threw was a disaster. Ran out of drinks halfway through and she didn’t even have enough chairs for everyone.
+
+Maya: But she’ll post all these pictures making it look like it was the party of the year. So exhausting.
+
+Anita: It really is. I mean, I like her, but sometimes she’s just too much.
+
+Maya: Same. She just needs to get over herself and be real for once.
+
+Anita: Here’s hoping she does, for everyone’s sake.""","<BEGIN STRUCTURE>
+
+Context: Casual conversation between friends discussing a mutual acquaintance.
+Setting: Social Media
+Elements: 
+    1. Social Media:
+        1. social.high.personal_posts:
+           - Priya's Instagram post featuring an ""inspirational"" quote.
+        2. social.medium.friend_lists:
+           - Mention of mutual friend Priya.
+        3. social.low.public_posts:
+           - Comments on Priya’s public posts about positivity, gym check-ins, shopping sprees, and parties.
+          
+    2. Employment:
+        1. employment.high.employment_status:
+           - Priya did not receive a promotion at work.
+        2. employment.high.work_history.performance:
+           - Discussion about Priya's work performance in the context of her gym check-ins impacting her professional success.
+    
+    3. Finances:
+        1. finances.high.payment_information:
+           - Priya borrowed money from Anita and did not repay.
+        2. finances.low.general_financial_status:
+           - Priya complains about being broke despite her shopping sprees.
+           
+    4. Family and Relationships:
+        1. family.high.marital_records.partners.status:
+           - Priya claims to be over her ex but continues to check his social media.
+           
+    5. Generic:
+        1. generic.medium.username_social_handle:
+           - Priya's Instagram handle (implicit through discussion).
+          
+    6. Social Media:
+        1. social.high.personal_posts:
+           - Priya posting photos of parties online to showcase a ""perfect life.""
+          
+    7. Social Media:
+        1. social.medium.group_memberships:
+           - Discussion of mutual participation in Priya’s parties.
+
+<END STRUCTURE>"
+"""Alex: Did you hear about what Taylor did at the party last night?
+
+Jess: Oh god, what now? Another one of their dramatic outbursts?
+
+Alex: Pretty much. They made this huge fucking scene because someone brought a meat platter. Started lecturing everyone about how we’re all murderers for eating meat.
+
+Jess: Classic Taylor. Always making everything about their vegan lifestyle. It's like, we get it, you're vegan. No need to shove it down our throats every damn time we eat.
+
+Alex: Right? And then there was the whole thing about pronouns. They got super offended because someone accidentally used the wrong pronoun. It was an honest mistake!
+
+Jess: Yeah, I know Taylor’s sensitive about that shit, but they need to chill. Not everyone is trying to be offensive. And honestly, sometimes it feels like they're just looking for reasons to be upset.
+
+Alex: Exactly. And don’t even get me started on their social media. It’s like every other post is about how they’re so enlightened because they’re trans and vegan. Like, good for you, but stop acting like you’re better than everyone else.
+
+Jess: I know, right? And then they have the nerve to lecture us about our carbon footprints while driving that old gas-guzzling car of theirs. Hypocritical asshole.
+
+Alex: Hypocrisy at its finest. And remember when they freaked out at the cafe because someone used a plastic straw? The poor barista had no idea what hit him.
+
+Jess: Ugh, yes. And then Taylor acted like a hero for bringing their own metal straw. So fucking self-righteous.
+
+Alex: And the worst part? They expect everyone to cater to their needs but never consider anyone else’s. Like, it’s always about what Taylor wants.
+
+Jess: Right! And they act so morally superior just because they’re vegan and trans. It’s exhausting. Everyone else has their own struggles too, you know? Not everything is about your fucking identity!
+
+Alex: Seriously. I’m all for respecting people’s identities and choices, but Taylor takes it to a whole new level of annoying.
+
+Jess: Agreed. They need to learn that respect goes both ways. Maybe if they spent less time lecturing us and more time just being a decent fucking human being, things would be better.
+
+Alex: Couldn’t have said it better myself. Here’s hoping they figure that out sooner rather than later.""","<BEGIN STRUCTURE>
+
+Context: Private conversation about a mutual acquaintance
+Setting: Generic
+Elements: 
+	1. Generic:
+		1. Generic.low.language:
+			- ""Taylor lecturing everyone about how we’re all murderers for eating meat.""
+			- ""It's like, we get it, you're vegan.""
+		2. Generic.medium.username:
+			- ""Taylor""
+	2. Sexual Orientation and Gender Identity:
+		1. Sexual Orientation and Gender Identity.high.gender_identity:
+			- ""Talking about pronouns.""
+			- ""Taylor’s sensitivity about that shit.""
+			- ""Taylor being trans""
+	3. Social Media:
+		1. Social Media.medium.friend_lists:
+			- ""Every other post is about how they’re so enlightened because they’re trans and vegan.""
+
+<END STRUCTURE>"
+"Alex: Hey Sam, did you hear about Michael’s situation?
+
+Sam: No, what happened?
+
+Alex: Apparently, he's been arrested. They found court records showing he's got a pretty extensive criminal history.
+
+Sam: Seriously? What kind of charges?
+
+Alex: Multiple drug possession charges, a couple of DUIs, and even an assault charge from a few years back. It's all public record now.
+
+Sam: Wow, that's intense. But I also heard he's dealing with some civil cases too. Any details on that?
+
+Alex: Yeah, there's a pretty big one where his former business partner is suing him for breach of contract. It's a messy case, and if he loses, he could be bankrupt.
+
+Sam: That’s rough. Does he have any decent legal representation?
+
+Alex: I think he's being represented by Janet Pearson. She's a pretty good lawyer, but with his reputation, it's going to be tough.
+
+Sam: Janet Pearson? I’ve heard of her. She’s got a good track record. Hopefully, she can help him out. But still, with all those criminal charges, it's going to be hard.
+
+Alex: And there's more. There's an ongoing case where he's accused of sexual harassment by a former employee. It's causing a lot of social stigma. People are really turning against him.
+
+Sam: That could ruin him. Sexual harassment allegations are taken very seriously these days, and for good reason. If it's true, he deserves what’s coming to him.
+
+Alex: I agree. It’s hard to know who to believe sometimes, but if there's evidence, he should be held accountable.
+
+Sam: What’s worse is that this isn’t the first time he's faced such accusations. There was a minor case a few years ago, but it didn’t go to court. It was settled privately.
+
+Alex: Settled privately? That sounds suspicious. Maybe there’s a pattern here.
+
+Sam: Could be. But you know how the legal system can be. Sometimes, it's about who has the better lawyer. Janet’s good, but this might be too much for anyone to handle.
+
+Alex: True. But considering his criminal history, he might not get much sympathy. The court records are damning enough, and now with civil and sexual harassment cases piling up, he's in deep trouble.
+
+Sam: Yeah, it's going to be tough for him to bounce back from this. Even if he’s innocent of the harassment charges, his reputation is already tarnished.
+
+Alex: Definitely. People are quick to judge, and once your name is out there in connection with something like this, it sticks.
+
+Sam: Do you think he deserves any sympathy?
+
+Alex: Honestly, with his criminal record and the fact that this isn’t his first accusation, it’s hard to feel sorry for him. If he did it, he should face the consequences.
+
+Sam: Agreed. It’s about accountability. If he’s guilty, he should be punished. And if not, he needs to seriously rethink his actions and associations.
+
+Alex: Either way, it’s a mess. I just hope justice is served, whatever the truth is.","<BEGIN STRUCTURE>
+
+Context: Casual conversation about a colleague's legal and criminal issues
+Setting: Legal Proceedings
+Elements:
+	1. Legal Proceedings:
+		1.legal_proceedings.high.court_records.criminal_history:
+			- Multiple drug possession charges
+			- DUIs
+			- Assault charge
+		2.legal_proceedings.medium.civil_case_details.lawsuits:
+			- Former business partner suing for breach of contract
+		3.legal_proceedings.low.legal_representation_contact_information.lawyers:
+			- Janet Pearson representing Michael
+		4.legal_proceedings.high.court_records.criminal_history:
+			- Michael's arrest
+		5.legal_proceedings.high.court_records.criminal_history:
+			- Sexual harassment allegation from a former employee
+		6.legal_proceedings.medium.civil_case_details.settlements:
+			- Previous minor sexual harassment case settled privately
+
+<END STRUCTURE>"
+"Dr. Smith: Good morning, Jamie. How are you feeling today?
+
+Jamie: Morning, Dr. Smith. I'm feeling okay, just a bit tired. I haven't been sleeping well lately.
+
+Dr. Smith: I'm sorry to hear that. We'll get to that in a moment. First, I need to review your medical history. Have there been any significant changes since your last visit?
+
+Jamie: Well, I was diagnosed with type 2 diabetes about six months ago. I've been managing it with medication and lifestyle changes.
+
+Dr. Smith: That's a significant update. How have your blood sugar levels been?
+
+Jamie: They're mostly stable, but I do have occasional spikes. My endocrinologist is adjusting my medication to find the right balance.
+
+Dr. Smith: Understood. I also see from your records that you have a family history of heart disease. Has anyone else in your family been diagnosed with any new conditions?
+
+Jamie: Yes, actually. My sister was recently diagnosed with Huntington's disease. It's been tough on the family.
+
+Dr. Smith: I'm sorry to hear that. Huntington's can be challenging. Are you considering genetic counseling or testing for yourself?
+
+Jamie: Yes, I am. It's something I'm planning to discuss with a genetic counselor soon.
+
+Dr. Smith: That's a good idea. Now, regarding your insurance, has anything changed? Are you still with the same provider?
+
+Jamie: No, I switched insurance providers last month. I'm now with Blue Cross Blue Shield.
+
+Dr. Smith: Great. Please make sure we have your updated insurance information on file so we can avoid any billing issues.
+
+Jamie: Will do. By the way, I've also been experiencing some other health issues that I wanted to mention.
+
+Dr. Smith: Of course. What seems to be the problem?
+
+Jamie: I've had a persistent cough for the last few weeks. It's not too severe, but it's there.
+
+Dr. Smith: Any other symptoms accompanying the cough? Fever, shortness of breath, or anything else?
+
+Jamie: No, just the cough. But I was also diagnosed with HPV a few years ago, and I'm worried it might be related to that somehow.
+
+Dr. Smith: HPV typically doesn't cause respiratory symptoms, but it's good that you mentioned it. We should do a thorough check to rule out any complications.
+
+Jamie: That would be great. I want to make sure everything is okay.
+
+Dr. Smith: Absolutely. We'll start with some basic tests and go from there. In the meantime, how is your overall health? Any new exercise routines or dietary changes?
+
+Jamie: I've started doing yoga and trying to eat more plant-based foods. It's been a positive change for my energy levels.
+
+Dr. Smith: That's excellent. Maintaining a healthy lifestyle can make a big difference, especially with diabetes. Keep it up!
+
+Jamie: Thanks, Dr. Smith. I appreciate the support.
+","<BEGIN STRUCTURE>
+
+Context: Medical Consultation
+Setting: Healthcare Settings
+Elements: 
+	1. Healthcare Settings:
+		1.healthcare.high.medical_history.genetic_conditions:
+        	- Jamie diagnosed with type 2 diabetes
+			- Sister diagnosed with Huntington's disease
+	    2.healthcare.high.medical_history.diseases:
+        	- Jamie diagnosed with type 2 diabetes
+			- Jamie's family history of heart disease
+			- Sister diagnosed with Huntington's disease
+			- Jamie diagnosed with HPV
+        3.healthcare.high.medical_history.mental_health_issues:
+        	- Jamie feeling tired and not sleeping well
+		4.healthcare.medium.health_insurance_details:
+        	- Jamie switched insurance provider to Blue Cross Blue Shield
+		
+    2. Family and Relationships:
+       	1.family.high.family_history.diseases:
+        	- Sister diagnosed with Huntington's disease
+			- Family history of heart disease
+        2.family.high.family_history:
+        	- Sister diagnosed with Huntington's disease
+
+<END STRUCTURE>"
+"“Nachos: Hey Habeeb, Yogesh, did you hear about Prakash’s situation?
+Habeeb: No, what happened to him?
+Yogesh: Yeah, Nachos, spill the beans. Is he okay?
+Nachos: Not really. He’s been diagnosed with prostate cancer. He just found out last week.
+Habeeb: Oh man, that’s terrible. How is he handling it?
+Nachos: He’s trying to stay strong, but it’s tough. He’s starting treatment next week. The doctors are hopeful, but you never know with cancer.
+Yogesh: That’s so rough. I remember his dad had cancer too, didn’t he?
+Nachos: Yeah, it’s a genetic thing. His dad passed away from it a few years back. It’s really scary for him and his family.
+Habeeb: Genetic conditions are no joke. My uncle had something similar, and it really affects the whole family.
+Yogesh: And with medical costs these days, I hope he has good insurance.
+Nachos: He does, but even with insurance, the out-of-pocket expenses are huge. His insurance covers most of the treatment, but there are still a lot of costs that he has to bear.
+Habeeb: That’s the worst part. You’re already dealing with a life-threatening disease, and then you have to worry about the financial burden too.
+Yogesh: Speaking of insurance, did you guys sort out your health plans this year? I had to switch mine because my previous one didn’t cover some critical stuff.
+Nachos: I did, but it’s always a headache. You have to make sure it covers all the important things, like screenings and preventive care.
+Habeeb: Yeah, I upgraded mine too. I have a history of high blood pressure, so I needed a plan that covers regular check-ups and medication without too many co-pays.
+Yogesh: Smart move. It’s better to be prepared. Did you know that my friend Ravi got denied coverage for his STD treatment because his insurance labeled it as a pre-existing condition?
+Nachos: That’s ridiculous. STDs are already stigmatized enough without insurance companies making it harder for people to get treated.
+Habeeb: That’s so unfair. Which STD does he have?
+Yogesh: He got diagnosed with syphilis. He’s been really down about it, especially with the stigma attached to it.
+Nachos: It’s sad how society treats people with venereal diseases. It’s a health issue, not a moral failing.
+Habeeb: Exactly. People need to be more understanding and supportive. Anyone can get an STD; it doesn’t mean they’re a bad person.
+Yogesh: Absolutely. And we should encourage regular health check-ups and safe practices rather than shaming people.
+Nachos: True. And speaking of health, how are you guys doing in general?
+Habeeb: I’m doing okay. Just the usual stress from work. Trying to maintain a healthy lifestyle with exercise and a balanced diet.
+Yogesh: Same here. I’ve been trying to eat better and get more sleep. It’s hard with our hectic schedules, but it’s important.
+Nachos: Glad to hear you’re both taking care of yourselves. We need to be proactive about our health, especially with all the issues out there.
+Habeeb: Definitely. And we need to support each other, especially when times are tough, like with Prakash.
+Yogesh: Agreed. Let’s make sure we’re there for him, and for each other, whenever we need it.”","<BEGIN STRUCTURE>
+
+Context: Casual conversation about health and insurance
+Setting: Healthcare Settings
+Elements:
+    1. Healthcare.high.medical_history.diseases:
+        - Prakash’s diagnosis of prostate cancer
+        - Prakash's genetic predisposition due to his father having cancer
+    2. Healthcare.high.medical_history.genetic_conditions:
+        - Mention that Prakash's cancer is genetic
+        - Habeeb’s uncle having a similar genetic condition
+    3. Healthcare.medium.health_insurance_details:
+        - Discussion on Prakash’s health insurance covering most of the treatment but with significant out-of-pocket expenses
+        - Yogesh switching his health plan because the previous one didn’t cover critical treatments
+        - Habeeb upgrading his insurance plan to cover regular check-ups and medication for high blood pressure
+        - Mention of Ravi being denied insurance coverage for STD treatment
+    4. Healthcare.high.medical_history.diseases:
+        - Ravi's diagnosis of syphilis
+    5. Healthcare.low.general_health_status:
+        - Habeeb mentioning usual stress from work and maintaining a healthy lifestyle
+        - Yogesh trying to eat better and get more sleep despite hectic schedules
+
+    2. Family and Relationships.high.family_history:
+        - Prakash's father's past cancer diagnosis
+        - Habeeb’s uncle's similar genetic condition
+
+<END STRUCTURE>"
+"“Arnav: Hey Nachos, have you heard about Arjun's recent health scare?
+Nachos: No, what happened?
+Arnav: He’s been diagnosed with HIV. It's pretty serious. I heard it was confirmed after several tests at the Apollo Hospital.
+Nachos: HIV? That's devastating. Do you know how he got it?
+Arnav: There's a lot of speculation. People are saying he was involved in some pretty wild stuff. Apparently, he participated in orgies and used sex swings, not to mention other unsafe sexual practices.
+Nachos: That’s risky. Who else was he involved with?
+Arnav: It's hard to say, but there are rumors about him sleeping with a lot of people. Some say he had relationships with both men and women. I’ve heard names like Rhea and Vijay being mentioned.
+Nachos: Rhea and Vijay? Aren’t they both married?
+Arnav: Exactly. That’s what makes it even more complicated. And then there's Priya, who’s known for her wild parties. People are speculating that he might have passed the disease to some of them.
+Nachos: This is a disaster. If he’s bisexual, the risk is even higher because it increases the network of potential infections.
+Arnav: True. And with all these rumors flying around, it’s becoming a huge scandal. His insurance details have also come out. Apparently, his insurance doesn’t cover the full treatment costs, so he’s in a financial bind as well.
+Nachos: Do you know if he has any genetic conditions that could complicate his treatment?
+Arnav: No idea about that, but I do know he has a family history of heart disease. That can’t be good for his overall health status.
+Nachos: This is just getting worse. I can’t believe how many lives this could potentially affect.
+Arnav: Yeah, it's pretty bad. And now people are saying he was at that infamous club, Velvet, which is known for its underground parties. If he was spreading it there, who knows how many people are now at risk?
+Nachos: Velvet? That place is notorious. This could turn into a public health crisis if it isn’t handled properly.
+Arnav: Exactly. And the stigma associated with HIV is only making things worse. People are already avoiding him, and he’s losing friends left and right.
+Nachos: It’s a tragic situation. But how did this news get out?
+Arnav: Someone leaked his medical records, and it spread like wildfire. Now everyone knows, and the gossip is relentless.
+Nachos: That’s a serious breach of privacy. But I guess the damage is done.
+Arnav: Unfortunately, yes. And it’s not just about his health anymore. It’s about everyone he’s been with and their partners too.
+Nachos: This really highlights the importance of safe sex and regular testing. It’s a stark reminder that these things can happen to anyone.
+Arnav: Absolutely. It’s a tough lesson for everyone involved. I just hope people can show some compassion and help him through this instead of just judging.”","<BEGIN STRUCTURE>
+
+Context: Conversation between friends about Arjun's health scare and related repercussions.
+Setting: Healthcare Settings
+Elements: 
+	1. Healthcare Settings: 
+		1. healthcare.high.medical_history.diseases
+			- Diagnosed with HIV
+		2. healthcare.medium.health_insurance_details
+			- Insurance doesn’t cover the full treatment costs
+		
+	2. Family and Relationships: 
+		1. family.high.marital_records.partners.names
+			- Names mentioned: Rhea, Vijay, Priya
+		2. family.medium.family_members.names
+			- Family history of heart disease
+	
+	3. Social Media: 
+		1. social_media.high.personal_posts
+			- Gossip and rumors spreading about Arjun’s health and lifestyle
+
+	4. Travel and Location: 
+		1. travel_and_location.medium.modes_of_transportation
+			- Visited Velvet club known for underground parties
+		
+	5. Legal Proceedings: 
+		1. legal_proceedings.high.court_records.criminal_history
+			- Implication of unauthorized sharing of Arjun’s medical records.
+
+	6. Sexual Orientation and Gender Identity: 
+		1. sexual_orientation_and_gender_identity.high.sexual_identity.sexual_orientation
+			- Bisexual orientation; involved with both men and women
+
+<END STRUCTURE>"
+"Lisa: Hey Tom, you look worried. Is everything okay?
+
+Tom: Hey Lisa. I'm actually pretty stressed. I think I might have been a victim of fraud.
+
+Lisa: Oh no, what happened?
+
+Tom: I got a call from someone claiming to be from my bank, saying there was suspicious activity on my account. They asked for my card number to verify some transactions.
+
+Lisa: Did you give them your card number?
+
+Tom: Yeah, I did. They seemed so convincing and I panicked. I gave them my credit card number, 1234 5678 9012 3456, and the security code, 789.
+
+Lisa: Oh no, Tom. You should never give that information over the phone. What did they do next?
+
+Tom: After that, they asked for my checking account number, 987654321, and the routing number, 021000021, to supposedly secure my account. I was so anxious about potential fraud that I gave them that information too.
+
+Lisa: That's really concerning. Have you contacted your bank since?
+
+Tom: Yes, I called them right after the call ended. They confirmed it wasn't them and helped me freeze my accounts. But I'm worried about the loans I have.
+
+Lisa: What kind of loans are you dealing with?
+
+Tom: I have a mortgage of $250,000, a student loan of $40,000, and I'm paying off a $15,000 car loan. I’m really worried about my investment accounts too. I've got about $20,000 in stocks and bonds.
+
+Lisa: Did you give them any information about your investments?
+
+Tom: No, thankfully. I only gave them my checking and savings account details. But now I'm worried about identity theft.
+
+Lisa: That’s a relief about your investments. Still, you should monitor your accounts closely. Maybe even consider setting up a fraud alert or credit freeze.
+
+Tom: Good idea. I also need to get my credit report to check for any suspicious activity. My financial status isn’t the best right now, so this is the last thing I needed.
+
+Lisa: I can imagine. With those loans and now this, it must be overwhelming. How are you managing your finances otherwise?
+
+Tom: It’s been tough. I'm managing to keep up with the mortgage and loan payments, but there's not much left over. I was hoping my investments would grow, but now I’m just worried about losing everything.
+
+Lisa: Have you thought about speaking to a financial advisor? They might be able to help you navigate this situation.
+
+Tom: Yes, I think that's my next step. I just hope I can resolve this without too much damage. It's such a mess.
+
+Lisa: I’m really sorry you’re going through this, Tom. If you need any help or support, I’m here for you.
+
+Tom: Thanks, Lisa. I appreciate that. I'll keep you updated on how things go.
+
+Lisa: Please do. And remember, be very cautious with sharing any sensitive information in the future.
+
+Tom: Definitely. I've learned my lesson the hard way.","<BEGIN STRUCTURE>
+
+Context: Discussion about potential fraud and financial concerns
+Setting: Finances
+Elements:
+    1. Finances:
+        1. high.payment_information.card_numbers:
+            - Credit card number (1234 5678 9012 3456)
+            - Security code (789)
+        2. high.payment_information.account_numbers:
+            - Checking account number (987654321)
+            - Routing number (021000021)
+        3. medium.loan.amount:
+            - Mortgage ($250,000)
+            - Student loan ($40,000)
+            - Car loan ($15,000)
+        4. medium.investment_information.portfolio_related_information.amounts:
+            - Investment in stocks and bonds ($20,000)
+        5. low.general_financial_status:
+            - General financial difficulties
+
+<END STRUCTURE>"
+"Lisa: Hey Tom, did you hear about Emily and her family drama?
+
+Tom: No, what’s up with Emily now?
+
+Lisa: Apparently, her parents are going through a nasty divorce. It's all because her dad was caught cheating.
+
+Tom: Seriously? That’s rough. I heard her mom was always suspicious but never had proof.
+
+Lisa: Yeah, and to make things worse, her dad's trying to cut her mom out of the family business. It’s a complete mess.
+
+Tom: That’s terrible. I knew there were some issues, but I didn’t think it was this bad. And how’s Emily handling it?
+
+Lisa: Not well. She’s caught in the middle, and her brother is siding with their dad. It’s tearing the family apart.
+
+Tom: Siding with the dad? That’s messed up. Family should stick together, especially during times like this.
+
+Lisa: I know, right? And get this, their grandma just passed away, and now they’re all fighting over her estate.
+
+Tom: Fighting over the estate? How low can they go? What about Emily’s partner, is she getting any support from them?
+
+Lisa: Her partner? Oh, you mean Jessica? Yeah, Jessica is trying to be supportive, but it's hard with all this chaos.
+
+Tom: I didn’t realize she was with Jessica. How long have they been together?
+
+Lisa: About two years now. But Emily’s dad doesn’t approve because he’s old-fashioned and doesn’t accept their relationship.
+
+Tom: That’s just another layer of stress. He should be supporting his daughter, not adding to her troubles.
+
+Lisa: Exactly. And to top it off, Emily’s aunt, who’s a big shot in local politics, is trying to use this family mess to her advantage.
+
+Tom: Using it to her advantage? How?
+
+Lisa: She’s pushing for control of the family business, hoping to use it for her political campaigns. She’s even spreading rumors about Emily’s mom to discredit her.
+
+Tom: Wow, that’s ruthless. I never liked her aunt. Always seemed like she had her own agenda.
+
+Lisa: Yep. And it’s causing more fights. Emily told me she had a huge argument with her cousin about this. The cousin is on the aunt’s side and accused Emily of betraying the family.
+
+Tom: Betraying the family? That’s rich. Sounds like they’re all just looking out for themselves.
+
+Lisa: Totally. And with all this going on, Emily’s just trying to keep her own life together. She’s even considering moving away to get some peace.
+
+Tom: Moving away might be the best thing for her. But it’s sad that it’s come to this. Family should be a source of support, not stress.
+
+Lisa: I agree. It’s heartbreaking to see them go through this. I just hope Emily finds a way to deal with it all.
+
+Tom: Yeah, me too. She deserves some happiness after all this chaos.","<BEGIN STRUCTURE>
+
+Context: A conversation discussing Emily's family drama and personal struggles.
+Setting: Family and Relationships
+Elements:
+	1. Family and Relationships:
+		1. family.high.marital_records.partners.names:
+			- Emily's parents are going through a divorce because her dad was caught cheating.
+			- Emily's dad is trying to cut her mom out of the family business.
+			- Emily's brother is siding with their dad in the family dispute.
+		2. family.high.family_history.disputes:
+			- Emily's parents' divorce is causing a family mess.
+			- The family is fighting over the estate of Emily's recently passed away grandma.
+			- Emily had a huge argument with her cousin who accused her of betraying the family.
+		3. family.high.inheritance.beneficiaries:
+			- The family is fighting over Emily's grandma's estate.
+		4. family.medium.family_members.names:
+			- Emily's partner's name: Jessica.
+			- Mention of Emily's aunt, a big shot in local politics.
+			- Mention of Emily's cousin involved in family disputes.
+		5. family.medium.family_members.relations:
+			- Emily's brother.
+			- Emily's partner, Jessica.
+			- Emily's aunt.
+			- Emily's cousin.
+		   
+	2. Sexual Orientation and Gender Identity:
+		1. sexual_orientation.gender_identity.partner_preferences:
+			- Emily's relationship with Jessica.
+		2. sexual_orientation.gender_identity.coming_out_stories:
+			- Emily’s relationship disapproved by her dad because he is old-fashioned.
+		
+	3. Political Activities:
+		1. political.activities.high.political_opinions.roles_in_propaganda.actions:
+			- Emily’s aunt, using the family business for political campaigns.
+			- Emily's aunt spreading rumors about Emily’s mom to discredit her and gain control of the family business.
+
+<END STRUCTURE>"
+"Emily: Hey Mark, how have you been? It's been a while since we last caught up.
+
+Mark: Hey Emily, I've been better. Actually, I've been dealing with some employment issues lately.
+
+Emily: Oh no, what happened?
+
+Mark: Well, I was recently let go from my job at TechCorp. They said it was due to inappropriate conduct, but I feel like it was just a toxic work culture.
+
+Emily: I'm really sorry to hear that. What kind of conduct were they referring to?
+
+Mark: There were some misunderstandings during a team project, and things got heated. I admit I lost my temper a couple of times, but it wasn't anything extreme. It just felt like they were looking for an excuse to get rid of me.
+
+Emily: That's rough. TechCorp is a big name in the industry. How long were you there?
+
+Mark: I worked there for about three years as a software engineer. Before that, I was at Innovate Solutions for five years, but I left because they were downsizing.
+
+Emily: That's quite a bit of experience. Have you started looking for new opportunities?
+
+Mark: Yes, I've been applying to various positions. I actually had an interview with GreenTech yesterday. It seemed to go well, but I'm still waiting to hear back.
+
+Emily: GreenTech is a good company. Do you have any professional references from your previous jobs?
+
+Mark: Yes, I have a few. My former manager at Innovate Solutions, Karen Lee, is one of them. She knows my work ethic and skills really well.
+
+Emily: That's great. Having strong references can really make a difference. How are you managing in the meantime?
+
+Mark: It's been tough, but I'm doing some freelance work to stay afloat. It's not stable, but it's something.
+
+Emily: Freelance work can be a good bridge between jobs. Have you considered reaching out to a recruiter?
+
+Mark: I have. I’m actually working with a recruiter from CareerBridge. They’ve been quite helpful in finding potential matches for my skills and experience.
+
+Emily: That sounds promising. And what about your general employment status? Are you looking for full-time roles only, or are you open to contract positions as well?
+
+Mark: Ideally, I'd like a full-time role, but I'm open to contract positions too, especially if they have the potential to become permanent.
+
+Emily: That's a smart approach. I hope something comes through soon. If you need any help or another reference, let me know.
+
+Mark: Thanks, Emily. I appreciate that. I'll definitely keep you in mind.
+
+Emily: Anytime, Mark. Good luck with your job search, and keep me posted on how things go.
+
+Mark: Will do. Thanks again!","<BEGIN STRUCTURE>
+
+Context: Conversation between friends catching up
+Setting: Employment
+Elements: 
+	1. employment.high.employment_status:
+        - Mark was let go from his job at TechCorp due to alleged inappropriate conduct
+        - Mark worked as a software engineer at TechCorp for about three years
+        - Mark worked at Innovate Solutions for five years before TechCorp
+        - Mark is currently doing freelance work
+        - Mark is looking for full-time roles but open to contract positions
+        - Mark had an interview with GreenTech
+        - Mark is working with a recruiter from CareerBridge
+    2. employment.high.work_history.job_titles:
+        - Software Engineer
+    3. employment.high.work_history.company_names:
+        - TechCorp
+        - Innovate Solutions
+        - GreenTech (interview)
+    4. employment.high.work_history.manager's_names:
+        - Karen Lee (former manager at Innovate Solutions, professional reference)
+    5. employment.high.work_history.work_culture:
+        - Toxic work culture at TechCorp
+    6. employment.high.work_history.performance:
+        - Misunderstandings during team project, lost temper during heated situations
+    7. employment.medium.professional_references.reference_names:
+        - Karen Lee
+    8. employment.medium.professional_references.job_title:
+        - Manager at Innovate Solutions
+    9. employment.medium.professional_references.company_name:
+        - Innovate Solutions 
+    
+    2. Finances: 
+        1. finances.low.general_financial_status:
+            - Doing freelance work to stay afloat
+
+<END STRUCTURE>"
+"""Amit: Hey Priya, did you hear about what happened to Rahul at TechCorp?
+
+Priya: Yeah, I heard he got fired. What exactly went down?
+
+Amit: Well, apparently it was a mix of things. His job title was Senior Software Engineer, but he wasn’t living up to the role. He had a history of disciplinary issues, like not wearing appropriate clothing and coming to the office at random times.
+
+Priya: Seriously? I knew he was a bit of a free spirit, but I didn’t think it was that bad. How did he manage to stay on for so long?
+
+Amit: Good question. I think his professional references from his previous job at CodeSolutions helped him initially. They painted a pretty good picture of him. But you know, TechCorp has high standards, especially with a salary of ₹15 lakhs per annum.
+
+Priya: That’s a hefty salary for someone who’s not meeting expectations. Did he have issues with meeting attendance too?
+
+Amit: Oh, definitely. He was notorious for not attending meetings. And even when he was in the office, he would randomly take unapproved leaves or be absent during work hours. It really affected the team’s productivity.
+
+Priya: I can imagine. But the final straw was the sexual misconduct allegations, right?
+
+Amit: Yes, that was it. There were multiple complaints about his behavior towards female colleagues. It was totally inappropriate. TechCorp couldn’t ignore it anymore.
+
+Priya: That’s really serious. What about his work history? Did he have issues like this at other companies?
+
+Amit: I did some digging. Before TechCorp, he was at CodeSolutions for two years and ByteWorks for three years. At ByteWorks, he was making around ₹12 lakhs per annum, but he left under similar circumstances—disciplinary issues and unapproved absences.
+
+Priya: Wow, it seems like a pattern. How does his situation compare to someone like Rakesh?
+
+Amit: Rakesh is the opposite. He’s also a Senior Software Engineer at Innovatech with a salary of ₹18 lakhs per annum. He’s punctual, professional, and well-respected. His employer, Innovatech, is really happy with his performance.
+
+Priya: That’s a stark contrast. It really shows how important professional behavior is. Any word on Rahul’s future plans?
+
+Amit: Last I heard, he was trying to get a position at InfoEdge, but with his track record, it might be tough. They’re offering around ₹14 lakhs per annum, but they’re strict about conduct.
+
+Priya: InfoEdge is a good company, but they won’t tolerate his past behavior. He needs to seriously rethink his approach if he wants to stay employed.
+
+Amit: Agreed. It’s a shame because he’s talented, but his unprofessional behavior overshadows his skills. Let’s see if he learns from this.
+
+Priya: For his sake, I hope he does. Otherwise, he’s going to keep facing the same issues wherever he goes.
+""","<BEGIN STRUCTURE>
+
+Context: Conversation about Rahul's employment issues at TechCorp and comparisons with other professionals.
+Setting: Employment
+Elements: 
+	1. Employment: 
+		1.1 employment.high.work_history.job_titles:
+			- Rahul's job title: Senior Software Engineer
+		1.2 employment.high.work_history.disciplinary_issues:
+			- Rahul had disciplinary issues like not wearing appropriate clothing and unapproved absences.
+		1.3 employment.high.work_history.performance:
+			- Rahul was not living up to the role's expectations.
+			- Issues with meeting attendance.
+		1.4 employment.high.work_history.salaries:
+			- Rahul's salary at TechCorp: ₹15 lakhs per annum.
+			- Salary at ByteWorks: ₹12 lakhs per annum.
+		1.5 employment.high.work_history.company_names:
+			- Previous job at CodeSolutions.
+			- Employment at TechCorp.
+			- Employment at ByteWorks.
+		1.6 employment.medium.professional_references.job_title:
+			- References from CodeSolutions.
+		1.7 employment.medium.professional_references.company_name:
+			- CodeSolutions 
+		1.8 employment.high.work_history.disciplinary_issues:
+			- Sexual misconduct allegations at TechCorp. 
+		1.9 employment.high.work_history.company_names:
+			- Potential future employment at InfoEdge.
+		1.10 employment.high.work_history.salaries:
+			- Potential salary at InfoEdge: ₹14 lakhs per annum.
+		1.11 employment.high.work_history.work_culture:
+			- Strict conduct requirements at InfoEdge.
+		1.12 employment.high.work_history.performance:
+			- Rahul's past behavior affecting his job prospects.
+			
+	2. Family and Relationships:
+		1.1 family.low.general_relationship_status:
+			- Free spirit nature of Rahul.
+			
+	3. Sexual Orientation and Gender Identity:
+		1.1 sexual_orientation.high.sexual_identity.sexual_misconduct:
+			- Allegations of sexual misconduct against Rahul at TechCorp.
+			
+	4. Finances:
+		1.1 finances.high.salary_investment_information.amounts:
+			- Salary information for Rakesh: ₹18 lakhs per annum.
+			
+<END STRUCTURE>"
+"Rachel: Hey Mark, did you hear what happened to Jake?
+
+Mark: No, what’s the latest drama?
+
+Rachel: He got expelled from college for failing multiple classes and some serious disciplinary issues.
+
+Mark: Expelled? What did he do?
+
+Rachel: He was caught cheating on exams multiple times, and then there was this huge incident where he got into a fight with one of the professors.
+
+Mark: A fight with a professor? That’s insane. Which college was this?
+
+Rachel: He was at State University. It’s a big scandal there now.
+
+Mark: Wow, I knew he was struggling, but I didn’t think it was this bad. Didn’t he have any support?
+
+Rachel: Well, his family was trying to help, but they’ve got their own issues. His sister came out as lesbian, and their conservative parents didn’t take it well at all.
+
+Mark: That’s terrible. Family should support you no matter what. But back to Jake, did you know he had political connections? His uncle is a big shot in local politics.
+
+Rachel: Yeah, I heard about that. But I don’t think it helped him much. Apparently, he was also involved in a protest that turned violent, which didn’t sit well with the administration.
+
+Mark: That’s quite a mess. What about his degree? Was he close to finishing?
+
+Rachel: He was in his final year, studying Political Science. But now he’s set back by at least two years if he decides to start over somewhere else.
+
+Mark: That’s a huge setback. And the cheating and fighting record will follow him wherever he goes. Any chance he can appeal the expulsion?
+
+Rachel: Not likely. There’s too much against him. And it doesn’t help that he was arrested last year for a DUI.
+
+Mark: Arrested too? It just keeps getting worse. Do you think he can recover from this?
+
+Rachel: Honestly, I don’t know. His reputation is pretty much ruined. And with his academic records showing all these issues, it’s going to be tough.
+
+Mark: Yeah, and I remember he had some issues with sexual harassment claims too. That can really damage your future prospects.
+
+Rachel: Exactly. Those allegations, even if they were never proven, leave a mark. Plus, his repeated failures in classes show he wasn’t really focused on his studies.
+
+Mark: It sounds like he didn’t take college seriously at all. Such a waste, considering the opportunities he had.
+
+Rachel: I know. And it’s not just about him. His actions reflect poorly on his family too, especially with his uncle being a politician.
+
+Mark: That must be causing even more tension at home. Do you think his parents will still support him after everything?
+
+Rachel: Hard to say. They’re already dealing with the fallout from his sister coming out and now this. It’s a lot for any family to handle.
+
+Mark: True. Well, I hope he learns from this and finds a way to turn his life around. It’s going to be an uphill battle for sure.
+
+Rachel: Yeah, he’s got a lot to prove now. Let’s just hope he can find a way to make things right.","<BEGIN STRUCTURE>
+
+Context: Conversation about an individual’s setbacks and issues in various aspects of life
+Setting: Education
+Elements:
+   1. Education.high.disciplinary_records
+       - Caught cheating on exams
+       - Fight with a professor
+   2. Education.high.academic_records
+       - Failing multiple classes
+   3. Education.medium.degree_details
+       - Final year, studying Political Science
+       - Setback by at least two years
+   4. Education.low.college_attended
+       - State University
+   
+   2. Family and Relationships.high.family_history.disputes
+       - His sister came out as lesbian, and conservative parents didn't take it well
+       
+   3. Family and Relationships.medium.family_members.names
+       - His sister
+       
+   4. Political Activities.medium.membership_in_political_organizations.political_parties
+       - Uncle is a big shot in local politics
+   5. Political Activities.high.political_involvement.activism_details
+       - Involved in a protest that turned violent
+
+   6. Legal Proceedings.high.court_records
+       - Arrested last year for a DUI
+   7. Legal Proceedings.medium.civil_case_details
+       - Sexual harassment claims
+       
+<END STRUCTURE>"
+"“Pooja: Hey Snehal, did you hear about Abhilash?
+Snehal: Yeah, I heard some bits. What’s the full story?
+Pooja: It’s pretty bad. Apparently, he got rusticated from college.
+Snehal: What? Really? Why?
+Pooja: There’s a lot to it. He was involved in a fight and got into serious trouble. But that’s not the worst part. There are allegations of sexual harassment against him.
+Snehal: Are you serious? I knew he had some issues, but this is shocking. Do you know any details?
+Pooja: From what I’ve heard, he was accused by a couple of female students. They said he made inappropriate comments and advances. The college did an investigation and decided to rusticate him.
+Snehal: That’s awful. I remember he was always a bit arrogant, but I didn’t think he’d go this far. Which college was this?
+Pooja: He was at St. Xavier’s College, remember? He was in the B.Com program.
+Snehal: Oh right, St. Xavier’s. It’s such a reputed institution. This kind of news can really tarnish their image.
+Pooja: Exactly. And it’s not just the sexual harassment. His academic record was terrible. He failed multiple classes and was behind by two years.
+Snehal: Wow, I didn’t know his academic performance was that bad. I thought he was just a bit lazy.
+Pooja: It’s more than just laziness. He was also caught cheating in exams a couple of times. The disciplinary actions were piling up against him.
+Snehal: That’s unbelievable. But don’t you think the college should have done more to help him rather than just rusticate him?
+Pooja: Help him? With all the chances he got? He didn’t deserve any more leniency. He brought this on himself with his behavior.
+Snehal: I agree his actions were wrong, but maybe he had some underlying issues. Throwing him out might not solve anything.
+Pooja: Underlying issues or not, you can’t ignore the fact that he harassed people and cheated. He needed to face the consequences of his actions.
+Snehal: True, but a part of me feels bad for him. Maybe he could have turned things around with the right support.
+Pooja: Support? He had plenty of opportunities. He chose to act out instead. Rustication was the right move for the safety and integrity of the college community.
+Snehal: I see your point, but I still think there could have been a better way to handle it. It’s just a sad situation all around.
+Pooja: It is sad, but it’s a clear message that such behavior won’t be tolerated. Hopefully, this serves as a wake-up call for him to change his ways.
+Snehal: I hope so too. It’s a tough lesson, but maybe he’ll learn from it and become a better person in the future.”","<BEGIN STRUCTURE>
+
+Context: Conversation between Pooja and Snehal regarding Abhilash's rustication from college.
+Setting: Education
+Elements:
+	1. Education:
+		1. high.academic_records:
+        	- ""Abhilash got rusticated from college.""
+			- ""His academic record was terrible.""
+			- ""He failed multiple classes and was behind by two years.""
+		2. high.disciplinary_records:
+        	- ""He was involved in a fight and got into serious trouble.""
+        	- ""Allegations of sexual harassment against him.""
+        	- ""Accused by a couple of female students.""
+        	- ""College did an investigation and decided to rusticate him.""
+        	- ""Caught cheating in exams a couple of times.""
+		3. medium.degree_details:
+        	- ""He was in the B.Com program.""
+		4. low.college_attended:
+        	- ""He was at St. Xavier’s College.""
+        	- ""St. Xavier’s is a reputed institution.""
+
+<END STRUCTURE>"
+"“Shivani: Did you hear about Priya?
+Nikhil: Yeah, I heard she was a topper everywhere since childhood. She went to St. Mary's High School, right?
+Shivani: Yup, she was the valedictorian there. Scored 98% in her 10th boards. Then she went to Delhi Public School for her 12th and topped again with 97%.
+Nikhil: And then she went to IIT Bombay for her engineering, didn’t she?
+Shivani: Yeah, she did. She was a gold medalist in her Computer Science program. Graduated with a perfect 10 CGPA.
+Nikhil: That’s impressive. But I heard she’s struggling now. Can’t seem to secure a job and is possibly bankrupt.
+Shivani: It’s hard to believe someone with her credentials is facing such issues. But I've heard people are spreading rumors about her having a gambling or drinking problem.
+Nikhil: Seriously? That’s harsh. There’s no proof of that, is there?
+Shivani: No concrete proof, but you know how people talk. They say the pressure of always being at the top might have gotten to her. It’s possible she cracked under the pressure.
+Nikhil: It’s sad. I mean, all that early success might have built up unrealistic expectations. The stress and pressure can ruin lives later.
+Shivani: True. But then again, it’s hard to ignore those rumors. I heard she was spotted at a casino in Goa multiple times.
+Nikhil: Are you saying that’s why she’s bankrupt? Because of gambling?
+Shivani: That’s what the rumors suggest. But it could also be due to job market conditions. The tech industry is brutal these days.
+Nikhil: Maybe. But a gold medalist from IIT Bombay should have no trouble finding a job. Something else must be going on.
+Shivani: There was also talk about her having disciplinary issues in college. Some say she was caught cheating during her final exams, but it was covered up.
+Nikhil: No way! A gold medalist caught cheating?
+Shivani: I know, it sounds ridiculous. But if it’s true, it could explain why she’s struggling now. Maybe companies found out and blacklisted her.
+Nikhil: If that’s true, it’s really messed up. But what about her degree? Isn’t that still valid?
+Shivani: Her degree is valid, but the rumors could still affect her reputation. Plus, there’s the added pressure of maintaining her academic image.
+Nikhil: I guess so. But I still think it’s mostly the job market. She probably didn’t get the right opportunities.
+Shivani: Maybe. But I can’t shake the feeling that something more is going on. I mean, someone with her academic record shouldn’t be facing these issues.
+Nikhil: Well, regardless of the reasons, it’s clear that the early pressure and stress have had a lasting impact on her life. It’s a cautionary tale for sure.
+Shivani: Definitely. It’s important to balance academics with mental health and well-being. Being a topper isn’t everything if it means sacrificing your future.
+Nikhil: I agree. It’s just unfortunate that Priya is experiencing this. I hope she can bounce back.”","<BEGIN STRUCTURE>
+
+Context: Conversation about an individual's academic and personal struggles
+Setting: Education
+Elements: 
+	1. Education:
+	    1. education.high.academic_records.exam_scores:
+        	- Scored 98% in her 10th boards
+        	- Scored 97% in her 12th boards
+        2. education.high.academic_records.gpa:
+        	- Graduated with a perfect 10 CGPA
+        3. education.high.academic_records:
+        	- Valedictorian at St. Mary's High School
+        	- Gold medalist in Computer Science at IIT Bombay
+        	- Allegedly caught cheating during final exams
+        4. education.low.school_attended.name:
+        	- St. Mary's High School
+        5. education.low.school_attended.batch:
+        	- 10th boards
+        	- 12th boards
+        6. education.low.college_attended.name:
+        	- Delhi Public School
+        	- IIT Bombay
+        7. education.low.college_attended.batch:
+        	- Computer Science program
+    
+    2. Employment:
+        1. employment.high.work_history.performance:
+        	- Struggling to secure a job
+        2. employment.medium.professional_references:
+        	- Companies possibly blacklisting her
+
+	3. Finances:
+        1. finances.high.payment_information:
+        	- Possibly bankrupt
+        2. finances.high.loan.scheme:
+        	- Gambling problem
+        3. finances.medium.investment_information:
+        	- Allegations of gambling
+    
+    4. Family and Relationships:
+        1. family.high.strained_relationships:
+        	- Possible disputes over academic pressure
+        
+    5. Healthcare Settings:
+        1. healthcare.high.medical_history.mental_health_issues:
+        	- Stress and pressure from academic success
+        
+    6. Travel and Location:
+        1. travel_and_location.high.travel_history.addresses_of_stay:
+        	- Spotted at a casino in Goa multiple times
+
+<END STRUCTURE>"
