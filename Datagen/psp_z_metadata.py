@@ -3,11 +3,6 @@ from azure.identity import AzureCliCredential, get_bearer_token_provider
 from openai import AzureOpenAI
 import random
 
-# Load the CSV file into a DataFrame
-file_path = './results/results_conversation.csv'  # Replace with the actual file path
-df = pd.read_csv(file_path)
-# print(df['dialog'][0])
-
 token_provider = get_bearer_token_provider(
     AzureCliCredential(), "https://cognitiveservices.azure.com/.default"
 )
@@ -47,6 +42,9 @@ for i, (setting, dialog, metadata, summary, quality, violations) in enumerate(zi
 
 # ---------------------<END PRELOADING--------------------------------
 
+# Load the CSV file into a DataFrame
+file_path = './results/results_conversation.csv'  # Replace with the actual file path
+df = pd.read_csv(file_path)
 
 # Initialize a new DataFrame for the results
 result_df = pd.DataFrame(columns=['setting','dialog', 'metadata'])
@@ -306,10 +304,10 @@ Elements: ** Make a list here of all the Privacy elements FOLLOWING THE ABOVE TA
 
 I would now give you a piece of text for which you MUST extract a detailed metadata regarding the conversation, covering all the possible elements, and grouping them accordingly into one or many relevant categories COMPULSORILY ADHEREING TO THE TAXONOMY. Just provide me the Metadata extracted, NOTHING ELSE- NO NEED FOR SUMMARY, DIAGNOSIS, CONCLUSION OR EVEN A SINGLE LINE EXTRA. JUST RETURN THE METADATA CONTENT.
 """
+print(len(df),len(df['setting']), len(df['dialog']))
 
 for i,(Major,text) in enumerate(zip(df['setting'],df['dialog'])):
-    # if(i==5):
-    #     break
+    
     print(i,"\n")
     sample1 = random.choice(sampleset[Major])
     remaining_samples = [sample for sample in sampleset[Major] if sample != sample1]

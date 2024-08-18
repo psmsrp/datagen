@@ -5,9 +5,7 @@ import re
 import random
 
 
-# Load the CSV file into a DataFrame
-file_path = './results/results_summary.csv'  # Replace with the actual file path
-df = pd.read_csv(file_path)
+
 # print(df['dialog'][0])
 
 token_provider = get_bearer_token_provider(
@@ -28,13 +26,27 @@ settings=["Family and Relationships","Healthcare Settings","Employment","Finance
 file_path = './sample_dataset.csv'  # Replace with the actual file path
 df = pd.read_csv(file_path)
 
+samples_good={}
+samples_bad={}
 sampleset_good=[]
 sampleset_bad=[]
 
+for i,setting in enumerate(df['setting']):
+    # if setting not in settings:
+    #     print(f"{i+1} . {setting}\n")
+    samples_good[setting]=[]
+    samples_bad[setting]=[]
 
 for i, (setting, dialog, metadata, summary, quality, violations) in enumerate(zip( df['setting'], df['dialog'], df['metadata'], df['summary'], df['Quality'], df['Violations'])):
 	if "good" in quality.lower():
 		sampleset_good.append({
+        "dialog":dialog,
+        "metadata":metadata,
+        "summary":summary,
+        "quality":quality,
+        "violations":violations,
+	})
+		samples_good[setting].append({
         "dialog":dialog,
         "metadata":metadata,
         "summary":summary,
@@ -49,11 +61,22 @@ for i, (setting, dialog, metadata, summary, quality, violations) in enumerate(zi
         "quality":quality,
         "violations":violations,
 	})
+		samples_bad[setting].append({
+        "dialog":dialog,
+        "metadata":metadata,
+        "summary":summary,
+        "quality":quality,
+        "violations":violations,
+	})
 
 # for i,setting in enumerate(sampleset):
 #     print(f"{i+1}.{setting} : {len(sampleset[setting])}")
 
 # ---------------------<END PRELOADING--------------------------------
+
+# Load the CSV file into a DataFrame
+file_path = './results/results_summary.csv'  # Replace with the actual file path
+df = pd.read_csv(file_path)
 
 # Initialize a new DataFrame for the results
 result_df = df
@@ -332,12 +355,12 @@ for i, (Major,summary, metadata) in enumerate(zip(df['setting'],df['summary'], d
 	
 	print(i,"\n")
 
-	sample_good1 = random.choice(sampleset_good)
-	remaining_sample_goods = [sample_good for sample_good in sampleset_good if sample_good != sample_good1]
+	sample_good1 = random.choice(samples_good[Major]) if (len(samples_good[Major])) else random.choice(sampleset_good)
+	remaining_sample_goods =[sample_good for sample_good in samples_good[Major] if sample_good != sample_good1] if (len(samples_good[Major])>=2) else [sample_good for sample_good in sampleset_good if sample_good != sample_good1]
 	sample_good2 = random.choice(remaining_sample_goods)
 
-	sample_bad1 = random.choice(sampleset_bad)
-	remaining_sample_bads = [sample_bad for sample_bad in sampleset_bad if sample_bad != sample_bad1]
+	sample_bad1 = random.choice(samples_bad[Major]) if (len(samples_bad[Major])) else random.choice(sampleset_bad)
+	remaining_sample_bads =[sample_bad for sample_bad in samples_bad[Major] if sample_bad != sample_bad1] if (len(samples_bad[Major])>=2) else [sample_bad for sample_bad in sampleset_bad if sample_bad != sample_bad1]
 	sample_bad2 = random.choice(remaining_sample_bads)
     
 	icl=f'''Here is a sample Metadata and summary pair, centred around the topic of {Major}. Here, you can see how the summary provided is judged aganst the Metadata if there are violations of any kind. If there are no Violations, it is labelled as "GOOD" and "None" is mentione dunder violations. If there are violations then the summary is labelled as "BAD", and all of the violations, as per the Taxonomy provided earlier, are listed one by one in the format above.'''

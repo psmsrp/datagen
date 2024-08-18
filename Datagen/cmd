@@ -1,0 +1,17 @@
+        git add ../Phine2une.ipynb
+        git add ../Phinetune.py        
+        git add ../Phinetune_LoRA.ipynb        
+       git add  '../psp copy.py'      
+        git add ../psp.ipynb
+        git add ../psp.py
+        git add ../psp_dummy.py
+        git add ../psp_z_comparisons.py
+       git add  ../psp_z_conversation.py
+       git add  ../psp_z_metadata.py
+        git add ../psp_z_outcomes.py
+        git add ../psp_z_starter.py
+       git add  ../psp_z_summary.py
+       git add  ../psprompt
+       git add  ../results/
+        git add ../run.py
+        git add ../text.txt

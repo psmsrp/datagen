@@ -3,9 +3,7 @@ from azure.identity import AzureCliCredential, get_bearer_token_provider
 from openai import AzureOpenAI
 import random
 
-# Load the CSV file into a DataFrame
-file_path = './results/results_metadata.csv'  # Replace with the actual file path
-df = pd.read_csv(file_path)
+
 # print(df['dialog'][0])
 
 # ---------------------BEGIN PRELOADING--------------------------------
@@ -22,6 +20,8 @@ for i,setting in enumerate(df['setting']):
     #     print(f"{i+1} . {setting}\n")
     sampleset[setting]=[]
 
+summary_good=[]
+
 for i, (setting, dialog, metadata, summary, quality, violations) in enumerate(zip( df['setting'], df['dialog'], df['metadata'], df['summary'], df['Quality'], df['Violations'])): 
     
 	if "good" in quality.lower():
@@ -33,10 +33,22 @@ for i, (setting, dialog, metadata, summary, quality, violations) in enumerate(zi
 			"violations":violations,
 		})
 
+		summary_good.append({
+			"dialog":dialog,
+			"metadata":metadata,
+			"summary":summary,
+			"quality":quality,
+			"violations":violations,
+		})
+
 # for i,setting in enumerate(sampleset):
 #     print(f"{i+1}.{setting} : {len(sampleset[setting])}")
 
 # ---------------------<END PRELOADING--------------------------------
+
+# Load the CSV file into a DataFrame
+file_path = './results/results_metadata.csv'  # Replace with the actual file path
+df = pd.read_csv(file_path)
 
 token_provider = get_bearer_token_provider(
     AzureCliCredential(), "https://cognitiveservices.azure.com/.default"
@@ -333,8 +345,8 @@ for i,(Major,text) in enumerate(zip(df['setting'],df['dialog'])):
     #     break
 	print(i,"\n")
 
-	sample1 = random.choice(sampleset[Major])
-	remaining_samples = [sample for sample in sampleset[Major] if sample != sample1]
+	sample1 = random.choice(sampleset[Major]) if (len(sampleset[Major])) else random.choice(summary_good)
+	remaining_samples = [sample for sample in sampleset[Major] if sample != sample1] if(len(sampleset[Major])>=2) else [sample for sample in summary_good if sample != sample1]
 	sample2 = random.choice(remaining_samples)
 	
 	icl=f'''Here is a sample summary for a converstaion on the topic of {Major}. Here you can see the various associated metadata extracted from the Taxonomy provided and a suitable Privacy preserving Summary for the same.'''
