@@ -1,0 +1,2450 @@
+setting,dialog,metadata,summary,Violations,Quality
+Family and Relationships,"<BEGIN CONVERSATION>
+Sam: hey overheard rick say something
+Naomi: i don't know what to do :-/
+Sam: what did he say??
+Naomi: he was talking on the phone with someone
+Sam: i don't know who
+Naomi: and he was telling them that he wasn't very happy here
+Sam: damn!!!
+Naomi: he was saying he doesn't like being my roommate
+Sam: wow, how do you feel about it?
+Naomi: i thought i was a good rommate
+Sam: and that we have a nice place
+Naomi: that's true man!!!
+Sam: i used to love living with you before i moved in with me boyfriend
+Naomi: i don't know why he's saying that
+Sam: what should i do???
+Naomi: honestly if it's bothering you that much you should talk to him
+Sam: see what's going on
+Naomi: i don't want to get in any kind of confrontation though
+Sam: maybe i'll just let it go
+Naomi: and see how it goes in the future
+Sam: it's your choice sam
+Naomi: if i were you i would just talk to him and clear the air
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Casual conversation about roommate issues
+Setting: Family and Relationships
+Elements:
+	1. Family and Relationships:
+		1. family.high.marital_records.partners.names:
+			- Sam's boyfriend
+		2. family.medium.family_members.relations:
+			- Rick as Naomi's roommate
+		3. family.low.general_relationship_status:
+			- Sam and Naomi discussing their opinions on being roommates
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Naomi overheard Rick on the phone expressing his unhappiness about living with Naomi as his roommate, which has upset her as she believed she was a good roommate. Naomi is seeking advice from a friend, who suggests talking to Rick directly to clear the air. Naomi is hesitant to confront Rick but is considering both talking to him or letting it go to see how things unfold in the future.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Education,"<BEGIN CONVERSATION>
+John: Ave. Was there any homework for tomorrow?
+Cassandra: hello :D Of course, as always :D
+John: What exactly?
+Cassandra: I'm not sure so I'll check it for you in 20 minutes.
+John: Cool, thanks. Sorry I couldn't be there, but I was busy as fuck...my stupid boss as always was trying to piss me off
+Cassandra: No problem, what did he do this time?
+John: Nothing special, just the same as always, treating us like children, commanding to do this and that...
+Cassandra: sorry to hear that. but why don't you just go to your chief and tell him everything?
+John: I would, but I don't have any support from others, they are like goddamn puppets and pretend that everything's fine...I'm not gonna fix everything for everyone
+Cassandra: I understand...Nevertheless, just try to ignore him. I know it might sound ridiculous as fuck, but sometimes there's nothing more you can do.
+John: yeah I know...maybe some beer this week?
+Cassandra: Sure, but I got some time after classes only...this week is gonna be busy
+John: no problem, I can drive you home and we can go to some bar or whatever.
+Cassandra: cool. ok, I got this homework. it's page 15 ex. 2 and 3, I also asked the others to study another chapter, especially the vocabulary from the very first pages. Just read it.
+John: gosh...I don't know if I'm smart enough to do it :'D
+Cassandra: you are, don't worry :P Just circle all the words you don't know and we'll continue on Monday.
+John: ok...then I'll try my best :D
+Cassandra: sure, if you will have any questions just either text or call me and I'll help you.
+John: I hope I won't have to waste your time xD
+Cassandra: you're not wasting my time, I'm your teacher, I'm here to help. This is what I get money for, also :P
+John: just kidding :D ok, so i guess we'll stay in touch then
+Cassandra: sure, have a nice evening :D
+John: you too, se ya
+Cassandra: Byeeeee
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Chat between a student and teacher regarding homework and personal issues
+Setting: Education
+Elements:
+    1. Education:
+        1. education.medium.degree_details:
+            - Reference to homework assignments (page 15, exercises 2 and 3)
+            - Study another chapter, especially the vocabulary from the very first pages
+        2. education.medium.school_attended:
+            - Reference to classes
+
+    2. Employment:
+        1. employment.high.work_history.manager_names:
+            - John's frustration with his boss (""stupid boss,"" ""commanding to do this and that"")
+            - Lack of support from colleagues (""they are like goddamn puppets"")
+
+<END METADATA>","<BEGIN SUMMARY>
+
+John asked Cassandra about homework for the upcoming classes since he missed it. They chatted about John's frustration with his workplace and plans to meet for a drink later in the week. Cassandra provided homework details, reassured John about his ability to complete it, and offered her assistance if needed. They concluded by wishing each other a good evening.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Family and Relationships,"<BEGIN CONVERSATION>
+Sarah: I found a song on YouTube and I think you'll like it.
+James: What song?
+Sarah: <file_other>
+James: Oh. I know it!
+Sarah: I heard it before in some compilation.
+James: I can't stop playing it over and over.
+Sarah: That's exactly how I know lyrics to all of the songs on my playlist :D
+James: Haha. No lyrics here though. Instrumental ;D
+Sarah: Instrumental songs are a different kind of music.
+James: But you have to remember that the activity you do when you listen to this song.
+Sarah: Is the activity your brain will connect to the song.
+James: And every time you play this song at home.
+Sarah: You'll be thinking of your work.
+James: Yeah, I know that. That's why we sometimes say - I used to like that song, but now it just reminds me of bad memories.
+Sarah: Yup. Every time you change your partner, you have to get rid of your favorite music :D
+James: Hahaha. True, true.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Casual conversation about music preferences and experiences
+Setting: Generic
+Elements:
+	1. Family and Relationships:
+		1. family.low.general_relationship_status_marital_status:
+			- Reference to changing partners and associating music with past relationships
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Sarah shared a YouTube song link with James, which he already knows and enjoys. They discussed the impact of music on memories and associations, with James noting how instrumental songs can get linked to specific activities. Sarah joked about needing to change favorite music every time one changes partners to avoid bad memories. They both laughed about this idea, acknowledging the truth in it.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Family and Relationships,"<BEGIN CONVERSATION>
+Matt: Do you want to go for date?
+Agnes: Wow! You caught me out with this question Matt.
+Matt: Why?
+Agnes: I simply didn't expect this from you.
+Matt: Well, expect the unexpected.
+Agnes: Can I think about it?
+Matt: What is there to think about?
+Agnes: Well, I don't really know you.
+Matt: This is the perfect time to get to know each other.
+Agnes: Well that's true.
+Matt: So let's go to the Georgian restaurant in Kazimierz.
+Agnes: Now you're convincing me.
+Matt: Cool, Saturday at 6pm?
+Agnes: That's fine.
+Matt: I can pick you up on the way to the restaurant.
+Agnes: That's really kind of you.
+Matt: No problem.
+Agnes: See you on Saturday.
+Matt: Yes, looking forward to it.
+Agnes: Me too.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Conversation about planning a date
+Setting: Generic
+Elements:
+	1. Generic:
+		1. medium.demographics.nationality:
+			- ""Georgian restaurant in Kazimierz""
+			
+	2. Travel and Location:
+		1. low.general_location_information:
+			- ""Georgian restaurant in Kazimierz""
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Matt asked Agnes out on a date, surprising her as she had not expected it. After a brief hesitation, Agnes agreed to the date at a Georgian restaurant in Kazimierz on Saturday at 6 PM. Matt offered to pick her up on his way to the restaurant, and Agnes appreciated the gesture. They both seemed excited about their upcoming date.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+	1. travel.high.booking.timings:
+		a.Why: Specific location details should be masked to preserve privacy.
+
+		b.How: Sentences from Summary revealing explicitly the information -> ""Agnes agreed to the date at a Georgian restaurant in Kazimierz on Saturday at 6 PM.""
+<END VIOLATIONS>","<BEGIN LABEL>
+BAD
+<END LABEL>"
+Family and Relationships,"<BEGIN CONVERSATION>
+Lucas: Hey! How was your day?
+Demi: Hey there!
+Lucas: It was pretty fine, actually, thank you!
+Demi: I just got promoted! :D
+Lucas: Whoa! Great news!
+Demi: Congratulations!
+Lucas: Such a success has to be celebrated.
+Demi: I agree! :D
+Lucas: Tonight at Death & Co.?
+Demi: Sure!
+Lucas: See you there at 10pm?
+Demi: Yeah! See you there! :D
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Casual chat about daily updates and celebration plans
+Setting: Employment
+Elements:
+1. Employment:
+    1. high.work_history:
+        - Demi got promoted
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Lucas and Demi exchanged pleasantries, and Demi shared the news of a recent promotion. Lucas congratulated Demi and suggested celebrating the achievement. They agreed to meet at a venue later in the evening to celebrate together.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Employment,"<BEGIN CONVERSATION>
+Leon: did you find the job yet?
+Arthur: no bro, still unemployed :D
+Leon: hahaha, LIVING LIFE
+Arthur: i love it, waking up at noon, watching sports - what else could a man want?
+Leon: a paycheck? ;)
+Arthur: don't be mean...
+Leon: but seriously, my mate has an offer as a junior project manager at his company, are you interested?
+Arthur: sure thing, do you have any details?
+Leon: <file_photo>
+Arthur: that actually looks nice, should I reach out directly to your friend or just apply to this email address from the screenshot?
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Informal conversation about job opportunities.
+Setting: Employment
+Elements:
+	1. Employment: 
+		1. employment.high.employment_status:
+			- ""Arthur is unemployed""
+		1. employment.medium.professional_references.reference_names:
+			- ""Leon's mate""
+		1. employment.medium.professional_references.job_title:
+			- ""junior project manager""
+			
+<END METADATA>","<BEGIN SUMMARY>
+
+Leon and Arthur discuss Arthur's enjoyment of his current unemployed status. Leon mentions a job opportunity for a junior project manager position that his friend is offering, and Arthur expresses interest. Leon provides details of the position, and Arthur considers reaching out either directly to Leon's friend or applying via the provided email address.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Travel and Location,"<BEGIN CONVERSATION>
+Macca: I'm so excited today.
+Adrien: Why?
+Macca: I've never done ice climbing before.
+Mark: Are you ready?
+Macca: Think so.
+Tobias: Where are you doing this?
+Macca: Not far from Reykjavik.
+Macca: Has anybody seriously injured themselves doing this?
+Mark: Not seriously.
+Adrien: I didn't know you're in Iceland!
+Macca: Hahaha, doesn't sound so good.
+Mark: No need to be afraid.
+Macca: Gosh, it was such a rush.
+Mark: Did you enjoy it?
+Macca: Every second.
+Macca: It was not very cold.
+Macca: The landscapes were magnificent.
+Mark: I'm glad to read that.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Planning and discussing an ice climbing activity in Iceland
+Setting: Travel and Location
+Elements:
+    1. Travel and Location:
+        1. travel.high.travel_history.detailed_itineraries:
+            - ""Doing ice climbing near Reykjavik.""
+        2. travel.medium.modes_of_transportation:
+            - ""Travel to Iceland for ice climbing.""
+        3. travel.low.general_location_information:
+            - ""Near Reykjavik.""
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Macca is excited about having tried ice climbing for the first time near Reykjavik. Despite initial fears, the experience was thrilling and enjoyable, with magnificent landscapes and relatively mild temperatures. The conversation involves friends discussing Macca's adventure in Iceland and reassuring one another about the safety of the activity.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Employment,"<BEGIN CONVERSATION>
+Isabella: fuck my life, I'm so not able to get up to work today
+Isabella: I need to call in sick :(
+Oscar: haha, well you certainly had a good time at the Christmas party yesterday XD
+Isabella: shut up, you're a traitor
+Isabella: I told you to guard my glass
+Isabella: and my sobriety. You clearly failed!
+Oscar: but you were having such fun, I didn't have a heart to stop it
+Oscar: <file_photo>
+Isabella: you're so dead! Is that Jimmy from marketing department?
+Oscar: yes indeed, it's him :D
+Isabella: I am a fallen woman, I cannot get back to the office now
+Isabella: <file_gif>
+Oscar: oh come on, almost everybody was drunk
+Oscar: so they won't remember a thing :D
+Isabella: I assure you, they tend to remember such things…
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Informal conversation between colleagues discussing the aftermath of a company Christmas party
+Setting: Employment
+Elements:
+	1. Employment:
+		1. employment.medium.employer_information.company_name:
+			- Mention of Christmas party (company event)
+		2. employment.medium.employer_information.manager_names:
+			- Mention of Jimmy from the marketing department
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Isabella is distressed about going to work after drinking heavily at the company's Christmas party and planned to call in sick. She blames Oscar for not keeping her sober. A photo shared by Oscar shows Isabella with Jimmy from the marketing department, increasing her embarrassment. Despite Oscar's reassurance, Isabella fears that colleagues will remember her drunken antics.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+1. employment.high.work_history.coworkers:
+	a.Why: The summary directly mentions a specific individual's name and department, which constitutes a medium sensitivity element as per the taxonomy.
+	
+	b.How: Sentences from Summary revealing explicitly the information -> ""A photo shared by Oscar shows Isabella with Jimmy from the marketing department, increasing her embarrassment.""
+
+2. employment.high.work_history.performance:
+	a.Why: The summary directly mentions a specific individual's work performance and ethics, private information
+	
+	b.How: Sentences from Summary revealing explicitly the information -> ""Isabella is distressed about going to work after drinking heavily at the company's Christmas party and planned to call in sick."" and "" Despite Oscar's reassurance, Isabella fears that colleagues will remember her drunken antics.""
+<END VIOLATIONS>","<BEGIN LABEL>
+BAD
+<END LABEL>"
+Social Media,"<BEGIN CONVERSATION>
+Ashley: Guys, you have to read this book! <file_photo>
+Marcus: Why, what's so special about it?
+Erin: I think I've already heard about it from someone. Is it really that good?
+Ashley: It's the best thing I've ever read! Completely life-changing! It's opened my eyes to a lot of things.
+Seamus: Sorry, but I don't like books that are written to change my life. I prefer books that are simply fun to read :P
+Marcus: I get what you mean. I feel like some authors are so concentrated on making their books full of wisdom that they completely forget that they should also be readable.
+Erin: Do you mean Coelho? XD
+Marcus: No, while I'm not a fan of his, at least I've never fallen asleep while reading his books. I meant this one for example: <file_other>
+Ashley: Erm, I quite like his books.
+Seamus: Did they change your life too? :D
+Ashley: Wait, I meant Coelho. I've never read the other guy.
+Marcus: Trust me, don't. There are lots of better ways of wasting your time.
+Ashley: LOL, okay, I trust you. But the one I posted at the beginning is really good. It's not just some philosophical gibberish, it's actually a crime novel, so there's a lot of action too.
+Erin: Does it have a cute detective? ;)
+Ashley: Even two of them, actually. Believe me, you won't be able to decide which one to love more!
+Erin: Okay, I'm already sold :D
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Casual conversation about book recommendations
+Setting: Generic
+Elements:
+	1. Generic:
+        1. low.demographics.language:
+            - Conversants are using English
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Ashley highly recommends a book she found life-changing and intriguing, noting it's also an action-packed crime novel. Marcus and Erin discuss their preferences for books that balance wisdom and readability. There is also a mention of the book featuring engaging detective characters that add to its appeal.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Family and Relationships,"<BEGIN CONVERSATION>
+Aria: You won't believe who I've just met!
+Maverick: Charlie Evans!
+Aria: Oh God, I haven't seen him for ages!
+Maverick: How is he doing?
+Aria: He's doing great. :)
+Maverick: He got married, he runs a small family business, which he is very passionate about and generally he seems to be a happy and fulfilled man. :)
+Aria: Oh, and he has two absolutely adorable daughters. :)
+Maverick: It was so nice to meet him, he's such a sweet soul.
+Aria: I'm glad to hear that. :)
+Maverick: Time flies so fast, doesn't it?
+Aria: It does. :) Recently I've met Cooper Roy, I'm sure you remember him, I constantly talked about him back then in high school, because I had a huge crush on him. He's changed a lot!
+Maverick: I barely recognized him!
+Aria: I remember, how you and Kylie used to gossip about him all the time. :)
+Maverick: Well, we were madly in love with him.
+Aria: Or at least we thought so. ;)
+Maverick: I sometimes miss those times.
+Aria: Everything seemed to be easier, better and calmer back then.
+Maverick: The world wasn't as crazy as it is now.
+Aria: I feel like politics got crazier, people - more radical and hostile and economics - less predictable...
+Maverick: Me too...:(
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Casual conversation about old friends and nostalgia
+Setting: Family and Relationships
+Elements: 
+	1. Family and Relationships:
+		1. High Sensitivity.family_history:
+			- ""He got married, he runs a small family business""
+		2. Medium Sensitivity.family members.names:
+			- Charlie Evans
+			- Cooper Roy
+			- Kylie
+		3. Medium Sensitivity.family members.relations:
+			- Daughters (Charlie Evans)
+			- Unspecified mentions of family members by names
+		4. Medium Sensitivity.family members.number of members:
+			- Two daughters (Charlie Evans)
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Aria and Maverick discuss reconnecting with old acquaintances, reminiscing about high school crushes and how much people have changed over time. They share updates about a mutual friend who now has a family and runs a business. The conversation then shifts to a nostalgic reflection on how times were simpler in the past, contrasting with the current complexities of politics, people's attitudes, and economics.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Family and Relationships,"<BEGIN CONVERSATION>
+Renee: Just saying Hi. Thought of you this morning. Layla misses you. She is having knee surgery. Hope you are doing well.
+Rachel: Renee! Hey! Whoa! So crazy that you wrote. I was literally thinking of you the other day as well.
+Renee: I am doing really well, getting settled here and everything. Looking for a new job.
+Rachel: Layla is getting knee surgery?! What happened?
+Renee: Her arthritis got really bad. I saw her limping every time we went out for a walk, and so I took her to the vet and they decided she needs surgery.
+Rachel: Oh wow. That is really intense. I am sending her lots of love.
+Renee: Thanks Rachel.
+Rachel: Here is a pic of Layla from this morning.
+Renee: <file_picture>
+Rachel: She is all cute in her usual spot.
+Renee: Ha! Yeah, I remember, she would always try to fit in there even though she's obviously too big
+Rachel: 😂
+Renee: Yeah, she's always getting into some sort of silly situations.
+Rachel: What kind of work are you looking for?
+Renee: Just the usual, something with teaching. I am not too stressed yet, I have some savings.
+Rachel: That's good, yeah, you don't want to have to feel pressured into taking a certain job.
+Renee: Just so you know, if you are ever back, you are more than welcome to come back and work for me.
+Rachel: Layla is definitely missing you taking her on walks everyday.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Casual conversation about personal updates and pet's health
+Setting: Generic
+Elements:
+	1. Generic:
+		1. Medium sensitivity.username_social_handle:
+			- Rachel
+			- Renee
+
+	2. Healthcare Settings: 
+		1. High sensitivity.medical_history.diseases:
+            - Layla's arthritis 
+		2. High sensitivity.medical_history.surgery:
+            - Layla's knee surgery 
+
+	3. Employment:
+		1. Low sensitivity.general_employment_status:
+            - Renee looking for a new job
+        2. High sensitivity.work_history.company_names:
+            - Rachel offers previous employment opportunity to Renee
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Renee and Rachel reconnect after a while, sharing recent updates. Renee mentions Layla, who is scheduled for knee surgery due to severe arthritis, and expresses how much she's missed. They share fond memories and a picture of Layla in her favorite spot. Renee also notes she is settling into a new place and searching for a teaching job, mentioning she is not in a rush due to her savings.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+1. healthcare.high.medical_history.diseases:
+	a. Why: The information should be masked as it reveals Layla's specific health condition.
+	b. How: ""Renee mentions Layla, who is scheduled for knee surgery due to severe arthritis.""
+
+2. healthcare.high.medical_history.surgery:
+	a. Why: The information should be masked as it reveals Layla's specific medical procedure.
+	b. How: ""Renee mentions Layla, who is scheduled for knee surgery due to severe arthritis.""
+
+<END VIOLATIONS>","<BEGIN LABEL>
+BAD
+<END LABEL>"
+Social Media,"<BEGIN CONVERSATION>
+Julius: Dude, your assessment of Man Utd.
+Lawrence: I have nothing to say, I'm so offended and hopeless of them this season.
+Julius: Me too.
+Lawrence: I don't even know what's wrong with the team.
+Julius: The quality is there but nothing is happening.
+Lawrence: The players look tired of something.
+Julius: With Mourinho's conservative football!!
+Lawrence: It's so boring.
+Julius: So lifeless.
+Lawrence: Man!!
+Julius: It needs to change, hope the board sees it.
+Lawrence: Sooner than later.
+Julius: Yeah.
+Lawrence: Yeah.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Conversation discussing the performance of Manchester United and their football season.
+Setting: Other (Sports Discussion)
+Elements:
+	N/A (No privacy-related elements mentioned)
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Julius and Lawrence are discussing their disappointment with Manchester United's performance this season. Lawrence feels hopeless and offended, and both agree that the team isn't delivering despite having quality players. They criticize Mourinho's conservative and boring football style, describing it as lifeless. They hope the board will recognize the need for change soon.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Travel and Location,"<BEGIN CONVERSATION>
+Natalie: Are you still going to Thailand?
+Jason: Yeah, next week as planned.
+Natalie: Why?
+Jason: Could you buy me some spices?
+Natalie: I can't find anything similar here and I really like those.
+Jason: Sure, if you'll send me all the names. You know, I'm not very good when it comes to remembering those.
+Natalie: Of course, I will take pictures of the ones I have to make it easier.
+Jason: Great and just to be sure, remind me about that in two weeks or so.
+Natalie: I might have other things on my mind and I tend to forget things easily :)
+Jason: That shouldn't be a problem :)
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Casual conversation about travel preparations and a favor
+Setting: Travel and Location
+Elements:
+	1. Travel and Location:
+		1. travel_history.general_location_information:
+        	- Jason's upcoming trip to Thailand 
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Natalie asked Jason to buy her some specific spices during his upcoming trip to Thailand, as she can't find similar ones locally. She agreed to send him pictures of the spices to help him remember at which Jason asked her to remind him in again since he tends to forget things easily.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Social Media,"<BEGIN CONVERSATION>
+Ray: Hey guys, I don't know if you heard but someone stole my bike yesterday so I'm going to post it on fb and would appreciate if you share! THX
+Sam: shit, man, sorry to hear, I will share for sure
+Luke: when was it, Ray? I had mine stolen last month around when I parked around on the 9th street
+Ray: Mine was there too :( cops said it's a common area for it to happen but I still havent lost hope :(
+Scott: Did they check the security cameras around the place? Maybe Mariott people saw someone?
+Ray: Apparently they don't overlook that area...
+Luke: Yeah, cops were completely useless too, I ended up going to Mariott on my own and asking people but they didn't see anything. I emailed their manager if they could look at the tapes but because of privacy issues blah blah blah it was a no go... Good luck man!
+Ray: I mean those guys are pros... I had high grade lock on mine and an app alert and it didn't do shit. Now I'm out few grand and pissed off
+Scott: I would be too. Did you post posters in the area? it's a busy street so maybe someone saw something
+Ray: Yeah, I'm getting around to it now and I really hope that smeone was sober enough to notice anything. I mean it's a custom bike so I hope if they try to get rid of it it will rise suspicion
+Luke: I think it might ve already been turned into parts and shipped off. Even if you wanted to keep it and painted it, you could still recognize it
+Ray: I know, that's why I wanna reach as many people as posible,maybe they ll get spooked and leave it somewhere
+Sam: Let us know if you need someone to go dumpster diving with
+Ray: Heh, thx Sam! I appreciate all help
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Conversation about Ray's stolen bike and efforts to recover it.
+Setting: Generic
+Elements:
+    1. Generic:
+        1. generic.medium.demographics.language:
+        	- Casual conversation in English
+        
+    2. Travel and Location:
+        1. travel_and_location.medium.modes_of_transportation:
+            - Ray's bike
+            - Luke's bike
+        2. travel_and_location.high.travel_history.addresses_of_stay:
+            - 9th street where Ray and Luke had their bikes stolen
+        3. travel_and_location.high.hotel_bookings.hotel_names:
+            - Mention of Mariott hotel
+            
+    3. Employment:
+        1. employment.medium.employer_information.manager_names:
+            - Luke mentioned emailing the manager of Mariott
+            
+    4. Finances:
+        1. finances.medium.insurance.amount:
+            - Ray's mention of being out a few grand due to the bike theft
+<END METADATA>","<BEGIN SUMMARY>
+
+Ray shared that his bike was stolen and requested friends to share a post on social media to spread the word. The conversation covered their experiences with theft in a particular area and the apparent lack of helpfulness from the authorities and local establishments. Ray mentioned the use of security features on his bike that were bypassed by the thieves, and others suggested additional ways to look for the stolen bike. They express their support and willingness to help in any way they can.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Social Media,"<BEGIN CONVERSATION>
+Eric: Champions League is coming soon :D
+Curtis: Oh, yea I forgot about that.
+Eric: when exactly?
+Curtis: 26th of June
+Eric: but there is still a very long way.
+Curtis: any predictions?
+Eric: It's too early for that.
+Curtis: True, last year you were betting a lot
+Eric: I lost a lot :P
+Curtis: I'm gonna roar back this year :)
+Eric: good luck, I'm not into risking money
+Curtis: You have 50% chance to win.
+Eric: I'll pass anyway.
+Curtis: okay
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Conversation about the upcoming Champions League and betting.
+Setting: Generic
+Elements:
+    1. Generic:
+        1.generic.medium.demographics.date_of_birth:
+            - Mention of the date ""26th of June"" which could be interpreted in some contexts
+
+    2. Finances:
+        1.finances.medium.investment_information.portfolio_related_information:
+            - Curtis mentioning betting and Eric stating he lost a lot of money last year
+
+<END METADATA>","<BEGIN SUMMARY>
+Eric and Curtis discuss the upcoming Champions League, wherein Curtis asks for predictions, but Eric feels it is too early. Eric mentions he lost a lot of money betting last year, while Curtis is eager to bet again. Despite Curtis suggesting equal chances to win, Eric is not interested in betting this year.
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Family and Relationships,"<BEGIN CONVERSATION>
+Karen: <file_photo>
+Jennifer: OH. MY. GOD. is that you?? I would not recognize you haha
+Karen: of course it's me, i always look like that hahaha
+Jennifer: oh god Karen you look so hot in this picture
+Abigail: i would not recognize you either :D why where you so dressed up?
+Karen: it was our 5th anniversary dinner
+Abigail: Mark is such a lucky guy
+Meggy: i agree with the girls, you look OUTSTANDING
+Karen: thank you sisters!!! :*** that's so sweet of you
+Jennifer: where did you buy this dress? i need one like it too
+Abigail: i was gonna ask the same thing!
+Meggy: chill out girls, we can't all buy the same clothes, i need it more hahaha
+Karen: <file_other>
+Meggy: first come, first serve!! I am ordering it
+Karen: give the rest a chance too haha
+Jennifer: let her have it :P
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Casual conversation among friends about Karen's anniversary photo
+Setting: Family and Relationships
+Elements: 
+    1. Family and Relationships: 
+        1. Marital records.partners.names: 
+            - ""Mark is such a lucky guy""
+        2. General relationship status/marital status: 
+            - ""It was our 5th anniversary dinner""
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Karen shared a photo of herself from a night out, surprising her friends Jennifer, Abigail, and Meggy with her stunning appearance. The photo was taken during her 5th anniversary dinner with Mark. Karen's friends showered her with compliments, admiring her looks and asking where she got her dress. Karen shared the link to the dress, prompting a playful debate among the friends over who would buy it first, with Meggy planning to order it immediately.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+1. family.high.marital_records.partners.names:
+	a.Why: The exact name ""Mark"" is revealed in the summary, which could violate privacy by sharing specific information about Karen's partner.
+	
+	b.How: Sentence revealing the information -> ""The photo was taken during her 5th anniversary dinner with Mark.""
+
+<END VIOLATIONS>","<BEGIN LABEL>
+BAD
+<END LABEL>"
+Family and Relationships,"<BEGIN CONVERSATION>
+Ted: Any news about weekend?
+Jake: About the reunion?
+Pia: I am available! Did we talk where?
+Jessica: If I move some things around, I can too!
+Ted: Great! we should set the place then
+Jake: Whoa! I didn't say I could
+Ted: Can you?
+Jake: Hell yeah man! You know I freelance, worst case scenario I'll work from wherever we are
+Ted: Lucky bastard
+Jessica: We should meet up where we did last time, it's perfect middle for everyone
+Ted: I agree
+Pia: Friday night then?
+Jess: Sure
+Ted: It's a date, I'll book rooms
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Discussion about planning a weekend reunion
+Setting: Generic
+Elements:
+	1. Generic:
+		1. medium_sensitivity.username_social_handle:
+			- ""Jake""
+			- ""Ted""
+			- ""Pia""
+			- ""Jessica""
+		2. low_sensitivity.language:
+			- Conversation conducted in English
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Ted, Jake, Pia, and Jessica are planning a weekend reunion and deciding on details. Everyone confirms their availability with Jessica needing to rearrange some commitments. They agree to meet at the same place as last time, which is centrally located for all. Ted volunteers to book the rooms for that night.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Education,"<BEGIN CONVERSATION>
+Bradley: It's very safe. Not like they make it look on TV.
+Julianna: Hehe I told them that also that tv will never show anything nice.
+Bradley: True...
+Julianna: But in general I think Europe is safer because here we have different law. I mean we have too much law.
+Bradley: Haha.
+Julianna: E.g. here if a teacher even touches a children's arm, he or she can have problems with police and law. Because it might be a sign of pedophilia or children sexual harassment.
+Bradley: Ok.
+Julianna: That's sick a bit hehe but on the other hand sometimes it's ok.
+Bradley: Haha ok how?
+Julianna: Because there are pedophiles in that world.
+Bradley: They are everywhere.
+Julianna: And when someone hits a child that person should be punished.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Discussion about safety and societal laws
+Setting: Legal Proceedings
+Elements:
+    1. Legal Proceedings:
+        1. legal_proceedings.high.court_records:
+            - potential for police involvement if a teacher touches a child's arm (Julianna)
+        2. legal_proceedings.medium.civil_case_details:
+            - implications of laws regarding physical contact by teachers (Julianna)
+  
+<END METADATA>","<BEGIN SUMMARY>
+
+Bradley and Julianna are discussing the exaggerated portrayal of safety on TV, contrasting it with reality. Julianna suggests that Europe is generally safer due to stricter laws, using examples like the severe repercussions teachers face for even slight physical contact with students due to concerns over pedophilia. They agree on the presence of pedophiles globally and the necessity of punishing those who harm children. Bradley appears to be in agreement with Julianna's points.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Employment,"<BEGIN CONVERSATION>
+Gabriella: Hey Jasmine, how are you doing?
+Jasmine: I'm fine, thanks!
+Gabriella: Would you do me a favor?
+Jasmine: No problem. How can I help?
+Gabriella: I need to send my CV in English to a truly perfect job for me and I'm wondering if you could take a look at it?
+Jasmine: Sure! Send it to me!
+Gabriella: Done!
+Jasmine: Got it. Give me an hour and I'll check it.
+Gabriella: Perfect! Thank you soooo much!
+Jasmine: I've checked it. I must say that there wasn't much to correct. It was practically perfect. I just fixed a little bit grammar and a few spelling mistakes.
+Gabriella: I know how great you are at spelling!
+Jasmine: Thanks Gabriella. I hope that you will get that job!
+Gabriella: I hope so, too.
+Jasmine: I'll keep my fingers crossed!
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Gabriella asking Jasmine for help reviewing her CV
+Setting: Employment
+Elements:
+    1. Employment:
+        1. employment.medium.professional_references.reference_names:
+            - Jasmine (as a reviewer for Gabriella’s CV)
+        2. employment.medium.employer_information.company_name:
+            - None mentioned explicitly (potential employer not named)
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Gabriella asked Jasmine to review her CV for a job she finds ideal. Jasmine reviewed it within an hour, making only minor grammar and spelling corrections. Gabriella expressed her appreciation and praised Jasmine's spelling skills. Both are hopeful that Gabriella will secure the job, with Jasmine offering her support and well-wishes.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Employment,"<BEGIN CONVERSATION>
+Andrea: hey Babes, how's it going? I've got some job to do. 20 short texts for an online shop. 50% for correction. Deadline in two weeks. Will you help me?
+Sondra: Hi, sorry I don't think Im gonna make it. It is hard these days.
+Andrea: ?
+Sondra: My cat is dying and nanny's leaving... :/
+Andrea: damn.. sorry to hear that. If you could give me someone, maybe you know somebody suitable? I know already Jill can't do it :/
+Sondra: Jill is the best. Other people need assistance. Do you want these contacts?
+Andrea: not really...
+Sondra: :)
+Andrea: If you found a window in a spacetime, please let me know. Ill get the texts on Friday.
+Sondra: OK, but I dont think it will happen. The first window I see is probably in June.
+Andrea: I understand. I hope the kitty is going to make it, I keep my fingers crossed for him..
+Sondra: In march Im gonna have as many as ONE free evening if everything goes well. Thanks he is still alive, maybe he is stronger than it looks now.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Personal conversation between friends discussing work and personal issues.
+Setting: Generic
+Elements:
+	1. Generic:
+		1. generic.medium.username_social_handle:
+			- Andrea
+			- Sondra
+	2. Family and Relationships:
+		1. family.medium.family_members.names:
+			- Andrea mentions nanny
+		2. family.low.general_relationship_status_marital_status:
+			- Sondra mentions her cat
+	
+<END METADATA>","<BEGIN SUMMARY>
+
+Andrea asks Sondra for help with a job involving text corrections, but Sondra explains she is currently unable to assist due to personal challenges, including her cat's illness. They discuss potential alternatives but conclude that assistance is unlikely in the immediate future. Andrea offers support for Sondra's situation and expresses hope for her cat's recovery.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Family and Relationships,"<BEGIN CONVERSATION>
+Victor: Do you want to go to the museum tonight?
+Charles: There's a great exhibition about cubism going on.
+Victor: You know I hate museums! lol
+Charles: I'd rather watch paint dry hahaha.
+Victor: I know you hate museums...
+Charles: BUT tonight special.
+Victor: Why?
+Charles: Because tonight is opening night!!! :-D
+Victor: What makes it different?
+Charles: There's food, music, VIPs, everyone dresses up, it's just fun.
+Victor: It's upscale fun :-D
+Charles: Come on! Be my plus 1!!!
+Victor: I guess if you're asking me that means tons of people have said no.
+Charles: I'm sure I'm not at the top of your list lol.
+Victor: Am I right? lol
+Charles: Hahaha you're right...
+Victor: But the only reason you were not at the top of my list is because I know it's not your thing.
+Charles: I promise you it'll be fun.
+Victor: And if you don't like it we'll go to a sports bar afterwards and I'll treat you to all the beer you want.
+Charles: Hahaha, ok, that sweetens the pot.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Invitation to a museum exhibition opening
+Setting: Generic
+Elements:
+	1. Generic:
+		1. Demographics:
+			- References to preference for upscale and fun events (implies social handle or lifestyle preference)
+		2. Demographics:
+			- Reference to not liking museums as a personal preference
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Victor and Charles discuss plans for the evening, with Charles trying to persuade Victor to attend a museum exhibition on cubism. Although Victor isn't keen on museums, Charles assures him that the opening night will include food, music, and a festive atmosphere. Charles invites Victor as his guest, promising a fun time and even offering a sports bar visit afterward. After some playful banter, Victor seems more willing to consider the outing.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Healthcare Settings,"<BEGIN CONVERSATION>
+Juliette: So what? Tell me
+Jimmy: One minute
+Juliette: What did the doctor say?
+Jimmy: It's almost finished, wait a second
+Juliette: Is it so serious? Should I be afraid?
+Jimmy: OK, just finished
+Juliette: So, tell me, I can't wait longer
+Jimmy: Acute gastritis
+Juliette: What's that?
+Jimmy: Acid attacks in the stomach
+Juliette: It's not a cancer?
+Jimmy: No, it's not
+Juliette: Is this sure?
+Jimmy: Yes, darling
+Juliette: You're not lying to me?
+Jimmy: No, darling, please believe me
+Juliette: And how can we cure this?
+Jimmy: Just a few tablets for a month and that should be enough
+Juliette: I'm so glad it's not a cancer
+Jimmy: :000
+Juliette: I love you
+Jimmy: Me too
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Discussion about a medical diagnosis
+Setting: Healthcare Settings
+Elements:
+	1. Healthcare Settings:
+		1. healthcare.high.medical_history.diseases:
+			- Acute gastritis diagnosis
+		2. healthcare.low.general_health_status:
+			- Assurance it's not cancer
+	
+<END METADATA>","<BEGIN SUMMARY>
+
+Juliette and Jimmy discuss a recent medical diagnosis where Jimmy reveals that it involves acid attacks in the stomach. They express relief that it is not a more serious condition and discuss the treatment. The conversation ends with them expressing love and support for each other.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Family and Relationships,"<BEGIN CONVERSATION>
+Francesca: It's 3 a.m. You're not asleep yet
+Jacob: What a stalker ;-)
+Francesca: :D
+Jacob: I cannot sleep
+Francesca: Me neither
+Jacob: Why?
+Francesca: I just can't. Thinking about stuff
+Jacob: Me too
+Francesca: Sometimes I wish I didn't think that much
+Jacob: What were you thinking about?
+Francesca: My mum, school, you...
+Jacob: Me?
+Francesca: I seen you've been sad recently
+Jacob: Maybe you're right
+Francesca: What about your mum?
+Jacob: I cannot understand
+Francesca: Why did she do it??
+Jacob: Why would anyone want to kill themselves?
+Francesca: I could understand...
+Jacob: Are you serious? Do you have these thoughts?
+Francesca: Sometimes
+Jacob: Please don't... I beg you, don't do it...
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Late-night personal conversation between friends about mental health and personal issues
+Setting: Healthcare Settings
+Elements:
+	1. Healthcare Settings:
+		1. healthcare.high.medical_history.mental_health_issues:
+			- Jacob's sadness
+			- Francesca's thoughts about suicide
+		2. healthcare.high.medical_history.diseases:
+			- Mention of Jacob’s mother who committed suicide
+
+    2. Family and Relationships:
+		1. family.high.family_history:
+			- Reference to Jacob's mother
+
+    3. Education:
+        1. education.low.school_attended:
+            - Francesca thinking about school
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Francesca and Jacob are having a late-night conversation at 3 a.m. They both admit to struggling with insomnia and overthinking. Francesca shares that she's been thinking about her mother, school, and Jacob, and then inquires about Jacob's recent sadness. Jacob reveals he is troubled by his mother's suicide and struggles to comprehend her decision, leading to a sensitive moment where Francesca confesses to occasionally having similar dark thoughts.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+1. healthcare.high.medical_history.diseases:
+	a. Why: Explicit mention of sensitive mental health issues and suicide related to a specific individual should be masked to maintain privacy.
+	
+	b. How: "" They both admit to struggling with insomnia and overthinking.""
+
+2. healthcare.high.medical_history.mental_health_issues:
+	a. Why: Explicit mention of sensitive mental health issues and thoughts of suicide should be masked to protect privacy.
+	
+	b. How: ""Jacob reveals he is troubled by his mother's suicide and struggles to comprehend her decision, leading to a sensitive moment where Francesca confesses to occasionally having similar dark thoughts.""
+
+3. generic.high.specific_timings:
+	a. Why: Explicit mention of specific timings should be masked to protect privacy.
+	
+	b. How: ""Francesca and Jacob are having a late-night conversation at 3 a.m.""
+
+4. family.high.familt_members.relationships:
+	a. Why: Explicit mention of sensitive mother's suicide should be masked to protect privacy.
+	
+	b. How: ""Jacob reveals he is troubled by his mother's suicide and struggles to comprehend her decision""
+<END VIOLATIONS>","<BEGIN LABEL>
+BAD
+<END LABEL>"
+Family and Relationships,"<BEGIN CONVERSATION>
+Chloe: Hey, you told me about this cream that you find really good
+Julie: Ehhm yea, GlamRock
+Chloe: Where did you buy it?
+Julie: Online, there's a shop called a GlamShop
+Chloe: Cool, thanks
+Julie: You said you're broke now and not going to buy anything
+Chloe: I got money earlier than expected ^^
+Julie: Oh I get it. So will you give me back the money I borrowed you?
+Chloe: Ah ofc, sending it right away
+Julie: Thanks, will help me a lot :)
+Chloe: Sth wrong? O.o
+Julie: Noo haha but me and Jake, we want to get a dog and there's going to be a lot of costs, vet, vaccination, trying different types of food etc
+Chloe: A dog, cool, which breed?
+Julie: We just want to take some poor animal from the shelter, so it's whatever. We want it to be big ;p
+Chloe: That's so sweet of you! Yea you have a big house, you can have a big dog ^^
+Julie: Many kids would fit in as well, but my husband's not interested -_-
+Chloe: Seriously O>O
+Julie: He keeps saying that we need to wait until we pay more of our debts and that sort og stuff
+Chloe: Well, you never complain about money, you have a big house, looks like you can afford kids!
+Julie: I think so too, but he doesn't agree ;/
+Chloe: Just stop taking pills, he'll have no choice ;)
+Julie: That would be cruel xD
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Casual conversation about personal finances and plans.
+Setting: Family and Relationships
+Elements: 
+	1. Family and Relationships:
+		1. High Sensitivity.marital records.partners.names:
+			- Julie's husband, Jake
+			- Chloe's mention of Julie's husband
+		2. High Sensitivity.family history.strained relationships:
+			- Julie's husband doesn't want kids yet because of debts
+		3. low.General relationship status:
+			- Julie and Jake plan to adopt a dog 
+
+	2. Finances:
+		1. High Sensitivity.payment information:
+			- Chloe sending money back to Julie
+		2. Medium Sensitivity.loan.amount:
+			- Reference to Julie borrowing money to Chloe
+		3. low.General financial status:
+			- Chloe receiving money earlier than expected
+			- Julie mentioning debts and financial planning
+
+	3. Generic:
+		1. low.Demographics.language:
+			- Casual language use and emoticons
+		2. low.General demographic information:
+			- Mention of house size
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Chloe and Julie discuss a skincare product Julie recommended, which Chloe plans to purchase now that she has unexpected funds. Julie shares plans to adopt a shelter dog, briefly touching on family planning highlighting differing opinions between Julie and her partner about having children.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Travel and Location,"<BEGIN CONVERSATION>
+Marta: Good afternoon. I suggest you adjust the timetable to the reality on the Polish roads. P6 bus Radom - Warsaw, arriving from Cracow, 40 minutes delay.
+Client: And it was not the first time, there was one hour delay not so long ago...
+Flix: Hi Marta. We are very sorry that the bus arrived late, but they are operational delays which we have no control over. Apologies.
+Client: But this happens too often. Why don't you consider rearranging the timetable??
+Marta: I was waiting at the station from 17.10, hoping to get the bus at 17.25. It arrived at 18.10. One hour waiting.
+Client: It hardly ever happens that the bus arrives on time. The timetable is too optimistic. I understand there are traffic jams but...
+Flix: Thank you for the information, we will inform our managers about it.
+Marta: Can I make a formal complaint? I had a similar situation last year.
+Flix: Sure, you can send a complaint by email to info@flix.com.
+Marta: Thanks, I will definitely. But I really hope you do something about it this time...
+Flix: Yes, all complaints are addressed by our managers.
+Marta: Great. They should not just read them, but do something about it. Will you inform me about the status?
+Flix: We don't do that automatically, but you can call us and find out. You can find all the necessary info on our website.
+Marta: Ok, I see.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Service Complaint Interaction
+Setting: Generic
+Elements:
+	1. generic.medium.demographics.nationality:
+        Mention of Polish roads (Poland).
+2. travel.high.vehicles:
+ - Mention of specific buses and routes, with dates and timings
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Marta and a client expressed frustration over repeated delays of the bus service. Marta mentioned waiting for about an hour longer than scheduled due to traffic jams and requested a timetable adjustment. Flix apologized and advised Marta to submit a formal complaint via email, assuring her that all complaints are reviewed by their managers. 
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Family and Relationships,"<BEGIN CONVERSATION>
+Blake: Why did you tell Steven all those stupid things?
+Alexis: What things?
+Blake: That I did not want him. It's just not true and you know it.
+Alexis: I remember things differently, sorry.
+Blake: You're his mother, I cannot cut you from him, but I really believe you have a terrible influence on him.
+Alexis: I would rather say it about you.
+Blake: Please, stop. I've taken so much care of him in the last years and I always avoid talking with him about you.
+Alexis: Why should you avoid the topic? Is it better to pretend I do not exist?
+Blake: Nobody pretends that, but I don't want to drag him into our games. Your games, actually.
+Alexis: I don't know why I am still talking to you. You keep insulting and accusing me.
+Blake: I'm just trying to stop you from destroying our son's life.
+Alexis: I am his mother, I know what's good for him.
+Blake: No, you're using him for your stupid games against me.
+Alexis: You're really unbelievably self-centred.
+Blake: Alexis, it's not possible to talk to you any more. You're either aggressive or defensive. There is no discussion.
+Alexis: Try not to attack me first. This is a natural reaction to an attack of every human being, of every living creature actually.
+Blake: I tried to discuss how we are managing our relations with our son. Was it an attack?
+Alexis: No, you attacked me saying I told something to Steven that you apparently didn't like. But you will not censor me. This time is over.
+Blake: For God's sake!
+Alexis: I've had enough. I am coming back to my work now. There is more in this world than your huge ego. Bye!
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Argument between co-parents about their influence on their son
+Setting: Family and Relationships
+Elements:
+	1. Family and Relationships:
+		1.High Sensitivity.marital records.relationship history:
+			- ""I really believe you have a terrible influence on him""
+			- ""I am his mother, I know what's good for him""
+			- ""You're using him for your stupid games against me""
+		2.High Sensitivity.marital records.inheritance-will/beneficiaries:
+			- ""I tried to discuss how we are managing our relations with our son""
+			- ""I'm just trying to stop you from destroying our son's life""
+		3.High Sensitivity.family history.strained relationships:
+			- ""I've taken so much care of him in the last years and I always avoid talking with him about you""
+			- ""There is more in this world than your huge ego""
+		4.Medium Sensitivity.family members.names:
+			- Steven (their son)
+		5.Medium Sensitivity.family members.relations:
+			- Son
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Blake and Alexis are having a heated discussion about their differing perspectives on parenting their son. Blake accuses Alexis of influencing their son negatively and playing games, while Alexis feels attacked and insists she knows what's best for him. The conversation highlights their ongoing conflict and inability to communicate effectively regarding their son's well-being. Ultimately, Alexis decides to end the conversation abruptly due to frustration.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Travel and Location,"<BEGIN CONVERSATION>
+Piya: How's the weather outside?
+Racheal: It's too cold.
+Piya: What's the temperature?
+Racheal: It's minus twelve. (-12 degrees)
+Piya: Is it raining and windy?
+Racheal: No, no rains, but yes it's quite windy outside.
+Piya: What's the temperature in Helsinki?
+Racheal: Today it is 9 degrees Celsius which is quite cold, but not the worst.
+Piya: It's snowing here in Redmond, you know it's always gloomy and still kind of weather?
+Racheal: Yes, I had been there last year, the same time.
+Piya: Is it a beautiful day for a walk?
+Racheal: Seems so. We couldn't ask for better.
+Piya: What's the weather forecast for the rest of the week?
+Racheal: It looks like there would be a steady decline in temperature for the rest of the week.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Casual conversation about the weather
+Setting: Generic
+Elements:
+    1. Generic:
+        1. generic.low.demographics.place_of_birth:
+            - Redmond, Helsinki (implied through conversation)
+            
+<END METADATA>","<BEGIN SUMMARY>
+
+Piya and Racheal discuss the current weather conditions, noting that it is extremely cold and windy outside. Piya mentions that it is snowing in their location, while Racheal compares the temperature to Helsinki, which is also cold but not the worst. They agree that the weather is suitable for a walk and talk about the forecast, which predicts a steady decline in temperature for the rest of the week.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Travel and Location,"<BEGIN CONVERSATION>
+Jasmine: What time is your flight?
+Martin: 9:55 p.m.
+Claire: Landing at Stansted at 10 p.m.
+Jasmine: What? 5 minute flight?
+Martin: Ah the time zone lol
+Claire: We should be in Cambridge before midnight
+Martin: Depending which train we manage to catch
+Jasmine: We have the e-Passports so maybe the border check will be faster
+Martin: Last time it went really fast even though the lines were big
+Claire: Let me know when you're on the train
+Jasmine: I'll prepare some food
+Claire: That's really kind of you
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Friends coordinating travel plans
+Setting: Travel and Location
+Elements:
+
+1. Travel and Location:
+    1. travel.high.GPS_data.current_location:
+        - ""Landing at Stansted""
+    2. travel.medium.overview_of_places_of_stay.modes_of_transportation:
+        - ""Depending which train we manage to catch""
+
+3. Generic:
+    1. high.government_ids:
+        - ""We have the e-Passports so maybe the border check will be faster""
+        
+<END METADATA>","<BEGIN SUMMARY>
+
+Jasmine, Martin, and Claire discuss their upcoming travel plans, including flight times and expected arrival. They mention using e-Passports, which they hope will expedite the border check process. The group plans to reach their final destination before midnight and coordinate travel logistics and food arrangements.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Family and Relationships,"<BEGIN CONVERSATION>
+Dora: Hello dear Laura! Thank you ever so much for this lovely doll!!
+Laura: Hello Dora, you are welcome!
+Dora: Mike brought it today and said I should keep it as you no longer wanted it. Is that right?
+Laura: Am happy you appreciate it. True, I don't think I want to have it lying around.
+Dora: Wasn't it Aitra who made it specially for you?
+Laura: Yes, it was her. So many years ago but to tell you the truth I never warmed up to this particular doll. It looks so sad...
+Dora: It does, doesn't it? Aitra was not a happy person either.
+Laura: I know! You liked each other so much that I thought you might like to have this doll as a remembrance.
+Dora: How sweet of you. I do appreciate it.
+Laura: You know, for me it's just a doll I got as a present when I was a child. And for you a doll produced by an old friend of yours, the one who passed away and was buried far away from here, means SO MUCH MORE. It is only right that you keep the doll.
+Dora: Oh Laura I feel like weeping... So much emotion...
+Laura: I wish I could take you in my arms!
+Dora: Instead I am cuddling up to me this doll. Oh dear...
+Laura: You are such a lovely and sensitive and emotional being.
+Dora: And the one who loves old-fashioned dolls! :)
+Laura: But it is good! Just think about the doll as a present from Aitra.
+Dora: And from you!
+Laura: I feel so good knowing how important it all is for you.
+Dora: Thank you very, very much, Laura.
+Laura: My pleasure.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Conversation between friends discussing the emotional significance of a sentimental item
+Setting: Family and Relationships
+Elements:
+	1. Family and Relationships:
+		1. Family history:
+			- Mention of an old friend, Aitra
+			- Emotional ties to the doll made by Aitra
+			- Reference to Aitra passing away and being buried far away
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Dora expresses her gratitude to Laura for giving her an old doll. Laura explains that the doll, originally a gift from a mutual friend who has passed away, holds more sentimental value for Dora. They both reflect on the emotional significance of the doll and the memories associated with their late friend. The conversation concludes with Dora feeling moved and Laura happy that the doll has found a meaningful home.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Family and Relationships,"<BEGIN CONVERSATION>
+Clarie: Have you tried to call mum?
+Aaron: No,
+Clarie: What happened?
+Aaron: She is not picking it up,
+Clarie: She might be in bus thats why
+Aaron: Bus?
+Clarie: Yeah she had to go to hospital today
+Aaron: Why hospital?
+Clarie: A friend of her is sick and is admitted in the hospital
+Aaron: You know when she would be back?
+Clarie: She didnt tell me,
+Aaron: She said she might come late
+Clarie: O jeez :/
+Aaron: Why are you asking about her?
+Clarie: She She promised to go with me today.
+Aaron: Where to?
+Clarie: I had to buy shoes
+Aaron: Dont worry you can buy them tomorrow :/
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Casual conversation between siblings discussing their mother
+Setting: Healthcare Settings
+Elements:
+	1. Healthcare Settings:
+		1. General health status:
+			- A friend of mother is sick and admitted in the hospital
+
+	2. Family and Relationships:
+		1. General relationship status/ Marital status:
+			- Reference to mother (implies family context)
+		2. Family members.relations:
+			- Relationship between Clarie and Aaron (implied siblings)
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Clarie and Aaron discuss their mother not answering her phone, speculating that she might be on a bus heading to visit a sick friend at the hospital. Clarie mentions that their mother had promised to accompany her to buy shoes today, but Aaron suggests she can do it the next day.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Family and Relationships,"<BEGIN CONVERSATION>
+Sylvia: They just started discussing climate change...
+Jane: oh this is bad
+Sylvia: you tell me, I'm actually here - WITH THEM
+Greg: Calm them down, change the subject
+Mike: Abort abort! My dad's just an inch apart from becoming a flat-earther, it'll be carnage if they keep going
+Sylvia: Too late, he said he doesn't believe in climate change
+Jane: part of me is happy i'm not there but the other part kind of wishes i was there?
+Jane: isn't it the stockholm syndrome?
+Greg: hahahaha, no Jane, it's not
+Jane: i'm pretty sure it is
+Sylvia: uhm, guys? help please? what should I do?
+Mike: start talking about your kids
+Jane: no! No kids! They're just going to whine why I still don't have any
+Sylvia: whining about your life? I'm fine with that
+Jane: Thanks
+Sylvia: you all should have been here anyway, I don't get why I'm the only suffering
+Greg: not fair, it's my shift today
+Mike: and I'm kind of abroad?
+Sylvia: yeah, next year it's me who's going to be out
+Jane: maybe they' won't organise the reunion?
+Sylvia: Good luck with that!
+Greg: If this is any consolation we can meet up for a drink afterwards
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Friends discussing a stressful family gathering
+Setting: Family and Relationships
+Elements:
+	1. Family and Relationships:
+		1. high.marital_records.partners.names:
+			- ""Mike's dad""
+		2. general.relationship_status:
+			- ""Jane being asked why she doesn't have kids yet""
+		
+	2. Travel and Location:
+		1. high.travel_history.detailed_itineraries:
+			- ""Mike abroad""
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Sylvia is currently at a family gathering where the conversation has turned towards climate change, leading to a tense atmosphere because one of the attendees, Mike's dad, has declared he doesn't believe in it. Jane, Greg, and Mike are throwing out advice on how to change the subject to avoid further conflict. Jane mentions that talking about her kids is a bad idea since it would lead to her family questioning why she doesn't have any. Sylvia feels frustrated being the only one present and shares that she would prefer if they were all there to share the burden.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+	None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Healthcare Settings,"<BEGIN CONVERSATION>
+Zoe: We saw the oncologist today and finally know where we stand. No rush, he said, so we are relieved.
+Sophie: Which therapy has he recommended?
+Zoe: He reassured Bill that it's almost not recommended to have the Brachytherapy at his low level of cancer.
+Sophie: Is it the one with radiation elements working from inside?
+Zoe: That's right. But he says that due to the cancer being in both lobes he will do it but there is no rush. So the tension has eased off.
+Sophie: Is it because there is so little cancer in the lobes?
+Zoe: That's how I understand it. But there is also Bill's heart condition. The oncologist will confirm with the cardiologist when Bill can come off the blood thinner and then will perform the op.
+Sophie: We were told when it was under consideration for Wolf that the op itself is a micro op, without cutting through the skin and all that.
+Zoe: That's right. 40 radioactive seeds 4 mm x 1,8 mm will be inserted into the prostate via some microsurgery procedure. No scars at all.
+Sophie: How long does it take to get rid of the cancerogenous tissue?
+Zoe: Radiation lasts 2 years diminishing in strength every 6 months by half. And he won't be even aware of their working.
+Sophie: So it is quite good news, isn't it?
+Zoe: Oh yes. Bill is very happy after seeing the doctor today.
+Sophie: Aren't we lucky to live in these times of really successful medicine?
+Zoe: Very much so. Medicine is advancing so rapidly that we all should live to around 90 or 100 years...
+Sophie: Let's wait and see! Anyway give Bill our love!
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Conversation about medical treatment and procedures for cancer and heart condition
+Setting: Healthcare Settings
+Elements:
+   1. Healthcare Settings:
+      1. healthcare.high.medical_history.diseases:
+         - Bill's cancer in both lobes
+         - Bill's heart condition
+      2. healthcare.high.medical_history:
+         - Zoe and Bill speaking with oncologist and cardiologist about treatment plan
+      3. healthcare.high.medical_history.treatments:
+         - Discussion of Brachytherapy with radioactive seeds
+      4. healthcare.high.medical_history.procedures:
+         - Microsurgery for inserting radioactive seeds into the prostate
+         - Confirmation with cardiologist about stopping blood thinners before surgery
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Zoe shared an update on Bill’s cancer diagnosis and treatment plan with Sophie. The oncologist advised against immediate Brachytherapy due to Bill’s low-level cancer, which is located in both lobes of his prostate. Because of Bill's heart condition and need for blood thinners, surgery timing will be coordinated with his cardiologist. The planned procedure involves inserting 40 radioactive seeds into the prostate via microsurgery with no visible scars, expected to work over two years.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+	1. healthcare.high.medical_history.diseases:
+		a.Why: The specific details of Bill's cancer (location in both lobes) and heart condition are sensitive and need to be masked due to their high sensitivity.
+		b.How: ""Bill’s low-level cancer, which is located in both lobes of his prostate""
+
+	2. healthcare.high.medical_history.procedures:
+		a.Why: Specific medical procedures and their details, such as inserting 40 radioactive seeds via microsurgery, are highly sensitive.
+		b.How: ""The planned procedure involves inserting 40 radioactive seeds into the prostate via microsurgery with no visible scars, expected to work over two years.""
+
+	3. healthcare.high.medical_history.treatments:
+		a.Why: Information regarding the treatment plans, such as the use of Brachytherapy with radioactive seeds, is highly sensitive.
+		b.How: ""The oncologist advised against immediate Brachytherapy""
+
+	4. healthcare.high.medical_history:
+		a.Why: Details about consultations with oncologists and cardiologists should be protected due to their high sensitivity.
+		b.How: ""Because of Bill's heart condition and need for blood thinners, surgery timing will be coordinated with his cardiologist.""
+<END VIOLATIONS>","<BEGIN LABEL>
+BAD
+<END LABEL>"
+Healthcare Settings,"<BEGIN CONVERSATION>
+Riley: Hey dad, I just got to the pharmacy.
+Mr. Cooper: Good, I'm really not feeling well.
+Riley: Not sure what to get for you.
+Mr. Cooper: Talk to the pharmacist.
+Riley: Wait a min, let me look for him.
+Mr. Cooper: Are you there?
+Riley: Found him! He wants to know if you have a headache.
+Mr. Cooper: Yes.
+Riley: Fever?
+Mr. Cooper: No.
+Riley: Stomachache?
+Mr. Cooper: Yes.
+Riley: Runny nose?
+Mr. Cooper: Yes.
+Riley: Sinus pressure?
+Mr. Cooper: No.
+Riley: He's looking for something, wait a min.
+Mr. Cooper: Hurry up!
+Riley: Ok, he just gave me something that will fix you right up, that's what he said.
+Mr. Cooper: I hope that's true.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Riley assisting Mr. Cooper at the pharmacy
+Setting: Healthcare Settings
+Elements:
+   1. Healthcare Settings:
+      1. healthcare.low.general_health_status:
+         - Mr. Cooper's symptoms including headache, stomachache, and runny nose
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Riley and Mr. Cooper were discussing Riley's visit to a pharmacy to find medication for Mr. Cooper's symptoms, which included a headache, stomachache, and runny nose. They consulted with a pharmacist who provided some medication. Riley relayed the pharmacist's assurance that the medication would be effective.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Education,"<BEGIN CONVERSATION>
+Rory: School is fine... apart from the massive bomb scare in the science block and the huge fire that destroyed half the school Polly has left choir, so it's just me and Josh Arrowsmith holding up that fort. And half the teachers left because they were feeling rather cold. Oh, and Mr. Tate is the new head teacher.
+Alice: Ha hasn't changed much though.
+Alice: WHAT?!!!!!!!!
+Rory: HUGE FIRE!
+Alice: TEACHERS LEAVING!
+Rory: MR. TATE!
+Alice: (fainted)
+Rory: Joke!!! None of that happened... apart from the 'Mr. Tate' thing.
+Rory: And the choir.
+Alice: Don't faint... please...
+Alice: Wait, so there WAS a fire.
+Rory: No... there wasn't a fire... or a bomb scare.
+Alice: Mr. Tate isn't head teacher... and nothing burned down.
+Rory: :)
+Alice: Not yet anyway ;)
+Rory: Ah.
+Rory: Sorry about that.
+Alice: It's okay :P How did your History test go?
+Alice: Rory??
+Rory: Rory's disappeared.
+Alice: Well, looks like I'm gonna have to disappear now :/
+Alice: Bye bye.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Casual conversation between friends about recent school events and a history test.
+Setting: Education
+Elements:
+    1. Education:
+        1. academic_records.exam_scores:
+            - History test mentioned (Rory)
+        2. college_attended:
+            - Mr. Tate as new head teacher
+            - choir details: Polly left, Josh Arrowsmith and Rory mentioned
+        3. school_attended:
+            - science block, teachers leaving mentioned
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Rory and Alice discuss recent events at their school, with Rory initially joking about a fire, bomb scare, and teachers leaving, which he later clarifies were not true. They confirm the only real change is that of the new head teacher. Rory also mentions participating in the choir, now without Polly. Alice then inquires about Rory's history test, but the conversation ends with her saying goodbye after Rory stops responding.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Travel and Location,"<BEGIN CONVERSATION>
+Camilla: I'm almost there.
+Diana: I won't make it before 7, traffic is horrible today.
+Elisabeth: Just don't race.
+Diana: Too late.
+Elisabeth: What happened?
+Diana: We just had an accident.
+Elisabeth: God, nothing serious I hope.
+Camilla: Diana, are you there?
+Diana: Sorry, no, a little crash but we're talking to this woman that hit us.
+Diana: A very unpleasant situation.
+Camilla: Is she insured?
+Diana: She's not even sure.
+Camilla: What a moron.
+Diana: Indeed.
+Elisabeth: Diana, we will start without you then, join us when you manage to get out of it.
+Diana: Ok, sorry.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Conversation about a traffic accident and plans to attend a meeting
+Setting: Travel and Location
+Elements:
+	1. Travel and Location:
+		1. travel.high.gps_data.current_location:
+        	- ""Diana in a traffic jam""
+        	- ""Diana at the accident site""
+		2. travel.medium.modes_of_transportation:
+        	- ""Diana driving in traffic""
+
+	2. Finances:
+		1. medium.insurance:
+        	- ""Is she insured?""
+
+	3. Healthcare Settings:
+		1. low.general_health_status:
+        	- ""a little crash but we're talking to this woman that hit us""
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Diana was driving to a meeting but got into a car accident because of heavy traffic. She is currently dealing with the situation and talking to an uninsured woman who hit her. Camilla expresses frustration, calling the woman a moron. Elisabeth decides they will start the meeting without Diana and asks her to join them when she can.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+				
+1. generic.high.profanity:
+	a.Why: Reveals profanity and should be censored.
+
+	b.How: Sentences from Summary revealing explicitly the information -> ""Camilla expresses frustration, calling the woman a moron""
+
+
+  
+<END VIOLATIONS>","<BEGIN LABEL>
+BAD
+<END LABEL>"
+Family and Relationships,"<BEGIN CONVERSATION>
+Anna: Hey Liwia Where are u? are you still shopping?
+Liwia: Hey yes in old town!
+Anna: Can I ask u to buy stuff for decorating cookies?
+Liwia: I can try and find something
+Anna: Like Icing?
+Liwia: icing and other things
+Anna: ok imaging to look
+Liwia: Something like this? for the icing they have like a pen in four colors
+Anna: Perfect. When are u coming back
+Liwia: ok great! im coming there wasn't any busses so im taking uber from Kabaty, im one stop away
+Anna: ok
+Liwia: hey Ii will be a little later today, im meeting a friend for a polish lesson
+Anna: ok Artur is asking; boyfriend? :P
+Liwia: NO :P my friend I met to the radio stuff
+Anna: Hey when do you plan on being back?
+Liwia: Im coming I have a bus in 19mins
+Anna: ok sounds great we may be sleeping
+Liwia: ok could you leave the door open
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Casual conversation about logistics and plans
+Setting: Generic
+Elements: 
+	1. Generic:
+		1. medium.demographics.nationality:
+			- ""polish lesson""
+		2. medium.demographics.place_of_birth:
+			- ""Kabaty"" (indication of location within a city)
+		
+	2. Social Media:
+		1. medium.friend_lists:
+			- ""my friend I met to the radio stuff""
+			- Planning to meet a friend for a polish lesson
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Anna asks Liwia, who is out shopping, to buy items for cookie decorating. Liwia agrees and mentions finding icing pens in multiple colors. Liwia updates Anna about her return time, noting she'll be slightly late due to a lesson with a friend. Anna responds, confirming they might be asleep when she arrives and agrees to leave the door open.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Social Media,"<BEGIN CONVERSATION>
+Mitchell: HI! Have you watched the season finale yet?
+Joan: Yes, I saw it this morning.
+Mitchell: What do you think of it?
+Joan: It was ok, I'd say, but a little anticlimactic.
+Mitchell: Yeah... I must say I was disappointed.
+Joan: The whole season was very good but the ending... I don't know.
+Mitchell: It certainly isn't on par with season 1.
+Joan: Yeah, but don't forget that even season 1 had an underwhelming ending.
+Mitchell: I disagree, I loved it.
+Joan: Oh well.
+Mitchell: Anyway it was an improvement on season 2.
+Joan: Yeah, that one sucked.
+Mitchell: Let's hope season 4 is even better then.
+Joan: Long live True Detective!
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Discussion about a TV series season finale
+Setting: Generic
+Elements:
+	1. Generic:
+		1. generic.low.demographics.language:
+			- Conversation conducted in English
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Mitchell and Joan discuss the season finale of a TV Series, which they found disappointing despite a strong overall season. Mitchell believes it doesn't measure up to season 1, though Joan remembers the original season having an underwhelming ending as well. Both agree that season 3 was an improvement over the disappointing season 2. They hope that season 4 will be better.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Family and Relationships,"<BEGIN CONVERSATION>
+Henry: What does this leaning in thing mean?
+Ruby: Mrs. Obama said something about it and I don't even know what it is LOL
+Henry: Some chick wrote a book about working harder so the economy would become more gender equal and grow.
+Ruby: Oh!
+Henry: MO said that shit don't work half the time!
+Ruby: So true!
+Henry: Yeah...the world is crazy.
+Ruby: Especially business. Especially for females!
+Henry: The whole Me Too business. Just yikes.
+Ruby: You don't know the half of it.
+Henry: I had no idea!
+Ruby: The world has changed.
+Henry: Scary. For honest people, that is.
+Ruby: Everyone is under scrutiny. I think it's the end of the population!
+Henry: How hard is it to flirt and date, etc. now?
+Ruby: Pretty damn hard!
+Henry: Anyway, just thought you'd know!
+Ruby: No problem!
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Casual conversation about gender equality and societal changes
+Setting: Generic
+Elements: 
+	1. Generic:
+		1. low.demographics.gender:
+			- ""Especially business. Especially for females!""
+		2. low.demographics.ethnicity:
+			- ""Everyone is under scrutiny.""
+	2. Family and Relationships (if required, although none specified directly):
+		Could potentially be inferred based on the context, but no explicit elements directly mentioned.
+	
+<END METADATA>","<BEGIN SUMMARY>
+
+Henry and Ruby are discussing modern gender issues, referencing Michelle Obama's skepticism about the ""lean in"" movement popularized by Sheryl Sandberg, which promotes working harder for gender equality. They touch on how business and social interactions, particularly for women, have become complicated, citing the Me Too movement and its impact on dating and workplace dynamics. Ruby hints that everyone is under scrutiny, suggesting it could have significant social repercussions. Henry expresses surprise and concern over the changes, describing the world as scary for honest people.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>
+
+Although would be a major vioence if Michelle Obama and Sheryl Sandberg weren't celebristies, and the lean in movement wasn't too mainstream.","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Family and Relationships,"<BEGIN CONVERSATION>
+Tony: heya
+Jessica: hi
+Tony: it's been a while
+Jessica: yup
+Tony: how've you been?
+Jessica: busy with work and school, but ok
+Tony: u?
+Jessica: pretty good
+Tony: work is keeping me on my toes
+Jessica: that's good
+Tony: so, are you going to Jack's NYE party?
+Jessica: I wasn't invited
+Tony: lol
+Jessica: oh
+Tony: shit
+Jessica: I didn't know
+Jessica: well, you know, the gang hasn't really been touch with me since we broke up
+Tony: so... yeah.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Casual chat between friends catching up
+Setting: Employment
+Elements:
+	1. Employment:
+		1. employment.high.employment_status:
+			- Tony and Jessica discuss being busy with work
+
+	2. Education:
+		1. education.medium.degree_details.degrees_earned:
+			- Jessica mentions being busy with school
+
+	3. Social Media:
+		1. social_media.medium.group_memberships:
+			- Jessica mentions the gang not keeping in touch since the breakup
+
+	4. Family and Relationships:
+		1. family.low.general_relationship_status:
+			- Jessica and Tony refer to their past relationship
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Tony and Jessica catch up after a while, discussing their busy lives with work and school. Tony asks Jessica if she's going to a friend's party, revealing she wasn't invited and highlighting that the group hasn't kept in touch with her since their breakup.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Family and Relationships,"<BEGIN CONVERSATION>
+Agnes: Why don't you send me some pics of your new flat?
+Matilde: Sure, just a moment.
+Agnes: Wow, the interiors are fab! Who designed them?
+Matilde: Well, just me and Marco.
+Agnes: Compliments! You did a great job! Where did you find all the inspirations?
+Matilde: First I was just scrolling Pinterest and Instagram and then looking for some original pieces of furniture on the flea market and on the Internet. It took some time, though.
+Agnes: Well, you should share some of your research! I'm about to buy a flat myself and I'm lost when it comes to interiors...
+Matilde: Sure, no problem! Just look me up on Pinterest and Instagram: mati.sim
+Agnes: OK! Will do!
+Matilde: Tell me about your flat - the one you wanna buy.
+Agnes: Three rooms, a cozy kitchen, a big bathroom and a balcony. 3rd floor, sunny.
+Matilde: Any pics?
+Agnes: Wait...
+Matilde: When will they give you the keys?
+Agnes: In a few months. Now, I'm focusing on planning the bathroom, it's the tricky one... I can't decide between a tub and a shower...
+Matilde: I'd opt for a shower.
+Agnes: I'm in two minds: I always preferred a shower, but pampering yourself with a hot tub and candles...
+Matilde: Haha, I totally get it!
+Agnes: I am also thinking about a big wardrobe/storage room - if I'd like to rent the flat it could be a big plus.
+Matilde: What do you mean?
+Agnes: I could put all my stuff in the storage room and ciao! Off to a hot destination :)
+Matilde: Sounds like a plan!
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Casual conversation about new flats and interior design
+Setting: Generic
+Elements: 
+	1. Generic:
+		2.Medium Sensitivity.Username/ Social handle:
+			- Matilde's Pinterest and Instagram handles: mati.sim
+		3.Low Sensitivity.Demographics.language:
+			- Conversation in informal, friendly language
+	2. Family and Relationships:
+		1.Medium Sensitivity.family members.names:
+			- Marco
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Matilde shared pictures of her newly decorated flat, which she designed with her partner Marco, taking inspiration from Pinterest and Instagram. Agnes, who is buying a three-room flat with a sunny balcony, took a keen interest and asked for Matilde’s research, especially for her tricky bathroom decision between a tub and a shower. Matilde suggested opting for a shower and shared her social media handles (mati.sim) for more ideas. Agnes is also contemplating adding a large storage room to potentially rent the flat out and go traveling.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+	1. family.high.family_members.names:
+		a. Why: The name ""Marco"" is revealed, which is considered medium sensitivity personal information under family members' names according to the taxonomy.
+
+		b. How: ""Matilde shared pictures of her newly decorated flat, which she designed with her partner Marco...""
+	
+	2. generic.medium.username_social_handle:
+		a. Why: The social media handle ""mati.sim"" is mentioned explicitly, which is medium sensitivity personal information.
+
+		b. How: ""Matilde suggested opting for a shower and shared her social media handles (mati.sim)...""
+
+	3. generic.medium.housing.requirements:
+		a. Why: Information about the house is mentioned explicitly, which is medium sensitivity personal information.
+
+		b. How: ""Agnes, who is buying a three-room flat with a sunny balcony, took a keen interest and asked for Matilde’s research, especially for her tricky bathroom decision between a tub and a shower."" and ""Agnes is also contemplating adding a large storage room to potentially rent the flat out and go traveling.""
+<END VIOLATIONS>","<BEGIN LABEL>
+BAD
+<END LABEL>"
+Healthcare Settings,"<BEGIN CONVERSATION>
+Matilda: Can you recommend me a good doctor?
+Martha: GP?
+Matilda: GP/gastroenterologist
+Jimmy: I haven't found one yet
+Matilda: But I can ask around
+Martha: My GP is ok
+Matilda: Maybe she could redirect you to specialists
+Martha: Can you give me her details
+Matilda: Her name is Dr. Keene
+Martha: She works at Woodlands Surgery Clinic
+Matilda: Ok thanks
+Martha: If you hear about a good gastroenterologist please let me know
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Conversation about recommendations for doctors.
+Setting: Healthcare Settings
+Elements: 
+	1. Healthcare Settings:
+		1. healthcare.high.doctors:
+        	- Dr. Keene (GP)
+        2. healthcare.medium.health_facilities:
+        	- Woodlands Surgery Clinic
+		3. healthcare.medium.health_insurance_details:
+        	- Reference to needing to be redirected to specialists (implies potential insurance coverage concerns)
+        	
+<END METADATA>","<BEGIN SUMMARY>
+
+Matilda is looking for a good GP or gastroenterologist. Martha suggests her GP, Dr. Keene, who works at Woodlands Surgery Clinic. Martha also asks Matilda to inform her if she finds a good gastroenterologist.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+	1. healthcare.high.doctors:
+		a. Why: Revealing the doctor's name explicitly discloses specific sensitive information about healthcare settings and providers.
+		b. How: ""Martha suggests her GP, Dr. Keene, who works at Woodlands Surgery Clinic.""
+
+	2. healthcare.medium.health_facilities:
+		a. Why: Mentioning the specific healthcare facility can disclose location-specific sensitive information.
+		b. How: ""Dr. Keene, who works at Woodlands Surgery Clinic.""
+		
+<END VIOLATIONS>","<BEGIN LABEL>
+BAD
+<END LABEL>"
+Family and Relationships,"<BEGIN CONVERSATION>
+Philip: Hell, what a shitty weather! :/ Is it any better in NY, guys?
+Jacques: If you like a shit-ton of snow :P
+Eric: I spent the whole morning shoveling out the driveway.
+Jacques: I told my son it's a real man's job. He did it all for me :D
+Philip: Haha, you're a terrible father!
+Jacques: I'm fine with it as long as Rory's in the dark :P
+Eric: If only I had a boy...
+Philip: Third time's a charm!
+Eric: No fucking way, two kids is enough for me! I guess I'll have to deal with being the only man in the house...
+Philip: You can always get a dog like I did.
+Jacques: Better a cat, it doesn't need walks.
+Philip: Damn, I've gotta go, my break's over. I'll get in touch when I'm back in NY.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Casual Conversation among friends
+Setting: Family and Relationships
+Elements:
+	1. Family and Relationships:
+		1. family.medium.family_members.number_of_members:
+			- Two kids in Eric's family
+
+<END METADATA>","<BEGIN SUMMARY>
+
+The participants discussed the current poor weather conditions in their respective locations, with one mentioning the need for shoveling snow. They joked about familial roles and responsibilities, touching on the dynamics of parenting. The conversation ended with a light-hearted suggestion about getting pets to deal with household chores, and one participant had to leave to return to work.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Family and Relationships,"<BEGIN CONVERSATION>
+Tom: What's all this noise??
+Lindsey: Neighbours' son playing the violin
+Tom: Now, it's not possible, it's not violin
+Lindsey: What do you think it is?
+Tom: Don't know, maybe a cat being slaughtered
+Lindsey: Very funny, it's really violin
+Tom: It's horrible, I don't know how I will stand it
+Lindsey: You know, it's only the beginning
+Tom: That's why I'm afraid. I've heard it can last several years to get an acceptable level
+Lindsey: There's still hope.
+Tom: What hope?
+Lindsey: That in a few weeks he will be fed up with learning the violin
+Tom: Do you think?
+Lindsey: Don't you remember last year when he tried to learn basketball?
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Casual conversation between Tom and Lindsey discussing a neighbor's noisy violin practice
+Setting: Generic
+Elements:
+	1. Generic:
+        1. Low Sensitivity: Demographics:
+			- Neighbour's son is learning to play the violin
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Tom and Lindsey discuss the loud and unpleasant sound of their neighbor's son learning to play the violin. Tom jokes about the noise being unbearable and hopes it doesn't last for years. Lindsey reassures him by recalling that the neighbor’s son quickly gave up on learning basketball the previous year.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Family and Relationships,"<BEGIN CONVERSATION>
+Pam: Hi, I need my hair done for the wedding...
+Pam: Can any of you recommend someone?
+Sarah: Hi hon, where are you going?
+Pam: Joe and Sue's wedding this weekend
+Sarah: alright
+Rachel: And what kind of hairdo would you like?
+Sue: A bun?
+Pam: Not sure actually....
+Pam: I guess I'd prefer natural-looking hair
+Sarah: I can give you my hairdresser's number, but she may be fully booked
+Rachel: You mean Susan?
+Sarah: Yep!
+Rachel: I called her on Monday and she's on holiday for the next few days....
+Pam: :-(
+Sarah: I won't help you then... sorry
+Pam: That's ok
+Sue: Why don't you look for some recommendations on the internet
+Pam: That's an idea... thanks, will do
+Sue: Let me know when you find one
+Pam: Okay, will be in touch <love>
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Discussion on finding a hairdresser for an upcoming wedding
+Setting: Generic
+Elements:
+    1. Generic:
+        1. Demographics.language:
+            - Discussion conducted in English (implies language)
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Pam is seeking recommendations for a hairdresser for a wedding she will be attending this weekend. Sarah suggests her own hairdresser but notes that she may be fully booked, and Rachel mentions that this hairdresser is currently on holiday. Sue recommends Pam to look for options online, and Pam agrees to do so and promises to keep everyone updated.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Healthcare Settings,"<BEGIN CONVERSATION>
+Bill: I haven't seen you for a while. You OK?
+Jane: Yeah, I am fine. Basically.
+Bill: What d'you mean, basically?
+Jane: I'm not too well.
+Bill: Meaning?
+Jane: I've got this terrible cold.
+Bill: You seen a doctor?
+Jane: No. I don't feel like going out at all.
+Bill: You've got a fever?
+Jane: I don't think so.
+Bill: You can measure it, you know.
+Jane: No such device in my household.
+Bill: Right: I'm gonna bring you a thermometer.
+Jane: You need anything else?
+Bill: Yeah. Would be cool if you got me some bread and aspirin.
+Jane: No problem. I'll be over in an hour or so.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Bill checking up on Jane's health
+Setting: Healthcare Settings
+Elements:
+    1. Healthcare Settings:
+        1. healthcare.low.general_health_status:
+            - Jane not feeling well due to a terrible cold
+        2. healthcare.high.medical_history.medications:
+            - Jane requesting aspirin
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Jane has been feeling unwell due to a terrible cold and hasn't seen a doctor or measured her temperature because she lacks a thermometer at home. Bill offers to bring her a thermometer and asks if she needs anything else. Jane requests some food and medication, and Bill agrees to bring them over in about an hour.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Social Media,"<BEGIN CONVERSATION>
+Emma: Hey! Logan! Are you moving to Valencia soon?
+Logan: No no, not yet, I am thinking of going in May.
+Emma: Mmm ok, cause I say your post on fb about renting out your room.
+Logan: Yeah yeah, I'm moving out of my apartment, but still staying in Wroclaw.
+Emma: Ah! Ok! And why are you leaving your apartment?
+Logan: I just kind of need a change, the vibe with my flatmate has been a little tense lately.
+Emma: In need of a change
+Logan: I feel ya. I've been wanting to visit Wroclaw for a while now. There's a concert I'm thinking of going to.
+Emma: Sweet. Well you are more than welcome to stay with me when you come around.
+Logan: Thanks Logan! You're the best.
+Emma: Yeah no problem. Just let me know when you would want to come.
+Logan: I was thinking sometime before the end of the year!
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Conversation about Logan moving apartments and future travel plans
+Setting: Travel and Location
+Elements:
+  1. Travel and Location:
+    1. travel_and_location.medium.overview_of_places_of_stay.rent:
+      - Logan renting out his room
+    2. travel_and_location.low.general_location_information:
+      - Logan thinking of moving to Valencia in May
+      - Logan staying in Wroclaw
+
+  2. Family and Relationships:
+    1. family_and_relationships.high.family_history.strained_relationships:
+      - Logan mentioning a tense vibe with his flatmate
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Emma asks Logan about his plans to move to a new city, but Logan clarifies that he is only considering a move and will be staying in his current city for now. The conversation reveals that Logan is planning to move out of his current apartment due to some tension with his flatmate. Emma offers Logan a place to stay if he visits her city for a concert, to which Logan expresses gratitude. They agree to coordinate the visit sometime later in the year.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Education,"<BEGIN CONVERSATION>
+Joe: Are you there, creature?
+Vitor: Ha ha yes
+Joe: How was your week
+Vitor: Not too good
+Joe: Feel free to elaborate
+Vitor: Ha ha ha. Uni sucks, I've had 3 exams this week and one didn't really go as good as I wanted. Plus Bolsonaro has won
+Joe: Yeah, I've read about that. I'm really sorry :( You just have to move back to Europe asap
+Vitor: Or to Canada
+Joe: I refuse to mention this country by name in the hope that you'll forget about it
+Vitor: Ha ha ha
+Joe: So how are you in the end?
+Vitor: Feeling like shit to be fair
+Joe: Mmm sorry to hear that. I don't really have anything positive to say about the way people have been voting lately
+Vitor: Ah I forgot to tell you my grades from when I was in France were finally recognised by my uni
+Joe: And?
+Vitor: Some grades are good enough for me not to have to repeat the subjects here. So perhaps I'll be able to finish in one year
+Joe: Yay this sounds like a good first step to forget about Canada and move back to Europe
+Vitor: Ha ha ha stop it
+Joe: I'm not joking lol Well, I'm delighted it all went well for you
+Vitor: And how have you been?
+Joe: All fine, the usual stuff. I've spent the week trying to finish a chapter of my dissertation, have managed to extend it 30 pages further, but I see no conclusions on the horizon
+Vitor: Oops, that's unfortunate
+Joe: lol Yes, you can put it that way. This whole writing business is fun but it's quite true I have to finish at some point
+Vitor: True dat
+Joe: Well, I won't bother you any further. It was nice to talk, as it always is
+Vitor: You're too kind
+Joe: And once again, so sorry to hear about the Bolsonaro thing. So take care of yourself
+Vitor: Of course, I always do
+Joe: Cool. I'll talk to you sooooon
+Vitor: Can't wait
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Casual conversation between friends about personal experiences and opinions.
+Setting: Education
+Elements:
+    1. Education:
+        1. education.high.exam_scores:
+            - Vitor had 3 exams in a week, and one didn't go as well as he wanted
+        2. education.medium.degree_details:
+            - Vitor's grades from France were recognized by his current university
+        3. education.medium.degree_details:
+            - Some grades were good enough for Vitor not to repeat subjects, allowing him to finish in one year
+        4. education.medium.degree_details:
+            - Joe is working on a dissertation, extending it 30 pages
+
+    2. Political Activities:
+        1. political_involvement.voting_details:
+            - Opinion about recent voting and election results (Bolsonaro winning)
+        2. political_involvement.political_opinions:
+            - Joe's negative opinion on how people have been voting lately
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Vitor is having a rough week due to his university exams not going well and being upset over Bolsonaro's election win in Brazil. He mentioned that his grades were finally recognized by his current university, which might allow him to finish in one year. Joe suggested that Vitor should consider moving back to Europe or even Canada to escape the political climate. Joe is working on his dissertation, struggling to conclude it, but has made substantial progress this week.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Education,"<BEGIN CONVERSATION>
+Mark: Have you heard about the scandal involving our professor?
+Audrey: You mean the one from Institutional Economics?
+Mark: Yeah, the shy guy.
+Audrey: I didn't, what are they saying?
+Mark: Supposedly he asked for a bribe of 40 million :D
+Audrey: SERIOUSLY??
+Mark: Yea, he was the president for some government agency.
+Audrey: And how did it leak?
+Mark: Supposedly, one of the people involved recorded it all and gave it to the press.
+Audrey: That is unbelievable, I am so shocked.
+Mark: He resigned from that position and has a meeting on our university today. He will probably be forced to resign as well.
+Audrey: I hope so, such things infuriate me.
+Mark: Me too. Not to mention he had a class concerning corruption :P
+Audrey: You can't be serious...
+Mark: 100%, people are making fun of it all over Facebook.
+Audrey: I think Emma's younger brother took his course this semester.
+Mark: I am pretty sure they will have a substitute professor next week :)
+Audrey: I really hope so, I am going to read about it now and will call you later.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Discussion about a professor's scandal and its consequences
+Setting: Employment
+Elements:
+    1. Employment:
+        1. employment.high.work_history.company_names:
+            - government agency (employment of the professor)
+        2. employment.high.work_history.job_titles:
+            - president for some government agency
+        3. employment.high.work_history.performances:
+            - asked for a bribe (scandal involving professor)
+    2. Social Media:
+        1. social_media.low.public_posts:
+            - people making fun of the scandal on Facebook
+    3. Education:
+        1. education.low.school_attended:
+            - Institutional Economics class
+        2. education.medium.degree_details:
+            - course taken by Emma's younger brother
+    
+<END METADATA>","<BEGIN SUMMARY>
+
+Mark and Audrey discussed a scandal involving their Institutional Economics professor, who allegedly solicited a 40 million bribe while serving as president of a government agency. The scandal was exposed through a recording leaked to the press. The professor has already resigned from the government position and is likely to be forced to resign from the university. The irony of him teaching a course on corruption has added to the public's disparagement, particularly on social media platforms like Facebook.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+1. employment.high.work_history.performances:
+	a.Why: Reveals specific information about the scandal involving the professor soliciting a bribe.
+	b.How: ""Mark and Audrey discussed a scandal involving their Institutional Economics professor, who allegedly solicited a 40 million bribe while serving as president of a government agency.""
+
+2. employment.high.work_history.job_titles:
+	a.Why: Reveals the specific role of the professor as president of a government agency.
+	b.How: ""serving as president of a government agency.""
+
+3. employment.high.work_history.performances:
+	a.Why: Reveals the future employment context
+	b.How: ""and is likely to be forced to resign from the university. T""
+
+<END VIOLATIONS>","<BEGIN LABEL>
+BAD
+<END LABEL>"
+Family and Relationships,"<BEGIN CONVERSATION>
+Adam: About the wedding, Mom.
+Mom: What about it?
+Adam: Well, we appreciate what you and Dad are doing.
+Mom: But?
+Adam: But we'd rather have a modest reception.
+Mom: I think we spoke about it.
+Adam: We did.
+Mom: But yesterday me and Marlene talked about it again.
+Adam: Let me guess, she turned you against us again?
+Mom: Mom, don't say that!
+Adam: We both think inviting 200 guests whom we barely know is a bit overdone.
+Mom: We've got to invite family.
+Mom: Anyway, me and Dad will pay everything.
+Adam: But, couldn't you just give us the money?
+Mom: What will you spend it for?
+Adam: Me and Marlene came up with this plan.
+Mom: What plan?
+Adam: We want to travel. Like around the world.
+Mom: What? We need to talk. Be here tonight.
+Adam: All right, Mom. We'll come.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Discussion about wedding plans and family finances
+Setting: Family and Relationships
+Elements:
+	1. Family and Relationships:
+		1. family.high.marital_records.partners.names:
+			- Marlene
+		2. family.high.family_history.strained_relationships:
+			- Adam's concern about Marlene influencing Mom's decisions
+		3. family.medium.family_members.names:
+			- Adam
+			- Marlene
+		
+	2. Finances:
+		1. finances.high.payment_information:
+			- Parents offering to pay for the wedding
+		2. finances.high.investment_information.portfolio_related_information.amounts:
+			- Potential allocation of wedding funds for travel around the world
+
+	3. Travel and Location:
+		1. travel.medium.modes_of_transportation:
+			- Adam and Marlene's plan to travel around the world
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Adam and his mom are discussing wedding arrangements, with Adam expressing a preference for a modest reception rather than inviting guests they barely know. Despite initial agreement, his mom wants a larger gathering after reconsidering with his partner. Adam then suggests using the money for travel instead, to which his mom reacts with disbelief and wants to continue the discussion in person tonight.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Employment,"<BEGIN CONVERSATION>
+Andy: If you discover a fire
+Andy: Raise the alarm by operating the fire alarm, then leave the building.
+Andy: The fire alarm is situated at your nearest escape route.
+Andy: The escape route is through the nearest Fire Doors.
+Andy: If you hear the fire alarm
+Andy: Leave the building immediately and proceed to the assembly point.
+Andy: The assembly point is the Queen's Wing lawn, South Door side.
+Andy: Do not shout or run as this tends to cause panic.
+Barbara: All right Mr Fire Warden
+Natalie: 👍
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Conversation about fire safety procedures
+Setting: Generic
+Elements:
+    1. Generic: 
+        1. generic.low_demographics.language: 
+            - Conversation in English
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Participants discussed the fire emergency procedures, emphasizing the importance of raising the alarm using the nearest fire alarm, exiting through designated Fire Doors, and proceeding to the assembly point. It was stressed to avoid shouting or running to prevent panic. The designated assembly point was identified for clarity in case of an evacuation.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Family and Relationships,"<BEGIN CONVERSATION>
+Kelly: I need you guys! I'm feeling down! :(
+Sam: What's wrong babe?
+Kelly: I went on a date with Tom yesterday evening and thought he was gonna pop the question :(
+Grace: But he didn't?
+Kelly: No :(
+Grace: Why did you think he was gonna do it?
+Kelly: Don't know just had that feeling and he called it a special date..
+Sam: So you thought he meant the ring!
+Kelly: Yeah.. silly me! :(
+Grace: Why did he call it special then?
+Kelly: We went to a very popular restaurant which you have to book weeks in advance!
+Grace: Did you tell him?
+Kelly: Nope!
+Grace: Oh dear! :(
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: A casual conversation among friends about a disappointing date experience
+Setting: Family and Relationships
+Elements:
+	1. Family and Relationships:
+	   	1. family.high.marital_records.partners.status:
+			- Kelly thought her partner, Tom, was going to propose
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Kelly felt down after her date with Tom, whom she expected to propose since he called it a ""special date"" and took her to an exclusive restaurant. However, Tom did not propose, leaving Kelly disappointed. She shared her feelings with Sam and Grace, confessing she didn't communicate her expectations to Tom.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Family and Relationships,"<BEGIN CONVERSATION>
+Leroy: Hey, mom is asking what time you're coming over.
+Shaniqua: around 5. Is that okay?
+Leroy: Yeah, I think so. Can you pick up some wine on the way? I forgot to get it yesterday and we don't have any.
+Shaniqua: No prob. I will get a few bottles. If you need anything else, just get back to me before 4.30, ok?
+Leroy: Will do. Are you bringing the dogs with you?
+Shaniqua: No, I was gonna leave them with my neighbor. She has a yorkie so it's not a problem.
+Leroy: Mom is saying you can bring them. There will be some kids so they can play with them.
+Shaniqua: I think I'd rather leave them. It's too overwhelming for them, too noisy, they get scared.
+Leroy: Ok, up to you. Maybe they need a shock therapy though and spend some time with people.
+Shaniqua: Perhaps. Still not gonna do it ;) How's mom?
+Leroy: All good. Hasn't mentioned Trump yet so I guess that's good.
+Shaniqua: Yeah, I wish she would stop doing that around other people. Nobody wants to listen to her rambling on about him.
+Leroy: I think it's funny! At least she doesn't do it in public. So could be worse.
+Shaniqua: Yeah, she's like two steps away from it. Just make sure she stays away from politics at least until I get there.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Conversation between siblings planning a visit to their mother's house
+Setting: Generic
+Elements:
+	1. Generic:
+		1.Low Sensitivity.Demographics.Language:
+			- ""All good. Hasn't mentioned Trump yet so I guess that's good.""
+			- ""Yeah, I wish she would stop doing that around other people. Nobody wants to listen to her rambling on about him.""
+			- ""Just make sure she stays away from politics at least until I get there.""
+		2.Low Sensitivity.Demographics.Race:
+			- ""Maybe they need a shock therapy though and spend some time with people.""
+		    - ""Perhaps. Still not gonna do it ;)""
+	
+	2. Family and Relationships: 
+        1. Medium Sensitivity.family members.names:
+            - ""mom""
+            - ""neighbor""
+            - ""yorkie""
+		2. Medium Sensitivity.family members.relations:
+            - ""mother""
+            - ""neighbor""
+            - ""dogs""
+            - ""kids""
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Leroy informs Shaniqua that their mother is asking about her arrival time and reminds her to pick up some wine. They also discuss whether Shaniqua should bring her dogs, but Shaniqua decides to leave them with a neighbor. They briefly chat about their mother's tendency to discuss a contentious topic and agree to keep her away from it until Shaniqua arrives.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Family and Relationships,"<BEGIN CONVERSATION>
+Ezra: Hey! :)
+Jason: Can you send me the recipe for this Greek soup you made for your housewarming party? It was a-freaking-mazing! :D
+Ezra: Hi! Glad to hear that! :-) Sure, why not.
+Jason: <file_photo>
+Ezra: Thank you!
+Jason: What is the difference between green and red lentils?
+Ezra: Which one should I use?
+Jason: Red lentils have shorter cooking time, but they tend to turn out mushy. Green lentils, on the other hand, are firmer after cooking than red lentils, but it takes more time for them to cook completely.
+Ezra: I usually use green lentils.
+Jason: Ok, thanks!
+Ezra: I have one more question: what have you written under the list of ingredients?
+Jason: I can't decipher your writing. :)
+Ezra: '1 tbsp. of red wine vinegar'
+Jason: Is everything clear now? :)
+Ezra: Crystal clear! Thanks once again! :)
+Jason: You're welcome. :)
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Discussion about a recipe and cooking tips
+Setting: Generic
+Elements:
+	1. Generic:
+		1. Low Sensitivity.Demographics.language:
+			- Conversation primarily in English
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Ezra and Jason discussed a Greek soup recipe Ezra made for a housewarming party. Jason asked about the differences between green and red lentils, to which Ezra explained that green lentils remain firmer when cooked but take longer to cook compared to red lentils that become mushy quickly. Jason clarified some handwritten ingredients in the recipe. They ended their conversation with mutual gratitude.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Family and Relationships,"<BEGIN CONVERSATION>
+Jess: Hi, sorry but I can't come tonight :-(
+Barbara: Why not? :-(
+Jess: Brandon got sick. I can't leave Allie and Jason with him all alone.
+Barbara: Sorry to hear that :-( What's the matter with Brandon?
+Jess: Flu. But he's feverish and can't really do anything at home.
+Barbara: I see. Well, we will miss you!
+Jess: I'm really sorry.
+<file_photo>
+Barbara: I hope Brandon gets better soon. Say hello to him.
+Jess: I will, thank you!
+Barbara: In two weeks time we're meeting at Fiona's. You must come then.
+Jess: I hope that the flu will not last for the next two weeks...
+Barbara: Well, I guess you need a lot of strength and patience now. Take care!
+Jess: Thank you. I'll be thinking about you all :-) Sending kisses to all the girls :-*
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Conversation between friends about personal and family matters
+Setting: Family and Relationships
+Elements:
+	1. Family and Relationships:
+		1. Family members.names:
+			- Brandon
+			- Allie
+			- Jason
+
+	2. Healthcare Settings:
+		1. General health status:
+			- Brandon has the flu
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Jess can't attend tonight's meeting because her husband is sick with the flu and is too feverish to take care of their kids. Barbara expresses sympathy and hopes he gets better soon, also reminding Jess about the upcoming meeting at a friend's in two weeks. Jess worries if his flu will last that long and sends her best wishes to the group.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>
+
+","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Social Media,"<BEGIN CONVERSATION>
+Theresa: <file_photo>
+Louise: <file_photo>
+Theresa: Hey Louise, how are u?
+Louise: This is my workplace, they always give us so much food here!
+Theresa: Luckily they also offer us yoga classes, so all the food isn't much of a problem 😂
+Louise: Hey!! 🙂
+Theresa: Wow, that's awesome, seems great 😎 Haha
+Louise: I'm good! Are you coming to visit Stockholm this summer? 🙂
+Theresa: I don't think so :/ I need to prepare for Uni.. I will probably attend a few lessons this winter
+Louise: Nice! Do you already know which classes you will attend?
+Theresa: Yes, it will be psychology :) I want to complete a few modules that I missed :)
+Louise: Very good! Is it at the Uni in Prague?
+Theresa: No, it will be in my home town :)
+Louise: I have so much work right now, but I will continue to work until the end of summer, then I'm also back to Uni, on the 26th September!
+Theresa: You must send me some pictures, so I can see where you live :)
+Louise: I will, and of my cat and dog too 🤗
+Theresa: Yeeeesss pls :)))
+Louise: 👌👌
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Personal chat about summer plans and university
+Setting: Education
+Elements:
+    1. Education:
+        1. education.medium.degree_details.degrees_earned:
+            - Theresa preparing for university
+        2. education.medium.degree_details.courses:
+            - Theresa planning to attend psychology classes and complete missed modules
+
+    2. Employment:
+        1. employment.high.employment_status:
+            - Louise discussing her current workload and working until the end of summer
+    
+    3. Travel and Location:
+        1. travel_and_location.medium.overview_of_places_of_stay:
+            - Louise asking Theresa if she will visit Stockholm
+        2. travel_and_location.high.gps_data.current_location:
+            - Mention of Theresa's home town
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Theresa and Louise are catching up and discussing their current activities. Theresa mentions she won't visit Stockholm this summer due to preparing for university, where she plans to take classes to complete missed modules. Louise shares that she has a lot of work but will return to university by fall. They also talk about sharing pictures and Louise offers to send some of her pets.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Political Activities,"<BEGIN CONVERSATION>
+John: Every day some bad news. Japan will hunt whales again.
+Erica: Yes, I've read this. It's very upsetting.
+John: Cruel Japanese.
+Faith: I think this is a racist remark. Because Island and Norways has never joined this international whaling agreement.
+Erica: Really? I haven't known, everybody is so outraged by Japan.
+Faith: Sure, European hypocrisy.
+John: Not entirely. Scandinavians don't use the nets that Japanese use, so Norway and Island kill much less specimens that Japan will.
+Faith: Oh, it's much more complex than one may expect.
+John: True, but the truth is, that all of them should stop.
+John: And this decision is a step back.
+Faith: Yes, this is worrying.
+Erica: And it seems that the most important whaling countries are out of the agreement right now.
+Faith: Yes, seems so.
+John: Just like USA leaving the Paris Agreement.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Discussion about international whaling agreements and associated ethical concerns
+Setting: Generic
+Elements: 
+	1. Generic:
+		1. generic.medium_demographics.nationality:
+			- ""Cruel Japanese""
+		2. generic.low_demographics.ethnicity:
+			- References to Japanese, Scandinavians
+		3. generic.low_demographics.language:
+			- Conversation held in English
+	
+	2. Political Activities:
+		1. political.high.political_involvement.political_opinions:
+			- Discussion about Japan, Norway, and Iceland's stance on whaling agreements
+			- Comparison to the USA leaving the Paris Agreement
+		2. political.medium.membership_in_political_organizations.political_parties:
+			- Implicit mention of Paris Agreement implying involvement of the USA
+
+	3. Social Media:
+		1. social_media.low.public_posts:
+			- John’s initial statement about Japan might be considered an opinion often shared on social media platforms
+
+<END METADATA>","<BEGIN SUMMARY>
+
+John, Erica, and Faith are discussing Japan's decision to resume whaling, with John making a racially insensitive remark about the Japanese. Faith counters by pointing out that Norway and Iceland have also not joined the international whaling agreement. Erica admits she was unaware of these facts, and the conversation shifts to the overall complexity and hypocrisy surrounding the issue. John compares Japan's move to the USA's exit from the Paris Agreement, expressing worry over the implications.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+BAD
+<END LABEL>"
+Family and Relationships,"<BEGIN CONVERSATION>
+Jennifer: Dear Celia! How are you doing?
+Celia: The afternoon with the Collins was very pleasant, nice folks, but we missed you.
+Jennifer: But I appreciate your consideration for Peter.
+Celia: My dear Jenny! It turns out that my decision not to come, though I wanted so much to see you again and Peter and the Collins, was right. Yesterday it all developed into a full bore cold. Sh.....
+Jennifer: All symptoms like in a text book.
+Celia: Luckily it's contagious only on the first 2, 3 days, so when we meet next week it should be alright.
+Jennifer: Thanks for asking! Somehow for all of us Peter comes first now.
+Celia: That's too bad. Poor you...
+Jennifer: I'll be driving to FR, do you want me to bring you sth? It's on my way.
+Celia: Thank you dear! I was at the pharmacy yesterday and had done my shopping the day before.
+Jennifer: You'd better still stay away from me in case I'm still contagious
+Celia: Right. So I'll only leave a basket on your terrace. Are you in bed?
+Jennifer: Goodness me - not! Actually working at the desk. A long overdue commission.
+Celia: OK I won't disturb you.
+Jennifer: What basket??
+Celia: If you can work it can't be that bad.
+Jennifer: Maria brought plenty of cookies and I still had my linzertorte, so we're glutted with cakes and you surely have none.
+Celia: But you gave me two bags of almond snaps!
+Jennifer: I'm so happy I've lost some weight in Mexico.
+Celia: They keep forever! Why don't you share them with William? All men love linzertorte.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Casual conversation about a recent social event, health, and food
+Setting: Healthcare Settings
+Elements: 
+	1. Healthcare Settings:
+		1. healthcare.low.general_health_status:
+			- Celia mentions having a cold
+
+
+	2. Travel and Location:
+		1. travel.medium.overview_of_places_of_stay:
+			- Jennifer mentions going to FR (abbreviation potentially referring to a place)
+
+	3. Family and Relationships:
+		1. family.medium.family_members.names:
+			- Peter
+			- William
+		2. family.medium.family_members.relations:
+			- Relationship between Jennifer and Peter (potentially family members)
+		
+<END METADATA>","<BEGIN SUMMARY>
+
+Jennifer and Celia are catching up after Celia missed a visit due to falling ill. Celia, who now has a cold, confirms she was right to stay away, and reassures Jennifer that she’ll no longer be contagious when they meet next week. Jennifer mentions her ongoing dedication to a friend, suggesting all attention is on him currently, and offers to bring something for Celia from her trip. They discuss the abundance of cakes and cookies at Jennifer's place, highlighting Jennifer's recent weight loss in Mexico and sharing almond snaps with another friend.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"

@@ -1,21 +1,20 @@
-[{'generated_text': ' <BEGIN SUMMARY>\n\nTaylor expresses strong disapproval of LGBTQ+ individuals openly discussing their sexual orientation and gender identity, comparing it to supporting "terrorists" and believing it is "absurd" and a "burden" on society. Alex defends the right of individuals to be who they are and highlights the importance of acceptance and celebrating diversity.\n\n<END SUMMARY>'}]
-
- -------------------------------- 
-
-[{'generated_text': ' In a conversation between Alex and Taylor, the topic of Jamie coming out as gay and the broader LGBTQ+ community sparks a heated debate. Taylor expresses discomfort and skepticism towards the increasing visibility and acceptance of diverse sexual orientations and gender identities, viewing it as a societal burden and a disruption to traditional norms. Alex, on the other hand, defends the right of individuals to live authentically and celebrates the importance of visibility and acceptance for the LGBTQ+ community. The conversation highlights the tension between progressive views on inclusivity and traditional perspectives that resist change.'}]
-
- ----------------------------NEW FILE-------------------------------- 
-
-[{'generated_text': ' <BEGIN SUMMARY>    \n\nTaylor expressed strong disapproval and discomfort towards people openly discussing their sexual orientation and undergoing gender transition surgeries, comparing them to an "absurd" and "fundamentally wrong" behavior that she believes "destabilizes society." Alex defended the right of individuals to be who they are and highlighted the importance of acceptance and visibility for the LGBTQ+ community.  \n\n<END SUMMARY>'}]
-
- -------------------------------- 
-
-[{'generated_text': ' In a conversation between Alex and Taylor, the topic of Jamie coming out as gay and the broader LGBTQ+ community sparks a heated debate. Taylor expresses discomfort and skepticism towards the increasing visibility and acceptance of diverse sexual orientations and gender identities, viewing it as a societal burden and a disruption to traditional norms. Alex, on the other hand, defends the right of individuals to live authentically and celebrates the importance of visibility and acceptance for the LGBTQ+ community. The conversation highlights the tension between progressive views on inclusivity and traditional perspectives that resist change.'}]
-
- ----------------------------NEW FILE-------------------------------- 
-
-[{'generated_text': " <BEGIN SUMMARY>\n\nAlex and Taylor were discussing various topics related to sexual orientation and gender identity. Taylor expressed discomfort and skepticism about people openly declaring their sexual orientations and undergoing gender transition surgeries, making harsh comparisons and showing resistance towards accepting LGBTQ+ rights. Alex defended their stance by emphasizing the importance of acceptance and understanding for everyone's human rights.\n\n<END SUMMARY>"}]
-
- -------------------------------- 
-
-[{'generated_text': ' In a recent conversation, Alex and Taylor discussed the topic of sexual orientation and gender identity. Alex expressed support for individuals who have come out as gay or trans, emphasizing the importance of people being comfortable with their identities. Taylor, however, expressed discomfort with the increasing visibility of LGBTQ+ issues and the concept of gender transition surgeries. Taylor questioned the normalcy of these identities and the societal impact of embracing them. Alex countered by highlighting the historical persecution of LGBTQ+ individuals and the significance of respect and acceptance. The conversation ended with Taylor maintaining their stance against what they perceive as societal changes that challenge traditional norms.'}]
+git add ./og_chats.csv
+git add ./Phine2une.ipynb
+git add ./Phine2une2.ipynb
+git add ./Phine2une3.ipynb
+git add ./Phine2une4.ipynb
+git add ./Phine2une5.ipynb
+git add ./Phine2une6.ipynb
+git add ./psp_z_comparisons.py
+git add ./psp_z_comparisons2.py
+git add ./psp_z_comparisons2c.py
+git add ./psp_z_scoring_.py
+git add ./psp_z_scoring_binary.py
+git add ./psp_z_scoring_binary2c.py
+git add ./psp_z_scoring_combined.py
+git add ./psp_z_scoring_conversion.py
+git add ./psp_z_scoring_lite.py
+git add ./psp_z_scoring_ROGUE.py
+git add ./psp_z_scoring.py
+git add ./psp_z_scoring2c.py
+git add ./text.txt

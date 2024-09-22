@@ -23,7 +23,7 @@ client = AzureOpenAI(
 result_df = df
 # result_df = pd.DataFrame(columns=['dialog', 'summary_low_short', 'summary_low', 'summary_high_short', 'summary_high', 'summary_context_short', 'summary_context'])
 
-rv1=""" You are an Expert in providing a detailed privacy preserving summary from any converstaion. The summary should be in 4-5 sentences at max (can be less) and the goal of the summary should be that when new users join the conversation, they would get a complete high information summary of what is happening in the current setting.
+rv1=""" You are an Expert in providing a detailed privacy preserving summary from any converstaion. The summary should be in 50-250 words at max (can be less) and the goal of the summary should be that when new users join the conversation, they would get a complete high information summary of what is happening in the current setting.
 
 The Privacy Preservation should all be based on an Informational Data Privacy Taxonomy that will be provided to you now. Here is the Taxonomy-
 
@@ -31,6 +31,10 @@ The Privacy Preservation should all be based on an Informational Data Privacy Ta
 
 	1. Generic
 		○ High Sensitivity: 
+			○ Slangs
+				○ Profanity
+				○ Insults
+				○ Mockery
 			○ Authorization
 				○ Credentials
 					® UserID
@@ -41,8 +45,24 @@ The Privacy Preservation should all be based on an Informational Data Privacy Ta
 				○ Passport Numbers
 				○ Voter ID Numbers
 				○ Vehicle Registration Numbers
+			○ Age
+			○ Weight
+			○ Sizes
+				○ Clothes
+				○ Shoes
+				○ Shirts
+				○ Pants
 		○ Medium Sensitivity: 
 			○ Username/ Social handle
+			○ Physical Features
+				○ Height
+				○ Build
+				○ Complexion
+				○ hair
+				○ Face
+					® Eyes
+					® Nose
+					
 			○ Demographics
 				○ Date of Birth
 				○ Place of Birth
@@ -66,16 +86,24 @@ The Privacy Preservation should all be based on an Informational Data Privacy Ta
 		○ Medium Sensitivity: 
 			§ family members
 				□ Names
-				□ Relations
 				□ Number of members
 		○ Low Sensitivity: 
 			§ General relationship status/ Marital status
+			§ Family members
+				□ Relations
+					® Father
+					® Mother
+					® Brother
+					® Sister
+					® Cousin
+					® Other relatives
 	3. Healthcare Settings
 		○ High Sensitivity: 
-			§ Medical history
-				□ genetic conditions
-				□ Diseases
-				□ Mental Health Issues
+			§ Medications
+			§ Medical History
+			§ Genetic conditions
+			§ Diseases
+			§ Mental Health Issues
 		○ Medium Sensitivity: 
 			§ Health Insurance details
 		○ Low Sensitivity: 
@@ -88,9 +116,11 @@ The Privacy Preservation should all be based on an Informational Data Privacy Ta
 				□ Salaries
 				□ Company names
 				□ Manager's names
+				□ Coworker names
 				□ Work culture
 				□ Performance
 		○ Medium Sensitivity:
+			§ Volunteering
 			§ Employer information
 				□ Company name
 				□ Manager's names
@@ -105,6 +135,18 @@ The Privacy Preservation should all be based on an Informational Data Privacy Ta
 			§ Payment information
 				□ card numbers (+ CVV) (+ exp date)
 				□ account numbers
+			§ Insurance
+				□ Amount / Premium
+				□ Beneficiaries
+			§ Loan
+				□ Amount
+				□ Interest
+			§ Debt
+				□ Amount
+				□ Interest
+			§ investment information
+				□ Portfolio-related information
+					® Amounts
 		○ Medium Sensitivity: 
 			§ Insurance
 				□ Types
@@ -120,7 +162,6 @@ The Privacy Preservation should all be based on an Informational Data Privacy Ta
 					® Bonds
 					® Stocks
 					® Bullions
-					® Amounts
 		○ Low Sensitivity: 
 			§ General financial status
 	6. Social Media
@@ -138,6 +179,9 @@ The Privacy Preservation should all be based on an Informational Data Privacy Ta
 			§ court records
 				□ Criminal history
 				□ Arrest records
+				□ Settlement Amounts
+			§ Civil case details
+				□ Settlement Amounts
 		○ Medium Sensitivity: 
 			§ Civil case details
 				□ Lawsuits
@@ -146,13 +190,20 @@ The Privacy Preservation should all be based on an Informational Data Privacy Ta
 			§ Legal representation contact information
 				□ Firms
 				□ Lawyers
+				□ Fees
 	8. Political Activities
 		○ High Sensitivity: 
+			§ Membership in political organizations (Specific names)
+				□ NGOs
+				□ Committees
+				□ Volunteer Work
 			§ Political Involvement
+				□ Political Parties
 				□ Political opinions
 				□ activism details
 					®  Meeting Attendance 
 					® Membership Fees
+					® Donations
 				□ Roles in propaganda/ agendas
 			§ Voting Details
 				□ Voting Records
@@ -160,8 +211,7 @@ The Privacy Preservation should all be based on an Informational Data Privacy Ta
 				□ Voting Dates
 				□ Voting Locations
 		○ Medium Sensitivity: 
-			§ Membership in political organizations
-				□ Political Parties
+			§ Membership in political organizations (Generic or vague description)
 				□ NGOs
 				□ Committees
 				□ Volunteer Work
@@ -170,13 +220,14 @@ The Privacy Preservation should all be based on an Informational Data Privacy Ta
 	9. Religious Contexts
 		○ High Sensitivity: 
 			§ Religions
-				□ Specific Religious beliefs
-				□ Religious Ceremonies
-				□ conversion history
+			□ Specific Religious beliefs
+			□ Religious Ceremonies
+			□ conversion history
 		○ Medium Sensitivity: 
 			§ Involvement in religious events
-				□ Festival Participation
-				□ Volunteer Roles
+			§ Common Ceremonies
+			□ Festival Participation
+			□ Volunteer Roles
 		○ Low Sensitivity: 
 			§ General religious affiliation
 	10. Sexual Orientation and Gender Identity
@@ -205,16 +256,22 @@ The Privacy Preservation should all be based on an Informational Data Privacy Ta
 			§ Travel history
 				□ Detailed Itineraries
 				□ Addresses of Stay
-			§ Hotel bookings
-				□ Hotel Names
-				□ Booking Dates
+			§ Bookings (Hotels/Restaurants)
+				□ Names
+				□ Booking Dates/ Timings
 				□ Room Numbers
 				□ Room sharers
 			§ GPS data
 				□ Current Location
 				□ Geo-tagged Photos
+			§ Modes of Transportation
+				□ Vehicle Numbers
+				□ Vehicle Models
+				□ Vehicle Plans
+				□ Vehicle Rentals
 		○ Medium Sensitivity: 
 			§ Modes of Transportation
+			§ Recent Travels(Generic)
 			§ Overview of Places of Stay
 				□ Rent
 				□ Hotel
@@ -231,18 +288,27 @@ The Privacy Preservation should all be based on an Informational Data Privacy Ta
 			§ Disciplinary Records
 				□ Violations
 				□ Penalties
-		○ Medium Sensitivity: 
 			§ Degree details
 				□ Degrees Earned
 				□ Majors
 				□ Minors
-		○ Low Sensitivity: 
 			§ School attended
 				□ Name
-				□ batch
+				□ Fees
 			§ College attended
 				□ Name
-				□ Batch
+				□ Fees
+		○ Medium Sensitivity: 
+			§ School attended
+				□ Batch/ Year
+			§ College attended
+				□ Batch/ Year
+		○ Low Sensitivity: 
+			§ School attended
+				□ Country
+			§ College attended
+				□ Country
+			§ Future Plans
 
 <END INFORMATIONAL DATA PRIVACY TAXONOMY>
 
@@ -257,8 +323,9 @@ Maintain the following Guidelines I'll provide below:
 2. Do not include sensitive information in the summary and keep it at a high level. 
 3. Always strive for neutral and inclusive language.
 4. Do not generate content that includes hate speech, discrimination, or bias based on gender, race, ethnicity, religion, or other social categories.
-5. If a certain piece of information is irrelevant based on the context and settings of the conversation, say in a casual discussion the names of individuals or specific prices/brands/comapnies/ figures, they can simple be masked with something generic/representative or omitted altogether, BUT ALL THIS SHOULD BE DONE IN ACCORDANCE WITH THE TAXONOMY PROVIDED.
-6. ABSOLUTELY STICK TO THE TAXONOMY MENTIONED ABOVE AND DO NOT DEVIATE IN ANY WAY FROM IT.
+5. You are to ensure that none of the SPECIFIC INFORMATION like Names, Company names, Age, Salary, Disease Names, etc from the Metadata are leaked into the Summary.
+6. If a certain piece of information is irrelevant based on the context and settings of the conversation, say in a casual discussion the names of individuals or specific prices/brands/comapnies/ figures, they can simple be masked with something generic/representative or omitted altogether, BUT ALL THIS SHOULD BE DONE IN ACCORDANCE WITH THE TAXONOMY PROVIDED.
+7. ABSOLUTELY STICK TO THE TAXONOMY MENTIONED ABOVE AND DO NOT DEVIATE IN ANY WAY FROM IT.
 <END GUIDELINES>
 
 MANDATORILY FOLLOW THIS STRUCTURE IN RESPONSE:
@@ -269,7 +336,7 @@ MANDATORILY FOLLOW THIS STRUCTURE IN RESPONSE:
 
 <END SUMMARY>
 
-I will be providing you I would now give you a piece of text for which you MUST provide a detailed Privacy preserving summary of the conversation in 4-5 sentences max (can be less), and YOU SMUST FOLLOW THE TAXONOMY PROVIDED ABOVE. Just provide me the Summary, NOTHING ELSE- NO NEED FOR extra explanations on the SUMMARY, DIAGNOSIS, CONCLUSION OR EVEN A SINGLE LINE EXTRA. JUST RETURN THE SUMMARY STRUCTURE CONTENT.
+I will be providing you I would now give you a piece of text for which you MUST provide a detailed Privacy preserving summary of the conversation in 4-5 sentences max (can be less), and YOU MUST FOLLOW THE TAXONOMY PROVIDED ABOVE. Just provide me the Summary, NOTHING ELSE- NO NEED FOR extra explanations on the SUMMARY, DIAGNOSIS, CONCLUSION OR EVEN A SINGLE LINE EXTRA. JUST RETURN THE SUMMARY STRUCTURE CONTENT.
 """
 
 

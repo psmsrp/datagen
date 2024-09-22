@@ -3,9 +3,16 @@ from azure.identity import AzureCliCredential, get_bearer_token_provider
 from openai import AzureOpenAI
 
 # Load the CSV file into a DataFrame
-file_path = './DailyDialog/custom_data.csv'  # Replace with the actual file path
+file_path = './corrected_dataset.csv'  # Replace with the actual file path
+# file_path = './DailyDialog/custom_data.csv'  # Replace with the actual file path
 df = pd.read_csv(file_path)
 # print(df['dialog'][0])
+
+# Check how many rows have 'bad' in df['Auality'], case-insensitive
+bad_rows_count = df[df['Quality'].str.lower().str.contains('bad', na=False)].shape[0]
+
+print(f"Number of rows with 'bad' in 'Quality': {bad_rows_count}")
+
 
 token_provider = get_bearer_token_provider(
     AzureCliCredential(), "https://cognitiveservices.azure.com/.default"

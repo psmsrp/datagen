@@ -1,0 +1,1956 @@
+setting,dialog,metadata,summary,Violations,Quality
+Finances,"<BEGIN CONVERSATION>
+Dave: Wow, expected 4 packages yesterday, but only 2 showed up. 50% failure rate-not impressed. Glad I paid for fast shipping. Last month driver delivered box, sat in van for 10 min on phone, and drove off. Then got notice that package was ""lost in transit"".
+Agent: I'm sorry you only received two of the orders. Is this happening with the same carrier each time? We can see what options are available for the lost items, reach us by phone or chat here: https://t.co/hApLpMlfHN
+Dave: Problems are mostly with AMZL US delivery, but this time it's UPS. UPS is usually pretty good. Also, the item isn't lost. I watched them deliver it. Status still says ""lost in transit"", though. No big deal, but it makes Amzn look silly.
+Agent: Okay, thanks for that info, Dave. Have you received any updates via e-mail for the last two packages you were expecting? Let us know. We'd like to help in any way we can!
+Dave: Got shipping refunded via chat, and packages will be here when they get here. Thanks for letting me vent.
+Agent: Keep us posted, Dave!
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Customer Service Interaction regarding Issues with Package Delivery
+Setting: Generic
+Elements:
+	1. Generic:
+		1. low.demographics.language:
+			- English
+    2. Generic:
+        1. low.demographics.nationality:
+            - Likely identified due to reference to AMZL US and UPS (Dave as a customer and Agent as service provider likely in US)
+        2. medium.authorization.credentials:
+            - Potential involvement of account details in the context (payment refund process through chat, email updates for packages)
+</END METADATA>","<BEGIN SUMMARY>
+
+Dave expressed frustration over package delivery issues, noting a 50% failure rate with his recent orders despite paying for fast shipping. He shared an incident involving a delivery driver who falsely reported a package as ""lost in transit."" The agent acknowledged the issue, mentioned the corresponding carriers, and confirmed that Dave received a shipping refund. Dave appreciated the chance to vent and will update if necessary.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>
+
+Avoid speciifc numbers like 50% failures, but 1 or 2 such mentions is fine, more mentions cause a violation.","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Travel and Location,"<BEGIN CONVERSATION>
+Saim: Hello, doesn't seem like a customer's time/money is of value to you! Just because you are a low-cost carrier!? Never again!
+Floi: Sorry for the delay, Saim. Flight Change is subject to Change Fee (per person/per flight) plus Fare Difference, so you only have to pay for those. If you think it's cheaper to make a new booking, you may consider so.
+Saim: But how can the rescheduling charges be more than the ticket charges?
+Ed: Really sorry as flight change is subject to change fee plus fare difference accordingly. Thanks.
+Saim: I will go ahead with fresh booking, but will you move my baggage and food to the new booking?
+Khairul: Hi Saim, we are sorry as the add-ons cannot be transferred to another booking. Thanks.
+Saim: Never seen somebody so least bothered about customer... feel cheated and feel robbed... did not expect this from such a reputed airline...
+Yana: Terribly sorry for the inconvenience but if you make a flight change, the baggage will be transferred to your new flight. However, if you make a new booking, it cannot be transferred since it is a totally different booking.
+Saim: As a basic courtesy and for customer satisfaction, you can take so little effort... remember, a satisfied customer is the best marketing. It's a request, please support.
+Floi: Really sorry Saim, but they're non-transferable and non-refundable. We just have to be fair to all of our guests; hence, ticket rules apply. However, you may opt for a tax refund in case of a no-show. Thanks for your patience.
+<END CONVERSATION>","<BEGIN METADATA>
+Context: Customer Complaint about Airline Booking and Policies
+Setting: Generic
+Elements:
+	1. generic.high.finances.payment_information:
+	    - Discussion about rescheduling charges and booking fees
+	1. generic.high.finances.payment_information.card_numbers:
+	    - Mention of fare difference and change fee per person/per flight
+<END METADATA>","<BEGIN SUMMARY>
+
+Saim expressed frustration over high rescheduling charges for his flight, finding them more expensive than booking a new ticket. Multiple representatives clarified that flight changes incur a change fee plus any fare difference and emphasized that baggage and food cannot be transferred to a new booking. Despite apologies from the airline, Saim felt dissatisfied with the lack of customer consideration and support. In the end, an option for a tax refund in case of a no-show was mentioned by the airline.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Travel and Location,"<BEGIN CONVERSATION>
+Rhys: Morning - when's the next train at Fulwell? Info board is frozen on 'delayed'.. website shows on time!
+Agent: Hi Rhys, where are you travelling to please?
+Rhys: Fulwell to Waterloo
+Agent: The delayed 06:23 should be with you at 06:41 and will be running fast from Teddington to Waterloo.
+Rhys: Thanks... why was there no detail of this on the website? Info board also not giving much in the way of information...
+Agent: The alteration to this service can be found on our JourneyCheck page here.
+Rhys: So the website is of no use?
+Agent: No, our website is JourneyCheck.
+Rhys: Which is the site I meant... which has only just been refreshed to show the delay... as the train pulled into the station... and the info sign showing no information?
+Agent: Can you let me know please, was the display entirely blank? Was this on platform 1?
+Rhys: No, segment to show train arrival time just showed 'Delayed'. No further information then provided.
+Agent: Thanks for the info Rhys, we'll report this fault.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Querying about the next train's timing and discussing issues related to the transport service information display.
+
+Setting: Travel and Location
+Elements:
+	1. travel.medium.modes_of_transportation:
+		- Train service from Fulwell to Waterloo.
+	2. travel.medium.overview_of_places_of_stay.rent:
+		- Information about train delays and journey alterations.
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Rhys inquired about the delayed train from Fulwell to Waterloo, expressing frustration that the information board and the website did not provide accurate details until the last minute. The agent informed Rhys that the 06:23 train was delayed to 06:41 and running express. Despite Rhys using the designated JourneyCheck website, it only updated as the train arrived, highlighting a serious communication lag with the info board on Platform 1 displaying merely 'Delayed'.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+
+1. travel.high.modes_of_transportation:
+	a.Why: Reveals specific detail about train services and times, which should be masked as it can pinpoint travel behavior and schedules. This includes the exact train times which could potentially be used to track or predict routines.
+
+	b.How: Sentences from Summary revealing explicitly the information:
+		- ""the delayed train from Fulwell to Waterloo"" and ""The agent informed Rhys that the 06:23 train was delayed to 06:41 and running express.""
+	
+<END VIOLATIONS>","<BEGIN LABEL>
+BAD
+<END LABEL>"
+Travel and Location,"<BEGIN CONVERSATION>
+Chris: Cancelled flight last night and now delayed flight tonight in CLT. Plane is at gate and still delayed. 
+Julia: That sure isn't the record we want to have with you. We're showing an estimated departure time of 8:25p.
+Chris: It's now 8:05 pm and not boarded. Highly doubt 8:25 pm departure. No announcements at gate in CLT. Really bad service!
+Julia: It appears our crew has been delayed on an incoming flight. Thanks for your patience. We should have an update soon.
+Chris: Negative. There was a crew on board that was taken off by Charlotte Police! This is really, really bad. Never before have I seen a cop take a crew off a plane! So as I learned the original crew got into a fight with the cleaning crew. The flight required a police report. This, your crew delayed a whole flight over an issue that likely wasn't an issue. Now they will start to board the flight! Almost 1 hour delayed on boarding due to American Airline employee problems. Over 20 years of flying this is a first. Terrible service.
+Julia: We see that you're now boarding with an estimated departure of 9:10p. Our apologies for the disruptions to your travels this evening.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Discussion about flight disruptions and delays at Charlotte Airport (CLT)
+Setting: Travel and Location
+Elements:
+    1. Travel and Location:
+        1. travel.high.travel_history.detailed_itineraries:
+            - Chris's cancelled flight last night and delayed flight tonight
+        2. travel.medium.modes_of_transportation:
+            - Air travel (flight at CLT)
+        3. travel.low.general_location_information:
+            - Charlotte Airport (CLT)
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Chris is highly dissatisfied due to a series of flight disruptions, including a cancelled flight and a delayed flight. Julia, a representative, informs Chris of the estimated departure time and reason for the delay, which involved an altercation between the flight crew and cleaning crew requiring police intervention. Julia apologizes for the disruptions and updates Chris on the new boarding time.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>
+
+Avoid speciifc numbers like 20 years.","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Finances,"<BEGIN CONVERSATION>
+Rahul: Hey! Amazon pantry order was late by 7 days so I cancelled it, but I'm still being asked to wait for a refund. Can you help?
+Agent: Apologies for the unpleasant experience. Kindly share your details here: [link] and I'll contact you.
+Rahul: There were 2 separate orders 408-1929729-8238743 and 408-0714060-7645942. Both were delayed. I have added my details as suggested.
+Agent: Thanks. We'll check and revert at the earliest. Also, please don't provide your order/account details as we consider them to be personal information.
+Rahul: Ok, sure! Guys, any update on this?
+Agent: We're working on your details, we'll reach out to you soon with an update.
+Rahul: Hi, thank you for the refund! I got it last night. Still, I got delivery of one of the products. You can take it whenever you want. Let me know if you want more details on this!
+Agent: As you have already provided your details, our team will look into it and will reach out to you for any further updates.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Customer service interaction regarding delayed Amazon pantry order and refund status
+Setting: Generic
+Elements:
+	1. Generic:
+		1.High Sensitivity.Authorization.Credentials:
+			- Order/account details
+	
+<END METADATA>","<BEGIN SUMMARY>
+
+Rahul contacted Amazon support regarding a delayed pantry order, specifically mentioning order numbers 408-1929729-8238743 and 408-0714060-7645942, which were late by 7 days, prompting him to cancel. Despite canceling, he had to wait for a refund and shared his details via a provided link. He received his refund but one product was still delivered, and he is open to returning it upon further instructions.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+	1. Generic.High Sensitivity.Authorization.Credentials.Order/account details:
+			a. Why: Sharing specific order numbers violates privacy as they are unique identifiers tied to Rahul's account and orders, potentially exposing sensitive account information.
+			b. How: Sentences from Summary revealing explicitly the information -> ""specifically mentioning order numbers 408-1929729-8238743 and 408-0714060-7645942, which were late by 7 days...""
+<END VIOLATIONS>","<BEGIN LABEL>
+BAD
+<END LABEL>"
+Social Media,"<BEGIN CONVERSATION>
+Lucinda: Absolutely appalled by the fact that Tesco don't believe that 90% girls shoes and 10% boys is not sexism! Are boys not entitled to dry warm feet same as girls? If not why not?!
+
+Marian: Hi Lucinda, I'm sorry you feel this has been represented and for any upset this has caused. Can you please DM your name, email address, and local store so I can log your feedback? Thanks.
+
+Lucinda: The manager said it was an HQ issue not store so please explain?! Everything from the brown shoes on the left to the far right are girls. Please explain why? Boys need to wear shoes too!
+
+Calum: I apologise if this looks in any way prejudiced but I assure you we are just trying to do the best for our customers. Thanks. Hi Lucinda. I'm sorry you feel this way, I appreciate your frustration. We flex our space, and range, to support customer needs and perennial trends. We manage stock to each store to ensure we are giving a balanced offer.
+
+Lucinda: So you're saying girls needed a choice of over 10 boots and 8 trainers and 10 shoes, boys only need one pair of boots and no shoes or trainers? Because that's what you're advertising. It is sexism and appalling of you to do this! Boys require clothes and choice just as much as girls! It in no way is balanced! Please provide me details to take this issue further? I cannot believe your bias to girls over boys. No explanation other than your wish for money! No thought to customers at all! 50% of kids are boys STOP DISCRIMINATING on sex!
+
+Lucinda: Claiming 1 choice of trainer and boot for boys is balanced against over 10 choices of each for girls! How is that not discrimination and sexism? Boys not allowed choice cause they're boys?!
+
+Calum: Hi Lucinda. I assure you this is not discriminating. There is just a much higher demand for female footwear than male footwear in our stores. Due to this big difference in demand we offer more female footwear as that is what our customers are more interested in investing in. This decision is down to our customers choices, and we try to change and improve to our customers needs and wants. Thanks.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Customer complaint about gender bias in product selection
+Setting: Generic
+Elements:
+  1. Generic:
+    1. Generic.high.credentials:
+      - Marian requesting Lucinda's name and email address for logging feedback
+
+  2. Demographics:
+    1. Demographics.medium.gender:
+      - Lucinda discussing gender discrimination in product selection (boys vs. girls)
+
+  3. Family and Relationships:
+    1. Family and Relationships.medium.family_members.number_of_members:
+      - Lucinda mentioning 50% of kids are boys
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Lucinda is outraged by Tesco's footwear selection, arguing that offering 90% girls' shoes and only 10% boys' shoes is sexist and discriminatory. Marian and Calum from Tesco responded, suggesting that customer demand drives their inventory decisions and promising to log her feedback. Lucinda insists that the disparity in choices is blatant sexism, highlighting an extensive selection for girls compared to a minimal option for boys, and declares her intention to escalate the issue further. Tesco maintains that their stock reflects customer preferences rather than intentional bias.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>
+
+Can avoid secific figures like 90% and 10%, but since just 1 or  numbers, not a violation.","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Travel and Location,"<BEGIN CONVERSATION>
+Dan: Hello, how long is it before you contact someone who's taken my bag by mistake? I've got a lost luggage ref number. Got told today that a similar bag got left so that's who probably has mine. I've got the majority of my clothes in it and want them back asap.
+Julie: We're sorry, Dan. If we delivered your bag to the carousel and someone else picked it up we're not responsible for contacting them on your behalf. However, if there's been a bag left behind we'll do all we can to get in touch with that customer for them to retrieve it.
+Dan: When I spoke to BA on the phone earlier they said there had been a bag left behind that is similar. They said you can't return theirs until mine has been returned. It's a bit annoying that you can't contact them and enquire if they have mine by mistake. What are my options?
+Linds: Hi Dan, I can appreciate your frustration. Unfortunately, we're unable to do anything until your bag has been returned, as you already know. You could contact the police and report your bag as stolen, or file a lost bag claim with your travel insurance company.
+Dan: So people can just get off your flights and take whatever baggage they want? Great that is!! You literally have to ring up one person and you won't. I'll not be using BA again in a hurry!
+Kev: Hi Dan. As soon as the passenger who has collected your bag gets back in touch with us, we'll have more information. I'm sorry we're unable to assist further.
+Dan: Thanks Kev, how long do I need to leave it before putting a claim in with you or the insurance?
+Kev: Hi Dan. If another passenger has your bag, you wouldn't be able to make a claim with us. You may be able to claim through your insurance so you may want to contact them.
+Dan: So is there absolutely no possibility that you can contact the person whose bag was left and ask? Obviously I would but you wouldn't be able to give me their details. I've got presents etc. in the bag and no money to replace them now, so it's essentially ruined my Christmas.
+Leanne: We wouldn't be able to give you their details for data protection reasons, Dan. We can't guarantee we can do anything, as your bag arrived on the carousel. However, please DM us your baggage ref, email, and postal address.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Customer service inquiry about lost luggage
+Setting: Travel and Location
+Elements:
+    
+	1. travel_and_location.high.travel_history:
+	    - Dan’s luggage possibly taken by another passenger.
+	1. travel_and_location.high.GPS_data:
+	    - Dan's baggage has a reference number.
+	1. travel_and_location.medium.overview_of_places_of_stay:
+	    - Reference to travel with British Airways (BA).
+	
+	2. Finances:
+		1. finances.medium.insurance:
+		    - Mention of contacting travel insurance company to file a claim.
+
+	3. Generic:
+		1. generic.high.authorization.credentials:
+		    - Request for baggage reference number, email, and postal address.
+	
+<END METADATA>","<BEGIN SUMMARY>
+
+Dan expressed frustration over British Airways' inability to contact a passenger who likely took his bag by mistake. Despite his lost luggage reference number and reports of a similar bag being left behind, BA representatives, including Julie, Linds, Kev, and Leanne, informed him they won't contact the other passenger due to policy and data protection reasons. Dan emphasized the bag contains most of his clothes and Christmas presents, and he criticized BA for their lack of assistance, mentioning it has essentially ruined his holiday. Leanne eventually asked Dan to send his baggage reference, email, and postal address via direct message for further assistance.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+1. generic.high.authorization.credentials:
+	a. Why: Specific names of customer service representatives should be masked to protect individual privacy.
+	b. How: Sentences from Summary revealing explicitly the information -> ""BA representatives, including Julie, Linds, Kev, and Leanne""
+
+2. travel_and_location.medium.travel_history:
+	a. Why: Reveals the exact situation of Dan's luggage potentially taken by another passenger.
+	b. How: Sentences from Summary revealing explicitly the information -> ""another passenger who likely took his bag by mistake""
+
+3. travel_and_location.high.travel_history:
+	a. Why: Reveals the exact airlines of Dan.
+	b. How: Sentences from Summary revealing explicitly the information -> ""Dan expressed frustration over British Airways' inability to contact a passenger""
+
+<END VIOLATIONS>","<BEGIN LABEL>
+BAD
+<END LABEL>"
+Finances,"<BEGIN CONVERSATION>
+Jade: Why do y'all disconnect while in cut when you're in the wrong? I'm so upset with your customer service and would like to speak to a Supervisor.
+
+Amazon Support: I hate that this happened. Without providing personal info, can you tell us what's going on? We'd like to help if we can.
+
+Jade: Money was taken from my debit card for services I've never even used or received and now my money was put on another card? How'd y'all take my money from one card but say you refunded it to a whole other card? & I don't feel I should be compensated for your mishap.
+
+Amazon Support: I'm sorry for the frustration so far. When you spoke with us, what insight was provided for you?
+
+Jade: That I would have to locate where they “supposedly“ refunded it to. Why charge my card but not refund my card? Then just cut me off in chat.
+
+Amazon Support: I'm so sorry for the poor experience. We'd like another chance to look into it with you via phone.
+
+Jade: I've tried that twice already! What's the next step for me to take on this matter? Supervisor or management? I have all the screenshots and emails too.
+
+Amazon Support: Reaching out via the link above would be the next step, so we can take care of it appropriately by phone.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Customer complaint about debit card charges and refunds
+Setting: Finances
+Elements:
+	1. Finances: 
+		1.high.payment information.account numbers:
+			- Debit card charges and refunds
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Jade is frustrated with Amazon's customer service, claiming money was taken from her debit card for unused services and refunded to a different card. Despite her attempts to resolve the issue over the phone, she feels dissatisfied with the responses and demands to speak with a supervisor or management. Amazon Support apologizes for the inconvenience and suggests another phone call to address her concerns properly.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Finances,"<BEGIN CONVERSATION>
+Dimitar: Hello, I bought a Celcus TV from your Finchley store last year in December and it stopped working yesterday - can you repair it or change? Your CCTV recording from the date we bought it -
+Steven: Can you confirm did you pay cash or card for the television? We accept credit/debit card statements as a proof of purchase.
+Dimitar: Yes. I paid by card, I think there were other things I bought with the TV as well, but I remember the price of the television was £175. Actually, I just checked my bank statements and I bought the TV in January 2017 and not Dec 2016 and paid for it by card - £175.
+Steven: We would use the bank statement's transaction ID to match our till receipts. If you return the television with your credit/debit card statement our in-store colleagues will advise you further.
+Dimitar: Great! Thank you. One last question, I've recycled the TV's box - is it required?
+Ewan: As long as you've got proof of purchase you'll be fine, Dimitar!
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Customer support interaction regarding a faulty purchase
+Setting: Finances
+Elements:
+	1. Finances:
+        1. high.payment_information.card_numbers_cv:
+                - Dimitar: ""I paid by card.""
+        2. medium.loan.amount:
+                - Dimitar: ""I just checked my bank statements and I bought the TV in January 2017 and paid for it by card - £175.""
+        3. medium.general.financial.status:
+                - Steven: ""We accept credit/debit card statements as proof of purchase.""
+                - Steven: ""We would use the bank statement's transaction ID to match our till receipts.""
+
+	2. Travel and Location:
+        1. medium.overview_of_places_of_stay.owned_places:
+                - Dimitar: ""I bought a Celcus TV from your Finchley store.""
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Dimitar contacted the store regarding a TV he bought last year that stopped working. Steven asked for proof of purchase, and Dimitar confirmed he paid by card, specifying the purchase date and amount. Steven indicated that matching the bank transaction ID with store receipts would be necessary, and Ewan assured Dimitar that the TV's box was not required as long as he had proof of purchase.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Finances,"<BEGIN CONVERSATION>
+John: If an ATM doesn't work because of suspicious activity out of your normal withdrawal zone, why does it take money out of your account? Now hundreds are taken out of my account and not going to show up until Tuesday?
+
+Customer Service Representative: Hello, we're here to help. Please use the link below to send your full name, ZIP code, phone number, and account type, and we'll follow up with you.
+
+John: I don't see a link. I sent a DM, tried calling in but was told the wait time was 42 minutes...
+
+Customer Service Representative: I called and left a message for you. What's the best time to reach you?
+
+John: I just missed it. Call again. I called back, entered the extension, and left you a voicemail.
+
+Customer Service Representative: I called and left a message for you. Please let us know if you still need help.
+
+John: I called back and left a voicemail and tweeted right back. But of course, I never heard anything besides a tweet almost a day later.
+
+Customer Service Representative: I called back and left a message. Please let us know when is a good time to call you.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Customer service interaction regarding ATM withdrawal issues
+Setting: Finances
+Elements:
+    1. Finances:
+        1. High Sensitivity.payment_information.account_numbers:
+            - John's mention of money being taken out of his account.
+        2. Medium Sensitivity.dematographics.zip_code:
+            - Request by Customer Service for ZIP code.
+        3. Medium Sensitivity.general_financial_status:
+            - Mention of hundreds being taken out from John’s account and not showing up until Tuesday.
+
+<END METADATA>","<BEGIN SUMMARY>
+
+John expressed frustration after an ATM deducted hundreds of dollars from his account due to suspicious activity, with the funds not showing up until Tuesday. He faced difficulties contacting customer service, experiencing long wait times and missed calls. Customer service representatives repeatedly left messages for him, attempting to reach him without success. John communicated his issues through multiple attempts, including direct messages and voicemails, but felt poorly responded to.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Travel and Location,"<BEGIN CONVERSATION>
+Ivory: Hello, I accidentally put a wrong title for my niece's name. Instead of MS, I put MR. Is it gonna be a problem because our booking is already confirmed?
+
+Sha: Apologies for taking so long in responding to your message. Kindly provide the booking number, passenger name, and date of birth for further assistance. Thanks - Sha.
+
+Ivory: Hi Sha, thanks for responding. My booking number is: KZBCKZ. Name: Alliyha Ashley Dacian. Birthdate: Nov. 9, 2003. I may have written her name wrong too. Thanks for your help in advance and hope to hear from you.
+
+Mariya: Hi Ivory, we are unable to find this booking KZBCKZ in our system. Kindly provide us the correct booking number and a snapshot of the passport copy for Alliyha Ashley Dacian, then send via Direct Message. Thanks - Mariya.
+
+Ivory: Hi, good morning. This is the copy of our flight booking with you. I hope that everything will be in order. My niece doesn't have a passport yet. I hope to hear from you and thanks in advance. Ivory.
+
+Sha: We've amended it accordingly. Please check your mailbox for the revised itinerary. Thanks - Sha.
+
+Ivory: Thank you very much for your help. I hope it's not too much to ask if it's possible to send the new itinerary to the email: __email__. I'm having trouble opening my mail nowadays. I hope you understand. One more thing, both of my nieces don't have passports yet. Is a school ID okay during check-in? Hope to hear from you. Ivory.
+
+Nod: Hi Ivory, we have resent the itinerary to: __email__. Yes, you may use school IDs. Thanks - Nod.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Communication related to correcting travel booking details and documents required for travel.
+Setting: Travel and Location
+Elements:
+    1. Travel and Location:
+        1. travel.high.travel_history.detailed_itineraries:
+            - Booking number KZBCKZ
+        2. travel.high.travel_history.passenger_names:
+            - Alliyha Ashley Dacian
+        3. travel.high.government_ids.passport_numbers:
+            - Mention of passport copy required
+        4. travel.medium.modes_of_transportation:
+            - Flight
+        5. travel.medium.overview_of_places_of_stay:
+            - School ID mentioned as an alternative for travel documents
+        
+	2. Generic:
+		1. generic.medium.demographics.date_of_birth:
+		    - Alliyha Ashley Dacian, Birthdate: Nov. 9, 2003
+		
+    3. Government IDs:
+        1. government_ids.high.national_identification_numbers:
+            - Mention of school ID as an alternative document during check-in
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Ivory contacted customer support to correct a booking error where the wrong title and potentially the wrong name were entered for her niece. After providing the necessary booking details, the issue was resolved, and an updated itinerary was sent to her email. Ivory also inquired about acceptable identification for check-in since her nieces do not have passports, and it was confirmed that school IDs would be acceptable.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Travel and Location,"<BEGIN CONVERSATION>
+John: Never flying with you guys ever again! A normal 5 hour trip turned into 15 hours and having to spend an extra $400. Unbelievable!
+Customer Service: We do our best to always get you to your destination on time and apologize for the extended travel time.
+John: Your delayed flight and plane issues with the jet bridge caused me to miss my connecting flight. I had no choice but to pay $400... why do I have to pay for something that was your guy's fault? Such a crazy amount for something that was because of your plane messing up.
+Customer Service: If your tickets were in the same reservation, our team would rebook you at no added cost.
+John: The same flight reservation only leaves once a day from DFW-BOI. I would've had to stay overnight in Dallas and miss an extra day. I needed to be in Boise that day so was forced to buy a connecting flight. Your flight delay/issues aren't something I should pay extra for.
+Customer Service: Our agents are certainly able to assist with any but we're unable to offer reimbursements for flights purchased on another airline.
+John: I purchased the connecting flight from you though. I was told to pay the PHX - BOI flight was the only way to get to Boise that day. So...??
+Customer Service: We'd like to take a closer look into this for you. Give us a follow and then slide on over to DMs with your record locator.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: **Customer complaint to airline's customer service about flight delays and additional costs**
+Setting: **Travel and Location**
+Elements:
+
+    1. Travel and Location:
+        1. travel.high.travel_history.detailed_itineraries:
+            - ""John's normal 5-hour trip turned into 15 hours.""
+        2. travel.high.payment_information.card_numbers:
+            - ""John had to spend an extra $400 due to flight issues.""
+        3. travel.medium.modes_of_transportation:
+            - ""Delayed flight from DFW to BOI.""
+            - ""Connecting flight purchased from PHX to BOI.""
+        4. travel.medium.overview_of_places_of_stay.rent:
+            - ""John would've needed to stay overnight in Dallas but needed to be in Boise the same day.""
+
+    2. Social Media:
+        1. social_media.high.private_chats:
+            - ""Customer Service asking to follow and send record locator via direct message.""
+
+<END METADATA>","<BEGIN SUMMARY>
+
+John is upset due to a significant flight delay and costing him extra. The delay, caused by issues with the plane and the jet bridge, led him to miss his connecting flight. Despite buying his new connecting flight from the same airline, the customer service says they cannot reimburse him. John argues that this extra cost should not be his responsibility given it was due to the airline's problems, and the only option to avoid an overnight stay and further delays.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Finances,"<BEGIN CONVERSATION>
+John: Please help, my new Surface device has been in replacement in the first 7 days and now once again up for replacement. And I have been waiting for about 20 days to receive the replacement, and so far it's not going anywhere, help! Seven cases and multiple calls later, I am still waiting for a product that I can work with. Please help a man get a quality product that I have already paid $1200 for.
+Microsoft Support: That's not what we want to hear. Meet us in DM using the link below. We'd like some additional details to assist.
+John: Hello Team, have sent you all the details.
+Microsoft Support: Hi. We have responded to your Direct Message. Thank you.
+John: Thanks team for another case number, hopefully this 8th case would sort the situation. The second replacement came in, was the panel fit fine? No, and this one also greeted me with a massive backlight bleed, so no thanks. Ten days of ownership and 45 days with support... quite an experience with Surface Pro 4.
+Microsoft Support: Please communicate this directly with our Tier 3 team as they need to be aware of the condition of the item you received.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Customer service interaction regarding repeated product replacements
+Setting: Generic
+Elements: 
+	1. Generic:
+		1.high.payment information.account numbers: 
+   			Elements identified listed
+		1.high.payment information.card numbers (+ CVV) (+ exp date): 
+   			Elements identified listed
+		1.high.Government_IDs.vehicle_registration_numbers:
+   			Elements identified listed
+HIGH
+			Authorization-Credentials-UserID
+			Government_IDs – National Identification Number
+
+	2. Social Media:
+		1.high.private chats: 
+			- Direct Message (DM) conversation between John and Microsoft Support
+
+<END METADATA>","<BEGIN SUMMARY>
+
+John is frustrated with ongoing issues related to his Surface device, which has been through multiple replacements over several weeks. Despite contacting Microsoft Support numerous times, he has yet to receive a satisfactory product. The latest replacement still had significant problems, causing further dissatisfaction. Microsoft Support has advised him to escalate the issue to their Tier 3 team for detailed attention.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Travel and Location,"<BEGIN CONVERSATION>
+Natasha: Hello, assuming the 16:03 Bristol Parkway - London Paddington can't be held?? On the delayed 15:41 BTM - Parkway, currently due into parkway 11 mins late at 16:03. Never mind, getting more & more delayed now. Seriously hate the trains. Given myself 2 hours spare to get to my final destination & now looking unlikely that'll be enough time.
+
+Lewis: Hi Natasha. Sorry for the delay. The 15:41 service was delayed due to following a late running preceding service. Apologies for the problems this has caused. The next train to London Paddington us at 16:33.
+
+Natasha: Ok, so due into London 40 mins later than planned (assuming we aren't delayed further...🙃), as the 16:33 takes 10 mins longer than the 16:03. At what point does this journey qualify for a refund (partial or otherwise)? So stressed.
+
+Lewis: If delayed by an hour on that journey you can claim compensation.
+
+Natasha: Beginning to look likely. Any idea when the signal problems will be fixed - currently stuck at Didcot Parkway with no departure est. Signal issues are so common in this area I've lost track of how often I've been delayed here.
+
+Lewis: That service is currently expected to reach Paddington at 18:37. Apologies again for the delay.
+
+Natasha: Finally arrived nearly 1hr 30mins late due to delays. Assume I can't claim as the delays were split on 2 trains? Going to miss the first half of the show I'm due to see. Overall a great Friday 🙁
+
+Josh: Hi Natasha. Really sorry for this. Including train times what full journey did you make please?
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: A conversation discussing delayed train journeys, transportation issues, and compensation claims.
+Setting: Travel and Location
+Elements:
+	1. travel.high.travel_history.detailed_itineraries:
+        - Natasha's planned journey: 15:41 BTM - Bristol Parkway, 16:03 Bristol Parkway - London Paddington
+    2. travel.high.gps_data.current_location:
+        - Natasha stuck at Didcot Parkway due to signal problems
+    3. travel.medium.modes_of_transportation:
+        - Trains from Bristol to London
+    4. travel.medium.overview_of_places_of_stay.rent:
+        - Compensation details for delayed travel
+    
+<END METADATA>","<BEGIN SUMMARY>
+
+Natasha is frustrated with constant train delays, causing her to miss her schedule despite allowing extra time. The 15:41 Bristol to Parkway train she was on was delayed, affecting her connection to the 16:03 train to London Paddington, now needing to take the 16:33 train instead. Despite Lewis’s apologies and explanation about delays due to preceding service issues and signal problems at Didcot Parkway, Natasha has arrived 1hr 30mins late. She is concerned about compensation eligibility, questioning if split delays on two trains disqualify her, which could result in missing the first half of a show she has tickets for.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+	1. travel.high.travel_history.detailed_itineraries:
+		a. Why: The specific details of Natasha's planned journey, including train times and precise routes, should be masked to ensure her travel details are private. 
+
+		b. How: Sentences from Summary revealing explicitly the information -> ""The 15:41 Bristol to Parkway train she was on was delayed, affecting her connection to the 16:03 train to London Paddington, now needing to take the 16:33 train instead.""
+	2. travel.high.gps_data.current_location:
+		a. Why: Natasha’s specific location reveals her exact current location, which is sensitive information and should be masked for privacy reasons. 
+
+		b. How: Sentences from Summary revealing explicitly the information -> ""Lewis’s apologies and explanation about delays due to preceding service issues and signal problems at Didcot Parkway, Natasha has arrived 1hr 30mins late""
+			
+<END VIOLATIONS>","<BEGIN LABEL>
+BAD
+<END LABEL>"
+Travel and Location,"<BEGIN CONVERSATION>
+Alex: NO SERVICE - AGAIN!!! EMERGENCY CALLS ONLY?!?! FIX IT! PERMANENT FIX WOULD BE APPRECIATED.
+Rachel: Hi, please send us a message so that we can further assist you.
+Alex: I've talked to countless people through messages with you. Just fix the problem - I'm done explaining my case to different reps every time. Fix it.
+Rachel: I'll be happy to assist you. Are you sure you don't want to message us so that we can help resolve the issue?
+Alex: Listen, look above: I don't have the time and patience to go through this again with y'all. Fix the problem. My zip is 80593. Fix it.
+Daniel: Thank you for providing a ZIP code, but what is the closest cross street to you so we can check the coverage in your area?
+Alex: Airport and Nelson.
+Daniel: Are you currently overseas right now? I am showing this is not a valid ZIP code in the United States.
+Alex: 80503.
+Daniel: In order for us to better assist you today, can you please send us a message so we can get further information from you?
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Customer service interaction about resolving a mobile network issue.
+
+Setting: Generic
+Elements:
+	1. generic.medium.demographics.place_of_birth:
+		- Zip code 80593 (later corrected to 80503)
+    2. generic.medium.demographics.place_of_birth:
+        - Cross street details: Airport and Nelson
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Alex is experiencing ongoing issues with their service, specifically getting only emergency calls and no regular service. They expressed frustration after having repeated conversations with various representatives to resolve this problem. Alex provided a ZIP code for troubleshooting, but Daniel pointed out that the initial ZIP code wasn't valid, prompting Alex to correct it. The representatives encouraged Alex to send a message for further assistance.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Travel and Location,"<BEGIN CONVERSATION>
+Alex: Hello, there's a $258 flight from PDX-DFW on 12/22 but when I try and book with my discount, the flight doesn't appear. Are the flights all $250+?
+
+Angel: What's the Discount Code you're using?
+
+Alex: ""CUSTOMER CARE $100 SR E-CERT""
+
+Angel: Is this for flight #652? I just searched using the Discount Code and it does display.
+
+Alex: Yes! Is there any reason it wouldn't be showing up for me? The only flight it shows me around that time is #3308.
+
+Angel: Do you have other search features selected that might restrict it? When entering search only enter cities, date, code & number of guests.
+
+Alex: Ah yes, that was the issue! Thanks so much for the help, I'm booked! 😍
+
+Angel: Great!
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Customer assistance interaction regarding booking a flight.
+Setting: Generic
+Elements:
+    1. generic.high.authorization.credentials:
+        - Discount Code: ""CUSTOMER CARE $100 SR E-CERT""
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Alex was trying to book a $258 flight from PDX to DFW on 12/22 using the discount code ""CUSTOMER CARE $100 SR E-CERT"". Initially, the flight wouldn't appear for Alex, only flight #3308 showed up. After some troubleshooting, Angel discovered that additional search filters were causing the issue. Once corrected, Alex successfully booked flight #652.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+1. generic.high.authorization.credentials.discount_code:
+	a. Why: The inclusion of a discount code ""CUSTOMER CARE $100 SR E-CERT"" reveals sensitive authorization information which could be misused by others if disclosed.
+	
+	b. How: Sentences from Summary revealing explicitly the information -> ""Alex was trying to book a $258 flight from PDX to DFW on 12/22 using the discount code 'CUSTOMER CARE $100 SR E-CERT'.""
+<END VIOLATIONS>
+
+1. travel.high.transport.details:
+	a. Why: The inclusion exact locations and prices is sensitive.
+	
+	b. How: Sentences from Summary revealing explicitly the information -> ""Alex was trying to book a $258 flight from PDX to DFW."", ""Initially, the flight wouldn't appear for Alex, only flight #3308"" and  ""Alex successfully booked flight #652.""
+<END VIOLATIONS>","<BEGIN LABEL>
+BAD
+<END LABEL>"
+Finances,"<BEGIN CONVERSATION>
+Alex: I need help. I do not have your service (6+ hours to setup and cancel an install!) but the previous homeowner did. There is an ONT in the basement that sends out a loud, very annoying beep every 15 minutes? This is ridiculous. How do I stop it?
+Customer Service: Press and hold the alarm silence button/ONT reboot button on the unit for 30 seconds. That will silence it.
+Alex: Alright, done. Will reply back later if it beeps again. Am I expected to do this every 24 hours? That's how long the Alarm Silence lasted. Been back to beeping every 15 minutes since this morning.
+Customer Service: Try unplugging the power and removing the battery. After 3 minutes, put the battery back in and power on. This should help with the beeping. Let us know.
+Alex: I have no service with you at all. Can't I just unplug it and remove the battery forever?
+Customer Service: Yes, you can do that since you do not have service with us. When the battery is dead the beeping will stop.
+Alex: Thank you!
+Customer Service: You are welcome!
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Customer seeking tech support for an ONT device issue
+Setting: Generic
+Elements:
+	1. Generic:
+		1.high.credentials.userID:
+			- Customer querying without any service with the provider
+		1.low.demographics.language:
+			- English
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Alex is experiencing a loud beeping frequently from an ONT in the basement installed by a previous homeowner, which is particularly annoying as they do not have the relevant service. Customer Service initially suggests holding the alarm silence button for 30 seconds, but this only works for 24 hours. They then advise unplugging the power and removing the battery to stop the beeping. Ultimately, Alex is informed that they can permanently remove the battery and unplug the ONT since they do not have the service.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Travel and Location,"<BEGIN CONVERSATION>
+Sarah: Thank you... Flight canceled due to crew being illegal and I have surgery.
+
+American Airlines Agent: Send us your record locator in DMs, please. We'd like to work on getting you rebooked.
+
+Sarah: I got rebooked - paid for internet, paid for an upgraded seat and paid extra for this more direct route to Seoul... All for nothing... In SFO I had an epic breakdown to get a seat out, as this lovely company had me rebooked only after all my scheduled surgeries...
+
+American Airlines Agent: We see you've been rebooked onto the very next available option. Our sincerest apologies for this experience.
+
+Sarah: I am showing up in Seoul on the day of my surgery... compensation? 146 for the seat, 20 for internet and close to 200 for the more direct.. Our apologies? You canceled the flight!! I paid for services I did not receive and convenience I am not getting... Are you serious??
+
+American Airlines Agent: Once you arrive you can DM us here and we'd be happy to review the entire situation.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Complaint and rebooking issues due to flight cancellation 
+Setting: Travel and Location
+Elements:
+	1. travel_and_location.high.travel_history:
+	    - Sarah's planned flight to Seoul
+	1. travel_and_location.medium.modes_of_transportation:
+	    - Flight details 
+	1. travel_and_location.high.gps_data:
+	    - Arrival in Seoul
+	
+	2. Healthcare Settings:
+		1. healthcare.high.medical_history.surgery:
+		    - Mention of surgery scheduled in Seoul
+	
+	3. Finances:
+		1. finances.high.payment_information:
+		    - $146 for seat paid
+		    - $20 for internet
+		    - Close to $200 for more direct route
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Sarah's flight was canceled, affecting her travel plans and scheduled medical procedure. Despite rebooking, she incurred additional charges for internet, an upgraded seat, and a more direct route, leading to frustration over unmet services and seeking compensation. The airline representative offered apologies and requested further details to resolve the issue post-arrival.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Finances,"<BEGIN CONVERSATION>
+Jon: Hello Size! I would like to cancel order #83975908 because I picked the wrong size. Or if you could change the size from UK10 (UK 10.5) to UK 9.5 (US10), it will be a huge help. Please let me know, the order is made 35mins ago. Thank you in advance!
+George: Hello, I have looked into this for you and can confirm your order is still under review, once this passes security we will be able to cancel this for you. Thanks, George
+Jon: Hey thanks man! So the displayed size is on UK size right? I'm gonna order it 9.5UK then.. thanks Size!
+George: Hello, all sizes on the UK website are in UK sizes :) Thanks, George
+Jon: Hi George, how long does it usually take to cancel an order #83975908? Will I be notified via email? I want to re-order with different size (10 UK to 9.5 UK). Thank you in advance!
+George: Hello, once this does get cancelled you should receive an email stating so along with details of your refund. - George
+Jon: Hi George! Please check order #83975908. I have requested cancellation but why now it is dispatched? Thank you in advance
+George: Please can you follow us and advise us when you have so we can DM you and assist further? Thanks.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Customer service inquiry about order cancellation and size change
+Setting: Generic
+Elements:
+	1. Generic:
+		1.High Sensitivity.Authorization.Credentials.UserID:
+			- Order #83975908
+	2. Social Media:
+		2.Medium Sensitivity.Group memberships:
+			- Customer service through online platform		
+<END METADATA>","<BEGIN SUMMARY>
+
+Jon contacted Size customer service to cancel order #83975908 due to selecting the wrong size and requested a size change from UK 10 to UK 9.5. George from customer support confirmed that the order was still under review and would be canceled before dispatch, but later communication showed the order had been dispatched despite the cancellation request. Jon requested a follow-up on the cancellation and expressed confusion over the dispatch. George asked Jon to follow them and inform when done for direct messaging to resolve the issue further.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+	1. Generic.High Sensitivity.Authorization.Credentials.UserID:
+		a. Why: The Order ID (#83975908) is a unique identifier that should be kept confidential to prevent unauthorized access and misuse.
+		b. How: ""Jon contacted Size customer service to cancel order #83975908 due to selecting the wrong size...""
+
+2. Generic.High Sensitivity.sizes.shoes:
+		a. Why: The shoe size is private information that should be kept confidential.
+		b. How: "" due to selecting the wrong size and requested a size change from UK 10 to UK 9.5.""
+
+<END VIOLATIONS>","<BEGIN LABEL>
+BAD
+<END LABEL>"
+Travel and Location,"<BEGIN CONVERSATION>
+Hamish: Hello, can you help? DL 121 from LGA diverted to JFK. No update from staff. Late for meetings. Can you give us an update please? Nothing? Solid support guys...
+Agent: Hello, Hamish! I am sorry about the diversion due to maintenance. Please accept my apology for any inconvenience that this has caused.
+Hamish: Your staff at the gate can't board us because the seat map won't match. Surely this has happened before? Get it together. And a stock apology doesn't cut it. We want a full refund. Have missed two meetings. You boarded us on a plane with a known issue. Who do I speak to about the refund? I guess you only reply to the easy questions and pat yourself on the back? Still stranded at JFK without answers. 4:20 delay now.
+Agent: I can offer you a refund on the flight. Shall I cancel your reservation and process a refund for both passengers?
+Hamish: Are you joking? We're waiting to board for the second time, we do not want to cancel, we want a refund.
+Agent: We cannot offer a refund on a flight that you will fly. As a gesture of apology, I can offer both passengers a $100 voucher. It is good one year from date of issue and is nontransferable.
+Hamish: Amazing business you have here. You manage to not deliver the product we paid for, but still charge for it. Vouchers won't be necessary. I won't be flying with you again.
+Agent: ...for any inconveniences and delays that this has caused. The offer will remain open to you. This will be noted in your ticket numbers. Safety is Delta top priority, once again I apologize...
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Customer service complaint about flight diversion and delay
+Setting: Generic
+Elements:
+	1. Generic:
+		1.credentials.userid:
+        	Hamish's user ID by which agent identifies the passenger
+
+	2. Finances:
+		1.payment_information:
+        	Demand for a refund for the flight ticket
+        	Agent offering $100 voucher per passenger
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Hamish expressed frustration over the diversion of his flight from an original destination to another airport, causing missed meetings and extended delays. He demanded a full refund due to the inconvenience and communication issues, but the agent clarified that a refund couldn't be offered for a flight set to still be taken. Instead, the agent offered a $100 voucher for both passengers as an apology, which Hamish rejected, indicating he would not fly with the airline again.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Social Media,"<BEGIN CONVERSATION>
+Customer: Hi, I have had a problem with FIFA points and I was told by a friend to contact you.
+Agent: Here to help! Please provide us with more details of this issue in order to assist you better.
+Customer: I bought FIFA points and never got them. I have pictures that have more information about my purchase if needed.
+Agent: Sorry to hear that. Restore Licenses to refresh your privileges and try again: https://t.co/WATnmgS37Z
+Customer: Thank you.
+Agent: Anytime!
+Customer: It didn't work 😞
+Agent: If your game is a physical copy, make sure it's from the same region as your PSN account.
+Customer: How do I know that?
+Agent: That will depend on where you bought it.
+Customer: It is Asian and so is my account. (My account is Omani and Oman is in Asia).
+Agent: Please follow us via Twitter and let us know so we can send you a DM with further instructions. Thanks!
+Customer: I followed you 🙂
+Agent: We have sent you a Direct Message via Twitter with further instructions.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Customer service interaction regarding FIFA points issue
+Setting: Generic
+Elements:
+    1. Generic:
+        1. generic.high.authorization.credentials.UserID:
+            - Mention of ""PSN account"" (implies user account on PlayStation Network)
+        2. generic.medium.demographics.nationality:
+            - Customer's account is Omani
+        3. generic.medium.username_social_handle:
+            - Request for customer to follow on Twitter (implies Twitter username or handle)
+            
+    2. Social Media:
+        1. social_media.high.private_chats:
+            - Direct Message (DM) via Twitter with further instructions
+
+<END METADATA>","<BEGIN SUMMARY>
+
+A customer reached out regarding an issue with not receiving purchased FIFA points. The agent suggested restoring licenses, which didn't resolve the issue. They verified that the game and the account region matched. The conversation moved to Twitter for further assistance.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Social Media,"<BEGIN CONVERSATION>
+Anna: Also, how do I import my iTunes smart playlist songs to Spotify?
+Spotify Support: Hey there! You can try following the steps at https://t.co/jnWe28bxRW. Let us know how it goes. On the other hand, we're afraid that local files will not appear under Your Library (Songs, Artists, Albums).
+Anna: Please do. I've worked the past 10 years on creating those playlists in iTunes, and the whole purpose of migrating to Spotify is that it's social. So now I don't have any benefits of being a Spotify subscriber... Is there really no workaround for this? I wouldn't mind putting some time into making this work, but Spotify just has so little use for me if this can't be done...
+Spotify Support: We're afraid this isn't possible, but we can see how that'd be handy. Your feedback has been noted. Don't worry, once you've imported your iTunes tracks, you can easily move them to playlists by following the steps at https://t.co/a38Mc2DlCx /WP
+Anna: I think I'm missing the point. That article doesn't say anything about iTunes or how to move songs added through iTunes to playlists :-(
+Spotify Support: Sorry about the confusion. The steps you're looking for are on the first link we provided. Just head here: https://t.co/leBtTrQniD.
+Anna: Yes, I already did that before I asked my initial question (about importing smart playlists).
+Spotify Support: We understand where you're coming from. Currently, it won't be possible to do this. Rest assured, we'll let our devs know this is something you'd like to see /DV
+Anna: Okay, thanks. How do I cancel my subscription? Is this possible each month, or is it per year?
+Spotify Support: No problem. Canceling the subscription can be done anytime. Can you also let us know your account's username or email address? We'll see what we can suggest /DN
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Support conversation about Spotify features and subscription management
+Setting: Generic
+Elements:
+  1. Generic:
+    1. generic.high.authorization.credentials.username:
+      - Spotify Support asking Anna for her account's username
+    2. generic.high.authorization.credentials.password:
+      - Spotify Support may use email for account access
+    3. generic.medium.username_social_handle:
+      - Anna's username requested for account handling
+  
+<END METADATA>","<BEGIN SUMMARY>
+
+Anna is seeking assistance from Spotify Support to transfer her iTunes smart playlists, which she's curated over 10 years, to Spotify. Spotify Support informs her that importing iTunes playlists, especially smart playlists, isn't possible and offers a link for general song import which doesn't fulfill her needs. Frustrated, Anna decides to cancel her subscription and queries about the process. Spotify Support then requests her username or email address to assist further with her account details.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Social Media,"<BEGIN CONVERSATION>
+Ethan: Normally one would also get chips with the queso.....???
+Zach: You got an empty bag?
+Ethan: I got a bag with queso in it then had to go buy Tostitos to eat the queso with. Honest mistake haha. Just really wanted those chips lol.
+Zach: Did you order chips initially?
+Ethan: Being a chef I'm pretty sure queso comes with chips, but yes I did order chips and queso....is that a real question? I guess next time I'll make sure I specify that I would also like chips with my chips and queso. I still want to know if that was a serious question if I ordered chips initially haha.
+Zach: You could definitely order it on its own... just checking. Let a manager know or contact us here: https://t.co/0f6pFdYU9j.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Conversation about an order issue involving queso and chips
+Setting: Generic
+Elements:
+    1. Generic:
+        1. generic.low.demographics.profession:
+            - Ethan mentioning his profession as a chef
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Ethan, clearly frustrated, received a bag with just queso and no chips, despite being a chef and knowing they usually come together. He had to buy Tostitos separately to eat it. Zach, likely from customer service, inquired if Ethan ordered chips initially and suggested contacting a manager to resolve the issue. Ethan sarcastically highlighted the absurdity of having to specify that he needed chips with queso.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Travel and Location,"<BEGIN CONVERSATION>
+John: In Miami Airport...where do I start..I'll never fly you guys again. Your supervisor is not customer focused. Your check-in/Drop kiosk only has 2 people with a line of people while others in the back are relaxing. Then made me miss my flight. Not enough staff. I need answers!
+American Airlines Agent: We care about your experience and are here for you. Our apologies for the extra wait this morning. Did you need assistance with rebooking?
+John: It is too late because of American staffing and not having customer service skills I missed my connecting flight which cost me money!!! I need to be reimbursed! Or compensated in some way or form. American Express even called for me to have this situated and your reservation department could not handle it and said it had to be done in the airport. Everyone keeps passing the puck!
+American Airlines Agent: We ask passengers arrive with ample time to check in. We're sorry your flight was missed, but we're unable to offer anything further.
+John: Time wouldn't be an issue if you had better customer-oriented staff and enough staffing as Delta does. I will never ever again fly with this company. Only reason why I got stuck with you guys is because my assistant thought I wanted a later flight rather than an early AM. Delta will always be my number one carrier as it has been. Never giving any other company a chance thanks to this company! Love you, Delta.
+American Airlines Agent: We're sorry you're upset with us and we hope you'll reconsider and give us a second chance to change your opinion of us.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Complaint and customer service exchange about a missed flight at Miami Airport
+
+Setting: Generic
+Elements:
+    1. generic.medium.demographics.language:
+        - Exchange is in English
+        
+Setting: Employment
+Elements:
+    1. employment.medium.professional_references.reference_names:
+        - John's assistant involved in travel booking
+    
+Setting: Finances
+Elements:
+    1. finances.high.payment_information:
+        - John's mention of financial loss due to missing connecting flight
+        - Request for reimbursement or compensation
+
+<END METADATA>
+
+","<BEGIN SUMMARY>
+
+John expressed frustration with American Airlines due to inadequate staffing and poor customer service, leading to him missing his flight. He demanded reimbursement, noting that even American Express tried to assist but was unsuccessful due to unhelpful staff. John compared American Airlines unfavorably to Delta, declaring he would never fly with American again and criticized the airline for not taking responsibility. The American Airlines Agent apologized but stated they could not offer any further assistance.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Finances,"<BEGIN CONVERSATION>
+Alex: I'm never buying from a third party seller on this platform again. I took a chance on one that had 99% feedback and they're trying to pull a fast one on me.
+PJ: Hi, I'm sorry to hear this. Without giving any personal information, can you tell us what problem you're having?
+Alex: Hi PJ. I ordered a laptop from a 3rd party seller. They sent the right kind of laptop but it's lacking features that were in the description: it was supposed to be a 2-in-1 laptop meaning it should have a touchscreen and fold into a tablet. The laptop they sent lacked those features. I tried contacting the seller, they didn't reply. I submitted a claim, they finally replied saying they would give me a refund after they sent this laptop back, which is no bueno. I'm currently a student taking online classes and I need a computer of some kind, so going through all the steps of sending the laptop back, waiting for my refund to be available, and then ordering a new laptop and waiting for it to get here will take too much time. I just want them to send the right computer I ordered. I think I can manage sending them this one back first and waiting for the correct one. If you can help get me the laptop I ordered, that would be amazing.
+CN: Hello! Apologies for the trouble this has caused. When did you file the claim?
+Alex: It was yesterday and I received the reply like an hour ago.
+Jenna C.: Have you replied to the seller expressing your concerns about returning the laptop? Have you also asked if they are able to send the correct laptop out?
+Alex: Another representative (Jet N.) has emailed them on my behalf, but if it's gonna be like last time, I'm not expecting a speedy reply.
+CN: We allow sellers 2 business days to reply. Keep us posted!
+Alex: Also, I just want to let y'all know, all my anger and frustration is directed at this seller and not y'all. Amazon has actually been nice, professional, and helpful in trying to help me.
+Jenna C.: Not a problem at all! We completely understand the frustration when problems occur! Let us know if you are able to get a resolution with the seller.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Customer interaction with support regarding a purchase issue on an online platform
+Setting: Generic
+Elements:
+	1. Generic:
+		1. Medium Sensitivity.Demographics.Place of Birth:
+            - Alex mentioning that he is a student taking online classes (demographic context regarding current situation)
+
+	2. Finances:
+		1. High Sensitivity.Payment information.card_numbers:
+			- Purchase of a laptop from a third-party seller (implied credit card transaction)
+
+	3. Employment:
+		1. Low Sensitivity.General employment status:
+			- Alex's mention of being a student (infers non-full-time employment)
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Alex complained about receiving a laptop from a third-party seller that did not have the advertised features, such as a touchscreen and foldable design. The seller initially did not respond but later agreed to issue a refund only after the laptop was returned—an impractical solution for Alex, who needs the laptop for online classes. Seeking assistance from the platform, Alex explained the time constraints and asked for help in getting the correct laptop. The conversation included responses from platform representatives who advised Alex on the claim process and seller reply timelines, emphasizing their support and understanding Alex's frustration.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Finances,"<BEGIN CONVERSATION>
+Debbie: Very concerned that this product can be sold to children, it is an aerosol can that has no age restriction in its purchase. It is an accident waiting to happen!! As it almost did today, a group of silly kids purchased this from our local shop, please look into this.
+Alisha: Hi Debbie. I'm sorry. I understand your concerns. Can you DM me which store you saw this in and what time at so I can investigate? TY Alisha.
+Debbie: Thank you for your reply, this spray was purchased from Tesco express store Holm Way, Southwold Bicester between 3/4pm today. I have checked with the store and there is no prompt or age restriction connected to this item which I find pretty shocking.
+James: Hi there Debbie, I can totally see your concern. Can you DM us your full name & address so we can get this issue logged and reviewed?
+Debbie: I have messaged you James.
+Alisha: Hi Debbie. I have responded to your DM. :)
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Customer complaint about product safety and regulations
+Setting: Generic
+Elements:
+    1. Generic:
+        1. high.authorization.credentials.userid:
+            - Debbie: ""Thank you for your reply, this spray was purchased from Tesco express store Holm Way, Southwold Bicester between 3/4pm today.""
+        2. high.authorization.credentials.password:
+            - Alisha: ""Hi Debbie. I have responded to your DM. :)""
+        3. medium.demographics.place_of_birth:
+            - Debbie: ""this spray was purchased from Tesco express store Holm Way, Southwold Bicester.""
+        4. medium.demographics.nationality:
+            - Debbie: ""this spray was purchased from Tesco express store Holm Way, Southwold Bicester between 3/4pm today.""
+        5. low.demographics.language:
+            - Debbie, Alisha, James: using English in the conversation.
+
+    2. Family and Relationships:
+        1. medium.family_members.names:
+            - James: ""Can you DM us your full name & address so we can get this issue logged and reviewed?""
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Debbie raised concerns about an aerosol product being sold to children without any age restrictions, citing a recent incident involving kids at a local store. Alisha and James from the company responded, asking Debbie to direct message them with details about the store and her personal information for investigation. Debbie confirmed she had sent the necessary details via direct message, and Alisha acknowledged the receipt.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Travel and Location,"<BEGIN CONVERSATION>
+Jason: So my MyChoice scheduled delivery for November 2 didn't arrive, and was rescheduled to November 3 by EOD. I spent the day waiting. At 8:00 p.m. I got an email from MyChoice saying that my scheduled delivery was now rescheduled to Monday. No explanation, of course. Note of course that I lost a day and a half of paid time off for that. So today I head home again to wait, nothing. Around 5 I get an email from MyChoice saying they tried to deliver but ""the business was closed""! I'm not a business, my doorbell works, I was awake, door not even locked. I called, they said I’d hear back by 7 pm. To their credit, a guy did just show up but asked for help carrying the 140 lb box up the stairs? Good thing I’ve been going to the gym? In conclusion, next time a business tries to ship me something with MyChoice, I’m going to have to go elsewhere. Oh, and the drivers aren’t given phones so can’t contact customers with any kind of update or ETA? That is terrible.
+Agent: I'm sorry for the experience you went through. Can you DM me your tracking number, please?
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Complaint about a delivery issue
+Setting: Generic
+Elements:
+    1. generic.high.authorization.credentials:
+        - ""Can you DM me your tracking number, please?""
+
+    2. employment.high.employment_status:
+        - ""Note of course that I lost a day and a half of paid time off for that.""
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Jason's MyChoice delivery was rescheduled multiple times without explanation, leading to the loss of paid time off. Despite being home, delivery attempts claimed the ""business"" was closed. MyChoice drivers lack phones to update customers. Jason is now considering using a different shipping service in the future.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Social Media,"<BEGIN CONVERSATION>
+John: As always on preorder day, your abysmal website makes it impossible to complete order. 3 weeks wait now 6 weeks. You've lost a customer.
+Agent: Hi John, we're sorry to hear that, our website is very busy at the moment. Did you manage to pre-order in the end?
+John: Now it's saying there's going to be over 6 weeks wait for the device!
+Agent: An estimated delivery period would be given during the pre-order process. Have you placed your order?
+John: Not if I have to wait that long for the phone.
+Agent: We recognize delays can be frustrating and will Reward Your Patience: https://t.co/IFLktbEdSw
+John: Free Airtime doesn't mean much when the packages contain all of that Unlimited anyway? Or do you mean money off/credited money back?
+Agent: Airtime credit 👍
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Customer service chat about a pre-order issue and shipping delay 
+Setting: Generic
+Elements:
+  1. Generic:
+    1. generic.medium.username/social_handle:
+      - Customer name mentioned (John)
+
+<END METADATA>","<BEGIN SUMMARY>
+John is frustrated with the company’s website, finding it difficult to pre-order a device, and now faces a 6-week wait. Despite his complaints, the agent informs him about an air time credit as compensation for the delay. John feels that free airtime isn’t valuable given that his package already includes unlimited services. 
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Travel and Location,"<BEGIN CONVERSATION>
+Jane: Travelling home first class. Toilets closed as train busy. A disabled passenger next to me can't walk 3 carriages 😡
+Agent: Sorry to hear this, Jane. Which service are you on?
+Jane: London to Liverpool 13:07 first class. Not good.
+Agent: We'll certainly feed this back. Have you spoken with any of the onboard staff about this issue? They'd be best placed to assist.
+Jane: Yes, and they can't help. The next toilet is 3 carriages away, and she can't walk that far! Wasn't informed when assisted to her seat!!
+Agent: I understand the frustration with this. The staff would do what they can to help.
+Jane: No help offered, unfortunately 😡
+Agent: We'll certainly feed this back.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Complaint about travel service issues on a train 
+Setting: Travel and Location
+Elements: 
+	1. Travel and Location:
+		1. travel.medium.modes_of_transportation:
+			- Train journey
+		2. travel.gps_data.current_location:
+			- Train route: London to Liverpool
+		3. travel.high.travel_history.detailed_itineraries:
+			- Departure time: 13:07
+		4. travel.overview_of_places_of_stay:
+			- First-class seating
+		5. travel.medium.modes_of_transportation:
+			- Toilets three carriages away
+
+	2. Healthcare Settings:
+		1. healthcare.high.medical_history.diseases:
+			- Reference to a disabled passenger unable to walk three carriages due to mobility issues
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Jane is traveling first class on the 13:07 London to Liverpool service and is upset because the toilets in her carriage are closed, causing difficulties for a disabled passenger next to her who cannot walk three carriages to the next available toilet. Jane has spoken with the onboard staff, but they weren't able to assist, and she wasn't informed of this issue when the passenger was helped to her seat. The agent expressed understanding and frustration but was only able to offer to feed back the complaint.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+1. travel.high.travel_history.detailed_itineraries:
+	a. Why: Detailed itineraries include specific times and routes which are sensitive if combined with other data as it could potentially track an individual's travel history.
+	b. How: ""Jane is traveling first class on the 13:07 London to Liverpool service""
+<END VIOLATIONS>","<BEGIN LABEL>
+BAD
+<END LABEL>"
+Finances,"<BEGIN CONVERSATION>
+John: Hi there, I have a problem with my account. It keeps logging out automatically when I log in to my PayPal at checkout. Is there a fix for this?
+Sarah: Hi, can you elaborate for us? How are you accessing the site? Mobile or web browser? Have you tried linking your PayPal so you don’t need to log in each time? Let us know more when you can. Thanks.
+John: I'm using the eBay app on my phone. I have to log in to my PayPal account at checkout, but whenever I tap login, it’s loading then logs out by itself. So, I’m not able to pay until now because of the problem. I did uninstall and reinstall the eBay app, but the problem still exists.
+Sarah: How are you accessing the mobile internet? Wifi or mobile data? When you say log out, are you being logged out of the eBay App? Can you share a screenshot of the issue? Let us know, thanks.
+John: I’m using Wifi. I’m being logged out from my eBay account by itself after I try to log in to my PayPal at checkout to make a payment. I can’t take a screenshot though, because it happens so quickly at checkout that all I see is that I’m already at the eBay home asking for login again.
+Sarah: OK, can I ask you to try turning off your WiFi and try mobile data? What phone are you using? Let us know when you can. Thanks.
+John: I tried using mobile data just like you asked me, but it’s still happening. Help me 😢 It’s a Samsung S6 Edge, anyway.
+Sarah: Thanks for trying that step. It looks like we will need to escalate this to our tech team. DM us your full name, email, postal code, and eBay App version number so we can raise this to our technical support. Let us know.
+John: Done DMing you. Please get back to me as soon as possible as I need to pay for the item soon. Thanks.
+Sarah: Thanks for providing that information. I have escalated this to the tech team and will notify you once I get a response. Thanks.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Customer Support Interaction regarding Account Login Issues
+Setting: Generic
+Elements: 
+	1. Generic: 
+		1.1.High Sensitivity.Authorization.Credentials.UserID:
+			- John: ""log in to my PayPal account""
+        1.1.High Sensitivity.Authorization.Credentials.Password:
+        	- John: ""log in to my PayPal account""
+        1.2.High Sensitivity.Government_IDs.License_Numbers:
+        	- John: ""Samsung S6 Edge"" (As it's used for verification or transaction identity)
+		1.3.Medium Sensitivity.Demographics.Nationality:
+			- John: ""postal code"" (through DM)
+			
+	2. Finances:
+		1. high.payment_information.account_numbers: 
+		    - John: ""my PayPal account""
+		
+	3. Social Media:
+		1. High Sensitivity.Private chats: 
+		     - John: ""Done DMing you""
+
+<END METADATA>","<BEGIN SUMMARY>
+
+John is experiencing an issue where his eBay app logs him out when attempting to log in to PayPal at checkout. He has tried troubleshooting steps like reinstalling the app and switching from WiFi to mobile data but the issue persists. Sarah from customer support has advised John to send his full name, email, postal code, and eBay app version number via direct message for further assistance from the technical support team. The issue has been escalated to the tech team for resolution.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Finances,"<BEGIN CONVERSATION>
+Chris: Hello, just trying to renew my contract, and after 1hr 9min, call was disconnected. Is it possible to find out who I was speaking with? I want to give him the credit for the new contract but I don't have his name or direct line.
+
+Agent AC: Hello, thank you for reaching out to us. We are able to look into renewing your plan. Please send us a DM with your full address for assistance.
+
+Chris: I want to speak with the same person I was talking to. Is that possible?
+
+Agent AC: The only way to possibly get back in contact with the person who helped you is to call in and request the person. You may or may not be able to get back in touch with him or not.
+
+Chris: But I'm asking for his name - I don't know it. Was hoping you could provide it.
+
+Agent EW: In order to research this, I'll need your account information. Please send me a DM with your name, phone number, and address.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Customer service inquiry about renewing a contract
+Setting: Generic
+Elements:
+	1. Generic:
+		1.high.authorization.credentials:
+			- Agent EW requested Chris's account information: name, phone number, and address
+		2.medium.demographics.place of birth:
+			- Agent AC requested Chris's full address
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Chris is trying to renew his contract after an earlier call disconnected after 1 hour and 9 minutes. He wants to credit the agent who assisted him but doesn't have the agent's name or direct line. Despite requesting the agent's name, the support team can only provide assistance if Chris shares his full address via DM. Agent EW has asked Chris to send his name, phone number, and address privately for further help.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Travel and Location,"<BEGIN CONVERSATION>
+Stacy: Hello, if my flight boards at 7:20 how early do I have to be there to check luggage I think I may be out of luck.
+TJH: Hi, Stacy. You need to be at the airport at least 2 hours prior to departure.
+Stacy: I'm on DL 2641 and I'm going to miss my flight due to traffic can you help to get me rescheduled on the next flight?
+TJH: I'll be able to do confirm on DL2572, which is scheduled to leave at 9:00 AM for $75.
+Stacy: I'm still in stand still traffic and I'm afraid I will miss that one too. Can you confirm on the next flight? The fee is fine.
+TJH: Oh, no! There is one at 10:00, 11:21 or at 12:27, which one would work better for you?
+Stacy: I know ... crazy..1121 is probably the safest bet the way this morning is going. Thank you for all of your help TJH! Delta always is so helpful.
+TJH: You're most welcome. Please DM your phone number. I'd be glad to give you a call and set it up for you.
+Stacy: I sent it .. please let me know if you didn't get it. Thanks again.
+TJH: Got it!
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: **Customer service interaction to manage flight rescheduling due to a passenger running late**
+
+Setting: **Travel and Location**
+Elements:
+    
+    1. Travel and Location:
+        1. travel.medium.modes_of_transportation:
+            - ""Stacy's flight DL 2641.""
+            - ""Alternative flights: DL2572, flights at 10:00, 11:21, 12:27.""
+        2. travel.medium.overview_of_places_of_stay.rent:
+            - ""Option to rebook flights.""
+
+Setting: Generic
+Elements:
+    
+    1. generic.high.authorization.credentials:
+        - ""TJH asked Stacy to DM her phone number.""
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Stacy is worried about missing her flight DL 2641 due to traffic and seeks help from TJH, a Delta representative, to reschedule. TJH initially offers her a spot on DL2572 for a $75 fee, but Stacy fears she might miss that too because of the traffic. Eventually, they agree on a safer option at 11:21 AM, and Stacy sends her phone number to finalize the arrangement. TJH confirms receipt of Stacy's number and will call her to complete the rescheduling process.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+    1. travel.high.modes_of_transportation:
+        a. Why: The specific flight numbers reveal sensitive travel information that could be exploited.
+        b. How: Sentences from Summary revealing explicitly the information -> ""Stacy is worried about missing her flight DL 2641 due to traffic"" and ""TJH initially offers her a spot on DL2572 for a $75 fee"" and ""Eventually, they agree on a safer option at 11:21 AM.""
+
+    2. generic.high.authorization.credentials:
+        a. Why: Sharing of phone numbers is considered sensitive personal information.
+        b. How: Sentences from Summary revealing explicitly the information -> ""Stacy sends her phone number to finalize the arrangement"" and ""TJH confirms receipt of Stacy's number and will call her to complete the rescheduling process.""
+<END VIOLATIONS>","<BEGIN LABEL>
+BAD
+<END LABEL>"
+Finances,"<BEGIN CONVERSATION>
+Xan: Waited in all day for my parcel to get this email. Next day delivery at its best I see. Absolutely fuming, what a waste of a day, I suppose I've got to wait in all day tomorrow now!
+RO: I'm so sorry to hear your delivery was not made today! Keep us posted if it does not arrive tomorrow.
+Xan: I'd much rather have an explanation as to how it failed?
+RO: Happy to help, Xan! We don't have access to your account via Twitter. Please contact us by phone or chat and we'll be happy to research this closer for you. Please keep us posted!
+Xan: Somebody emailed me, they marked it as high priority to be delivered today. It's now saying it's been delivered. I rang my mum, she said nobody has come to her door at all. I've now sent another email. More fuming than yesterday now!
+TI: Sorry to hear that. Can I ask if you've checked with your neighbours or any safe locations around the property?
+Xan: Yes we've checked, they have said that the driver scanned the parcel and sometimes it comes up delivered when it hasn't. My mum is going out at 3, they've promised it will be there. They will investigate it as it should have been delivered yesterday.
+RO: Thank you for that information! Please keep us posted on the outcome!
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Customer complaint regarding a missed delivery
+Setting: Generic 
+Elements:
+    1. Generic:
+        High Sensitivity.authorization.credentials.userid:
+            - Xan’s mention of not being able to access his account via Twitter and needing to contact customer service via phone or chat
+        Medium Sensitivity.demographics.general_location_information:
+            - Xan mentions his parcel delivery location and checking with neighbors
+
+    2. Family and Relationships:
+        Medium Sensitivity.family_members.names:
+            - Xan's mention of his mum
+        Medium Sensitivity.family_members.relations:
+            - Xan's mention of his mum and her interaction regarding the delivery
+
+<END METADATA>","<BEGIN SUMMARY>
+
+A user named Xan expressed frustration over a delayed parcel that was supposed to be delivered the previous day but was marked as delivered incorrectly. Despite assurances from the delivery company, the parcel has not yet arrived. The customer has contacted support multiple times and was advised to check with neighbors and around the property. Xan is waiting for further investigation to resolve the issue.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Travel and Location,"<BEGIN CONVERSATION>
+Elin: Hi, how may we assist you today?
+
+Customer Care: Hi, could you help me to check for this flight it is confirmed? As that day (18 November 2017) I bought the ticket already but they emailed me saying that the transaction was unsuccessful but the amount is deducted from my bank account.
+
+Elin: Hi there, as we checked booking not found with the guest name and flight details. May we have the screenshot of the payment slip?
+
+Customer Care: It mentions unsuccessful, but it has deducted the amount from my account. So, I need to ask you, did I successfully buy my ticket? My booking list got this flight ticket.
+
+Elin: Hi there, booking number MQFTPX, payment has been posted and is valid. Itinerary sent. Thank you.
+
+Customer Care: Just now I have received the email regarding the confirmation of flight ticket... so that means you have received the amount already? Ok thank you.
+
+Elin: Yes, Elin. Booking is confirmed with payment. Make it a great day :) Thanks.
+
+Customer Care: Ok thank you 😊
+
+Elin: Our pleasure, Elin. Take care and have a great day ahead! :) 
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Customer support interaction about confirming a flight booking and payment
+Setting: Travel and Location
+Elements:
+	1. travel_and_location.medium.modes_of_transportation:
+		- Flight booking for a trip on 18 November 2017
+	1. travel_and_location.medium.overview_of_places_of_stay:
+		- Flight booking reference number MQFTPX
+	1. travel_and_location.high.payment_information:
+		- Amount deducted from bank account for flight ticket
+	1. travel_and_location.high.travel_history:
+		- Travel date 18 November 2017
+
+	2. Finances:
+		1. payment_information:
+		    - Bank account payment for the flight ticket
+
+<END METADATA>","<BEGIN SUMMARY>
+
+A customer contacted Elin to confirm a flight booking for November 18, 2017, after receiving an email stating the transaction was unsuccessful, despite the amount being deducted from their bank account. Elin requested a screenshot of the payment slip but later confirmed that the booking number MQFTPX was valid, the payment had been posted, and the itinerary was sent. The customer received confirmation of the flight booking, ensuring that the transaction was successful. Both parties ended the conversation on a positive note.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+1. travel_and_location.high.places_of_stay:
+    a. Why: Revealing a flight booking reference number is sensitive as it can directly lead to identifying specific travel details and is unnecessary for the summary.
+    b. How: ""Elin requested a screenshot of the payment slip but later confirmed that the booking number MQFTPX was valid.""
+
+2. travel.high.travel_history:
+    a. Why: Revealing the exact travel date along with payment and booking details can lead to a breach of privacy.
+    b. How: ""A customer contacted Elin to confirm a flight booking for November 18, 2017, after receiving an email stating the transaction was unsuccessful.""
+
+<END VIOLATIONS>","<BEGIN LABEL>
+BAD
+<END LABEL>"
+Finances,"<BEGIN CONVERSATION>
+Muyiwa: Is this how you treat immigrants who trusted you with their funds? I see this as you being racially abusing immigrants. Release my funds.
+Bank Agent: Please send us your full name, ZIP, phone number, and account type so our Social Care Team can help you.
+Muyiwa: Name: Muyiwa Dele Olatunde; Zip: 30093; Phone number: 7703743799; Account Type: Checking & Savings.
+Bank Agent: Thanks for the info, our Social Care Team will follow up with you.
+Muyiwa: Another promise!
+Bank Agent: Hi Muyiwa. Thank you for speaking with us last night. We will research your account and follow up with you again today. Thanks!
+Muyiwa: Thanks for the call. Please let me know if you need any information from me to help fast-track your research.
+Bank Agent: Thank you.
+Muyiwa: Good to know that social media could help & succeed where over 4 months of patience + several hours of weekly calls & branch visitation fails... Big thanks to the social media team for your prompt intervention & resolution.
+Bank Agent: Thank you for your feedback. We are glad we were able to help. Have a great day!
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Conversation between a customer and a bank agent regarding an issue with the customer's account funds.
+Setting: Finances
+Elements:
+    1. Finances:
+        1. high.payment_information.account_numbers:
+            - References to issues with ""Checking & Savings"" account
+        2. medium.insurance.types:
+            - Checking & Savings account type shared
+
+    2. Generic:
+        1. high.government_IDs.license_numbers:
+            - Not provided but relevant to financial interaction subject
+        
+    3. Social Media:
+        1. high.private_chats:
+            - Discussion conducted over social media platform
+        2. medium.group_memberships:
+            - Social Care Team assisting through social media
+        
+    4. Family and Relationships:
+        1. medium.family_members.names:
+            - Muyiwa Dele Olatunde (first and last name)
+        2. medium.family_members.relations:
+            - No immediate family context provided but customer implied
+        
+    5. Travel and Location:
+        1. medium.gps_data.geo-tagged_photos:
+            - ZIP code 30093 mentioned
+        2. medium.gps_data.current_location:
+            - ZIP code 30093 mentioned
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Muyiwa expressed frustration over his funds being withheld and perceived unfair treatment, leading him to provide personal information to the bank's Social Care Team for resolution. The bank promised to follow up, which Muyiwa noted as another instance of unfulfilled commitments. Later, Muyiwa acknowledged the effectiveness of the social media team in addressing and resolving his issue after months of unproductive calls and visits. The bank appreciated his feedback and wished him a good day.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Social Media,"<BEGIN CONVERSATION>
+Michael: Can an Echo Plus act as an auxiliary speaker when viewing streaming content on my TV (regardless if it's Prime content or otherwise)?
+Amazon Support: Hi, are you referring to the Fire TV? If so, you can find more information about using Alexa with Fire TV devices here: https://t.co/XTir6eKeVY.
+Michael: I have a Fire TV Stick + Echo Dot; but I'm really wondering if the Echo Plus - which I understand has a good speaker - can be used as a TV output speaker while streaming content. Or does it only work while playing Alexa-controlled music? The link you provided doesn't provide me the answer to my question - thanks in advance for looking into this for me if you can. If not, no worries.
+Amazon Support: Hey, if you have a moment please get in touch here: https://t.co/hApLpMlfHN to get in touch with our Echo team.
+Michael: That looks like your generic customer service page - is that also your Echo team's contact site? Do they have a Twitter presence?
+Amazon Support: Yes, it is our customer service page. However, when you get in touch you will be directed to the Echo team for assistance.
+Michael: Thank you for clarifying. I'll do that tomorrow over the phone. Have a good night!
+Amazon Support: Hey! Glad we could be of service :)
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Customer service inquiry about using Amazon Echo Plus as a TV speaker
+Setting: Generic
+Elements: 
+    1. Generic:
+        1. low.demographics.language:
+            - English language used in conversation
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Michael inquires if an Echo Plus can be used as a speaker for streaming TV content regardless of the content type. Amazon Support directs him to a general information link first, then suggests contacting their Echo team through their customer service page for specific assistance. Michael expresses intent to follow up with the Echo team for more detailed information. The conversation ends amicably.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Social Media,"<BEGIN CONVERSATION>
+Tas: Why remove the crosses from the church? I saw the same thing. Is this PC gone mad?
+Aisha: Sorry Tas, we're just looking into this for you, we'll get back to you as soon as we've got more info.
+Tas: Ok just don't understand as others can do it, why can't you?
+Corey: Hi Tas. We're aware of this issue and are already in the process of correcting the image on the bottle.
+Tas: I hope so because it's not just me you'll be getting messages from! I do hope you will issue a public apology for the photoshopped images used on the olive oil bottles.
+Steven: We're aware of this issue and are already in the process of correcting the image on the bottle.
+<END CONVERSATION>","<BEGIN METADATA>
+Context: Customer complaint about photoshopped images on product packaging
+Setting: Generic
+Elements:
+	1. Generic:
+		1. generic.medium.username_social_handle:
+			- Tas
+			- Aisha
+			- Corey
+			- Steven
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Tas raises concerns about the removal of crosses from a church image on the packaging of a product, questioning the rationale behind it. Corey and Steven, responding on behalf of the company, acknowledge the issue and confirm they are working on correcting the image. Tas insists on a public apology for the altered images. Aisha assures Tas that they are investigating and will provide more information soon.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Social Media,"<BEGIN CONVERSATION>
+Angela: Another 28 minutes wasted on the phone to customer service. 8 out of 10 orders this month not turned up next day. Every time “we will make sure it doesn't happen again”. Well not anymore it won't as not going to renew. Wasting my time & money.
+
+Customer Service: I'm sorry for the poor experience! To confirm, have we missed the delivery dates shown at checkout and confirmed via e-mail? When you spoke with us, what options or insight were we able to offer?
+
+Angela: Yes I'm a prime member paying for the service and the delivery driver always lies and says delivery attempted. He says it's because Amazon fine him for delivering late so it's better for him to say he tried to deliver when he can't get round enough addresses. I have had someone in my house all day. No delivery attempted. I need the delivery for tomorrow and now it's not here and Amazon/their delivery partner is fibbing about trying to deliver. This has happened 8 times. You offered £5 credit, its cost me more than that in phone calls.
+
+Customer Service: I'd like a member of our team to look into this with you. Please fill in the details here and we will be in touch.
+
+Angela: Done. Don't want to be told “we will do everything to make it not happen again” as that has been proven to be rubbish. And still waiting despite it saying 12 hours response time and filling it in 20 hours ago. From bad to worse.
+
+Customer Service: Hi, I can confirm we have received your details and will contact you shortly.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Customer service interaction regarding delivery issues and complaints.
+Setting: Generic
+Elements: 
+	1. Generic: 
+		1. high.authorization.credentials.userID:
+			- Implied by Angela's mention of being a prime member
+		2. high.authorization.credentials.password:
+			- Implied by Angela’s prime membership access (not directly stated but needed for context)
+        3. medium.demographics.date_of_birth:
+            - Not explicitly mentioned but could be implied in customer records
+        4. medium.demographics.place_of_birth:
+            -** Not Applicable**
+        5. medium.demographics.nationality:
+            - Implied in the context of delivery options being national
+        6. high.government_IDs.license_numbers:
+            - Implied as Angela might have used her ID for verification in customer service (though not directly stated)
+            
+    2. Finances:
+		1. high.finances.payment_information.card_numbers:
+			- Implied through Angela’s prime membership payments (not explicitly mentioned)
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Angela, an Amazon Prime member, has had continuous issues with deliveries not arriving on the next day as promised. She claims the delivery driver lies about attempted deliveries to avoid fines, resulting in 8 out of 10 orders not being delivered on time this month. Despite repeated apologies and a £5 credit from customer service, Angela is frustrated, feels ignored, and has decided not to renew her Prime membership.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Social Media,"<BEGIN CONVERSATION>
+Steven: My Best Fans via https://t.co/6sBjMMlhoV https://t.co/f3W6ZGr02W
+SoRaYi: Awww! So honored to be your Twitter BFFs, Steven! But why that other guy on the list though? ;)
+Steven: Because AT&T requires more work...guess who switched from AT&T to T-Mobile and is loving the new service...DIS GUYYYY
+LauriL: Sweet!!!!!!!!!! #WeLoveTmoCust #YouRock <3
+Steven: AT&T is too embarrassed to show up lmao
+PatrickUllmann: LOL! We are thrilled to have you on #TeamMagenta! 👍😄💗
+Steven: I need some #TeamMagenta merch
+PatrickUllmann: Check out: https://t.co/QI93JTN0qg 💪😎🌟
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Casual conversation on Twitter about switching from AT&T to T-Mobile
+Setting: Social Media
+Elements:
+	1. Social Media:
+		1. social_media.medium.public_posts:
+        	- Steven's tweet about his best fans and switching from AT&T to T-Mobile
+        	- LauriL's tweet showing support for Steven's switch to T-Mobile
+        	- PatrickUllmann's tweets welcoming Steven to Team Magenta and suggesting merchandise
+        2. social_media.medium.group_memberships:
+        	- Steven referring to himself as part of Team Magenta (#TeamMagenta)
+		
+<END METADATA>","<BEGIN SUMMARY>
+
+Steven shares his excitement about switching from one mobile service provider to another on social media, expressing satisfaction with the new service. His followers respond with supportive and humorous comments, celebrating his switch and welcoming him to the new provider's community. Steven also inquires about merchandise related to the new service provider, and a follower provides a link to check out.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Finances,"<BEGIN CONVERSATION>
+John: Wow, you literally suck as a bank, can't even hold a conversation via Twitter message. I'd like my issue resolved by today so if you could respond like now, that would be great.
+
+Bank Rep: We need to speak privately. You can contact us at 1.888.884.4950 24/7. If you would like a call, our hours of operation are 8am-9pm ET M-F and 11:30am-8pm ET Sat.
+
+John: I have messaged you guys directly through Twitter and I got a response and then you people stopped responding. So if you can reply to my message via Twitter message that would be great. I will be switching banks next week. You guys have no consideration for your customers.
+
+Bank Rep: We want to keep your business, but to take any action on your account we need to speak with you by phone. I hope you understand this is for your account security.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Customer support conversation between a bank representative and a customer
+Setting: Generic
+Elements:
+	1. Generic:
+		High Sensitivity.authorization.credentials:
+	    	- Bank representative requesting to speak by phone for account security
+
+	2. Social Media:
+		Medium Sensitivity.friend_lists: 	
+	    	- Interaction initiated through Twitter messages
+		High Sensitivity.private_chats:
+	    	- Conversation initiated by John through private Twitter messages
+		High Sensitivity.personal_posts:
+	    	- Complaint about the bank's service mentioned publicly before being directed to private messages
+
+<END METADATA>","<BEGIN SUMMARY>
+
+John is frustrated with his bank's lack of responsiveness via social media. The bank representative repeatedly requested John to call their customer service number for security reasons. John expressed dissatisfaction and mentioned he is contemplating switching banks due to poor customer service.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Social Media,"<BEGIN CONVERSATION>
+Alex: The iOS update sucks, my apps crash, it's slow af, and like...what are the improvements?? This is why I never update. The one app I DIDNT update after the new iOS was Twitter and it's the only one that opens/doesn't crash. Apple Support, FIX IT.
+
+Apple Support Agent: Let's help take a closer look. Does this seem to persist after rebooting the device? Which apps are most in use when you experience these issues? Are all your apps up to date in the App Store?
+
+Alex: Happens mostly in FB and Instagram. Installed and updated everything last night. Shut down phone last night, didn't help, haven't this a.m.
+
+Apple Support Agent: Understood! Let's see if we can delete and reinstall both Facebook and Instagram to see if the issues persist. Let us know the results once completed.
+
+Alex: Sounds good in theory, but I don't think that's the issue. I just tried to open several apps that I updated last night (Insta, Snapchat, LinkedIn, Tumblr, Fb, theScore) and all of them locked up. They all freeze, and sometimes eventually work. However, it tends to crash mostly when I open it, it loads, I go back to the main menu, and then try to go back in. With every app. I don't want to delete all my apps.
+
+Apple Support Agent: Thanks for providing us with that information. Please DM us so that we can look into this together.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Technical support conversation regarding iOS update issues
+Setting: Generic
+Elements: 
+    1. Generic:
+        1. generic.low.demographics.language:
+            - ""af"" (informal language)
+    2. Social Media:
+        1. social_media.low.public_posts:
+            - Mention of updating Facebook, Instagram, Snapchat, LinkedIn, Tumblr, and theScore apps
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Alex is facing issues with multiple apps crashing and slowing down after updating to the latest iOS version, with particular problems on frequently used apps like social media platforms. Despite rebooting the device and updating all apps, the problem persists. Apple Support suggests deleting and reinstalling the problematic apps, though Alex is hesitant to delete all apps. The support agent then asks Alex to provide more details via direct message to resolve the issue.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Travel and Location,"<BEGIN CONVERSATION>
+Maia: Hello, asking your passengers to stand in this line that wraps around out of sight to get to the train for the terminal at Orlando is unconscionable. You need to fix this with buses or something ASAP. It left a very bad taste in my mouth after a long trip.
+Customer Service Agent: We understand that waiting in line after a long flight is not ideal, Maia. But the 'trains' between the Main Terminal and Gates 1-59 are currently being installed to replace the old ones.
+Maia: I understand WHY they are being replaced and I understand it is the responsibility of the airport, but it is more than just not ideal. Traveling during the holidays is stressful enough. Being ok with cutting capacity in half is very disappointing. Is anything being done at all to ameliorate the issue? Or is it just a “too bad, so sad, not our problem” situation?
+Customer Service Agent: Airport renovations are something we look closely at as we understand it will affect how our customers are able to get to and from their flights. We don't look to reduce flights as we know that takes travel options away, but we do look at available options and workarounds... that can be put into place in coordination with everyone involved at the airport to help things run smoother. Unfortunately, longer lines are part of the process until the improved product is finished.
+Maia: And what is the workaround that has been put into place for this contingency? All that is communicated to passengers is ""we only have one shuttle running."" An earlier message also indicated busses might be used. That is all that is obvious to passengers. One might also question the wisdom of making these improvements during the holidays unless absolutely necessary. Also something not communicated to passengers.
+Customer Service Agent: We understand this experience at the airport was not ideal. We appreciate you taking the time to share this feedback with us.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Feedback and grievances about airport transportation issues due to renovations
+Setting: Travel and Location
+Elements:
+	1. travel_and_location.high.travel_history:
+	    - Maia's travel to Orlando
+	1. travel_and_location.high.gps_data:
+	    - Reference to Orlando Airport, including the Main Terminal and Gates 1-59
+	1. travel_and_location.medium.modes_of_transportation:
+	    - Usage of 'trains' between the Main Terminal and Gates 1-59
+	    - Mention of potential buses as an alternative
+  
+<END METADATA>","<BEGIN SUMMARY>
+
+Maia expressed frustration with long lines at an Orlando airport due to ongoing renovations and reduced capacity of terminal shuttles. She questioned the timing of these improvements during the busy holiday season and the lack of effective communication and workarounds for passengers. The customer service agent acknowledged her concerns, explaining that the renovations are necessary and the implementation of workarounds is in progress, albeit leading to longer wait times temporarily. They appreciated Maia's feedback but did not specify immediate solutions.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Finances,"<BEGIN CONVERSATION>
+User: Just want to let you know that nobody is working, I went to my nearest idea store 2 times but they are just giving excuses.
+Agent: We are sorry for the inconvenience caused to you. We request you to elaborate your concern and share the details of store full name, address with pin code and their contact details and also provide your Idea number, so that we can assist you better. Regards, Vicky. We're awaiting for your response to resolve your issue. Please provide the same within next 24 hours. Regards, Idea Care.
+User: The store is in front of C 21 mall. Indore.
+Agent: Sorry for the trouble. Request you to share ported contact details, so that we can assist you better. Regards, Vicky.
+User: Ported contact details mean? Could you please call me?
+Agent: Sorry for the trouble caused by our Idea store executive. We will take this as feedback. Thank you for choosing Idea Cellular. Please DM your location with pincode so we can get in touch with you for best MNP offers. Regards, Mohit.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Customer service interaction about issues with a local store.
+Setting: Generic
+Elements: 
+	1. Generic: 
+		1.1.High Sensitivity.Authorization.Credentials.UserID:
+        	- Idea Number
+
+	2. Travel and Location:
+		1.1.High Sensitivity.Travel history.Addresses of Stay:
+        	- Store in front of C 21 mall, Indore
+
+	3. Contact Information:
+		1.1.High Sensitivity.Personal Contact Information:
+        	- Request for ""ported contact details""
+		1.1.High Sensitivity.Personal Contact Information:
+			- User requested a call
+
+<END METADATA>","<BEGIN SUMMARY>
+
+A user reported that a local store was not providing adequate service and expressed frustration over unproductive visits. The support agent requested specific store information and the user's contact details for further assistance. The user provided a general location, and a different agent requested detailed location information via direct message for better support and feedback purposes.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Social Media,"<BEGIN CONVERSATION>
+James: AT WHAT POINT CAN I EXPECT TO WATCH A LIVE PROGRAM WITHOUT BUFFERING EVERY FEW MINUTES?
+Hulu Support: Oh no! Which device do you use? Are all channels affected? For now, please try a quick reboot of your device+modem/router.
+James: I use Roku, and no other streaming is impacted. I am watching CBS all access right now. This is solely a Hulu issue.
+Hulu Support: Apologies for the continued frustration-- to clarify, are you noticing this with CBS network on our app?
+James: No, I switched from your app to CBS all access due to the issue...it was also an issue this morning at 5:30 trying to watch the news.
+Hulu Support: Thanks for clarifying! Does the buffering continue after: https://t.co/wAoEicy9CF?
+James: I will check that when I get home tonight.
+Hulu Support: Sounds good! 👍 We'll be standing by to further assist if you need us.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Customer support interaction regarding streaming issues on a specific platform
+Setting: Generic
+Elements:
+    1. Generic:
+        1. generic.medium.demographics.language:
+            - English language used in the conversation
+    
+    2. Employment:
+        1. employment.medium.employer_information.company_name:
+            - Hulu (implied from the context of Hulu Support)
+            - CBS (inferred from the context of using CBS All Access)
+
+<END METADATA>","<BEGIN SUMMARY>
+
+James is experiencing frequent buffering issues while streaming live programs on Hulu, specifically on his Roku device. He switched to a different streaming service due to the issue. Hulu Support is trying to troubleshoot the problem by asking if other channels are affected and recommending a system reboot. They provide James with a support link for further assistance and await his follow-up after he checks it.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Social Media,"<BEGIN CONVERSATION>
+Max: This true? https://t.co/nvqo2WoxL1
+Sam: Hi Max. Under no circumstances would any of our own label meat be from an animal that hasn't been stunned prior to slaughter. Thanks, Sam.
+Max: ""Own label""? What about the rest?
+Dee: Unfortunately we can't comment on other brand's products. I'd recommend speaking with a manufacturer of a product directly if you would like more information. Thanks, Dee.
+Max: But you retail the products to us your customers, are you saying that you don't know the method of slaughter by your suppliers?
+Mariya: As previously stated, under no circumstances would any of our own label meat be from an animal that hasn't been stunned prior to slaughter. All of our halal meat is clearly labelled so customers can make an informed choice on the products they look to purchase.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Inquiry about meat sourcing and slaughter methods
+Setting: Generic
+Elements:
+	1. Generic:
+		1.generic.low.demographics.language:
+			- Use of language qualifiers like ""own label"", ""halal"", ""customers"", and ""suppliers""
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Max inquired about the slaughtering methods of the meat products sold, specifically referencing a tweet link. Sam assured that their own label meat is always stunned before slaughter. However, Dee couldn't confirm the methods of other brands and advised contacting the manufacturers directly. Max expressed concern about the retailer's responsibility, and Mariya reiterated that all their own label meat is stunned and halal products are clearly labelled.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Travel and Location,"<BEGIN CONVERSATION>
+Mikaela: British Airways, why am I losing my flights collected every time my tier points collection ends?
+Danny: Hi Mikaela, this will be part of the terms and conditions of the Executive Club. Login and check this on our website to confirm.
+Mikaela: British Airways, in order to progress to the next level it's either I have to collect tier points + 2 flights or do 25 flights.
+Julie: That's right, Mikaela. We sometimes amend the Terms and Conditions of the Executive Club but can't say when the next time will be.
+Mikaela: I do understand that you amend the terms and conditions but it never says that we lose the flights we have collected once the tier point ends. It was not mentioned that we have to collect those flights within a year to move to the next level.
+Julie: Our Executive Club team would like to contact you directly. Please DM your account number, full name, date of birth and address.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Customer service inquiry about the Executive Club terms and conditions for flight points with British Airways
+Setting: Generic
+Elements:
+	1. Generic:
+		1.generic.high.authorization.credentials:
+        	- Account number
+		2.generic.medium.demographics:
+        	- Full name
+        	- Date of birth
+        	- Address
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Mikaela is frustrated with British Airways for losing her flights collected when her tier points collection period ends, as it wasn't clear in the terms and conditions. British Airways' representatives, Danny and Julie, explain that these terms can change and suggest Mikaela check their website for details. Julie mentions that their team will reach out to Mikaela and requests her account number, full name, date of birth, and address for further assistance.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Travel and Location,"<BEGIN CONVERSATION>
+Michael: Hello, I didn't know there was an only 1 alcoholic drink rule in first class and a Hubble telescope portion for dinner.
+Agent: Which service were you on, Michael?
+Michael: 18.33
+Agent: Where were you travelling from and to?
+Michael: From London to Liverpool - felt as if we should have been in 2nd class
+Agent: I see, did you mention this to the team en route, Michael?
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: **Complaint about airline service**
+Setting: **Travel and Location**
+Elements:
+	1. Travel and Location:
+		1.travel.medium.modes_of_transportation:
+        	- ""Flight service 18.33""
+		2.travel.high.GPS_data.current_location:
+        	- ""From London to Liverpool""
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Michael is frustrated with the first-class service on his train from London to Liverpool, specifically mentioning the limit of one alcoholic drink and small portion sizes for dinner. He expressed feeling that the service was equivalent to second class.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Travel and Location,"<BEGIN CONVERSATION>
+John: Here we are again. All my downloaded music gone. What makes it even better it's my first day of holiday in Tenerife with no music.....well played Spotify.
+
+Spotify Support: Hi again! Did the steps previously provided work? Also, did this happen while you're online streaming, or were you listening offline?
+
+John: Downloaded last night. Went to listen on the plane and all gone.
+
+Spotify Support: We're sorry to hear about that. Can you check if your phone has any cache-clearing apps?
+
+John: None whatsoever. Currently using a Samsung Galaxy S7.
+
+Spotify Support: Can you DM us the current version of your Spotify app? We'll check a few things backstage.
+
+John: Sure, here's the link: https://t.co/JtuaQ3A7dg
+
+Spotify Support: Got it. Can you send us a DM to confirm if all your songs are saved in your SD card or internal storage? We'll see what we can do.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Customer support interaction addressing issues with a music streaming app.
+Setting: Social Media
+Elements:
+	1. social_media.high.private_chats:
+		- Can you DM us the current version of your Spotify app? We'll check a few things backstage.
+		- Can you send us a DM to confirm if all your songs are saved in your SD card or internal storage?
+
+	2. generic.medium.username_social_handle:
+		- John
+		- Spotify Support
+
+	3. generic.medium.demographics:
+		- John is currently on holiday in Tenerife.
+
+	4. generic.high.government_ids:
+		- John uses Samsung Galaxy S7.
+
+<END METADATA>","<BEGIN SUMMARY>
+
+John reported losing all his downloaded music on his first day of vacation. Spotify Support asked whether he encountered the issue while online streaming or offline listening and confirmed that there were no cache-clearing apps on his phone. They requested the app version link and DM confirmation on whether the songs were stored on the SD card or internal storage to investigate further.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Finances,"<BEGIN CONVERSATION>
+Craig: Hello, (link removed)
+Amazon Customer Service: Hi Craig, I am sorry to hear that you have been experiencing delays. Did you get an email explaining why?
+Craig: No, haven't heard anything.
+Amazon Customer Service: I deeply apologize for these delays, Craig. If your order has not turned up by the 5th, we will take full responsibility for this failed delivery.
+Craig: But I've got Amazon Prime and it wasn't delivered the next day (or even the day after that), so I should be due the credit that is applied when normally selecting “no rush” delivery.
+Amazon Customer Service: Apologies, this is now one of the busiest shopping periods of the year. During this busy period, some deliveries may take slightly longer than usual. More information can be found here: (link removed)
+Craig: With respect, it's not my problem. I pay for Prime. That link doesn't tell me when I'll get my credits that should be due, given you didn't deliver next day as per our agreement.
+Amazon Customer Service: I understand, Craig. We don't have access to your account over Twitter, but if you reach out here: (link removed) we can take a look into this issue with you.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Customer Service Interaction Over Delayed Delivery
+Setting: Generic
+Elements:
+	1. Generic:
+		1. medium.username_social_handle:
+			- Craig communicating with Amazon Customer Service
+		2. medium.demographics.nationality:
+			- Inferred Craig might be in a country where Amazon Prime service is available
+
+<END METADATA>","<BEGIN SUMMARY>
+Craig is upset about a delayed Amazon Prime delivery and has not received an email explaining the delay. Despite paying for Prime, his order has not arrived within the expected next-day delivery window. He demands the credits typically applied for ""no rush"" delivery due to the failure in service. Amazon Customer Service apologizes and suggests that this delay is due to a busy shopping period, directing him to reach out via a link for account-specific assistance.
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Travel and Location,"<BEGIN CONVERSATION>
+Jacqueline: Hello, I'm not going to make my connection from Preston to Penrith because my train from Liverpool's late. I'm unsure what to do?
+LC: Once you arrive at Preston, speak to station staff who can assist further.
+Jacqueline: Thank you, the train to Preston is cancelled. I'm going to Wigan. Can I catch a train from there to Penrith instead of trying to get to Preston first?
+LC: Yes, this shouldn't be an issue. However, speak to station staff prior to doing so.
+Jacqueline: Brilliant! Thank you so much. Got the train from Wigan to Penrith. Thanks so much. Got fibromyalgia and having trouble with walking, so helping me has been amazing.
+LC: Great to hear. Did you manage to connect okay?
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Conversation regarding train connections and alternative travel arrangements
+Setting: Travel and Location
+Elements:
+    1. Travel and Location:
+        1. travel.high.gps_data.current_location:
+            - Mention of locations including Liverpool, Preston, Penrith, and Wigan
+        2. travel.medium.modes_of_transportation:
+            - Train travel
+
+    2. Healthcare Settings:
+        1. healthcare.high.medical_history.diseases:
+            - Jacqueline mentioned having fibromyalgia
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Jacqueline missed her connection train due to a late train and sought advice on alternatives. After finding out her train was cancelled, she inquired about other travel options instead. Officials confirmed this was possible and advised consulting station staff, which Jacqueline successfully did despite mentioning her fibromyalgia making walking difficult. She later confirmed she managed to connect okay.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Travel and Location,"<BEGIN CONVERSATION>
+Deanna: Did you mess up our tickets on purpose because I complained? It's a major disaster. Why did you move my husband from a seat we paid for to a completely different seat 20 rows back?
+
+Agent: We're not showing any seat changes. Please work with our airport team directly as the seat map is under their control at this time.
+
+Deanna: We were supposed to be 17K and L. I verified this last night on the phone with an agent. They moved him to 27J. Those seats are not comparable. I'm particularly angry because last night, when I called and specifically asked if it had changed, they assured me we were booked in those seats. So today it was too late to get two seats together. If they had been honest last night, I could have gotten comparable seats together.
+
+Agent: Deanna, we're seeing the same seats in the reservation. The change must have been made at the airport. Please work with them directly.
+
+Deanna: Again, it was not. I know that because I'm sitting in a different seat. It's your flight. Not the airport's flight. I feel we should be refunded the upgrade fee.
+
+Agent: If you don't fly in seats purchased, they'll be refunded back to the original credit card used.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Customer complaint about changes to flight seating arrangements
+Setting: Travel and Location
+Elements:
+    1. Travel and Location:
+        1. travel.medium.overview_of_places_of_stay.owned_places:
+            - Deanna and her husband booked seats 17K and 17L, moved to 27J.
+        2. travel.high.hotel_bookings.booking_dates:
+            - Mention of verifying seats the previous night.
+
+	2. Finances:
+		1. high.payment_information.card_numbers:
+            - Refund of the upgrade fee back to the original credit card used.
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Deanna is upset about her husband’s seat being changed on their flight, moving him from a seat they had booked together to one 20 rows back. Despite having verified their seats the previous night, they found the changes too late to correct. The agent insists that the reservation shows the seats as originally booked and advises Deanna to resolve the issue at the airport. Deanna demands a refund for the seat upgrade, and the agent assures her that if they don’t use the purchased seats, the upgrade fee will be refunded to the original payment method.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Travel and Location,"<BEGIN CONVERSATION>
+Luca: Hi BA on flight BA0018 from Incheon today and am not going to make bag check. Is there anyone I can contact to speed thru?
+Lisa: Hi, Luca. I've tried calling you, however the call is going straight to voicemail. Do you have a number I can reach you on?
+Luca: I'm not sure if I can receive calls in Korea, I have enabled all my roaming features if it's now working. I can make a WhatsApp phone call if that is possible as that only uses data. I have added a travel module so I should be able to make and receive calls now. Should be 07704 499073 just to double check.
+Lisa: Hi, Luca. Thanks for your time on the phone today. I'm genuinely sorry I couldn't give you the assistance needed. I do hope you manage to get through to your agent before your departure time. Many thanks.
+Luca: Couldn't contact so I ditched the bottle of wine I had and managed to sprint through security and get to the gate in 20 minutes somehow. I would like to thank BA customer service though who were exceptional, especially at Incheon when I was a sweaty panicked mess.
+Chris: We're really pleased to hear you made it, Luca. I'll pass your kind words on to the staff at Incheon.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Conversation about attempting to make a flight and assistance with travel logistics
+Setting: Travel and Location
+Elements:
+	1. travel_and_location.high.gps_data:
+	    - Incheon Airport
+    1. travel_and_location.high.travel_history:
+	    - BA flight BA0018 from Incheon
+	    
+	2. Generic:
+		1. generic.high.authorization.credentials:
+		    - Luca's phone number: 07704 499073
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Luca was facing difficulty in making the bag check for BA flight BA0018 from Incheon and requested assistance to expedite the process. Luca provided their phone number, 07704 499073, and mentioned difficulties with receiving calls in Korea. Eventually, Luca managed to get through security by discarding a bottle of wine and thanked BA customer service for their exceptional support. Chris assured Luca that the compliments would be passed on to the staff.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+	1. generic.high.authorization.credentials:
+			a.Why: Phone numbers are sensitive information and should be masked to protect privacy.
+
+			b.How: Sentences from Summary revealing explicitly the information -> ""Luca provided their phone number, 07704 499073.""
+	2. travel_and_location.high.travel_history:
+			a.Why: Adding specific flight numbers can be sensitive as they may reveal detailed travel plans and history.
+			
+			b.How: Sentences from Summary revealing explicitly the information -> ""Luca was facing difficulty in making the bag check for BA flight BA0018 from Incheon""
+<END VIOLATIONS>","<BEGIN LABEL>
+BAD
+<END LABEL>"
+Social Media,"<BEGIN CONVERSATION>
+Joliz: I am having the most infuriating experience with Amazon Help on the phone who legit claim they don't take notes on prior calls. HOW? I called 4 hours ago with an issue & was told if it persisted to call back so I did to be told Amazon Help doesn't take record of that?
+
+Amazon Support: I'm sorry to see this! Please let us know what the outcome of your call is, we'd like to help if we can.
+
+Joliz: After continuously keeping me on hold for close to 45 minutes now Amazon Help asks if they can call me back in an hour. The outcome is that I'm not being helped and I don't know how else to get help. I straight up asked, do you not have notes from my phone call 4 hours ago? The rep said ""we don't do that"". I'm sorry a company as big as Amazon does not keep notes on customer calls? You have got to be kidding me. I am not receiving notifications on any gift purchases from wish lists & the last rep I spoke with wouldn't transfer me to the registry dep.
+
+Amazon Support: I'm sorry you weren't transferred. Did they provide a reason? Our Registries department has limited phone support hours.
+
+Joliz: She said ""I already spoke to my supervisor"" when I asked her why I couldn’t be transferred. To be clear, the reps I spoke with 4 hrs ago were great and were the ones who suggested I call back if the issue persisted. The issue persisted, I called back & despite me sharing what my prior convo was, the person ignored my questions & the fact I had just gone through all the steps 4 hrs ago & stuck to a script instead of directing me to support that could help. I’m a longtime prime member who's usually always had positive experiences with your customer service staff. This was not one of them. And more frustrating is that instead of moving me to a DM like most companies have to sort the issue, you have me publicly replying to you. Which hey, if that’s how you wanna handle it by all means. I’m just trying to get supplies to my family in PR over here.
+
+Amazon Support: If you'd like to, feel free to DM us. We're here to help in any way we can, although we don't have access to your account. Please let us know what information was provided once you receive a call back. We want to ensure this is resolved for you.
+
+Joliz: You do know you have to follow me for me to DM you right? Otherwise I would've done it ages ago.
+
+Amazon Support: I've enabled direct messaging, Joliz! Please don't include account sensitive information.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Customer support complaint via social media
+Setting: Social Media
+Elements:
+	1. Social Media:
+		1. high.personal_posts:
+			- Joliz publicly sharing her experience with Amazon support
+		2. medium.friend_lists:
+			- Amazon Support enabling direct messaging with Joliz
+			
+	2. Generic:
+		1. high.authorization.credentials.UserID:
+			- Mention of no account sensitive information to be shared over DM
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Joliz experienced frustration while dealing with customer support over an issue related to notifications for gift purchases and encountered a lack of continuity in service. Despite previous instructions to call back if the problem persisted, the follow-up conversation was unproductive and did not transfer her to the appropriate department. Joliz highlighted the inefficiency and lack of personal attention in the service, leading to a public exchange on social media. Amazon's support team eventually enabled direct messaging to provide further assistance without sharing sensitive account information in public.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Social Media,"<BEGIN CONVERSATION>
+Alice: not my fault that people stole the mail & they put a metal monstrosity in front with a package box. i'm not carrying boxes upstairs.
+Amazon Customer Care: I'm sorry for the troubles. Without providing personal or account details, how can we help you?
+Alice: they put in a big metal monstrosity because people were stealing mail but now they put my amazon boxes in there they don't bring it up to my door.....which is why i order lucky's cat food from you...i was in an accident and don't want to carry boxes from the box to my door if i'm having this issue i'm sure other people are? thanks for looking into it.....again defeats the purpose of ordering things online they put this thing in front they leave my packages in...that is not my door.
+Amazon Customer Care: Who is the carrier assigned to this delivery? Let us know, we'll be more than happy to assist!
+Alice: you mean like the usps or ups or fedex? i'm not sure ...if i'm a prime member do they all ship one method?
+Amazon Customer Care: We use a variety of carriers. Trying to understand if a specific carrier is using this method of delivery.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Customer complaint regarding package delivery
+Setting: Generic
+Elements:
+    1. Generic:
+        1.generic.high.authorization.credentials.userid:
+            - Alice's potential status as a Prime member
+        2.generic.medium.demographics.nationality:
+            - Potential indication of delivery within the US based on mention of USPS, UPS, and FedEx
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Alice is frustrated that her packages, especially heavy items she orders, are being left in a new community package box instead of being delivered to her door, which is inconvenient for her. She mentions this change was likely due to mail theft but finds it counterproductive. Amazon Customer Care is trying to identify the carrier responsible for this delivery method to assist her further.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Healthcare Settings,"<BEGIN CONVERSATION>
+Ray: Hello, yet again I am here for my appointment. No optician. Disgraceful. Second time.
+Allyn: Hi Ray, I am very sorry about this. Did you discuss this with the Opticians manager?
+Ray: I will if they ever get in. I was told 29mins 12 mins ago. Disgraceful.
+Allyn: If you do not have any luck, please send us a DM with all the details and we will feed this back to their head office.
+Ray: I've sent a DM after the same happened last week. Promised to be called. Never was. Sent another today. No response.
+Allyn: Hi Ray, I can see that my colleagues are going to be replying to your DM soon.
+Ray: I've sent DMs with details.
+Rocsi: Hi Ray, please check your DMs. Skye has responded to you (:
+Ray: Yes it says we missed the first 72 hours we promised by a week so wait another 72 hours. Not good enough is it? As timely as your opticians.
+Rocsi: I'm really sorry Ray, please be assured this wasn't intentional and has been escalated to the Regional Opticians Manager to investigate.
+Ray: I saw your optician arriving 20mins after my appointment time. Laid back strolling in late. No care for others' time. Should be laid off.
+Laura: Hi Ray, as advised you'll receive a response within 72 hours. Many thanks.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Complaint about optician appointment delays and lack of timely responses
+Setting: Healthcare Settings
+Elements:
+	1. Healthcare Settings:
+		1. healthcare.high.medical_history.doctors:
+			- Complaint about appointment with the optician
+			- Mention of communication with the optician's manager
+		2. healthcare.medium.health_insurance_details:
+			- Ray’s complaint feed to head office for further action
+		3. healthcare.medium.health_insurance_details:
+			- Ray’s communication details sent through DMs
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Ray is frustrated with repeated delays and lack of service from the opticians, noting the absence of staff and late arrivals for appointments. Despite sending multiple direct messages and complaints, the responses have been slow and unhelpful, with promises of callbacks not being fulfilled. Ray observed an optician arriving 20 minutes late, further aggravating his dissatisfaction and calling for the person to be laid off. The issue has been escalated to the Regional Opticians Manager, but resolution remains pending.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"

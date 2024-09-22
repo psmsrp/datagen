@@ -1,0 +1,1037 @@
+setting,dialog,metadata,summary,Violations,Quality
+Family and Relationships,"<BEGIN CONVERSATION>
+Anna: Next week is your birthday party. How exciting! What do you want for your birthday?
+Ryan: Well, a car like yours would be fantastic.
+Anna: Hmm... Maybe not a car just yet. You're only turning 9, you know? How about a doll?
+Ryan: Mom, I'm a boy. Boys don't play with stupid dolls, but a machine gun would be OK, too.
+Anna: Well, not this time. Maybe we could get you a nice dress and a little purse, son. Maybe...
+Ryan: Maybe I should change my name to Mary since you seem to want a daughter so badly?
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Casual conversation about a child's birthday
+Setting: Sexual Orientation and Gender Identity
+Elements: 
+	1. Sexual Orientation and Gender Identity:
+		1. Medium Sensitivity.Participation in LGBTQ+ events.Roles.Attendee:
+			- Ryan's inclination towards stereotypically male toys 
+		2. High Sensitivity.gender identity.Gender Identity:
+			- Anna's suggestion of giving Ryan stereotypically female items (""nice dress and a little purse"")
+		3. High Sensitivity.gender identity.Transition History:
+			- Ryan's sarcastic comment about changing his name to Mary, implying a gender identity aspect
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Ryan, who is turning 9 soon, expressed a desire for a car or a machine gun as birthday gifts. His mother, Anna, suggested more traditionally feminine gifts like a doll, dress, or a purse, which Ryan found frustrating and sarcastically remarked about changing his name to Mary.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+1. Sexual Orientation and Gender Identity.gender identity.Gender Identity:
+	a. Why: Reveals specific information about a sensitive aspect of an individual's gender identity.
+	b. How: Sentences from Summary revealing explicitly the information -> ""His mother, Anna, suggested more traditionally feminine gifts like a doll, dress, or a purse, which Ryan found frustrating and sarcastically remarked about changing his name to Mary.""
+<END VIOLATIONS>","<BEGIN LABEL>
+BAD
+<END LABEL>"
+Employment,"<BEGIN CONVERSATION>
+John: So it looks like we start selling in the U.S. next year.
+Chen: Did Mr. Lin put you in charge of marketing?
+John: He's still not sure whether he wants to put me in charge, or whether he wants to hire an American. But even if he hires an American, I'll probably be transferred to our American office.
+Chen: Where will it be?
+John: We aren't sure yet. Maybe L.A. I think L.A. would be the best idea.
+Chen: Is it because of trade negotiations that we can start selling in the U.S.?
+John: Yes, the recent agreements between the two governments have changed everything. Now we have the right to sell in America at a much lower tariff. It's going to be good. We can compete more directly with them.
+Chen: Great.
+John: Our computers have a high level of quality now. We can demonstrate it. And our prices will be good. So I think it will really be worthwhile.
+Chen: You seem excited about it.
+John: Well, you know I studied marketing in America. So maybe the thought of going back there to promote our brand is kind of exciting to me. I'd love to be part of the team.
+Chen: Do you honestly think we can compete though? All the computer giants are there.
+John: Yes, I do. I think we can compete. I think we can make a name for ourselves. It will be hard at first. But if we develop a good advertising campaign, I think we can break into the market.
+Chen: The company will have to choose a good advertising firm. And then there's the problem of quality. How do we convince American buyers that our quality is good?
+John: It takes some time. Because even if the quality is high, people won't accept a high tech product unless they recognize the name. Name recognition is crucial.
+Chen: Well, I hope it all works out, John. I think if you're part of the team, things will go well. But you know we'd all miss you here. So I won't say I'm happy to think that you're leaving.
+John: That's very nice of you to say. But if we set up an office there in the States, maybe you could try to become part of it.
+Chen: Me? No way. I'm dedicated to the company, but I'm not going to leave Taiwan. I'm happy here.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Discussion about business expansion and potential job transfers.
+Setting: Employment
+Elements:
+	1. Employment:
+		1. employment.high.employment_status:
+			- John potentially being in charge of marketing
+			- John potentially being transferred to the American office
+		2. employment.high.work_history.job_titles:
+			- marketing (John)
+		3. employment.high.work_history.company_names:
+			- Company's American office location (not yet determined, possibly L.A.)
+		4. employment.medium.employer_information.manager_names:
+			- Mr. Lin
+		5. employment.medium.employer_information.company_name:
+			- Company's American office
+	
+	2. Travel and Location:
+		1. travel_and_location.medium.overview_of_places_of_stay.owned_places:
+			- American office location, potentially L.A.
+
+<END METADATA>","<BEGIN SUMMARY>
+
+John and Chen are discussing their company's plans to start selling computers in the U.S. next year due to new trade agreements that reduce tariffs. John mentions he's being considered for a marketing position, either leading the team or possibly being transferred to the U.S. John is enthusiastic about the opportunity, although Chen expresses doubt about competing with established American brands. Despite his support for John, Chen is not interested in relocating.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Family and Relationships,"<BEGIN CONVERSATION>
+Alex: Dad, can I go to a movie with Sharon?
+Dad: Yeah, sure, but wait. Weren't you supposed to get a report card sometime this past week?
+Alex: Well, oh yeah. Can I call Sharon now?
+Dad: Uh-hum. You didn't answer my question. Did you receive it or not?
+Alex: I love you Dad! You're the best!
+Dad: Don't try to butter me up. I can guess that your answer means that you didn't do well in some of your classes?
+Alex: Well, my English teacher is soooo boring, and he blows up every time someone talks.
+Dad: In other words, you're not doing so well?
+Alex: Uh, a C ... minus.
+Dad: Oh. Well, how are you doing in your Spanish class? You said you liked that one.
+Alex: Well, I do, but I forgot to turn in a couple of assignments, and I had problems on the last test. All those verbs tripped me up. I get them all mixed up in my head!
+Dad: Okay, and what about algebra?
+Alex: Ah, I'm acing that class. No sweat.
+Dad: Oh!
+Alex: Can I go now?
+Dad: And how are you doing in history?
+Alex: Oh, that's my favorite class. Mr. Jones is always passing out candy if you know the answers to his questions.
+Dad: Great. Now, I have a bright daughter with tooth decay.
+Alex: Ah, Dad. Can I go now?
+Dad: You can go if you answer my history question. How old am I?
+Alex: Uh, fifty-five?
+Dad: Fifty-five! You just failed a math and history test at the same time!
+Alex: Dad ...
+Dad: Well, okay, but you need to come straight home from the movie, and you need to practice your clarinet.
+Alex: Oh, I forgot about that grade?
+Dad: What?
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Conversation between Alex and her Dad discussing school grades and movie outing
+Setting: Education
+Elements:
+	1. Education:
+		1. education.high.academic_records.exam_scores:
+			- Alex received a C minus in English
+			- Alex had problems on the last Spanish test
+		2. education.high.academic_records.courses_done_failed:
+			- Not doing well in English class
+			- Forgot to turn in assignments in Spanish class
+			- Acing algebra class
+		3. education.high.academic_records.assignment_completed_failed:
+			- Forgot to turn in a couple of Spanish assignments
+		4. education.medium.degree_details.degrees_earned:
+			- No specific degree mentioned, implied variety of subjects
+      
+	2. Family and Relationships:
+		1. family.medium.family_members.relations:
+			- Relationship context as daughter and father
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Alex asks their dad for permission to go to a movie with a friend, but the dad first inquires about a report card, hinting at some academic struggles. Although Alex is excelling in some subjects, they have mixed academic results overall. The conversation ends with the dad agreeing to let Alex go to the movie, with a reminder to focus on school responsibilities and practice an instrument.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>
+
+No need to mention any specifc subjetcs or courses, maybe 1-2 generics but too many would cause a violation.","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Finances,"<BEGIN CONVERSATION>
+Carlos: I've heard that you provide very good service, so when I need a mover, I call you guys first.
+Joan: Thanks a lot for calling us. Could you tell me more about what you need us to do?
+Carlos: Oh, you see, we are on the 8th floor, and moving into the 6th floor in another building. It is about 15 kilometers to get there.
+Joan: OK, the cost depends on the floor to move to, the distance between two places and the amount of the furniture to move.
+Carlos: How much will it cost in that case?
+Joan: Oh, let me see. It fits the second standard rates. Have a look at the contract, please.
+Carlos: Your charge is divided into two parts, the Payment in Advance and the rest. I thought that I should pay all of it before moving.
+Joan: No, firstly we sign the contract ; you pay 50 % of what it costs, and the rest when we finish moving.
+Carlos: The damage and compensation item confuses me. Could you give some explanation?
+Joan: OK. If any of the articles was damaged during moving, you may make a claim for compensation with our department.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Customer inquiring about moving service charges and contract details
+Setting: Finances
+Elements:
+	1. Finances:
+		1.high.payment information:
+			- Carlos: high.payment information.costs and payment terms
+			- Joan: high.payment information.advance payment and remainder
+		2.high.investment information:
+			- Joan: high.investment information.contract terms and compensation for damage
+		3.high.payment information.payment in advance:
+			- 50% payment in advance
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Carlos contacted Joan for moving services 15 kilometers away. The cost is determined by the floor level, distance, and quantity of furniture, and divided into an advance payment and final payment. Carlos was confused about the damage and compensation policy, which Joan explained entitles him to file a claim if items are damaged during the move.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Travel and Location,"<BEGIN CONVERSATION>
+Alice: Are you excited about your trip next month?
+John: Yes and no. I can't wait to go to Europe, but at the same time I am terrified.
+Alice: Why?
+John: Well, I have acrophobia. I have a chronic fear of flying.
+Alice: Oh really? I have an uncle who is also terrified of flying. It's not that bad though, I mean, it is pretty scary to be in this big machine flying through the air at seven hundred miles per hour. I actually have arachnophobia.
+John: You're scared of spiders? I actually have two more phobias. Acrophobia and glossophobia.
+Alice: I guess that explains why you are afraid of flying, but public speaking is not that bad.
+John: Are you kidding? When I get on stage, my palms start to sweat, I get really nervous and I can hardly speak.
+Alice: Well, I must confess I am a bit claustrophobic. I hate being in an elevator for more than 5 seconds.
+John: We are such weirdos right?
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Casual conversation about upcoming travel and personal fears/phobias.
+Setting: Healthcare Settings
+Elements:
+	1. healthcare_settings.high.medical_history:
+	    - John: Acrophobia (fear of heights), chronic fear of flying, glossophobia (fear of public speaking)
+	    - Alice: Arachnophobia (fear of spiders), Claustrophobia (fear of confined spaces)
+
+<END METADATA>","<BEGIN SUMMARY>
+
+John is anxious about his upcoming trip to Europe due to his chronic fear of flying (acrophobia) and also suffers from glossophobia (fear of public speaking). Alice relates by sharing that she has arachnophobia (fear of spiders) and mild claustrophobia. They both acknowledge their various phobias and refer to themselves humorously as ""weirdos.""
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+ 1. healthcare.high.health_status.diseases:
+        a. Why: The specific information about phobias is disclosed.
+        b. How: Sentences from Summary revealing explicitly the information -> ""chronic fear of flying (acrophobia) and also suffers from glossophobia (fear of public speaking).""  and ""Alice relates by sharing that she has arachnophobia (fear of spiders) and mild claustrophobia."" 
+
+1. generic.high.slags.mockery:
+        a. Why: The specific information about mocking is disclosed.
+        b. How: Sentences from Summary revealing explicitly the information -> ""refer to themselves humorously as weirdos."" 
+<END VIOLATIONS>
+
+Too many specific details have been leaked here","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Employment,"<BEGIN CONVERSATION>
+David: This is a good basic computer package. It's got a good CPU, 256 megabytes of RAM, and a DVD player.
+Alex: Does it come with a modem?
+David: Yes, it has a built-in modem. You just plug a phone line into the back of the computer.
+Alex: How about the monitor?
+David: A 15 - inch monitor is included in the deal. If you want, you can switch it for a 17 - inch monitor, for a little more money.
+Alex: That's okay. A 15 - inch is good enough. All right, I'll take it.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: In-store conversation regarding the purchase of a computer.
+Setting: Generic
+Elements: 
+	1. Generic: 
+		1. generic.low.demographics.language:
+        	- English (implied by the conversation being in English)
+
+<END METADATA>","<BEGIN SUMMARY>
+
+David and Alex discuss a computer package, including a good CPU, decent RAM, and a DVD player. David confirms the package includes a built-in modem and a monitor, with an option to upgrade to a larger monitor for additional cost. Alex decides to proceed with the purchase and opts to keep the smaller monitor.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>
+
+Avoid specifications of electronic items, just overly describe them without figues and give a description of the situation.","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Travel and Location,"<BEGIN CONVERSATION>
+Alice: So, how was your vacation? You went to Paris, didn't you?
+Mark: Yeah, with my parents. We just got back on Saturday. It was wonderful!
+Alice: What sights did you visit?
+Mark: Well, we saw all the most famous places, the Eiffel Tower, Notre Dame Cathedral... They were so interesting.
+Alice: Did you take any tours?
+Mark: Just one - a boat tour on the Seine River.
+Alice: Wow! That sounds fantastic.
+Mark: Yeah. It was a great way to see the city.
+Alice: Did you go to any of the famous art museums?
+Mark: Yeah. My parents love art, so they spent hours in the museums. But for me, it was pretty boring. I'm just not very interested in paintings.
+Alice: So, what else did you do?
+Mark: Well, I guess my favorite thing to do was just to sit in cafes and watch the people. It was really relaxing, and French coffee is terrific.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Conversation between friends about a recent vacation to Paris
+Setting: Travel and Location
+Elements:
+    1. travel_and_location.high.travel_history:
+        - Mark's trip to Paris with his parents
+    1. travel_and_location.high.sights_visited:
+        - Eiffel Tower
+        - Notre Dame Cathedral
+    1. travel_and_location.medium.modes_of_transportation:
+        - Boat tour on the Seine River
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Mark recently returned from a trip to Paris with his parents, where they visited popular landmarks such as the Eiffel Tower and Notre Dame Cathedral. They also enjoyed a boat tour on the Seine River, which offered a great view of the city. While Mark's parents spent time in art museums, he preferred relaxing in cafes, enjoying the ambiance and French coffee.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Travel and Location,"<BEGIN CONVERSATION>
+Tan Ling: Excuse me. You are Mr. Green from Manchester, aren't you?
+Mr. Green: Yes, I'm glad you recognized me.
+Tan Ling: A man with white hair and a beard, isn't that how you describe yourself in the telex? So it's easy to spot you in any crowd. Let me introduce myself. I am Tan Ling, source manager of Yellow River Import and Export Corporation. How do you do?
+Mr. Green: How do you do?
+Tan Ling: Well, Mr. Green, do you have any unaccompanied luggage?
+Mr. Green: No. I always travel with this bag or with small suitcase only.
+Tan Ling: Let's go then. This way to the front door. Let me carry your bag.
+Mr. Green: No, I wouldn't dream of letting a lady carry things for me. Surely I'm not so old as that yet.
+Tan Ling: Of course not. You look young and energetic in spite of your white hair, Mr. Green.
+Mr. Green: Thank you. I'm glad to hear that.
+Tan Ling: The car is waiting outside to take us to the hotel. I reserved a suite for you at the Phoenix, one of the biggest in Dublin.
+Mr. Green: Do you mean one of the largest suite or one of the biggest hotel?
+Tan Ling: Actually, both the hotel and the suite are rather big. But the biggest ones aren't always the best ones.
+Mr. Green: Quite true.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Business meeting and introductory conversation
+Setting: Travel and Location
+Elements:
+	1. travel_and_location.high.hotel_bookings:
+	    - Reserved suite at the Phoenix hotel in Dublin
+	1. travel_and_location.medium.modes_of_transportation:
+	    - Car waiting outside to take Mr. Green and Tan Ling to the hotel
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Tan Ling, a source manager at Yellow River Import and Export Corporation, recognized Mr. Green from Manchester by his white hair and beard as described in his telex. They discussed travel arrangements, including carrying luggage and heading to a reserved suite at the luxurious Phoenix Hotel in Dublin. Tan Ling offered to help with Mr. Green's bag, but he politely declined. He appreciated the compliment on his youthful energy despite his white hair.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+1. travel_and_location.high.hotel_bookings:
+	a.Why: Detailed information about the hotel where Mr. Green and Tan Ling are staying is provided, which is sensitive as per the taxonomy.
+	b.How: Sentences from Summary revealing explicitly the information -> ""heading to a reserved suite at the luxurious Phoenix Hotel in Dublin""
+
+2. employment.high.work_history_company_name:
+	a.Why: Detailed information about the company worked is provided, which is sensitive as per the taxonomy.
+	b.How: Sentences from Summary revealing explicitly the information -> ""Tan Ling, a source manager at Yellow River Import and Export Corporation""
+
+3. generic.medium.physical_features.hair:
+	a.Why: Detailed information about the appearance is provided which is sensitive as per the taxonomy.
+	b.How: Sentences from Summary revealing explicitly the information -> ""recognized Mr. Green from Manchester by his white hair and beard as described in his telex."" and ""He appreciated the compliment on his youthful energy despite his white hair.""
+
+<END VIOLATIONS>","<BEGIN LABEL>
+BAD
+<END LABEL>"
+Travel and Location,"<BEGIN CONVERSATION>
+John: Here we come.
+Taxi Driver: Thank you. What's the fare?
+John: $10.
+Taxi Driver: How can it be?
+John: Well, the rate is two dollars for the first two kilometers and twenty cents for each additional two hundred meters.
+Taxi Driver: I see. Thanks for your drive.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Taxi ride fare discussion
+Setting: Finances
+Elements:
+    1. Finances:
+        1. finances.high.payment_information:
+            - Fare calculation: $10
+            - Rate: two dollars for the first two kilometers and twenty cents for each additional two hundred meters
+            
+<END METADATA>","<BEGIN SUMMARY>
+
+John and a taxi driver discuss the fare for a completed ride. John explains the fare calculation, which includes a base charge and a variable rate depending on the distance traveled. The taxi driver thanks John for the explanation.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Healthcare Settings,"<BEGIN CONVERSATION>
+Grace: Help! Are you a doctor? My poor little Frankie has stopped breathing! Oh my gosh, Help me! I tried to perform CPR, but I just don't know if I could get any air into his lungs! Oh, Frankie!
+Dr. Smith: Ellen, get him hooked up to a monitor! Someone page Dr. Howser. Get the patient to hold still, I can't get a pulse! Okay, he's on the monitor. His BP is falling! He's flatlining!
+Grace: NOOOOOO! Frankie! DR. ! Do something!
+Dr. Smith: Someone get her out of here! Get me the defibrillator. Okay, clear! Again! Clear! Come on! dammit! I'm not letting you go! Clear! I've got a pulse!
+John: Okay, what's happening?
+Dr. Smith: The patient is in acute respiratory failure, I think we're going to have to intubate!
+John: Alright! Tube's in! Bag him! Someone give him 10 cc's of adrenaline! Let's go, people move, move!
+Grace: Doctor, oh, thank god! How is he?
+Dr. Smith: We managed to stabilize Frankie, but he's not out of the woods yet. he's still in critical condition. We're moving him to intensive care, but.
+Grace: Just do whatever it takes. I just want my little Frankie to be okay. I couldn't imagine life without my little hamster!
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Emergency medical situation where Dr. Smith, John, and Grace are attempting to save Grace's hamster, Frankie, who is in acute respiratory failure.
+
+Setting: Healthcare Settings
+Elements:
+    1. Healthcare.high.medical_history.diseases:
+        - Acute respiratory failure
+    
+    2. Healthcare.high.medical_history.genetic_conditions:
+        - Not explicitly mentioned
+
+    3. Healthcare.high.medical_history:
+        - Frankie's critical condition, requiring stabilization and intensive care
+        - Immediate medical interventions including CPR, defibrillation, intubation, and administration of adrenaline
+
+    4. Healthcare.medium.health_facilities:
+        - Intensive care unit for the hamster
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Grace sought urgent help for her pet's sudden health crisis, leading to a tense and immediate response from a doctor and other medical personnel. The medical team worked swiftly to stabilize the pet, who was in critical condition and required intensive care. Grace expressed her deep concern and desperation for the pet's well-being. The situation remains serious with the pet still in critical condition.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Family and Relationships,"<BEGIN CONVERSATION>
+John: Hi, Mike. Haven't seen you for a while. How's Cathy?
+Mike: We are not seeing each other any more.
+John: What happened? Did you break up?
+Mike: Yeah. I got sick and tired of her nagging all the time.
+John: Oh, I am sorry. Maybe you were just emotional at that moment. Do you think you guys can get back together?
+Mike: I don't know. There's plenty of fish out there in the sea!
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Casual conversation about a recent breakup
+Setting: Family and Relationships
+Elements:
+    1. Family and Relationships:
+        1. high.marital_records.partners.status:
+            - ""We are not seeing each other any more.""
+            - ""Did you break up?""
+            - ""Yeah. I got sick and tired of her nagging all the time.""
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Mike and John discuss that Mike and Cathy have broken up because Mike was tired of her constant nagging. John expresses sympathy and wonders if they might rekindle their relationship, but Mike seems indifferent, stating he believes there are plenty of other options for him.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Employment,"<BEGIN CONVERSATION>
+Alice: Did Bean send these dirty jokes to you, too? Look!
+Brian: What a creep! Phony good luck e-mails are one thing, but sexual harassment is crossing the line.
+Alice: No wonder he asked for my address first-he just wants to harass me!
+Brian: You could try using a spam filter to reject stuff that's obviously pornographic or anything else you don't want.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Discussion about inappropriate behavior and harassment  
+Setting: Generic  
+Elements:  
+	1. Generic:  
+		1. generic.high.authorization.credentials.userid:  
+			- Alice  
+			- Brian  
+		2. generic.high.government_ids.national_identification_numbers:
+			- Alice's address
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Alice and Brian are discussing inappropriate and sexually harassing emails sent by Bean. Alice reveals that Bean asked for her address under false pretenses, clearly intending to harass her. Brian suggests using a spam filter to block such content.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+1. generic.high.government_ids.national_identification_numbers:
+   a. Why: The summary reveals that Bean asked for Alice's address under false pretenses. Exposing such specific personal information can lead to privacy breaches and potential safety risks.
+   b. How: ""Alice reveals that Bean asked for her address under false pretenses, clearly intending to harass her.""
+
+Other Violations:
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+BAD
+<END LABEL>"
+Employment,"<BEGIN CONVERSATION>
+John: Mrs. Phoebe, let's talk about the delivery arrangement for our goods.
+Mrs. Phoebe: Sure. What's your date of delivery?
+John: I informed my company and was told that the first five thousand by the end of this month.
+Mrs. Phoebe: What about the balance of the order? Can they also arrive at our company quickly?
+John: We can deliver the balance at the price already quoted in 10 days.
+Mrs. Phoebe: Can you deliver them earlier?
+John: I am afraid we can not do that. Would you be willing to sign an annual contract on the basis we discussed?
+Mrs. Phoebe: Possibly, subject to quality and delivery guarantees.
+John: Of course. Well, in that case we could offer a 5 % discount for a confirmed monthly order for the next 12 months.
+Mrs. Phoebe: I was looking forward to something a bit more substantial. As you know, we have long-time cooperation.
+John: I'm afraid that's as far as we could go. We'd already be stretching ourselves to the limit.
+Mrs. Phoebe: Well, let's shake on that and draw up the details of the contract.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Business Negotiation
+Setting: Generic
+Elements:
+	1. Generic:
+		1. generic.medium.username_social_handle:
+			- Mrs. Phoebe
+			- John
+
+<END METADATA>","<BEGIN SUMMARY>
+
+John and Mrs. Phoebe are discussing the delivery arrangements for goods, with John confirming partial delivery by the end of the month and the balance soon after at the quoted price. Despite Mrs. Phoebe's request for an earlier delivery, John states it is not possible and proposes an annual contract with a discount for confirmed monthly orders over the year. Mrs. Phoebe expresses interest but desires more significant discounts, noting their long-time cooperation. John clarifies that a 5% discount is the maximum they can offer, and they agree to finalize the contract details.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Family and Relationships,"<BEGIN CONVERSATION>
+Alice: Could you do me a favor?
+Bob: Sure. What is it?
+Alice: Could you run over to the store? We need a few things.
+Bob: All right. What do you want me to get?
+Alice: Well, could you pick up some sugar?
+Bob: Okay. How much?
+Alice: A small bag. I guess we also need a few oranges.
+Bob: How many?
+Alice: Oh, let's see. . . About six.
+Bob: Anything else?
+Alice: Yes. We're out of milk.
+Bob: Okay. How much do you want me to get? A gallon?
+Alice: No. I think a half gallon will be enough.
+Bob: Is that all?
+Alice: I think so. Have you got all that?
+Bob: Yes. That's small bag of sugar, four oranges, and a half gallon of milk.
+Alice: Do you have enough money?
+Bob: I think so.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Alice asking Bob to run errands for groceries 
+Setting: Generic
+Elements: 
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Alice asked Bob to run to the store for a few groceries, at which Bob confirmed he had enough money for the purchases.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>
+
+No need to mention specifics of the grocieries, just clu  them under a single term and continue","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Education,"<BEGIN CONVERSATION>
+John: Good morning. I’m from the New York book review. Could I ask you some questions about your latest book?
+Author: Sure. Take a seat... what would you like to know?
+John: First, I’ve heard that your latest book is based on a true story.
+Author: That’s correct. It’s a murder mystery based on actual murders that took place in Florida several years ago. The main character—the police investigator—is based on the man who investigated the case.
+John: How do you research your books?
+Author: I always visit the places that I use as settings for stories. Readers like things to be as factually correct as possible—even in fiction! I usually base my characters on people I have met. Most characters are a mixture of the characteristics of two or more people.
+John: I really like your books. I’ve just finished this one. I read it from cover to cover in a single day. Congratulations on making the bestseller list yet again!
+Author: Thank you. Let me sign it for you... there you go.
+John: Oh! Thank you very much. I heard that you are currently writing a collection of short stories. What are the stories about?
+Author: There’s a real mix of stories in the book. I haven’t finished all of them yet, though. Many of them are short detective stories, but there are also horror stories and sci-fi ones. If you give me your business card, I’ll make sure you get an advance copy to review.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Interview about the author's latest book and writing process.
+Setting: Generic
+Elements:
+    1. Generic:
+        1. demographics.nationality:
+            - Interview conducted by someone from New York book review
+	2. Travel and Location:
+        1. travel_history.detailed_itineraries:
+            - Author visits places used as settings for stories
+    3. Employment:
+        1. general_employment_status:
+            - Author is a writer with books on the bestseller list
+        2. work_history.performance:
+            - Author's books make the bestseller list
+	4. Social Media:
+        1. private_chats:
+            - Conversation contains an offer to provide an advance copy in exchange for a business card
+
+<END METADATA>","<BEGIN SUMMARY>
+
+A New York book reviewer interviews an author about their latest bestseller, which is a murder mystery based on true events in Florida. The author shares their research process, mentioning they visit real locations and base characters on people they have met. The reviewer praises the book and inquires about the author's upcoming collection of short stories that will feature a variety of genres including detective, horror, and sci-fi. The author offers to send an advance copy for review.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Employment,"<BEGIN CONVERSATION>
+John: Can I help you?
+Judy: Yes. I sent in my resume at the end of last week. I'm applying for the accounts assistant position.
+John: May I have your name please?
+Judy: My name is Judy Liao. That's spelled L I A O.
+John: Alright... And did you have some specific questions about your application?
+Judy: Not really. I was in the neighborhood, and I just wanted to stop in to see if you received my resume.
+John: Oh, that's no problem. Just give me a moment, and I can check. Judy Liao. Let's see... Yes, here it is. Judy Liao. We have received your resume.
+Judy: Thank you.
+John: Is there anything else I can help you with?
+Judy: Yes, maybe. The ad in the newspaper said you wanted the resume, a cover letter, and two letters of recommendation. I included those things in the envelope. Is there anything else I should send?
+John: No, that is all we need. If we have those things included, that is sufficient.
+Judy: Do you know when they will start setting up interviews for the job?
+John: I'm not really sure about that. But I know we are still receiving resumes. Maybe after a week or two they will start calling applicants.
+Judy: I see. Well, thank you very much for helping me. You have been very helpful.
+John: If you have any further questions, you can call any time.
+Judy: Thank you.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Inquiry about job application status and interview process.
+Setting: Employment
+Elements: 
+	1. Employment:
+		1. employment.medium.professional_references:
+        	- ""two letters of recommendation""
+        2. employment.medium.employer_information.company_name:
+        	- Advertisement mentioned in the newspaper (implies company name)
+        3. employment.medium.employer_information.job_title:
+        	- ""accounts assistant position""
+        4. employment.high.work_history.job_titles:
+        	- ""accounts assistant position""
+        5. employment.high.credentials.credentials.userid:
+        	- ""Judy Liao"" (applicant's name)
+        6. employment.high.credentials.credentials:
+        	- ""resume""
+        	- ""cover letter""
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Judy Liao visited John to verify if her resume for the accounts assistant position was received. John confirmed that her resume, cover letter, and two letters of recommendation were all received. Judy asked if anything else was needed and John assured her that everything was in order. He mentioned that interviews might start in a week or two as they are still collecting resumes.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+1. employment.high.credentials.credentials.userid:
+	a. Why: The specific name of the applicant, Judy Liao, is directly mentioned in the summary. This is identifiable information that should be masked for privacy preservation.
+	b. How: ""Judy Liao visited John to verify if her resume for the accounts assistant position was received.""
+
+<END VIOLATIONS>","<BEGIN LABEL>
+BAD
+<END LABEL>"
+Family and Relationships,"<BEGIN CONVERSATION>
+Alicia: How many people are there in your family?
+James: My immediate family is quite small. It's just my older step-brother, my mom, my step-dad and me. How about you?
+Alicia: I have a large family. I have three older sisters, my twin sister, a younger brother, and parents.
+James: I didn't know you were a twin! Are you identical or fraternal?
+Alicia: We're identical. I mean, we look exactly the same, but we are complete opposites when it comes to everything else.
+James: Interesting. It must be great having a twin sister. Are you best friends, too?
+Alicia: We used to be really close, but that all changed once she moved to Shanghai. How about your family? You didn't mention your biological father.
+James: I don't know much about him. He died when I was just a baby. Even though I don't have a blood relationship with my step-father and step-brother, I consider them to be my real family.
+Alicia: What about your step-brother's mother? Does he keep in touch with her?
+James: No, she also died when my step-brother was little. My mother and my step-father met each other shortly after my father died and became good friends. They ended up getting married a few years later.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Casual conversation between friends discussing family structures and relationships
+Setting: Family and Relationships
+Elements:
+	1. Family and Relationships:
+		1. Family members.names:
+			- James' step-brother
+			- James' mom
+			- James' step-dad
+			- Alicia's three older sisters
+			- Alicia's twin sister
+			- Alicia's younger brother
+			- Alicia's parents
+		2. General relationship status/Marital status:
+			- James' biological father is deceased
+			- James' step-brother's mother is deceased
+		3. Marital records.relationship history:
+			- James' mother and step-father met and married after the death of James' father
+		4. Marital records.partners.status:
+			- Alicia's twin sister moved to Shanghai (implies a strained relationship)
+		5. Family members.relations:
+			- Step-brother (James)
+			- Immediate family members (James and Alicia)
+
+<END METADATA>","<BEGIN SUMMARY>
+
+James and Alicia talk about the size and structure of their families. Alicia shares that she has a large family, including a twin sister. James mentions that his immediate family includes his mom, step-dad, and step-brother, and references the loss of his biological father. They discuss past family dynamics and how relationships have evolved over time.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Education,"<BEGIN CONVERSATION>
+Oh, Linda. You must be so excited about going to study in America.
+Oh yes I am. I have always wanted to go to the States. I love meeting new people and making new friends.
+Well, I am sure you will.
+Well, there is one thing.
+What is the matter?
+I am a little worried about my host family. You know, in the agreement, I have to do some cooking for them.
+Yes?
+Well, I am just afraid they won't like my Chinese way of cooking.
+Oh, listen, you'll soon learn, and I am sure they will explain to you how they like to get prepared.
+Oh, let's hope so.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Discussion about studying abroad and concerns about adapting to a host family's preferences
+Setting: Generic
+Elements:
+	1. Generic:
+    1. demographics:
+       - Linda's nationality: Chinese
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Linda is excited about moving to America for her studies but feels worried about her host family's reaction to her Chinese cooking, as she is required to cook for them as part of the agreement.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Education,"<BEGIN CONVERSATION>
+Alice: I don't understand why you always look so happy, so energetic. It seems like you'Ve got good news everyday.
+Mr. Wang: Really? Do I look happy all the time?
+Alice: All I know is you look quite differently from other teachers.
+Mr. Wang: Oh, do you know why? Actually, it's easy. Because I always exercise. My exercise, I think, is very hard. I often feel very good after conquering these difficulties. I feel alive!
+Alice: Oh, I know. I saw you doing pull-ups one time on the campus and some students trying to imitate you.
+Mr. Wang: Yeah, they are doing it for fun. Seldom would people like my exercise. It's difficult and boring.
+Alice: It's true. Many students do the exercise when they have to. We have P. E. once a week.
+Mr. Wang: But I think Chinese students need to exercise more. Besides exercise will help them learn new things better. Don't students want to have a good memory?
+Alice: Of course. I didn't know that. I only know exercise makes bodies stronger. I should take some exercise then. Do you have any suggestions?
+Mr. Wang: Well, do what you like to do. It can be anything. Jogging, doing aerobics, going bicycling, and playing ping-pong. Absolutely anything. Doing three or more workouts a week is good for you. But remember to do some stretches first.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Discussion between a student and a teacher about maintaining happiness and the benefits of exercise.
+Setting: Generic
+Elements:
+    1. generic.low.demographics.language:
+        - Conversation held in an unspecified language (default assumption as general communication)
+    2. generic.low.demographics.nationality:
+        - Implicit indication of Chinese nationality (Mr. Wang's mention of ""Chinese students"")
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Alice is curious why Mr. Wang always appears energetic and happy, to which he credits his rigorous exercise routine. Mr. Wang explains that while his workouts are tough and often perceived as boring, they make him feel alive and improve memory and learning abilities. He encourages Alice to exercise regularly, listing various cardio activities and stresses the importance of stretching. Alice is inspired to incorporate exercise into her routine.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>
+
+Keep Summaries Longer and avoid using specifics like the different types of cardio exercises asked. Just group them under a generic umbrella term.","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Travel and Location,"<BEGIN CONVERSATION>
+Alex: Ladies and gentlemen, we'll pay a visit to a cave tomorrow.
+Jordan: What fun is it to visit the cave you mean?
+Alex: It's an uncommon cave. It's underground, wide and long, and in the cave there's rocks of different shapes which look like a lion, a tree, a bell, or something else.
+Jordan: What else can we do there besides seeing the rocks?
+Alex: There's a stream running through the cave. You can row boats there.
+Jordan: How will we get there and will it take a long time?
+Alex: About 60 miles away from here. First, we get to the town nearest to the cave in a passenger car and then we take an about 15-minute walk.
+Jordan: May I understand that the cave is in a place far from the town?
+Alex: Not really. Since the ground is not strong, it's impossible to build roads or railways.
+Jordan: Are there any restaurants where we can stay for lunch and have a rest?
+Alex: There are some. They are mostly opened by the local people. So if you are not used to the local food, I'd suggest you take some food yourself.
+Jordan: What else should we take?
+Alex: Oh, your question reminds me of one thing that I have to mention. Bring with you some clothes in case it is cold in the cave. Is everyone clear about that?
+Jordan: Yeah.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Discussion about an upcoming trip to a cave 
+Setting: Travel and Location
+Elements:
+	1. Travel and Location:
+		1.travel_history.detailed_itineraries:
+        	- Visit to an underground cave with rocks shaped like various objects
+        	- Running stream for rowing boats in the cave
+		2.travel_history.addresses_of_stay:
+        	- Cave located about 60 miles away from the current location
+		3.mode_of_transportation:
+    		- Travel to the nearest town by passenger car, followed by a 15-minute walk
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Alex informs the group about a cave visit planned for tomorrow, detailing that the cave features unique rock formations resembling lions, trees, and bells. The cave also has a stream where visitors can row boats. It is located 60 miles away and involves a short walk after a car ride, as road or railway construction is impossible due to weak ground. Alex advises bringing food if one is not accustomed to local cuisine and also to carry warm clothes for the cold cave environment.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Travel and Location,"<BEGIN CONVERSATION>
+Waiter: Are you ready to order now, sir?
+Customer: Yes.
+Waiter: Would you like an appetizer?
+Customer: Yes. I'd like a crab cocktail.
+Waiter: Would you like some soup first?
+Customer: Very well.
+Waiter: What kind of soup would you like?
+Customer: I want egg soup.
+Waiter: Have you decided on anything?
+Customer: I'd like to have some meat.
+Waiter: How about stewed-fried steamed pork?
+Customer: No, thank you.
+Waiter: Are you interested in today's special?
+Customer: What is it?
+Waiter: Twice cooked spicy pork slices.
+Customer: OK. Let me try it.
+Waiter: Anything else?
+Customer: No, thank you.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Restaurant ordering interaction between a waiter and customer.
+Setting: Generic
+Elements:
+	1. generic.low.demographics.language:
+	    - Conversation carried out in English
+
+<END METADATA>","<BEGIN SUMMARY>
+
+A customer at a restaurant orders some starters. For the main course, after a brief discussion with the waiter, the customer decides to try the day's special. The customer declines other recommendations and does not order additional items.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>
+
+No need to mention specific items ordered as they could reveal food habits","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Travel and Location,"<BEGIN CONVERSATION>
+Person1: What's all the security check about, Jimmy? Does it mean the bar may be a dangerous place?
+Jimmy: No, of course not. Just in case. Nothing to worry about. Don't you also do this in China?
+Person1: I don't know. Maybe the same. Actually, this is my first time being in a bar.
+Jimmy: Oh, then it's my honor to be here with you. I can see now why you've been so curious about the bar stuff. You like this place?
+Person1: Sure. I love this place, especially the decoration. So tasteful!
+Jimmy: Yeah. Other than that, the real feature are the excellent drinks. Can I have your ticket?
+Person1: Here it is. But, what for? We're already in.
+Jimmy: Well, with the ticket, you can get a free drink. What would you like? Orange juice?
+Person1: Yes, orange juice will be fine for me. But how can you get the drink? It's so crowded there around the counter. You can barely move.
+Jimmy: I'll show you how. The bar tenders know whose turn it is. And also, I can snap my fingers to catch his attention.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Casual conversation between two people about their experience in a bar.
+Setting: Generic
+Elements:
+	1. Generic:
+		1. generic.medium.demographics.nationality:
+			- Reference to China
+	2. Generic:
+		1. generic.medium.language:
+			- Conversation in English
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Two individuals are at a bar where Jimmy reassures Person1 that the security checks are standard procedure and not a cause for concern. Person1 mentions it's their first time in a bar and expresses admiration for the tasteful decoration. Jimmy explains that presenting a ticket entitles them to a free drink and demonstrates how to efficiently get the bartender's attention amidst the crowd.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Family and Relationships,"<BEGIN CONVERSATION>
+John: How old is Keith?
+Carol: He's 21. How old is James?
+John: He's a year older than Keith, but he looks younger.
+Carol: How's your father?
+John: He's fine. He retired last week. It's great going in his life. Now he can relax and enjoy his retirement.
+Carol: He can spend more time with his grandchildren.
+John: Oh, I don't think he wants to. He wants to travel to several different countries around the world.
+Carol: So, he wants to have a more active retirement. Good idea!
+John: How do you want to spend your old age?
+Carol: In the same way, probably.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Casual conversation about family members and future plans for old age
+Setting: Family and Relationships
+Elements:
+	1. Family and Relationships:
+		1. family members.names:
+			- Keith
+			- James
+		2. family members.relations:
+			- Grandfather and grandchildren relationship referenced
+		3. family members.number of members:
+			- Mention of grandchildren (implies more than one grandchild)
+		4. Demographics.Date of Birth:
+			- Keith's age: 21
+			- James's age: 22 (a year older than Keith)
+		
+	2. Employment:
+		1. high.employment_status:
+			- John's father's recent retirement
+
+	3. Travel and Location:
+		1. high.travel_history.detailed_itineraries:
+			- John's father's plan to travel to several different countries around the world
+
+<END METADATA>","<BEGIN SUMMARY>
+
+John and Carol discuss the ages of their sons, noting how one looks younger than the other despite being older. They then talk about John's father's recent retirement and his plans to travel the world. Carol comments on the idea of having an active retirement, and they both reflect on how they might like to spend their own old age. 
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Employment,"<BEGIN CONVERSATION>
+Jane: Have you had any experience with sales work?
+Tom: Yes, I have. In fact, I had worked for a foreign trade company for nearly two years, where I established business ties with several firms.
+Jane: What exactly did you do at that company?
+Tom: Visit customers, dispatch consignments and things like that.
+Jane: Did you like your work?
+Tom: Yes, I did.
+Jane: But when and why did you leave the company?
+Tom: I left it two months ago. I didn't think I could learn much there, and there were not many opportunities for self-development.
+Jane: I see. Why did you choose our company?
+Tom: I've been informed that there are many opportunities to develop myself in your company. Besides, I grew up in a city in the Northeast. I have lots of acquaintances in the region, which might help to push sales.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Job interview conversation
+Setting: Employment
+Elements:
+    1. Employment:
+        1. employment.high.employment_status:
+            - Tom's previous employment at a foreign trade company
+        2. employment.high.work_history.company_names:
+            - Foreign trade company (unnamed)
+        3. employment.high.work_history.work_culture:
+            - Lack of opportunities for self-development at the foreign trade company
+        4. employment.high.work_history.job_titles:
+            - Tom's role in visiting customers and dispatching consignments
+        5. employment.high.work_history.employment_duration:
+            - Nearly two years at the foreign trade company
+        6. employment.high.work_history.resignation_reason:
+            - Left due to lack of learning opportunities
+    2. Social Media:
+        1. social_media.medium.group_memberships:
+            - Acquaintances in the region Jane mentioned
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Tom has prior sales experience, having worked at a foreign trade company for nearly two years. He handled tasks such as visiting customers and dispatching consignments but left the position two months ago due to limited learning and self-development opportunities. Tom is interested in Jane's company because he believes it offers better growth opportunities and his local connections in the Northeast could aid in sales efforts.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Healthcare Settings,"<BEGIN CONVERSATION>
+Chris: Why don't you watch where you're going?
+Jordan: Me? You're the one who pulled out in front of me!
+Chris: There was plenty of room for me to pull out. You didn't have to stay in the lane you were in.
+Jordan: Hey, listen. I had every right to stay in the lane I was in. You were supposed to wait until I passed to pull out. And anyhow, you didn't give me any time to change lanes. All of a sudden--BANG--there you are right in front of me.
+Chris: I think my arm is broken.
+Jordan: Sorry about your arm, but it serves you right. You need to learn how to drive. You're lucky you didn't get killed. And I'm lucky to be alive too.
+Chris: Listen, let's just wait until the police get here. Then we can decide whose fault this accident was.
+Jordan: Fine with me. I know the laws of the road. I'm not worried.
+Chris: I have a cell phone in my car. Now it's probably on the floor on the passenger side. Why don't you get it for me, and then I can call the police?
+Jordan: Alright.
+Chris: It doesn't work. It looks like it's broken. I need to get to a hospital. You should drive me there.
+Jordan: Oh, yeah? It's better if we make a police report first. Then you can go to the hospital.
+Chris: Damn it! I'm injured here. We could wait all day for the police.
+Jordan: Well, you'll just have to wait. I'm not going to move my car until the police arrive. I'll go into one of those houses over there and use their phone. Don't worry. You'll get to the hospital in time.
+Chris: It really hurts.
+Jordan: Yes, maybe it does. But if you're going to drive like you did just now, you will have to get used to a little physical pain. You know what I mean?
+Chris: To hell with you. The accident was your fault.
+Jordan: I'm afraid it wasn't. And when the police get here, you will also see that it wasn't. But enough of this bickering. I'm going to go find a phone. Don't move that arm while I'm gone. Alright?
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Conversation between two individuals immediately after a car accident.
+
+Setting: Legal Proceedings
+Elements:
+    1. Legal Proceedings: 
+	    1. legal.high.court_records:
+    	    - Chris: Believes arm is broken due to accident (potential injury documentation needed)
+    	2. legal.medium.civil_case_details:
+    	    - Dispute over fault of the accident
+     	
+	2. Generic:
+        1. generic.high.authorization.credentials.userid:
+            - Cell phone ownership mentioned by Chris
+        2. generic.high.authorization.credentials.password:
+            - Cell phone not working (potential security/password-related mention)
+            
+    3. Healthcare Settings:
+        1. healthcare.high.medical_history:
+            - Chris: Potentially broken arm, needs hospital attention
+            
+<END METADATA>","<BEGIN SUMMARY>
+
+Chris and Jordan were involved in a car accident, with both blaming each other for the collision. Chris claims to have a possible injury and expresses an urgent need to get to a hospital, but Jordan insists on waiting for the police to arrive to file a report. They continue to argue about the right of way and who is at fault. Eventually, Jordan decides to find a phone to call the police, advising Chris not to move his injured arm.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Travel and Location,"<BEGIN CONVERSATION>
+John: Now I understand. But I don't smoke or drink. So what am I supposed to buy in here?
+Emily: You can buy some of these nice butterflies.
+John: No, I'm sorry. I don't think it is nice to have butterflies mounted in boxes. It is kind of disgusting.
+Emily: What? You feel sorry for the butterflies?
+John: Yes. I think they should just let them fly free, and not try to sell them to foreigners. It is a kind of destruction of nature.
+Emily: Well, I agree with you. I'd rather think that the butterflies are flying around in the mountains. I just wonder if they really catch so many that it affects the butterfly population.
+John: Who knows? Hey, I like these jade bears here.
+Emily: How much are they?
+John: This one is 2300 dollars. Maybe I should buy it for my mother. What do you think?
+Emily: If you want. Didn't you buy her a small vase already?
+John: Yes, but she would like this a lot. She likes to collect little things like this.
+Emily: Alright. Buy it then. I won't buy anything. Well, maybe I'll buy some Cognac.
+John: Maybe I could buy some Cognac for my brother. He always drinks it.
+Emily: Let's go ask about it.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Casual conversation about shopping for souvenirs
+Setting: Generic
+Elements:
+    1. generic.low.demographics.language:
+        - Conversation in English
+    
+Setting: Family and Relationships
+Elements:
+    1. family.medium.family_members.relations:
+        - John mentions his mother and brother.
+    2. family.medium.family_members.names:
+        - Mention of John's mother (though not named)
+
+Setting: Finances
+Elements:
+    1. finances.medium.insurance.amount:
+        - Jade bear costs 2300 dollars
+
+<END METADATA>","<BEGIN SUMMARY>
+
+John and Emily discuss what to buy at a shop; John finds the sale of mounted butterflies disgusting, believing it harms nature, while Emily agrees and wonders about the impact on butterfly populations. John considers buying a $2300 jade bear for his mother, although he already bought her a vase. They also contemplate buying for John’s brother who is known to always have a certain drink.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+1. finances.high.insurance.amount:
+	a.Why: The summary explicitly mentions the cost of an item ($2300 jade bear), which falls under the ""insurance.amount"" category, and such specific financial details are considered medium sensitivity and should be masked.
+	b.How: Sentence from Summary -> ""John considers buying a $2300 jade bear for his mother""
+
+<END VIOLATIONS>","<BEGIN LABEL>
+BAD
+<END LABEL>"
+Education,"<BEGIN CONVERSATION>
+Alicia: Would you talk to me about taking one of Dr. Miller's classes?
+Jordan: Yes. Have you ever been in one of his classes?
+Alicia: I'm thinking about taking his class next semester.
+Jordan: He was a very easy teacher. Are you thinking of taking a class with him?
+Alicia: I'm not sure because I really need to learn something, but I also worry about grades.
+Jordan: Grades are important, but don't you think that gaining the knowledge is important, too?
+Alicia: I really need to learn this stuff.
+Jordan: He made everything so interesting that the time just flew by. Do you know what I mean?
+Alicia: Yes, that sounds right for me.
+Jordan: Did you know that he came here last year after 10 years in the military?
+Alicia: Yeah, I already knew that. That could be a good thing.
+Jordan: I think you know that you have to make the best decision for you. Enjoy your year!
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Discussion between students about choosing a professor and considerations for taking a class.
+Setting: Education
+Elements:
+	1. Education:
+		1. degree_details.course_decision:
+			- Alicia is considering taking Dr. Miller's class next semester
+		
+	2. Employment:
+		1. work_history.job_titles:
+			- Dr. Miller had 10 years in the military before joining the academic institution
+
+<END METADATA>
+","<BEGIN SUMMARY>
+
+Alicia is considering taking a class with Dr. Miller next semester, and seeks Jordan's advice. Jordan describes Dr. Miller as an easy and engaging teacher, emphasizing the importance of both grades and knowledge. They also mention Dr. Miller's background, including his recent transition from the military. Alicia seems inclined to take the class, appreciating Jordan's input.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+	1. employment.work_history.job_titles:
+		a.Why: The information reveals specific details about Dr. Miller's past employment, which includes sensitive information about his military background before joining the academic institution. Such details can be considered private and should be masked.
+
+		b.How: Sentences from Summary revealing explicitly the information -> ""They also mention Dr. Miller's background, including his recent transition from the military.""
+<END VIOLATIONS>","<BEGIN LABEL>
+BAD
+<END LABEL>"

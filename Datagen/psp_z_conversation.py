@@ -16,7 +16,7 @@ client = AzureOpenAI(
 
 # Initialize a new DataFrame for the results
 result_df = pd.DataFrame(columns=['setting','dialog'])
-num_samples = 35
+num_samples = 65
 
 # ---------------------BEGIN PRELOADING--------------------------------
 settings=["Family and Relationships","Healthcare Settings","Employment","Finances","Social Media","Legal Proceedings","Political Activities","Religious Contexts","Sexual Orientation and Gender Identity","Travel and Location","Education"]

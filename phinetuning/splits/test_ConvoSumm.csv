@@ -1,0 +1,1014 @@
+setting,dialog,metadata,summary,Violations,Quality
+Social Media,"<BEGIN CONVERSATION>
+Javier: Hey, have you tried that new game everyone is talking about?
+Samantha: Yeah, I just tried it yesterday. It's pretty addictive!
+Mina: Really? I’ve been seeing so many posts about it. What’s the gameplay like?
+Samantha: It’s like a mix of strategy and action. You need to plan your moves but also react quickly.
+Javier: Exactly! I love how it keeps you on your toes.
+Mina: Sounds interesting. Do you think it’s worth downloading?
+Samantha: For sure! At least give it a try. It’s free anyway.
+Javier: And if you don’t like it, you can always uninstall it.
+Mina: Good point. I'll download it tonight. Thanks for the recommendation!
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Casual conversation discussing a new game.
+Setting: Generic
+Elements:
+	1. Social Media:
+		1. social_media.medium.public_posts:
+			- Mina mentioning seeing many posts about the game
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Javier, Samantha, and Mina discussed a newly popular game that focuses on both strategy and action. Samantha and Javier have already tried it and find it addictive, praising its mix of planning and quick reactions. Mina, intrigued by their enthusiasm, decided to download the free game based on their positive recommendations.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Education,"<BEGIN CONVERSATION>
+Liam: Have you guys checked out the new study methods they're recommending for online courses? 
+Emma: Yeah, I read about them! They emphasize breaking study sessions into shorter chunks.
+Liam: Exactly, they call it the Pomodoro Technique. 
+Oliver: Oh, I've tried that! It really helps improve my focus. 
+Ava: I might give it a shot. Traditional methods aren't working as well for me anymore.
+Liam: They also suggest using apps that block distracting websites during study time. 
+Emma: That sounds useful. I always get sidetracked by social media. 
+Oliver: Same. I think I need to start using those too!
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Discussion about new study methods for online courses.
+Setting: Education
+Elements:
+	1. Education:
+		1. education.low.general_study_methods:
+			- new study methods for online courses (Liam)
+			- Pomodoro Technique (Liam, Oliver)
+		2. education.low.use_of_technology_for_studies:
+			- apps that block distracting websites during study time (Liam)
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Liam introduced new study methods for online courses, focusing on the Pomodoro Technique, which involves breaking study sessions into shorter chunks. Emma and Oliver discussed the benefits, with Oliver noting it improves focus. Liam mentioned using apps to block distracting websites, and Emma admitted that she often gets sidetracked by social media, while Ava expressed her struggle with traditional methods and her interest in trying these new techniques.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Travel and Location,"<BEGIN CONVERSATION>
+				Liam: I recently upgraded to puncture-resistant tires on my road bike. The previous tires are old but still usable. Is there any value to doing anything other than throwing them out? For instance, is there any reason to keep them? Is it possible to sell used tires? If no one wants them, can/should they be recycled?
+				Ethan: I usually gift them to people who need them. I use rather expensive tires and prefer them in mint condition. So, after a couple of months, I'll most probably change them. The old tires can still give 6-12 months of quality riding time to someone. I'll post on local riding forums with close-up photos of the tread, and usually, people will get them.
+				Olivia: You could use your old tires for when you are on the trainer and your new tires for road riding. That way, your trainer won’t wear out your new tires.
+				Emma: New tires are puncture-resistant, not proof. I keep old tires as a quick fix for such situations until I can buy new ones. I also frequently go to the cottage house with my bike, so I keep one old spare tire there.
+				Noah: Tyres have steel or aramid beads in the edge. If you cut that off with workshop snips, it becomes a ~2 meter long flat length as opposed to a hoop. This flattened tread can be used for packing/padding things, and protecting things. Have also tried to make some rubber tyres for our council wheelie bins because they're horribly loud when rolled.
+				Ava: In case your idea of tire reuse goes beyond reusing them on a bike, you can turn them into fashion accessories like belts, bags, wallets, or even waterproof tool rolls. Local bike shops or car tire shops might also accept them for recycling.
+			<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Discussion on what to do with old bike tires
+Setting: Generic
+Elements:
+
+    1. Generic:
+        1. demographics.medium.username_social_handle:
+            - ""Liam""
+            - ""Ethan""
+            - ""Olivia""
+            - ""Emma""
+            - ""Noah""
+            - ""Ava""
+
+	2. Finances:
+        1. investment_information.portfolio_related_information.funds:
+            - ""Ethan uses rather expensive tires""
+        2. investment_information.portfolio_related_information.amounts:
+            - ""Ethan changes tires after a couple of months""
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Liam upgraded his bike with puncture-resistant tires and wondered about the value of his old ones. Ethan suggested gifting them to others via local forums, while Olivia recommended using them on a trainer to preserve new tires. Emma and Noah shared alternative uses, such as keeping them as spares for emergencies or repurposing the rubber for protective padding. Ava mentioned that old tires could also be recycled at local shops or creatively turned into fashion accessories and tool rolls.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Social Media,"<BEGIN CONVERSATION>
+Alice: Hey, did you see the latest episode of that new show everyone's talking about?
+
+Bob: Yeah, I managed to catch it last night. What did you think of it?
+
+Alice: Honestly, I thought it was kind of overrated. The plot felt really predictable to me.
+
+Bob: Really? I thought the character development was pretty strong. Maybe it gets better in later episodes.
+
+Alice: Maybe. I guess I'll give it another shot and watch a few more episodes before deciding.
+
+Bob: That sounds fair. Sometimes shows take a while to really get interesting.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Discussion about a new TV show
+Setting: Generic
+Elements:
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Alice and Bob are discussing their opinions on a new television show. While Alice finds the plot predictable and overrated, Bob appreciates the character development. Alice mentions she plans to watch a few more episodes to see if it improves. Bob agrees that some shows take time to become engaging.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Education,"<BEGIN CONVERSATION>
+Liam: Did anyone else find the new math curriculum really challenging?
+Emma: Oh, totally! I had to get a tutor to help me with some of the concepts.
+Olivia: Same here! I feel like they didn't give us a good foundation before jumping into the hard stuff.
+Noah: I know, right? I wouldn't have survived this semester without some extra help.
+Sophia: It's not just us. Even some of my friends in other schools are struggling with the same issues.
+Lucas: Perhaps we should suggest some changes to the teaching methods. It seems like a widespread problem.
+Amelia: That's a good idea. Maybe we could draft a letter to our teachers and the school board?
+James: I think we should definitely do that. It's affecting our grades and stress levels!
+Ava: Count me in! I'll help with whatever we need to do.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Discussion among students about challenges with the new math curriculum and potential solutions
+Setting: Education
+Elements:
+    1. Education:
+        1. academic_records.exam_scores:
+            - Challenges affecting grades (James)
+        2. attendance.records:
+            - Reliance on tutors for extra help (Emma, Noah)
+        3. academic_records.schools_comparison:
+            - Friends in other schools experiencing similar issues (Sophia)
+        4. education.medium.degree_details:
+            - Suggestion to draft a letter to teachers and school board for curriculum changes (Amelia, Lucas)
+        5. health_conditions.general_health_status:
+            - Increased stress levels due to curriculum challenges (James)
+        
+<END METADATA>","<BEGIN SUMMARY>
+
+Several students, including Emma, Olivia, Noah, and Sophia, are struggling with the new math curriculum, stating it lacks foundational teaching. Emma admitted to hiring a tutor, and the group is considering drafting a letter to teachers and the school board to suggest changes in teaching methods. They express concern over how the challenging curriculum is impacting their grades and stress levels. Amelia and Ava are willing to help with the initiative.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Social Media,"<BEGIN CONVERSATION>
+Emily: I searched Thesaurus but found nothing. Example sentence: The __ were top quality, just like the restaurant review assured.
+
+James: Fare, as described at dictionary.com, is a slightly older word, but you will still find it at many restaurants. Note that fare is a singular, collective noun. For example, ""The fare was top quality, just like the restaurant review assured.""
+
+Sophie: The words comestibles, victuals, provisions, and foodstuffs are occasionally used in a generic sense to mean things providing nourishment, including both food and drink. They certainly aren't common words though, and probably aren't perfect for your sentence. If you absolutely have to use a single word, the first two are, in my opinion, most suitable, although they may be considered rather old-fashioned and pretentious.
+
+Liam: There isn't really a single word in regular usage that covers food and drink combined. ""Food and beverages"" is probably the most common term in the hotel trade. However, outside the trade, the expression ""food and drink"" is much more widely used. Note that when used in this expression, drink is normally considered a collective term, so it is not plural. The plural can also be used, but it is less common.
+
+Mia: Offerings is a commercial term occasionally seen in marketing verbiage. Dictionary.com defines offerings as something presented for inspection or sale. For example, ""The offerings were top quality, just like the restaurant review assured."" Using any other food or meal term simply feels forced and overly encompassing.
+
+Ethan: If the food and drink isn't the primary reason for being where they are served, you could say refreshments.
+
+Ava: For the sentence and context in the question, I'd simply go with meal or food. The drink part of a restaurant meal is usually secondary unless you're a bit of a wine connoisseur.
+
+Noah: Although it doesn't always refer to food and drink, I think the most natural word to insert in your example sentence is selections: ""The selections were top quality, just like the restaurant review assured."" It’s obviously food because we're talking about a restaurant.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Discussion about finding a suitable word to describe food and drink in a restaurant setting
+Setting: Generic
+Elements:
+	1. Generic:
+		1. Generic.low.demographics.language:
+			- Discussion about the usage of older and less common words (fare, comestibles, victuals, provisions, foodstuffs) in the English language
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Emily seeks a word to describe high-quality food and drink at a restaurant. Participants suggest various terms, including ""fare,"" ""comestibles,"" ""offerings,"" and ""selections."" They discuss the appropriateness and usage of these terms, with some noting that ""food and drink"" or ""food and beverages"" are most common, while others suggest ""refreshments"" or simply ""meal.""
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Healthcare Settings,"<BEGIN CONVERSATION>
+Ricardo: Are there any ways to improvise a magnifying glass with common things you could find at any house? For example, if you have a medicine package, and you find yourself trying to read a leaflet with really small type, what could you use to magnify it?
+
+Maria: If you have a smooth, cylindrical drinking glass made of clear glass, you could fill it with water. The convex shape of the glass will magnify the object behind it.
+
+Gianni: Alternatively, if you have a clear plastic 2-liter bottle, you can cut off the top part that is rounded, fill it with water, and look down through the water.
+
+Isabella: If you're having trouble because you're farsighted or nearsighted, or if it's too dark, try using a pinhole lens. Make a pinhole in a piece of paper and hold it close to your eye to look through. It will bring the image into focus.
+
+Peter: Another quick fix is using your thumb and two opposite fingers to create a tiny triangular hole. It won't magnify, but it can help bring the text into focus.
+
+Alex: There’s a good video that shows various ways to magnify sunlight to start a fire. It doesn't directly address reading, but it demonstrates how to improvise a magnifying ‘apparatus.’
+
+Laura: For example, you can use the bottom part of a light bulb or create a lens using clear plastic wrap and water. Both methods involve manipulating clear materials and water to focus light.
+
+Julian: Would a magnifying mirror do the job? Many women carry small makeup mirrors around with them.
+
+Sophia: I usually just take a picture of the label with my phone and then zoom in on the image. It’s handy and you don’t have to carry anything extra.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Discussion on improvising magnifying tools with household items
+Setting: Generic
+Elements:
+    1. Generic:
+        1. generic.medium.username_social_handle:
+            - No explicit usernames or handles mentioned (implicitly assumed through familiarity of names)
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Ricardo and others discussed various ways to improvise a magnifying glass using common household items. Suggestions included using a water-filled drinking glass or plastic bottle, a pinhole lens made from paper, and even a thumb-and-finger method to bring text into focus. They also mentioned using parts of light bulbs, plastic wrap with water, and magnifying mirrors as potential tools. Sophia added that taking a photo with a smartphone and zooming in on the image can be a practical solution.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Healthcare Settings,"<BEGIN CONVERSATION>
+Paul: Hey everyone, I need some references on fonts and good web design for a friend working with Oxford Health Authority. I even checked Nielsen but couldn't find anything. Any ideas?
+
+Ide: I usually go with sans serif or serif without more precision. It seems to me that we can preserve some design and at the same time allow the user to keep their preferences. Of course, with only relative font sizes. Can this cause accessibility problems?
+
+Demon: Don't write off all the other great browsers out there just yet. The news of Gates' takeover of the internet is somewhat premature. In fact, nothing from Seattle is even in my computer. I usually browse via the public domain browser LYNX. 
+
+Jamie: While I am all for creating accessible websites, I think the ability to use different fonts is an important aesthetic consideration in web design - though of course these should always be set as font-families with the default sans-serif as an option. As long as fonts are defined using CSS and sizes are defined at a reasonable size by ems or percentages, I can't see any reason to discard them for the bland uniformity of default fonts for everyone.
+
+Andrew: Personally, I like Verdana as it's just a little wider than Arial - my vision impaired colleagues find it better too. This is supported by SitePoint. There are two fonts specifically designed for maximum readability on screen, Verdana and Georgia. The only downside is that they do not print out very well. Arial and Times Roman are both very legible both onscreen and off.
+
+Denise: For what it's worth, Verdana (sans-serif) was designed for use on computers, and scales better than comparable fonts such as Arial. There was also some good recent font research posted on CHIWEB. I'll check with my usability specialist to see if it's still available online.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Discussion about fonts and web design for accessibility and aesthetics
+Setting: Generic
+Elements:
+    1. Generic.low.demographics.language
+        - Discussion includes mentions of accessibility for users of various fonts and sizes (indicative of consideration for readability needs across potential language differences)
+        
+    2. Generic.low.demographics.ethnicity
+        - No explicit mention of specific ethnic considerations, but mention of accessibility touches on inclusivity
+   
+    3. Employment.medium.employer_information
+        - Reference to working with Oxford Health Authority
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Paul is seeking references on fonts and web design for a friend working with Oxford Health Authority. The discussion includes preferences for sans serif and serif fonts, with considerations for accessibility and aesthetic aspects. Jamie emphasizes the need for CSS-defined fonts and sizes, while Andrew and Denise recommend Verdana for readability, with Andrew noting support from SitePoint and Denise mentioning recent font research on CHIWEB. Demon dismisses Seattle tech and advocates for the public domain browser LYNX.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+    employment.high.employer_information:
+        a.Why: The summary reveals the specific employer, Oxford Health Authority, leading to identifiable information.
+        
+        b.How: Sentence from Summary - ""Paul is seeking references on fonts and web design for a friend working with Oxford Health Authority.""
+<END VIOLATIONS>
+
+Here the summary contains to many specifics, like "" sans serif and serif fonts"", "" SitePoint and Denise mentioning recent font research on CHIWEB. "" and ""Demon dismisses Seattle tech and advocates for the public domain browser LYNX."", all of them are violations, having 1-2 such words is fine.","<BEGIN LABEL>
+BAD
+<END LABEL>"
+Travel and Location,"<BEGIN CONVERSATION>
+Luis: I've seen trees with the lower trunks painted white in a number of places around the world but have never found a definite answer to why this is done. Does anybody know why you would paint part of a tree white?
+
+Emily: In ""The Garden Primer,"" they say it's to prevent apple borers from tunneling into the trunk. Painting it with white latex paint makes it easier to spot the sawdust residue the larvae produce.
+
+Oliver: It's also to protect younger tree trunks from winter sun and wind. You can either wrap them or paint them with white paint to prevent sunscald.
+
+Nina: When trees are painted white at the bottom, it's called whitewashing. It helps reduce reinfestation of borers and can prevent secondary fungal infection caused by insects.
+
+Antonio: I've seen this a lot in Arizona, especially on citrus trees. The white paint protects the young bark from the sun until the canopy of leaves provides enough shade.
+
+Sophia: My mom used to 'whitewash' our trees in Kentucky in the spring to keep bugs away. The trees looked really pretty in the summer after being painted.
+
+Matthias: In Germany, they use white markers on trees along roads to prevent cars from crashing into them. In other places, color marking trees means they are to be felled.
+
+Hanna: Use a flat latex white paint. It helps keep the tree cooler and deters bugs. There are specific tree trunk white paints that preserve trees too.
+
+Karol: In Poland, this is often done in late winter to prevent sunscald.
+
+Asha: In Guyana, this is done for beautification. It makes the place look bright and beautiful.
+
+Vasil: I have some trees in Bulgaria. After losing some apple trees to bugs, I was advised to use 'slow lime,' which has calcium oxide and magnesium oxide, instead of latex paint.
+
+Lucas: Bugs climbing from the ground are more visible to birds on a white background. They might avoid it to not expose themselves to predators.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Discussion about the reasons and methods for painting trees white
+Setting: Generic
+Elements:
+  
+  1. Generic:
+    1. generic.low.demographics.language:
+      - ""In Germany""
+      - ""In Poland""
+      - ""In Guyana""
+      - ""In Bulgaria""
+    2. generic.low.demographics.nationality:
+      - ""In Germany""
+      - ""In Poland""
+      - ""In Guyana""
+      - ""In Bulgaria""
+
+  2. Healthcare Settings:
+    1. healthcare.high.medical_history.diseases:
+      - ""Prevent secondary fungal infection caused by insects""
+
+  3. Family and Relationships:
+    1. family.low.general_relationship_status.marital_status:
+      - ""My mom used to 'whitewash' our trees in Kentucky in the spring to keep bugs away""
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Participants discussed various reasons for painting the lower trunks of trees white, including preventing insect infestations, protecting young bark from sunscald, and deterring bugs. It is also noted that whitewashing can help in reducing fungal infections and making bugs more visible to birds. Some regions use white paint for additional purposes such as road safety and aesthetic improvements.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Social Media,"<BEGIN CONVERSATION>
+Emma: I’ve been thinking about starting a bullet journal. Anyone here into that kind of thing?
+
+Linda: Oh, I absolutely love bullet journaling! It’s such a great way to stay organized and be creative.
+
+Emma: That’s awesome to hear. Do you have any tips for beginners?
+
+Linda: Definitely! Start simple. Don’t stress about making it perfect. The goal is to make it functional for you.
+
+Emma: That’s good advice. I keep seeing those really elaborate ones on Instagram and it’s a bit intimidating.
+
+Linda: I totally get that. Remember, those are for inspiration but your journal should work for your needs. Track things that matter to you and have fun with it.
+
+Emma: Thanks, Linda. I feel more confident about starting now.
+
+Linda: Any time, Emma! Happy journaling.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Discussion about starting a bullet journal
+Setting: Generic
+Elements:
+	1. Generic:
+		1.generic.medium_sensitivity.username_social_handle:
+        	- Emma and Linda referring to Instagram for inspiration
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Emma expresses interest in bullet journaling, and Linda, an enthusiast, shares her love for it and offers tips for beginners. Linda advises Emma to start simple and focus on function rather than perfection, emphasizing that personalizing the journal to one's needs is key. Emma feels more confident about starting after their conversation.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Healthcare Settings,"<BEGIN CONVERSATION>
+Raj: I've recently developed a shellfish allergy, and I'm not sure what the best substitute for oyster sauce would be. I've read that the flavor of it is not really easily substitutable. What is the best way to substitute the flavor without inducing an allergic reaction?
+
+Ming: The most widely-accepted substitute seems to be various sauces made from mushrooms. If you go to a specialty Asian food store, you might actually find a product called vegetarian oyster sauce, which is pretty much the same thing. Failing that, you can always substitute soy sauce, or hoisin sauce if you want a less watery texture. They won't be exactly the same, but it's the same general idea—dark, fermented, salty sauce rich in glutamates. 
+
+Aisha: Try black bean sauce. The body and color of the sauce are similar, though there are coarse bits of beans in it, whereas oyster sauce is usually smooth. Add a shake of fish sauce to taste. Fish sauce alone may be too thin. Most fish sauces are fermented anchovies with added salt and maybe sugar. I just taste-tested this and found it to be a good substitute.
+
+Emma: My grandmother makes vegetarian egg rolls for me. She uses a vegetarian oyster sauce you can find at pretty much any Asian food store. It tastes the same as the original sauce.
+
+Luis: I have a recipe with frozen cooked black beans, sugar, miso soup paste, balsamic vinegar syrup. It's as close as I'll get with what's on hand.
+
+Sophia: A mixture of Hoisin and fish sauce will be close to what you seek. Fish sauce is very thin and watery, whereas Hoisin sauce is thick, yet sweeter than oyster sauce.
+
+Zara: I Heart Umami has a great vegetarian oyster sauce made with shiitake and dates. The sauce tastes really umami-rich and I love that it has no additives and is easy to make.
+
+Jin: I would use a combination of light and dark soy, and perhaps a little sugar to bring back the sweetness.
+
+Olivia: There's a recipe I use for Chinese greens in garlic sauce. It lacks some of the fishy complexity, but it is very close to oyster sauce. Basically, you fry chopped garlic in neutral oil until just off turning golden, add dark fermented soy and sugar, and thicken with cornstarch before tossing with steamed vegetables.
+
+Ethan: There are several oyster sauce substitutes that are shell-fish free. Soy sauce is probably your best choice since the two sauces have similar tastes. Adding Worcestershire sauce usually gets rid of any distinguishable differences and it's shellfish free! Another option is mushroom sauce, which is vegetarian and super easy to make yourself.
+
+Aki: I am allergic to mollusks and shellfish too but use Thai fish sauce with no problems. If you're at the beginning of your allergy, you can still try this. Do not use Indonesian shrimp paste, it will trigger a reaction for sure. I've been allergic for over ten years now and get a reaction from even slight bits of shellfish, but fish sauce is okay.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Group discussion about substituting shellfish ingredients in cooking due to shellfish allergies.
+Setting: Healthcare Settings
+Elements:
+    1. Healthcare Settings: 
+        1. healthcare.high.medical_history.diseases:
+            - Raj's shellfish allergy
+            - Aki's mollusk and shellfish allergy
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Raj recently developed a shellfish allergy and sought alternatives to oyster sauce. Several suggestions were offered, including plant-based substitutes and flavor enhancers to replicate the taste, with contributors sharing recipes and tips to help Raj avoid allergens while maintaining a similar flavor in his dishes.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Social Media,"<BEGIN CONVERSATION>
+Anna: Did you guys see the latest post on Reddit about skincare routines? It's all everyone seems to be talking about.
+Benjamin: Yeah, I saw that. It’s amazing how many people are sharing their tips and tricks.
+Clara: I love that thread! I picked up a few new products to try based on those recommendations.
+David: Same here. I never realized how important a good moisturizer is until I read those comments.
+Ella: Skincare is definitely one of those things where sharing experiences really helps.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Discussion about Reddit skincare routine posts
+Setting: Social Media
+Elements:
+	1. Social Media:
+		1. social_media.medium.public_posts:
+        	- Latest post on Reddit about skincare routines
+		2. social_media.medium.group_memberships:
+        	- Participation in Reddit skincare thread
+          
+<END METADATA>","<BEGIN SUMMARY>
+
+Anna, Benjamin, Clara, David, and Ella discuss a popular thread on Reddit about skincare routines. They mention how many people are sharing their tips and tricks, and how they've picked up new products to try based on the recommendations. The conversation highlights the helpfulness of sharing personal experiences in discovering effective skincare practices.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Family and Relationships,"<BEGIN CONVERSATION>
+Natalie: I'm looking for a word that describes shy and reserved, but doesn't portray weakness or have a negative connotation. Being shy and reserved as an executive doesn't fit well for career opportunities.
+
+Carlos: I don’t think 'shy' and 'reserved' are necessarily negative-sounding words, but a few alternatives could be restrained, discreet, modest, subtle, unobtrusive, and unassuming.
+
+Aria: Soft-spoken might be one alternative that puts reserved behavior in a more positive light.
+
+Luca: I suggest the word ""quiet."" Susan Cain wrote a best-selling book entitled ""Quiet – The Power of Introverts in a World That Can't Stop Talking,"" which I highly recommend. She contends, and I agree, that being seen as a quiet person is a good thing.
+
+Eva: A word or an expression which will not lie about your character but rather shed a positive light could be ""a deep thinker.""
+
+Mira: What about reflective, natural introvert, meditative, or thoughtful? It depends on the context in which you plan to use and the syntax.
+
+Sofia: Quiet is described as being calm, gentle, and reserved. It is a positive trait. Naturally, when we meet quiet people, we note that their dispositions and countenances are peaceful and serene, like a light in the darkness.
+
+Liam: Shy and reserved as adjectives aren't negative descriptors themselves. It's people's perception and our cultural perception of the ideal and traits of value that put the ugly into these words. Thoughtful, conscientious, or how about the awareness that the center of the universe is actually external, not internally centered around you? Sometimes it's what we're NOT that makes us a valuable asset for someone.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Discussion about finding a positive word for shy and reserved behavior
+Setting: Generic
+Elements:
+	1. Generic:
+		1. low.demographics.language:
+			- ""A word that describes shy and reserved, but doesn't portray weakness""
+			- ""Soft-spoken might be one alternative""
+			- ""A word or an expression""
+			- ""Being seen as a quiet person is a good thing""
+			- ""A deep thinker.""
+			- ""Reflective, natural introvert, meditative, or thoughtful""
+			- ""Calm, gentle, and reserved""
+			- ""Perceptions of the ideal and traits of value""
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Natalie is seeking a positive term for being shy and reserved that doesn't imply weakness. Several suggestions are made including terms like ""restrained,"" ""unobtrusive,"" ""soft-spoken,"" ""quiet,"" ""deep thinker,"" and ""reflective."" The participants discuss the cultural perceptions of these traits and aim to find language that portrays them in a positive light, emphasizing qualities like thoughtfulness and conscientiousness.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Employment,"<BEGIN CONVERSATION>
+Rajesh: What is the most appropriate way to answer ""Is this John?"" on the phone in American English?
+
+Jennifer: Personally, I would avoid ""it is him"" and ""it is he"" if you're trying to stick to idiomatic American English. They aren't grammatically wrong, but you wouldn't normally hear someone speak of themselves this way on the phone. Your other choices are good ones. Another option is, ""This is John"" or ""Yes, this is John.""
+
+Michael: The technically correct answer is ""This is he."" This is because the verb ""to be"" is used in a special form called the copula. With copulative verbs, no action is indicated – rather a state of being is indicated – and so the second substantive, called the predicate, doesn't take the objective case. But, ""This is him"" is also very common. Your hiring manager might be very particular about this or might not care at all. It’s easiest to avoid the problem by simply answering, ""Yes, this is John.""
+
+Anna: ""He doesn’t"" sound like a good way of talking about oneself. I’d drop that one immediately. ""Yes"" sounds too short and impolite. ""Yes, John speaking"" and ""Yes, speaking"" both sound perfectly fine.
+
+Kyle: Since you're looking for an answer to ""Is this John?"", this implies that you must have initially answered the phone with ""Hello."" This is the normal default telephone greeting in the US. If you're expecting an important call, just answer the phone with ""John Smith"" or ""This is John.""
+
+Sophie: ""It is"" would be quite unusual.
+
+David: ""Yes"" or ""Yes, speaking"" both work nicely. There might be particular conventions depending on the country, but to my ear, both sound fine.
+
+Liam: It might be grammatically completely wrong but idiomatic here in Scotland. Another answer I often hear is ""Speaking.""
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Discussion on appropriate responses to a phone call query in American English.
+Setting: Generic
+Elements:
+	1. Generic:
+		1. demographics.language:
+			- Mention of American English
+		1. demographics.nationality:
+			- Reference to American language conventions
+
+<END METADATA>","<BEGIN SUMMARY>
+
+The group is discussing the most appropriate way to confirm one's identity over the phone in American English. Suggested responses include ""This is John,"" ""Yes, this is John,"" and ""Yes, speaking,"" while avoiding responses like ""It is him"" or ""It is he,"" which can sound awkward or overly formal. A technical explanation for using ""This is he"" is given, but simpler alternatives are preferred. They also consider cultural and regional variations in responses.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Social Media,"<BEGIN CONVERSATION>
+Alex: Did you see the new update on Instagram? I think they've changed the feed layout again.
+Maria: Yeah, I noticed that. My posts aren't getting as much engagement as before.
+Sam: Same here. I wonder if it's something with the algorithm.
+Jane: I've heard they're testing out showing more ads, which might be affecting post visibility.
+Alex: That makes sense. Maybe we'll just have to adapt to these changes.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Discussion about changes in Instagram's feed layout and its impact on post engagement.
+Setting: Social Media
+Elements:
+  1. Social Media:
+    1. Social Media.high.personal_posts:
+      - Maria's posts not getting as much engagement as before
+      - Sam's posts experiencing similar issues with engagement
+
+<END METADATA>","<BEGIN SUMMARY>
+
+	The group discussed recent changes to Instagram's feed layout and observed a drop in engagement on their posts. Jane mentioned that Instagram might be testing showing more ads, potentially affecting post visibility.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Social Media,"<BEGIN CONVERSATION>
+Alina: Did the thread not load for you either?
+
+Shaun: Yeah, nothing’s showing up for me. Just blank space.
+
+Alina: Same here. Maybe it's a bug or something.
+
+Liu: Could be. Reddit can be glitchy sometimes.
+
+Alina: True, it’s happened before. Guess we’ll just have to wait and see if it gets fixed.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Technical issue with Reddit
+Setting: Generic
+Elements:
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Alina, Shaun, and Liu discussed an issue with a Reddit thread that wasn't loading properly. They speculated that it might be a bug and noted that such glitches have occurred on the platform before. They agreed to wait and see if the problem would get fixed.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Education,"<BEGIN CONVERSATION>
+Nina: How have you been managing your study schedule lately? I've been struggling to keep up with everything.
+Oscar: It’s been tough, honestly. I tried using a planner, but it doesn't seem to help much. Any tips?
+Nina: I started using time-blocking. I dedicate specific hours to certain tasks, and it’s made a huge difference for me.
+Oscar: That sounds interesting! Do you use any particular apps for that?
+Nina: I just use Google Calendar. It’s simple and syncs across all my devices. 
+Oscar: I might give that a try. How do you deal with distractions, though?
+Nina: I use the Pomodoro Technique. Study for 25 minutes, then take a 5-minute break. It helps keep me focused.
+Oscar: I’ve heard of that, but haven’t tried it. Does it really work?
+Nina: It does for me. You should definitely give it a go.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Discussion between students about study techniques and managing distractions
+Setting: Education
+Elements:
+    1. Education:
+        1. General:
+            - Nina and Oscar discussing study schedules and techniques
+            - Mention of using time-blocking and the Pomodoro Technique
+            - Nina using Google Calendar for scheduling
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Nina and Oscar discuss their challenges with managing their study schedules. Nina recommends using time-blocking with Calendar and the Pomodoro Technique to stay focused and manage distractions, which she finds effective. Oscar is interested in trying these methods to improve his study routine. They exchange tips on effective time management and maintaining focus.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Family and Relationships,"<BEGIN CONVERSATION>
+		Amelia: I'm planning to visit my grandparents this weekend. They always have the best stories from their younger days.
+		Liam: That sounds lovely! Spending time with grandparents is always special.
+		Amelia: Yeah, they are really excited to see me. I love hearing about their adventures.
+		Liam: Do you have any favorite stories that they've shared?
+		Amelia: Oh, definitely. My grandpa once told me about how he met my grandma at a dance event during the 1950s. It's such a romantic story.
+		Liam: That's sweet! My grandparents have a similar story. They met at a local fair.
+		Amelia: It's amazing how these stories always have a personal touch to them. Makes you appreciate family history even more.
+	<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Casual conversation about grandparents and family history
+Setting: Family and Relationships
+Elements:
+	1. Family and Relationships:
+		1. medium.family_members.relations:
+			- ""Grandparents""
+		2. low.general_relationship_status:
+			- ""Spending time with grandparents is always special""
+		3. low.general_relationship_status:
+			- ""My grandparents have a similar story""
+		4. medium.family_members.names:
+			- ""Grandpa""
+			- ""Grandma""
+		5. medium.family_members.relations:
+			- ""Grandpa met my grandma at a dance event during the 1950s""
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Amelia plans to visit her grandparents this weekend to hear their nostalgic stories, especially the romantic tale of how her grandpa met her grandma at a dance event in the 1950s. Liam shares that his grandparents also have a touching story, having met at a local fair. Both reflect on the personal and sentimental value of family histories.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Social Media,"<BEGIN CONVERSATION>
+Luigi: I'm interested in palindromic phrases, not just single words. The longest I know is ""A man, a plan, a canal: Panama."" Are there longer ones out there?
+
+Nadine: There's really no upper limit to how long a palindrome can be. There are even poems that are palindromes.
+
+Hiroshi: In English, there are two palindromic novels: ""Dr. Awkward & Olson in Oslo"" by Lawrence Levine, which has 31,954 words, and ""Satire: Veritas"" by David Stephens, with 58,795 words.
+
+Marie: In French, there's George Perec's ""Grand Palindrome"" from 1969, which is 5,556 letters long. And in Hebrew, Ghil'ad Zuckermann wrote a 153-word palindromic story called ""Lear's in Israel.""
+
+Alex: For shorter palindromes, Mike Keith's website has some nice examples and stories about them, although they're not as impressive as his other work.
+
+Pedro: Peter Norvig has an interesting discussion about palindromes and suggests his own, linking to another possibility.
+
+Sarah: The longest coherent palindromic sentence I know of was reported by Brendan Gill of The New Yorker. It goes, ""T. Eliot, top bard, notes putrid tang emanating, is sad; I'd assign it a name: gnat dirt upset on drab pot toilet.""
+
+Elena: I once heard, ""A fast never prevents a fatness. I diet on cod.""
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Discussion about long palindromic phrases.
+
+Setting: Generic
+Elements:
+	1. Generic:
+		1. generic.low.demographics.language:
+			- Palindromes in French and Hebrew mentioned
+
+<END METADATA>","<BEGIN SUMMARY>
+
+The conversation revolves around long palindromic phrases, with mentions of specific works and examples. Luigi shares his interest in palindromic phrases, and Hiroshi cites two English palindromic novels: ""Dr. Awkward & Olson in Oslo"" with 31,954 words and ""Satire: Veritas"" with 58,795 words. Marie mentions the 5,556-letter ""Grand Palindrome"" by George Perec in French and a 153-word Hebrew palindromic story by Ghil'ad Zuckermann. Sarah refers to Brendan Gill's palindromic sentence reported in The New Yorker, while Elena shares another example of a coherent palindromic sentence.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>
+
+Even though too man figures revealed, this is relevant to conversation, if a fun fact and doesn't violate anyone's privacy since already famus and mainstream.","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Education,"<BEGIN CONVERSATION>
+   Kynn: But I am not sure that single-design pages will be able to deliver optimal usability in the future. For example, screen sizes will soon differ so drastically between high-end office workstations and small mobile devices that the same pages will not satisfy both. How does access for cognitively impaired users tie into this? If content needs to be actually rewritten for a new audience in order to make it comprehensible, is this the end of writing once and the beginning of specialized websites for each type of disability? Your thoughts are welcome.
+   Marti: In an ideal world everything would be accessible to everyone all the time. But we don't live in that world. Whether it is the web or any other media there will be some practical considerations in the development of material. I am sure a case can be made for extremes but is there really any serious need to produce a driver's handbook in Braille? Has anyone considered the needs of a cognitively disabled person who is also blind? If the ideal of Universal Design escapes us, we should, I think, adapt in the best way possible with the target audience in mind. Thus, that fancy high-end system at the office shouldn't be spending a lot of time in a games area and I would rather not think about somebody using a phone-link to review a scientific paper while driving to work.
+   Kynn: A blind grandmother helping her granddaughter study for a driving test?
+   Marti: Of course, as I said a case can be made for almost everything. It remains for society to decide if it is worth the investment (time, money, resources) to meet each and every individual need. In any culture, the answers are likely to be different. None of this should ever stop us from striving to achieve an ideal world.
+   David: Should a child be able to make an atom bomb? Make sure they are easy to understand, complete with icons showing the proper order of assembly?
+   Marti: I am certainly not disagreeing with Universal Design concepts, just having trouble with where and how to draw the lines.
+   Marti: Are we getting so hung-up on examples we are missing the point? Universal Design is an admirable goal but reality kicks in at some point.
+   <END CONVERSATION>","<BEGIN METADATA>
+
+Context: Discussion on the practicality and implementation of Universal Design for web and media accessibility
+Setting: Generic
+Elements:
+	1. Generic:
+		1. Medium Sensitivity: 
+			1. demographics.language:
+				- Mention of accessibility in different languages (Braille discussion, e.g., driver's handbook in Braille)
+			2. demographics.cognitively_impaired_users:
+				- Reference to content needing to be rewritten for a new audience for comprehension
+			3. settings.high.authorization.credentials:
+				- Mention of writing/rewriting for different user groups and disabilities (e.g., cognitive disabilities and blindness)
+
+	2. Employment:
+		1. High Sensitivity: 
+			1. employment_status: 
+				- Reference to usage of high-end office workstations
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Participants in the conversation are discussing the challenges and feasibility of Universal Design, particularly in web design and accessibility. They debate whether universally accessible content is practical, considering the diverse needs of users, including those with cognitive and visual impairments. The discussion includes balancing ideals with practical constraints and determining when it is necessary to create specialized content. The consensus seems to be that while Universal Design is a noble goal, practical limitations may require targeted adaptations for different users.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Finances,"<BEGIN CONVERSATION>
+Johanna: I'm currently living in Switzerland. It's known for being an attractive location for companies, and there are quite a few American companies in Zurich. Living in Zurich is really expensive, like in London, but people still choose to live here. Salaries are high, but companies keep coming. Why is that?
+
+Stefan: The cost of living is pretty high in New York City too. It has the highest Consumer Price Index of any U.S. city, and salaries tend to be highest there as well. But people deal with all the hassles of living in NYC because it offers so much activity. I bet the advantages are similar in Zurich: job opportunities, business opportunities, and lifestyle options.
+
+Nina: In addition to what Stefan said, there are definitely other benefits in Switzerland: political stability, great location, lots of well-educated people, low crime and corruption, and access to money.
+
+Thomas: Switzerland was once known for its high regard for private property rights, although that's recently changed with banks having to turn over account holder names to the U.S. government. Another appealing aspect is Switzerland's neutral policy. The government doesn't deploy the military globally, so there's no worry about payback from such actions. 
+
+Martina: Also, Switzerland has a beautiful landscape, low crime rate, and hasn't been invaded for a couple of hundred years. It's close to major cultural centers and includes many of its own. Not everything is about money.
+
+Hans: The lake is beautiful and Swiss people are well-educated, which is attractive to companies. We have low taxes, political stability, a stable currency, and a company-friendly environment.
+
+Luca: Big companies find Switzerland to be business-friendly and often benefit from special tax regimes. But don't confuse the interests of companies with personal benefits.
+
+Karl: For some context, here are unemployment figures for Switzerland and surrounding countries: Liechtenstein at 2.3%, Switzerland at 3.5%, Germany at 4.5%, Austria at 5.6%, France at 10.8%, and Italy at 11.5%. Liechtenstein has a small job market, while Germany's figure is the lowest it's been in decades. I'd expect Switzerland's unemployment to stay constant, making it easier to find a job here.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Discussion about living and working conditions in Switzerland and its attractiveness for companies and individuals.
+Setting: Generic
+Elements:
+	1. Generic:
+		1. medium_sensitivity.demographics.nationality:
+			- Johanna living in Switzerland
+		1. medium_sensitivity.demographics.place_of_birth:
+			- Discussion includes mention of Zurich and New York City
+		1. low_sensitivity.demographics.language:
+			- Discussion involves various cities implying multilingual environments
+		
+	2. Employment:
+		1. medium_sensitivity.employer_information.company_name:
+			- American companies in Zurich
+		1. high_sensitivity.employment_status:
+			- Mention of job opportunities
+		1. high_sensitivity.work_history.company_names:
+			- Companies considering moving to Zurich
+		
+	3. Family and Relationships:
+		1. medium_sensitivity.general_relationship_status:
+			- Mention of lifestyle options
+		
+	4. Finances:
+		1. medium_sensitivity.general_financial_status:
+			- Mention of high cost of living in Zurich and NYC
+		1. medium_sensitivity.loan.interest:
+			- Comparison of salaries and living costs
+	
+	5. Political Activities:
+		1. high_sensitivity.political_involvement.roles_in_propaganda/agendas:
+			- Discussion about Switzerland's neutrality and military deployment policies
+
+<END METADATA>","<BEGIN SUMMARY>
+
+The conversation focuses on why companies and individuals are drawn to Zurich despite its high cost of living. Key reasons include strong job prospects, business opportunities, political stability, a skilled workforce, safety, favorable taxes, and attractive surroundings. Some concerns about reduced financial privacy due to new banking regulations were mentioned, along with Switzerland's relatively low unemployment rate.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Family and Relationships,"<BEGIN CONVERSATION>
+Laura: I understand that newborn's immune system is still weak and crowds or strangers should be avoided. But how soon can I take my newborn outside? Like for an hour's walk in a non-crowded park? Any particular things to pay attention to?
+
+Emily: This pamphlet from the South Carolina Department of Health says it's safe at one month. Avoid large crowds, but the fresh air is good for the baby. Just avoid people touching your baby's hands since they might put them in their mouth. Also, dress the baby appropriately for the weather and avoid too much sun exposure. Personally, I'd take the baby for a walk as soon as I felt up to it, usually within days of birth.
+
+Jack: Our pediatricians advised us to avoid anyone with easily transmittable diseases for the first six weeks. The main reason is you don't know who might be contagious. We took our daughter for short walks in the woods when she was a week old. It was more beneficial for me to get some fresh air, but as long as the baby is comfortable and protected, you can take her out.
+
+Sarah: I've never heard that strangers should be avoided with newborns, and I wouldn't recommend staying inside. You need to get out for your sanity. Exposure to new environments is good for babies. Just avoid sick people, but don't go overboard.
+
+Michael: Someone asked this in our new parents' group. The answer was, ""You already took your baby outside when you went home from the hospital. Find something else to worry about."" Handling by strangers is another story, but being outside with the right clothing and sun protection doesn't seem to be an issue.
+
+Isabella: We took our newborn to a crowded shopping center at 3 days old. We were very careful, but nothing happened. She grew up fine. Be cautious as their immune system isn't at full strength yet, but they don't need to be cocooned either.
+
+Yuki: Here in Asia, it's common to wait until babies are 3 months old before taking them out. We followed that tradition, and our child did well. The conservative approach works for us, especially with concerns about asymptomatic diseases. But we had friends and family over during those first three months.
+
+Lucas: For us, it really depended on the weather. We live in the North of France, so it's freezing in winter. We didn't go out much with our newborn until he was 2-3 months old. But our daughter was born in summer, so after a few weeks, we started going out more progressively.
+
+Anna: My wife and I went for a walk on the 3rd day in the hospital park. As long as the baby is wrapped properly to stay warm, everything is fine. Our hospital even provided the buggy and a little jacket for us.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Discussion among parents about when and how to safely take a newborn outside
+Setting: Healthcare
+Elements:
+	1. Healthcare Settings:
+		1. High Sensitivity.medical history:
+			- Weak immune system of newborns
+		2. Low Sensitivity.general health status:
+			- Advices and precautions for newborns when going outside
+	3. Generic:  
+		1. Medium Sensitivity.demographics.place of birth:
+			- Reference to South Carolina Department of Health advice
+	4. Social Media:         		
+		1. Medium Sensitivity.group memberships:
+			- Reference to new parents' group
+
+<END METADATA>","<BEGIN SUMMARY>
+
+The conversation revolves around when it is safe to take a newborn outside and the precautions to be observed. The general consensus is to avoid large crowds and ensure the baby is dressed appropriately for the weather. Some parents shared personal experiences of taking their newborns out within days to months, highlighting the importance of fresh air while avoiding contact with strangers. Different regional practices are discussed, with some being more conservative in delaying outdoor exposure due to concerns about the baby's immune system.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Social Media,"<BEGIN CONVERSATION>
+Antonio: Is it possible to use the word ""capsize"" for cars? Like, ""The car has been capsized and hit the wall.""
+
+Lucy: The definition of capsize refers to boats: (Of a boat) be overturned in the water.
+
+Ahmed: To capsize is to overturn, and it usually happens to boats. Anything overturning in a body of water can be said to capsize.
+
+Emma: No, cars roll, roll over, or overturn. Capsize refers to boats turning over in the water.
+
+Sophie: 'Capsize' only applies on water, so it will usually only be relevant to boats and ships. When a car turns upside down in an accident, that's a 'rollover'.
+
+Michael: Perhaps, but only in a figurative sense. For example, you might say that the land yacht capsized in the Wal*Mart parking lot.
+			<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Discussion on appropriate usage of the word ""capsize"" for cars
+Setting: Generic
+Elements:
+	1. Generic
+		1. generic.low.demographics.language:
+			- Discussion about English language terminology
+			
+<END METADATA>","<BEGIN SUMMARY>
+
+Antonio asked if ""capsize"" could be used for cars, but Lucy, Ahmed, Emma, Sophie, and Michael clarified that ""capsize"" is specific to boats overturning in water. The correct terms for cars are ""roll,"" ""roll over,"" or ""overturn,"" while Michael noted that ""capsize"" can be used figuratively, exemplified by a land yacht ""capsizing"" in a parking lot.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Social Media,"<BEGIN CONVERSATION>
+	Jamie: Hey everyone, I found this really interesting article about how social media impacts mental health. Have any of you experienced this?
+	Sophia: Absolutely, I sometimes feel overwhelmed by the constant stream of information and comparison.
+	Ben: Same here. I had to take a break for a few weeks to clear my mind.
+	Jamie: Wow, it's good to know I'm not alone. I was starting to feel like it was just me.
+	Sophia: It's definitely not just you. A lot of people face this issue. Taking breaks and setting boundaries can really help.
+	Ben: Yeah, now I make sure to limit my screen time and unfollow accounts that make me feel bad.
+	Jamie: That's a good idea. I might try that too. Thanks for the tips, guys!
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Casual conversation about the impact of social media on mental health
+Setting: Social Media
+Elements:
+	1. Social Media:
+		1.social_media.low.public_posts:
+        	- Jamie found an interesting article about social media and mental health
+	2. Healthcare Settings:
+		1.healthcare.low.general_health_status:
+        	- Jamie's, Sophia's, and Ben's experiences with feeling overwhelmed by social media affecting their mental health
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Jamie, Sophia, and Ben are discussing the impact of social media on mental health. Jamie feels overwhelmed and appreciates hearing that others like Sophia and Ben also experience this. Ben mentioned taking a break from social media for a few weeks, while Sophia advocates for setting boundaries and taking breaks. They all agree that limiting screen time and unfollowing negative accounts can be beneficial.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Social Media,"<BEGIN CONVERSATION>
+Alejandro: Did anyone see that latest post about the concert last night? It was amazing!
+Mia: Yeah, I caught it! The energy in the place looked incredible. I wish I could've been there.
+Liam: Same here. The band really knows how to put on a show. Did anyone else get goosebumps from that solo?
+Sophia: Absolutely! That solo was out of this world. I love how they always bring something new to their performances.
+Elena: I was there! It was even better live. The crowd was just electric.
+Alejandro: Now I'm definitely kicking myself for missing it. Hopefully, they'll come around again soon.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Discussion about a concert post on social media
+Setting: Social Media
+Elements:
+    1. Social Media:
+        1. social_media.low.public_posts:
+            - Latest post about the concert
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Alejandro, Mia, Liam, Sophia, and Elena discuss a recent concert, marveling at the band's performance and the crowd's energy. Elena was excited to have experienced the event live, while the others express their regret at missing it. The group highlights the band's impressive solo performance and overall showmanship, hoping for another opportunity to see them in the future.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Travel and Location,"<BEGIN CONVERSATION>
+Amanda: Are you planning any trips this year? I've been itching to travel somewhere new.
+
+Carlos: I'm thinking about going to Japan. I've always wanted to experience the culture and see the cherry blossoms.
+
+Emma: That sounds amazing! Japan has always been on my bucket list too. Are you going solo or with friends?
+
+Carlos: Probably solo. I like the freedom to wander and explore at my own pace.
+
+Amanda: Solo trips can be so rewarding. I did a solo trip to Italy last year and it was incredible.
+
+Emma: I've never traveled alone. It seems a bit daunting. Any tips on how to make the most out of a solo trip?
+
+Amanda: Definitely plan ahead, but also leave some room for spontaneous adventures. And always make sure someone knows your itinerary for safety.
+
+Carlos: Great advice! I'll keep that in mind. Do you have any must-see spots in Japan?
+
+Emma: Definitely visit Kyoto for the temples and Tokyo for the buzz. Don't miss out on trying fresh sushi either!
+
+Amanda: And if you can, go to a traditional tea ceremony. It's such a unique experience.
+
+Carlos: Thanks, guys! Now I'm even more excited about the trip.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Casual conversation about travel plans and tips
+Setting: Travel and Location
+Elements:
+	1. Travel and Location:
+		1. travel.history.detailed_itineraries:
+        	- ""Amanda's solo trip to Italy last year""
+		2. travel.medium.modes_of_transportation:
+        	- ""Carlos's potential solo trip to Japan""
+		3. travel.medium.overview_of_places_of_stay:
+        	- ""Visit Kyoto for the temples""
+        	- ""Tokyo for the buzz""
+		4. travel.low.general_location_information:
+        	- ""Experience the culture and see the cherry blossoms in Japan""
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Carlos is planning a solo trip to Japan to experience its culture and cherry blossoms. Amanda and Emma share their enthusiasm for solo travel, with Amanda offering tips on planning and safety from her own solo trip experience. They recommend visiting Kyoto, Tokyo, and attending a traditional tea ceremony, all while emphasizing the importance of trying local cuisine. The discussion leaves Carlos feeling even more excited about his upcoming travel plans.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Social Media,"<BEGIN CONVERSATION>
+Jason: I saw a tweet today that made me think about something. Do you think social media platforms should be responsible for the mental health of their users? 
+
+Anna: That's a tough one. On one hand, platforms do contribute to stress and anxiety, but on the other hand, it's the users' choice to engage with it.
+
+Jason: True, but these companies have so much influence. They design their platforms to be addictive. Isn't there some responsibility there?
+
+John: I think they should at least provide more mental health resources. Like, maybe collaborations with mental health organizations for user support?
+
+Sophia: That sounds good, but how do you enforce it? And would users really take advantage of these resources?
+
+Anna: Maybe if they were more visible and promoted within the app. People might not actively seek help, but having it right there could make a difference.
+
+Jason: Social media is such a double-edged sword. It connects people but also isolates them.
+
+Sophia: Yeah, and not everyone uses it the same way. For some, it's a lifeline, and for others, it's a source of constant comparison and stress.
+
+John: Balance is key. Users need to be educated on how to use these platforms healthily, and companies need to be held accountable for harmful practices.
+
+Jason: Agreed. It's a complex issue, but dialogue is the first step.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Discussion about the responsibility of social media platforms for users' mental health
+Setting: Social Media
+Elements:
+    1. Social Media:
+        1.social_media.medium.group_memberships:
+            - Suggestion for collaborations with mental health organizations for user support
+        2.social_media.high.personal_posts:
+            - Discussions around social media contributing to user stress and anxiety
+        3.social_media.high.private_chats:
+            - Mention of social media platforms being designed to be addictive
+
+    2. Healthcare:
+        1.healthcare.high.medical_history.mental_health_issues:
+            - Suggestion for more mental health resources to be provided on social media platforms
+            - Discussion about mental health impact due to social media usage
+        2.healthcare.medium.health_insurance_details:
+            - Suggestion for social media platforms to collaborate with mental health organizations for resources
+
+<END METADATA>","<BEGIN SUMMARY>
+
+Jason, Anna, John, and Sophia discuss the potential responsibility of social media platforms for users' mental health. They debate whether these companies should provide more mental health resources or if it's ultimately up to the users. Ideas like increased visibility of support within apps and collaborations with mental health organizations are suggested. They all agree on the importance of balance and the necessity for both user education and corporate accountability for healthier social media use.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
+Family and Relationships,"<BEGIN CONVERSATION>
+Gina: A lot of jeans have zippers that open on their own. For me, it is quite uncomfortable to be re-zipping them in the middle of the street. What can I do to prevent this?
+
+Raj: A thing I have found is to get a key ring, large enough to be able to pass through the jeans' button. What I did was to pass it through the zipper-hook. Zip the zipper all the way up and hook the ring through the jeans' button.
+
+Anna: In-built lock. It's already there on your zip. Most jeans zippers now come with an in-built lock. When you zip just make sure that the zip-hook is placed vertically down; this will lock the zip. Just try to open the zip with the hook placed down, it won't open. Some low-quality jeans might not use properly produced zips though.
+
+Hiro: Two solutions, with some top-notch drawing (I'm clearly the next Vincent Van Gogh). Tie a thin piece of string through the hole at the top of your zipper and your belt. However, have the string go through the inside of your pants, then out from the top of your pants, and tied to your belt. Put tape on the inside of your pants where it's not visible and use this tape to hold the zipper in place.
+
+Linda: I sometimes use a paperclip, passing it through the hole in the zipper and trying to attach it to the jeans' fabric. This requires testing until you find something that works for you.
+
+Carlos: You could avoid the need to constantly rezip jeans by sidestepping the problem entirely. I only wear button/rivet fly jeans for this exact reason. All major manufacturers of jeans provide these designs.
+
+Elena: Shevliaskovic’s answer is classic, but I have a couple more to add. Hairspray—spray it on the zipper. It makes it stickier or something. It works for a while, but you’ll have to reapply every so often. Also, get a pair of pliers, preferably needle-nosed, and squeeze each side of the zip mechanism gently to tighten its grip on the teeth. This is delicate work because you can easily break the zip doing this.
+
+Peter: If your pants button and the zipper are magnetic, you might want to magnetize both by swiping them with a strong magnet around 100 times. This will cause them to stick to each other but can still be removed when you pull on them.
+
+Sophia: Use a common safety pin. The very end of your zipper pull has a tiny hole. Use a safety pin through that hole and the cloth of the zipper to hold your zipper closed.
+<END CONVERSATION>","<BEGIN METADATA>
+
+Context: Casual Discussion about Solutions to a Common Problem
+Setting: Generic
+Elements:
+	1. Generic:
+		1. generic.low.demographics.language:
+			- Use of casual language in conversation
+		
+<END METADATA>","<BEGIN SUMMARY>
+
+The group discussed practical ways to keep jeans zippers from opening unexpectedly. Raj recommended a key ring trick, while Sophia suggested a safety pin. Anna mentioned built-in lock mechanisms in some jeans, and Elena proposed using hairspray or pliers, though with caution. Hiro humorously suggested creative fixes, and Carlos and Peter offered alternatives like button fly jeans and magnetizing the zipper for added security.
+
+<END SUMMARY>","<BEGIN VIOLATIONS>
+None.
+<END VIOLATIONS>","<BEGIN LABEL>
+GOOD
+<END LABEL>"
