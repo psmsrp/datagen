@@ -21,8 +21,7 @@ client = AzureOpenAI(
 file_path = './splits_corrected/final_test_split.csv'  # Replace with the actual file path
 df = pd.read_csv(file_path)
 f2='./results/results_different_summaries_new.csv'
-result_df  = pd.read_csv(f2)
-
+result_df = pd.read_csv(f2)
 
 # model0 = AutoModelForCausalLM.from_pretrained( 
 #     "microsoft/Phi-3.5-mini-instruct",  
@@ -52,19 +51,19 @@ result_df  = pd.read_csv(f2)
 #     trust_remote_code=True,  
 # ) 
 
-model3_4 = AutoModelForCausalLM.from_pretrained( 
-    "microsoft/phi-4",  
-    device_map="cuda",  
-    torch_dtype="auto",  
-    trust_remote_code=True,  
-)
-
-# model3_Q = AutoModelForCausalLM.from_pretrained( 
-#     "./PSQTax3/",  
+# model3_4 = AutoModelForCausalLM.from_pretrained( 
+#     "./PS4Tax3/",  
 #     device_map="cuda",  
 #     torch_dtype="auto",  
 #     trust_remote_code=True,  
 # )
+
+model3_Q = AutoModelForCausalLM.from_pretrained( 
+    "Qwen/Qwen2.5-7B-Instruct",  
+    device_map="cuda",  
+    torch_dtype="auto",  
+    trust_remote_code=True,  
+)
 
 # model4 = AutoModelForCausalLM.from_pretrained( 
 #     "./PSTax4/",  
@@ -77,8 +76,8 @@ model3_4 = AutoModelForCausalLM.from_pretrained(
 # tokenizer1 = AutoTokenizer.from_pretrained("./PSTax/")  
 # tokenizer2 = AutoTokenizer.from_pretrained("./PSTax2/")  
 # tokenizer3 = AutoTokenizer.from_pretrained("./PSTax3/")  
-tokenizer3_4 = AutoTokenizer.from_pretrained("microsoft/phi-4")  
-# tokenizer3_Q = AutoTokenizer.from_pretrained("./PSQTax3/")  
+# tokenizer3_4 = AutoTokenizer.from_pretrained("./PS4Tax3/")  
+tokenizer3_Q = AutoTokenizer.from_pretrained("Qwen/Qwen2.5-7B-Instruct")  
 # tokenizer4 = AutoTokenizer.from_pretrained("./PSTax4/")  
 
 # Iterate over the summary and metadata columns
@@ -137,17 +136,17 @@ for i,(dialog,summary) in enumerate(zip(df['dialog'],df['summary'])):
 	# 	tokenizer=tokenizer3, 
 	# ) 
 	
-	pipe3_4 = pipeline( 
-		"text-generation", 
-		model=model3_4, 
-		tokenizer=tokenizer3_4, 
-	) 
-	
-	# pipe3_Q = pipeline( 
+	# pipe3_4 = pipeline( 
 	# 	"text-generation", 
-	# 	model=model3_Q, 
-	# 	tokenizer=tokenizer3_Q, 
+	# 	model=model3_4, 
+	# 	tokenizer=tokenizer3_4, 
 	# ) 
+	
+	pipe3_Q = pipeline( 
+		"text-generation", 
+		model=model3_Q, 
+		tokenizer=tokenizer3_Q, 
+	) 
 
 	# pipe4 = pipeline( 
 	# 	"text-generation", 
@@ -166,8 +165,8 @@ for i,(dialog,summary) in enumerate(zip(df['dialog'],df['summary'])):
 	# output1 = pipe1(messages, **generation_args) 
 	# output2 = pipe2(messages, **generation_args)
 	# output3 = pipe3(messages, **generation_args)
-	output3_4 = pipe3_4(messages, **generation_args)
-	# output3_Q = pipe3_Q(messages, **generation_args)
+	# output3_4 = pipe3_4(messages, **generation_args)
+	output3_Q = pipe3_Q(messages, **generation_args)
 	# output4 = pipe4(messages, **generation_args)
 	
 
@@ -179,13 +178,13 @@ for i,(dialog,summary) in enumerate(zip(df['dialog'],df['summary'])):
 
     # ])
 
-	result_df.at[i, 'dialog'] = dialog  
-	result_df.at[i, 'GT_Summary'] = summary  
+	# result_df.at[i, 'dialog'] = dialog  
+	# result_df.at[i, 'GT_Summary'] = summary  
 	# result_df.at[i, 'Model_1'] = output1[0]['generated_text']
 	# result_df.at[i, 'Model_2 (Early Stop)'] = output2[0]['generated_text']
 	# result_df.at[i, 'Model_3 (Only Good)'] = output3[0]['generated_text']
-	result_df.at[i, 'Phi-4 Base '] = output3_4[0]['generated_text']
-	# result_df.at[i, 'Qwen2.5'] = output3_Q[0]['generated_text']
+	# result_df.at[i, 'Phi-4'] = output3_4[0]['generated_text']
+	result_df.at[i, 'Qwen2.5 (Base) '] = output3_Q[0]['generated_text']
 	# result_df.at[i, 'Model_4 (With Corrections)'] = output4[0]['generated_text']
 	# result_df.at[i, 'Base Model (Phi-3.5)'] = f"<BEGIN SUMMARY>\n\n{output0[0]['generated_text']}\n\n<END SUMMARY>"
 	# result_df.at[i, 'GPT-4o'] = f"<BEGIN SUMMARY>\n\n{output5.choices[0].message.content}\n\n<END SUMMARY>" if not flag5 else f"<BEGIN SUMMARY>\n\n{output5}\n\n<END SUMMARY>"
